@@ -692,7 +692,7 @@ a:focus {
     line-height: 0.4;
   }
   .missionStatementContent {
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin-top: 5rem;
   }
   .missionsParagraph .missionText {
