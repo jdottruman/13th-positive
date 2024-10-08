@@ -232,7 +232,7 @@ a:focus {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 1.8rem;
+  padding: 2.8rem;
   margin-top: 3rem;
 }
 
@@ -694,14 +694,15 @@ a:focus {
   .missionStatementContent {
     flex-direction: column-reverse;
     margin-top: 5rem;
+    padding-bottom: 7rem;
   }
   .missionsParagraph .missionText {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 0.77;
   }
   .missionsParagraph .missionHeader {
-    font-size: 1.9rem;
+    font-size: 2.2rem;
     text-align: center;
   }
   .missionsParagraph {
