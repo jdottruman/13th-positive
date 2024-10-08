@@ -175,7 +175,7 @@ a:focus {
 
 .nav__hamburger {
   width: 1.875rem;
-  height: 1.313rem;
+  height: 1.5rem;
   display: none;
   flex-direction: column;
   justify-content: space-around;
@@ -185,7 +185,7 @@ a:focus {
 }
 
 .nav__hamburger__line {
-  height: 0.188rem;
+  height: 0.2rem;
   width: 100%;
   background-color: white;
   border-radius: 0.625rem;
@@ -706,12 +706,12 @@ a:focus {
   }
   .missionsParagraph .missionText {
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
 
     line-height: 0.77;
   }
   .missionsParagraph .missionHeader {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     text-align: center;
   }
   .missionsParagraph {
