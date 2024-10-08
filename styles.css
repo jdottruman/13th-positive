@@ -606,6 +606,7 @@ a:focus {
     padding: 3rem 0 0.6rem;
     align-items: center;
     justify-content: space-around;
+    height: 100%;
   }
 
   .nav__menu ul li {
@@ -624,11 +625,12 @@ a:focus {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 70px;
+    top: 0;
     right: 0;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 70vh;
   }
 
   .nav__hamburger__line {
@@ -648,6 +650,7 @@ a:focus {
 
   .nav__hamburger.active .nav__hamburger__line {
     transition: all ease-in-out 0.35s;
+    z-index: 10000;
   }
   .hero__section {
     height: 50vh; /* Reduce height for smaller screens */
