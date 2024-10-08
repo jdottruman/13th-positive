@@ -708,6 +708,7 @@ a:focus {
   .missionsParagraph .missionText {
     text-align: center;
     font-size: 2.4rem;
+
     line-height: 0.77;
   }
   .missionsParagraph .missionHeader {
@@ -716,6 +717,7 @@ a:focus {
   }
   .missionsParagraph {
     margin-right: 0rem;
+    padding: 0;
   }
   .imgContainer img {
     max-width: 200px;
