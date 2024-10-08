@@ -703,16 +703,15 @@ a:focus {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    padding: 2rem;
   }
   .missionsParagraph .missionText {
     text-align: center;
-    font-size: 2.4rem;
+    font-size: 1.7rem;
 
     line-height: 0.77;
   }
   .missionsParagraph .missionHeader {
-    font-size: 3rem;
+    font-size: 1.7rem;
     text-align: center;
   }
   .missionsParagraph {
@@ -721,7 +720,7 @@ a:focus {
     width: 100vw;
   }
   .imgContainer img {
-    max-width: 200px;
+    max-width: 250px;
   }
   .swiper-slide img {
     top: 00rem;
