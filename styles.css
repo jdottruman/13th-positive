@@ -107,27 +107,15 @@ a:focus {
 
 /* Navbar Styles */
 .nav {
-  border-bottom: 0.22rem solid var(--primary-color);
   height: 5.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
-  /* background-color: var(
-
-
-    --primary-color
-  ); */
-  background-color: #1181b2;
-
-  /* Fallback color if image doesn't load */
-
-  /* background-image: url("Photos/austin-neill-H6k-1Fk3SOY-unsplash.jpg"); */
-
-  /* Adjust the file path */
-  background-size: cover; /* Ensures the image covers the entire background */
-  background-position: center; /* Centers the background image */
-  background-repeat: no-repeat; /* Prevents image repetition */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .nav__logo {
@@ -158,7 +146,8 @@ a:focus {
 }
 
 .nav__menu ul li a {
-  color: var(--primary-color);
+  color: rgba(255, 255, 255);
+
   padding: 1rem;
   font-size: 2rem;
   font-weight: 900;
@@ -194,43 +183,59 @@ a:focus {
 /*  overall marging /padding for section */
 
 /* Mission Statement Section */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.45);
+  height: 100%;
+  width: 100%;
+}
 .missionsStatement {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 1.6rem 3.4rem;
-  background-color: #1181b2;
-  width: 100vw;
+  width: 100%;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+  background-image: url("Photos/walter-martin-3sgn4QI90_Y-unsplash.jpg");
+
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents image repetition */
 }
 
 .missionsParagraph {
-  margin-right: 1.5rem;
   line-height: 0.85;
-  padding: 1rem;
+  margin-right: 3rem;
 }
 
 .missionsParagraph .missionHeader {
-  text-align: right;
+  text-align: center;
+  text-decoration: underline;
   font-size: 4rem;
-  color: #212221;
+  color: rgba(255, 255, 255);
   font-weight: 900;
   font-family: var(--font-family-heading);
-  margin-bottom: 0.6rem;
+  margin-bottom: 01rem;
 }
 .missionsParagraph .missionText {
   font-family: var(--font-family-body);
-  text-align: right;
+  text-align: center;
   font-size: 4.2rem;
   font-weight: 600;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
 }
-/* 
-
-} */
 .highlight {
-  font-weight: 800;
-  color: #e2e1e1;
+  color: rgb(221, 221, 221);
+}
+.missionStatementContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1.8rem;
+  margin-top: 3rem;
+}
+
+.imgContainer {
+  padding: 1rem;
 }
 .imgContainer img {
   max-width: 450px;
@@ -246,8 +251,7 @@ a:focus {
 /* Hero Section */
 
 .hero__section {
-  background-color: #1181b2;
-
+  background-color: var(--background-light);
   position: relative;
   height: 80vh;
   width: 100%;
@@ -279,7 +283,6 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--background-light);
 }
 
 .swiper-slide img {
@@ -351,13 +354,6 @@ a:focus {
 
 .missionContent p strong {
   color: var(--accent-color);
-}
-
-.missionContent p span {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: var(--accent-color);
-  transition: color 0.3s ease; /* Smooth color change on hover */
 }
 
 .missionContent p span:hover {
@@ -725,9 +721,7 @@ a:focus {
   .swiper-slide img {
     top: 00rem;
   }
-  .swiper-slide {
-    background-color: #1181b2;
-  }
+
   #stayConnected {
     padding: 70px;
     display: flex;
