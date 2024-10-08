@@ -717,7 +717,8 @@ a:focus {
   }
   .missionsParagraph {
     margin-right: 0rem;
-    padding: 0;
+
+    width: 100vw;
   }
   .imgContainer img {
     max-width: 200px;
