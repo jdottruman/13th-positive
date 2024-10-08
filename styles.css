@@ -200,6 +200,7 @@ a:focus {
   align-items: center;
   padding: 1.6rem 3.4rem;
   background-color: #1181b2;
+  width: 100vw;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -245,7 +246,8 @@ a:focus {
 /* Hero Section */
 
 .hero__section {
-  background-color: #a0a0a0;
+  background-color: #1181b2;
+
   position: relative;
   height: 80vh;
   width: 100%;
