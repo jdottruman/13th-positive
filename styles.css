@@ -483,7 +483,11 @@ a:focus {
 }
 
 .memberCard {
-  background-color: #fff;
+  background: linear-gradient(
+    135deg,
+    #f3f3f3,
+    #e0e0e0
+  ); /* Soft gradient background */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -746,10 +750,14 @@ a:focus {
   }
 
   .ourMission h2,
-  .local-resources h2 {
+  .local-resources h2,
+  .membersSection h1 {
     font-size: 2.5rem;
   }
 
+  .membersSection {
+    padding: 2.5rem;
+  }
   .missionContent p {
     font-size: 1.5rem;
   }
