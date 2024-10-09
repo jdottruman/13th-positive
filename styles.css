@@ -442,36 +442,85 @@ a:focus {
 
 /* our members section */
 .membersSection {
-  padding: 5.5rem;
+  padding: 6.5rem;
+  text-align: center;
 }
 .membersSection h1 {
-  text-align: center;
+  font-size: 4rem;
+  font-family: var(--font-family-heading);
+  color: var(--primary-color);
+  font-weight: 700;
+  margin-bottom: 10px;
 }
-.membersSection p {
-  text-align: center;
+.membersSection .memberGist {
+  font-size: 1.5rem;
+  line-height: 1.2;
+
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+  font-family: var(--font-family-body);
+  text-align: center; /* Improve text alignment for readability */
+  padding: 0 10px;
 }
 .cardContainer {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 40px;
+  margin-top: 20px;
 }
 .cardImg {
   width: 100%;
 }
 .cardImg img {
-  width: 250px;
-  object-fit: contain;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--primary-color); /* Add a border around the image */
+  margin-bottom: 15px;
 }
 
+.memberCard {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.memberCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Member Info */
 .cardText {
   display: flex;
+
   flex-direction: column;
 }
-.memberCard {
-  display: flex;
-  flex-direction: column;
+.cardText .name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.cardText .title {
+  font-size: 14px;
+  color: var(--accent-color);
+  margin-bottom: 10px;
+}
+
+.cardText .memo {
+  font-size: 12px;
+  color: #666;
+  line-height: 1.4;
 }
 
 /* end of our members sectoion */
