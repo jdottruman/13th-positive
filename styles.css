@@ -202,6 +202,7 @@ a:focus {
 .missionsParagraph {
   margin-right: 3rem;
   font-family: var(--font-family-heading);
+  line-height: 1;
 }
 
 .missionsParagraph .missionHeader {
@@ -217,6 +218,8 @@ a:focus {
 .highlight {
   color: var(--accent-color);
   font-family: var(--thirteen-font);
+  font-weight: 700;
+  font-size: 4rem;
 }
 .missionStatementContent {
   display: flex;
