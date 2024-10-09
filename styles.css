@@ -138,13 +138,8 @@ a:focus {
   text-transform: uppercase;
 }
 
-.nav__logo p {
-  font-size: 30px;
-  font-weight: 900;
-  font-family: "Lora", serif;
-}
-.nav__logo p .smallText {
-  font-family: "Lora", serif;
+.nav__logo__text {
+  font-size: 3rem;
 }
 
 .nav__menu ul li a {
@@ -205,23 +200,18 @@ a:focus {
 }
 
 .missionsParagraph {
-  line-height: 0.85;
   margin-right: 3rem;
+  font-family: var(--font-family-heading);
 }
 
 .missionsParagraph .missionHeader {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
   color: rgba(255, 255, 255);
-  font-weight: 900;
-  font-family: var(--font-family-heading);
-  margin-bottom: 01rem;
 }
 .missionsParagraph .missionText {
-  font-family: var(--font-family-body);
   text-align: center;
-  font-size: 4.2rem;
-  font-weight: 600;
+  font-size: 3rem;
   color: rgb(255, 255, 255);
 }
 .highlight {
@@ -583,7 +573,7 @@ a:focus {
 /* Media Queries for Different Screen Sizes */
 
 /* Mobile550px*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
   .nav__hamburger {
     display: flex;
   }
