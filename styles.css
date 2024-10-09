@@ -200,19 +200,19 @@ a:focus {
 }
 
 .missionsParagraph {
-  margin-right: 3rem;
+  margin-right: 2rem;
   font-family: var(--font-family-heading);
-  line-height: 1;
+  line-height: 0.7;
 }
 
 .missionsParagraph .missionHeader {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: rgba(255, 255, 255);
 }
 .missionsParagraph .missionText {
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
   color: rgb(255, 255, 255);
 }
 .highlight {
@@ -439,6 +439,42 @@ a:focus {
 }
 
 /* end of resource */
+
+/* our members section */
+.membersSection {
+  padding: 5.5rem;
+}
+.membersSection h1 {
+  text-align: center;
+}
+.membersSection p {
+  text-align: center;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.cardImg {
+  width: 100%;
+}
+.cardImg img {
+  width: 250px;
+  object-fit: contain;
+}
+
+.cardText {
+  display: flex;
+  flex-direction: column;
+}
+.memberCard {
+  display: flex;
+  flex-direction: column;
+}
+
+/* end of our members sectoion */
 
 /* stay connected section */
 
