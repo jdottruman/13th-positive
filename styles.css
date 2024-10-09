@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Satisfy&display=swap");
 :root {
@@ -9,6 +10,7 @@
   --accent-color-two: #00afaf;
 
   --text-color: #1f2937;
+  --thirteen-font: "Style Script", cursive;
 
   --background-light: #ececec;
   --shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
@@ -134,12 +136,10 @@ a:focus {
 .nav__menu ul {
   display: flex;
 }
-.nav__logo {
-  text-transform: uppercase;
-}
 
 .nav__logo__text {
   font-size: 3rem;
+  font-family: var(--thirteen-font);
 }
 
 .nav__menu ul li a {
@@ -216,6 +216,7 @@ a:focus {
 }
 .highlight {
   color: var(--accent-color);
+  font-family: var(--thirteen-font);
 }
 .missionStatementContent {
   display: flex;
@@ -340,6 +341,7 @@ a:focus {
 
 .missionContent p strong {
   color: var(--accent-color);
+  font-family: var(--thirteen-font);
 }
 
 .missionContent p span:hover {
