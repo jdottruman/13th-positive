@@ -35,8 +35,42 @@ const resources = [
     thirdName: "Re-Entry Employment Service Program",
   },
 ];
+const members = [
+  {
+    photo: "Photos/New_user_icon-01.svg.png",
+    name: "John Doe",
+    role: "Founder",
+    message: "Short Message/ description / memo",
+  },
+  {
+    photo: "Photos/New_user_icon-01.svg.png",
+    name: "John Doe",
+    role: "Founder",
+    message: "Short Message/ description / memo",
+  },
+  {
+    photo: "Photos/New_user_icon-01.svg.png",
+    name: "John Doe",
+    role: "Founder",
+    message: "Short Message/ description / memo",
+  },
+];
 
 let resourcesHtml = ``;
+let membersHtml = ``;
+members.forEach((member) => {
+  membersHtml += `
+        <div class="memberCard">
+          <div class="cardImg">
+            <img src="${member.photo}" alt="" />
+          </div>
+          <div class="cardText">
+            <p class="name">${member.name}</p>
+            <p class="title">${member.role}</p>
+            <p class="memo">${member.message}</p>
+          </div>
+        </div>`;
+});
 
 resources.forEach((resource) => {
   resourcesHtml += `
@@ -84,3 +118,4 @@ resources.forEach((resource) => {
 });
 
 document.querySelector(".resources-container").innerHTML = resourcesHtml;
+document.querySelector(".cardContainer").innerHTML = membersHtml;
