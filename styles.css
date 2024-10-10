@@ -419,10 +419,9 @@ a:focus {
   display: flex;
   align-items: stretch;
   flex-wrap: wrap;
-
   justify-content: center;
 
-  gap: 20px;
+  gap: 3rem;
   padding: 40px;
 }
 .resource {
@@ -504,7 +503,7 @@ a:focus {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 4rem;
   padding: 40px;
   margin-top: 20px;
 }
