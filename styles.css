@@ -788,7 +788,8 @@ a:focus {
   }
   .missionStatementContent {
     flex-direction: column-reverse;
-    padding: 8rem;
+    padding-bottom: 6.5rem;
+    padding-top: 5.5rem;
   }
   .missionsParagraph .missionText {
     text-align: center;
