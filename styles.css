@@ -2,6 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Satisfy&display=swap");
 :root {
@@ -10,7 +11,7 @@
   --accent-color-two: #00afaf;
 
   --text-color: #1f2937;
-  --thirteen-font: "Style Script", cursive;
+  --thirteen-font: "Qwitcher Grypen", cursive;
 
   --background-light: #ececec;
   --shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
@@ -138,8 +139,9 @@ a:focus {
 }
 
 .nav__logo__text {
-  font-size: 3rem;
+  font-size: 2.5em;
   font-family: var(--thirteen-font);
+  font-weight: 900;
 }
 
 .nav__menu ul li a {
@@ -220,8 +222,8 @@ a:focus {
 .highlight {
   color: var(--accent-color);
   font-family: var(--thirteen-font);
-  font-weight: 700;
-  font-size: 4rem;
+  font-weight: bolder;
+  font-size: 8.5rem;
 }
 .missionStatementContent {
   display: flex;
@@ -788,14 +790,16 @@ a:focus {
   }
   .missionsParagraph .missionText {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 0.77;
   }
+  .highlight {
+    font-size: 4.5rem;
+  }
   .missionsParagraph .missionHeader {
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1;
     text-align: center;
-    margin-bottom: 1rem;
   }
   .missionsParagraph {
     width: 100%;
