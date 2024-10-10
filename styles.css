@@ -826,14 +826,14 @@ a:focus {
   }
   .missionsParagraph .missionText {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 1;
   }
   .highlight {
     font-size: 2rem;
   }
   .missionsParagraph .missionHeader {
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 1;
     text-align: center;
     margin: 0;
@@ -850,7 +850,7 @@ a:focus {
     font-size: 1rem; /* Padding to make the button sizable */
   }
   .imgContainer img {
-    max-width: 200px;
+    max-width: 250px;
   }
   .swiper-slide img {
     top: 00rem;
