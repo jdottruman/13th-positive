@@ -232,6 +232,37 @@ a:focus {
   padding: 2.8rem;
   margin-top: 2rem;
 }
+/* Donate Button Styling */
+.missionStatementContent button {
+  background-color: var(--primary-color); /* Main button color */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 1rem 2rem; /* Padding to make the button sizable */
+  font-size: 1.6rem; /* Font size */
+  font-weight: bold;
+  text-transform: uppercase; /* Capitalize text */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
+  margin-bottom: 2rem; /* Space below the button */
+
+  margin: 1rem;
+  display: none;
+}
+
+/* Hover effect */
+.missionStatementContent button:hover {
+  background-color: var(--accent-color); /* Change color on hover */
+  transform: translateY(-3px); /* Slight lift on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Increased shadow on hover */
+}
+
+/* Focus effect */
+.missionStatementContent button:focus {
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Add custom focus ring */
+}
 
 .imgContainer {
   padding: 1rem;
@@ -810,6 +841,10 @@ a:focus {
     width: 85vw;
 
     margin-right: 0;
+  }
+
+  .missionStatementContent button {
+    display: block;
   }
   .imgContainer img {
     max-width: 150px;
