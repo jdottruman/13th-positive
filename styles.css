@@ -788,12 +788,13 @@ a:focus {
   }
   .missionStatementContent {
     flex-direction: column-reverse;
-    padding-bottom: 6rem;
-    padding-top: 4rem;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
   }
   .missionsParagraph .missionText {
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
     line-height: 1.1;
   }
   .highlight {
