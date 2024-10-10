@@ -821,19 +821,19 @@ a:focus {
     justify-content: center;
     align-items: center;
     line-height: 1.1;
-    margin-top: 2.5rem;
-    padding: 5.1rem;
+    margin-top: 4rem;
+    padding: 3.1rem;
   }
   .missionsParagraph .missionText {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: 1;
   }
   .highlight {
-    font-size: 4rem;
+    font-size: 2rem;
   }
   .missionsParagraph .missionHeader {
-    font-size: 1.8rem;
+    font-size: 1rem;
     line-height: 1;
     text-align: center;
     margin: 0;
@@ -846,9 +846,11 @@ a:focus {
 
   .missionStatementContent button {
     display: block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem; /* Padding to make the button sizable */
   }
   .imgContainer img {
-    max-width: 300px;
+    max-width: 200px;
   }
   .swiper-slide img {
     top: 00rem;
