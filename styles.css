@@ -791,6 +791,7 @@ a:focus {
     height: 80vh;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
     line-height: 1.1;
   }
   .missionsParagraph .missionText {
