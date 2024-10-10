@@ -788,16 +788,16 @@ a:focus {
   }
   .missionStatementContent {
     flex-direction: column-reverse;
-    padding-bottom: 6.5rem;
-    padding-top: 5.5rem;
+    padding-bottom: 6rem;
+    padding-top: 4rem;
   }
   .missionsParagraph .missionText {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: 1.1;
   }
   .highlight {
-    font-size: 4.5rem;
+    font-size: 2.5rem;
   }
   .missionsParagraph .missionHeader {
     font-size: 1.5rem;
@@ -810,7 +810,7 @@ a:focus {
     margin-right: 0;
   }
   .imgContainer img {
-    max-width: 350px;
+    max-width: 150px;
   }
   .swiper-slide img {
     top: 00rem;
