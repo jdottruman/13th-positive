@@ -194,7 +194,7 @@ a:focus {
   width: 100%;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 
-  background-image: url("Photos/jack-prommel-9EuKt8Gt68Y-unsplash.jpg");
+  background-image: url("Photos/walter-martin-3sgn4QI90_Y-unsplash.jpg");
 
   background-size: cover; /* Ensures the image covers the entire background */
   background-position: center; /* Centers the background image */
@@ -879,4 +879,3 @@ a:focus {
     flex-direction: column;
   }
 }
-
