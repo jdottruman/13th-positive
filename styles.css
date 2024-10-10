@@ -791,14 +791,14 @@ a:focus {
     height: 80vh;
     justify-content: center;
     align-items: center;
+    line-height: 1.1;
   }
   .missionsParagraph .missionText {
     text-align: center;
     font-size: 2rem;
-    line-height: 1.1;
   }
   .highlight {
-    font-size: 2.5rem;
+    font-size: 4rem;
   }
   .missionsParagraph .missionHeader {
     font-size: 1.5rem;
