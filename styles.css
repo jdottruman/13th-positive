@@ -197,6 +197,8 @@ a:focus {
   background-size: cover; /* Ensures the image covers the entire background */
   background-position: center; /* Centers the background image */
   background-repeat: no-repeat; /* Prevents image repetition */
+
+  background: radial-gradient(circle at top, #0097bd, #4caf50);
 }
 
 .missionsParagraph {
