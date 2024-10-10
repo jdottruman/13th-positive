@@ -382,9 +382,13 @@ a:focus {
 
 .resources-container {
   display: flex;
-  justify-content: center;
   align-items: stretch;
   flex-wrap: wrap;
+
+  justify-content: center;
+
+  gap: 20px;
+  padding: 40px;
 }
 .resource {
   background: linear-gradient(
@@ -393,7 +397,6 @@ a:focus {
     #e0e0e0
   ); /* Soft gradient background */
   padding: 2rem;
-  margin: 1rem;
   border-radius: 10px;
   box-shadow: var(--shadow);
   flex: 1 1 calc(33.333% - 2rem); /* 3 resources per row */
@@ -465,7 +468,7 @@ a:focus {
 .cardContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   gap: 20px;
   padding: 40px;
   margin-top: 20px;
