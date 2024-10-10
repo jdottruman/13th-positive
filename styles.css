@@ -245,9 +245,8 @@ a:focus {
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
-  margin-bottom: 2rem; /* Space below the button */
+  margin: 2.5rem; /* Space below the button */
 
-  margin: 1rem;
   display: none;
 }
 
@@ -819,10 +818,9 @@ a:focus {
   }
   .missionStatementContent {
     flex-direction: column-reverse;
-    height: 80vh;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 6rem;
     line-height: 1.1;
   }
   .missionsParagraph .missionText {
