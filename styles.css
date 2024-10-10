@@ -825,7 +825,7 @@ a:focus {
   }
   .missionsParagraph .missionText {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     line-height: 1;
   }
   .highlight {
@@ -878,3 +878,4 @@ a:focus {
     flex-direction: column;
   }
 }
+
