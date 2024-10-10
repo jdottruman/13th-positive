@@ -788,7 +788,7 @@ a:focus {
   }
   .missionStatementContent {
     flex-direction: column-reverse;
-    padding: 12.5rem;
+    padding: 8rem;
   }
   .missionsParagraph .missionText {
     text-align: center;
@@ -809,7 +809,7 @@ a:focus {
     margin-right: 0;
   }
   .imgContainer img {
-    max-width: 250px;
+    max-width: 350px;
   }
   .swiper-slide img {
     top: 00rem;
