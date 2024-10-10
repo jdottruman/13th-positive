@@ -230,7 +230,7 @@ a:focus {
   flex-direction: row;
   align-items: center;
   padding: 2.8rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .imgContainer {
@@ -349,6 +349,7 @@ a:focus {
 .missionContent p strong {
   color: var(--accent-color);
   font-family: var(--thirteen-font);
+  font-size: 2.5rem;
 }
 
 .missionContent p span:hover {
@@ -787,6 +788,7 @@ a:focus {
   }
   .missionStatementContent {
     flex-direction: column-reverse;
+    padding: 6.2rem 5rem;
   }
   .missionsParagraph .missionText {
     text-align: center;
@@ -802,7 +804,7 @@ a:focus {
     text-align: center;
   }
   .missionsParagraph {
-    width: 100%;
+    width: 85vw;
     margin-right: 0;
   }
   .imgContainer img {
