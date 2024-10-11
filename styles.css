@@ -818,7 +818,8 @@ a:focus {
   .local-resources .description,
   .membersSection .memberGist,
   .missionContent p {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    padding: 1rem;
   }
   .membersSection {
     padding: 2.5rem;
