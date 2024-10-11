@@ -180,7 +180,12 @@ a:focus {
   border-radius: 0.625rem;
   transition: all ease-in-out 0.2s;
 }
-/*  overall marging /padding for section */
+/*  overall margin /padding for section */
+.ourMission,
+.local-resources,
+.membersSection {
+  padding: 6rem 10rem;
+}
 
 /* Mission Statement Section */
 .overlay {
@@ -343,7 +348,6 @@ a:focus {
   /* margin: 80px auto;  */
 
   /* Professional margin */
-  padding: 60px;
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
 }
 .ourMission h2 {
@@ -368,7 +372,6 @@ a:focus {
 .missionContent p {
   font-size: 1.5rem;
   line-height: 1.2;
-  max-width: 800px;
   color: var(--text-color);
   margin-bottom: 1.5rem;
   font-family: var(--font-family-body);
@@ -392,7 +395,6 @@ a:focus {
   /* margin: 80px auto; */
 
   /* Professional margin */
-  padding: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -420,7 +422,6 @@ a:focus {
 .local-resources .description {
   font-size: 1.5rem;
   line-height: 1.2;
-  max-width: 800px;
   color: var(--text-color);
   margin-bottom: 1.5rem;
   font-family: var(--font-family-body);
@@ -491,7 +492,6 @@ a:focus {
 
 /* our members section */
 .membersSection {
-  padding: 6.5rem;
   text-align: center;
 }
 .membersSection h1 {
@@ -804,12 +804,6 @@ a:focus {
     font-size: 2.5rem; /* Scale down text */
   }
 
-  .ourMission,
-  .local-resources {
-    margin: 40px auto; /* Adjusted for smaller screens */
-    padding: 40px;
-  }
-
   .ourMission h2,
   .local-resources h2,
   .membersSection h1 {
@@ -821,6 +815,11 @@ a:focus {
   .missionContent p {
     font-size: 1.2rem;
     padding: 1rem;
+  }
+  .ourMission,
+  .local-resources,
+  .membersSection {
+    padding: 2rem 3.5rem;
   }
   .membersSection {
     padding: 2.5rem;
