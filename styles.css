@@ -35,10 +35,10 @@ section {
   overflow: hidden;
 }
 
-.ourMission,
+/* .ourMission,
 .local-resources {
   margin: 0 10rem;
-}
+} */
 body {
   background-color: var(--background-light);
   color: var(--text-color);
@@ -344,7 +344,6 @@ a:focus {
 
   /* Professional margin */
   padding: 60px;
-  max-width: 1200px;
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
 }
 .ourMission h2 {
@@ -394,7 +393,6 @@ a:focus {
 
   /* Professional margin */
   padding: 60px;
-  max-width: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -404,7 +402,19 @@ a:focus {
   font-size: 4rem;
   font-family: var(--font-family-heading);
   color: var(--primary-color);
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.local-resources h2 ::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: var(--accent-color);
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .local-resources .description {
   font-size: 1.5rem;
@@ -487,9 +497,21 @@ a:focus {
   font-size: 4rem;
   font-family: var(--font-family-heading);
   color: var(--primary-color);
-  font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 2rem;
+  position: relative;
 }
+
+.membersSection h1::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: var(--accent-color);
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .membersSection .memberGist {
   font-size: 1.5rem;
   line-height: 1.2;
@@ -790,14 +812,16 @@ a:focus {
   .ourMission h2,
   .local-resources h2,
   .membersSection h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
-
+  /* mobile paragraphs */
+  .local-resources .description,
+  .membersSection .memberGist,
+  .missionContent p {
+    font-size: 1rem;
+  }
   .membersSection {
     padding: 2.5rem;
-  }
-  .missionContent p {
-    font-size: 1.5rem;
   }
 
   .resources-container {
