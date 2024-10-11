@@ -139,6 +139,7 @@ a:focus {
 }
 
 .nav__logo__text {
+  color: var(--accent-color);
   font-size: 2.5em;
   font-family: var(--thirteen-font);
   font-weight: 900;
@@ -192,7 +193,7 @@ a:focus {
   flex-direction: row;
   align-items: center;
   width: 100%;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 
   background-image: url("Photos/walter-martin-3sgn4QI90_Y-unsplash.jpg");
 
@@ -234,7 +235,7 @@ a:focus {
 }
 /* Donate Button Styling */
 .missionStatementContent button {
-  background-color: var(--primary-color); /* Main button color */
+  background-color: var(--accent-color); /* Main button color */
   color: #fff; /* Text color */
   border: none;
   padding: 1rem 2rem; /* Padding to make the button sizable */
