@@ -406,7 +406,7 @@ a:focus {
   position: relative;
 }
 
-.local-resources h2 ::after {
+.local-resources h2::after {
   content: "";
   width: 60px;
   height: 3px;
@@ -416,6 +416,7 @@ a:focus {
   left: 50%;
   transform: translateX(-50%);
 }
+
 .local-resources .description {
   font-size: 1.5rem;
   line-height: 1.2;
