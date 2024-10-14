@@ -19,6 +19,7 @@
   --font-family-body: "Roboto", sans-serif;
 }
 html {
+  background-color: #212221;
   scroll-behavior: smooth;
 }
 /* General Reset */
@@ -382,7 +383,8 @@ a:focus {
   padding: 0 10px; /* Add some padding for smaller screens */
 }
 
-.missionContent p strong {
+.missionContent p strong,
+.membersSection strong {
   color: var(--accent-color);
   font-family: var(--thirteen-font);
   font-size: 2.5rem;
