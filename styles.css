@@ -859,6 +859,7 @@ a:focus {
     align-items: center;
     line-height: 1.1;
     padding: 2rem 0;
+    margin-top: 3rem;
   }
   .missionsParagraph .missionText {
     text-align: center;
@@ -878,7 +879,7 @@ a:focus {
   }
 
   .highlight {
-    font-size: 5.5rem;
+    font-size: 5rem;
   }
   .missionsParagraph .missionHeader {
     font-size: 1.9rem;
