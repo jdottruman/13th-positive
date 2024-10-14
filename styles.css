@@ -140,7 +140,7 @@ a:focus {
 }
 
 .nav__logo__text {
-  color: black;
+  color: var(--accent-color);
   font-size: 6rem;
   font-family: var(--thirteen-font);
   font-weight: 900;
@@ -784,7 +784,7 @@ a:focus {
   }
 
   .nav__hamburger__line {
-    background: #000000;
+    background: #fff;
   }
   .nav__hamburger.active .nav__hamburger__line:nth-child(1) {
     transform: rotate(45deg) translate(0.45rem, 0.1875rem);
@@ -880,7 +880,7 @@ a:focus {
     line-height: 0.9;
     background-color: rgba(0, 0, 0, 0.548);
     padding: 1.5rem;
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--accent-color);
   }
 
   .highlight {
