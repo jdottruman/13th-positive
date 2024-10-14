@@ -428,7 +428,7 @@ a:focus {
 
 .local-resources .description {
   font-size: 1.5rem;
-  line-height: 1.2;
+  line-height: 1;
   color: var(--text-color);
   margin-bottom: 1.5rem;
   font-family: var(--font-family-body);
@@ -522,7 +522,7 @@ a:focus {
 
 .membersSection .memberGist {
   font-size: 1.5rem;
-  line-height: 1.2;
+  line-height: 1;
 
   color: var(--text-color);
   margin-bottom: 1.5rem;
