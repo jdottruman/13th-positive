@@ -254,7 +254,7 @@ a:focus {
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
-  margin: 2.5rem; /* Space below the button */
+  margin: 1rem; /* Space below the button */
 
   display: none;
 }
@@ -870,6 +870,9 @@ a:focus {
     text-align: center;
     font-size: 2.1rem;
     line-height: 0.78;
+    background-color: rgba(0, 0, 0, 0.842);
+    border-radius: 15%;
+    padding: 1.5rem;
   }
 
   .highlight {
