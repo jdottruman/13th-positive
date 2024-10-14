@@ -905,9 +905,7 @@ a:focus {
   .overlay {
     background-color: rgba(240, 240, 240, 0.164);
   }
-  .missionsStatement {
-    background-image: url("Photos/sign.jpg");
-  }
+
   .imgContainer img {
     max-width: 200px;
   }
