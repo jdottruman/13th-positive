@@ -218,6 +218,7 @@ a:focus {
 }
 .mobileParagrpah {
   display: none;
+  align-items: center;
 }
 .missionsParagraph .missionHeader {
   text-align: center;
@@ -244,6 +245,7 @@ a:focus {
   margin-top: 2rem;
 }
 /* Donate Button Styling */
+
 .missionStatementContent button {
   background-color: var(--accent-color); /* Main button color */
   color: #fff; /* Text color */
@@ -256,8 +258,7 @@ a:focus {
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
-  margin: 1rem; /* Space below the button */
-
+  margin-top: 1rem; /* Space below the button */
   display: none;
 }
 
@@ -898,7 +899,7 @@ a:focus {
 
   .missionStatementContent button {
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 6.5rem;
     font-size: 1rem; /* Padding to make the button sizable */
   }
   .imgContainer img {
