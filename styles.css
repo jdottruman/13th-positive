@@ -140,7 +140,7 @@ a:focus {
 
 .nav__logo__text {
   color: var(--accent-color);
-  font-size: 2.5em;
+  font-size: 3.5em;
   font-family: var(--thirteen-font);
   font-weight: 900;
 }
@@ -214,11 +214,14 @@ a:focus {
   font-family: var(--font-family-heading);
   line-height: 3.9rem;
 }
-
+.mobileParagrpah {
+  display: none;
+}
 .missionsParagraph .missionHeader {
   text-align: center;
-  font-size: 2.5rem;
-  color: rgba(255, 255, 255);
+  font-weight: 800;
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
 }
 .missionsParagraph .missionText {
   text-align: center;
@@ -858,17 +861,25 @@ a:focus {
     text-align: center;
     font-size: 2.1rem;
     line-height: 0.85;
+    display: none;
   }
+  .mobileParagrpah {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    font-size: 2.1rem;
+    line-height: 0.78;
+  }
+
   .highlight {
-    font-size: 4rem;
+    font-size: 5.5rem;
   }
   .missionsParagraph .missionHeader {
     font-size: 1.9rem;
-    line-height: 1;
+    line-height: 0.85;
     text-align: center;
-    position: absolute;
-    top: 56%;
-    left: 3.5%;
+    display: none;
   }
   .missionsParagraph {
     width: 90vw;
