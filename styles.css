@@ -165,23 +165,21 @@ a:focus {
 }
 
 .nav__hamburger {
-  width: 2.7rem;
-  height: 2.7rem;
+  width: 1.875rem;
+  height: 1.5rem;
   display: none;
   flex-direction: column;
   justify-content: space-around;
   position: absolute;
   top: 2.3rem;
-  right: 2rem;
-  background-color: #ffffff;
-  padding: 0.6rem;
+  left: 2rem;
 }
 
 .nav__hamburger__line {
-  height: 0.26rem;
+  height: 0.2rem;
   width: 100%;
   background-color: white;
-  border-radius: 15px;
+  border-radius: 0.625rem;
   transition: all ease-in-out 0.2s;
 }
 /*  overall margin /padding for section */
@@ -786,7 +784,7 @@ a:focus {
   }
 
   .nav__hamburger__line {
-    background: var(--accent-color);
+    background: #fff;
   }
   .nav__hamburger.active .nav__hamburger__line:nth-child(1) {
     transform: rotate(45deg) translate(0.45rem, 0.1875rem);
@@ -880,7 +878,7 @@ a:focus {
     text-align: center;
     font-size: 1.6rem;
     line-height: 0.9;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.548);
     padding: 1.5rem;
     border: 2.5px solid var(--accent-color);
   }
