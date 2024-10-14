@@ -172,7 +172,7 @@ a:focus {
   justify-content: space-around;
   position: absolute;
   top: 2.3rem;
-  right: 2rem;
+  left: 2rem;
 }
 
 .nav__hamburger__line {
