@@ -139,10 +139,11 @@ a:focus {
 }
 
 .nav__logo__text {
-  color: var(--accent-color);
-  font-size: 3.5em;
+  color: #fff;
+  font-size: 6rem;
   font-family: var(--thirteen-font);
   font-weight: 900;
+  display: none;
 }
 
 .nav__menu ul li a {
@@ -169,8 +170,8 @@ a:focus {
   flex-direction: column;
   justify-content: space-around;
   position: absolute;
-  top: 1.88rem;
-  right: 1rem;
+  top: 2.3rem;
+  right: 2rem;
 }
 
 .nav__hamburger__line {
@@ -843,6 +844,10 @@ a:focus {
   }
   .footer__links {
     display: none;
+  }
+
+  .nav__logo__text {
+    display: block;
   }
 
   .missionContent p span {
