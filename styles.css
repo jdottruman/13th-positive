@@ -140,7 +140,7 @@ a:focus {
 }
 
 .nav__logo__text {
-  color: #fff;
+  color: black;
   font-size: 6rem;
   font-family: var(--thirteen-font);
   font-weight: 900;
@@ -784,7 +784,7 @@ a:focus {
   }
 
   .nav__hamburger__line {
-    background: #ffffff;
+    background: #000000;
   }
   .nav__hamburger.active .nav__hamburger__line:nth-child(1) {
     transform: rotate(45deg) translate(0.45rem, 0.1875rem);
@@ -874,11 +874,11 @@ a:focus {
   .mobileParagrpah {
     display: flex;
     flex-direction: column;
-    color: white;
+    color: var(--primary-color);
     text-align: center;
     font-size: 1.6rem;
     line-height: 0.9;
-    background-color: rgba(0, 0, 0, 0.267);
+    background-color: rgba(255, 255, 255, 0.288);
     padding: 1.5rem;
   }
 
@@ -903,7 +903,7 @@ a:focus {
     font-size: 1rem; /* Padding to make the button sizable */
   }
   .overlay {
-    background-color: rgba(19, 19, 19, 0.281);
+    background-color: rgba(131, 131, 131, 0.589);
   }
 
   .imgContainer img {
