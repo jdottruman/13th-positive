@@ -880,7 +880,7 @@ a:focus {
     line-height: 0.9;
     background-color: rgba(0, 0, 0, 0.548);
     padding: 1.5rem;
-    border: 2.5px solid var(--accent-color);
+    border: 2.5px solid #ffffffad;
   }
 
   .highlight {
