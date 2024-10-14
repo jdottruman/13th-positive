@@ -851,7 +851,7 @@ a:focus {
   }
 
   .nav__logo__text {
-    display: block;
+    display: none;
   }
 
   .missionContent p span {
