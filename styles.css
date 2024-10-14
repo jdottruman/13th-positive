@@ -537,10 +537,9 @@ a:focus {
   width: 100%;
 }
 .cardImg img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
   border: 3px solid var(--primary-color); /* Add a border around the image */
   margin-bottom: 15px;
 }
@@ -554,8 +553,8 @@ a:focus {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   text-align: center;
   padding: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -870,7 +869,6 @@ a:focus {
     font-size: 2.1rem;
     line-height: 0.78;
     background-color: rgba(0, 0, 0, 0.842);
-    border-radius: 15%;
     padding: 1.5rem;
   }
 
