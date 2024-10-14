@@ -819,10 +819,7 @@ a:focus {
   .ourMission,
   .local-resources,
   .membersSection {
-    padding: 2rem 3.5rem;
-  }
-  .membersSection {
-    padding: 2.5rem;
+    padding: 2rem 0rem;
   }
 
   .resources-container {
@@ -833,7 +830,16 @@ a:focus {
   .resource {
     flex: 1 1 calc(50% - 2rem); /* 2 resources per row */
   }
+  .resource i {
+    font-size: 1.4rem;
+  }
+  .resource h3 {
+    font-size: 1.3rem;
+  }
 
+  .resource a {
+    font-size: 1.2rem;
+  }
   .footer__links {
     display: none;
   }
@@ -850,14 +856,14 @@ a:focus {
   }
   .missionsParagraph .missionText {
     text-align: center;
-    font-size: 1.9rem;
+    font-size: 2.1rem;
     line-height: 1;
   }
   .highlight {
     font-size: 4rem;
   }
   .missionsParagraph .missionHeader {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     line-height: 1;
     text-align: center;
     margin: 0;
