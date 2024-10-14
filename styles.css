@@ -126,6 +126,7 @@ a:focus {
 .nav__location {
   display: none;
 }
+
 .nav__logo {
   text-align: center;
   font-size: 1.8rem;
@@ -744,6 +745,9 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .nav__location i {
+    padding: 0.2rem;
   }
   .nav__menu {
     position: absolute;
