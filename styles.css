@@ -297,7 +297,6 @@ a:focus {
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-bottom: 1px solid var(--primary-color);
 }
 
 .hero__section span {
