@@ -867,7 +867,7 @@ a:focus {
     color: white;
     text-align: center;
     font-size: 1.6rem;
-    line-height: 0.78;
+    line-height: 0.9;
     background-color: rgba(0, 0, 0, 0.75);
     padding: 1.5rem;
   }
@@ -922,6 +922,10 @@ a:focus {
   .socials {
     display: flex;
     flex-direction: row;
+  }
+
+  .resource p {
+    margin-bottom: 0.3rem;
   }
   .footer__container {
     flex-direction: column;
