@@ -902,6 +902,12 @@ a:focus {
     padding: 0.5rem 6.5rem;
     font-size: 1rem; /* Padding to make the button sizable */
   }
+  .overlay {
+    background-color: rgba(240, 240, 240, 0.164);
+  }
+  .missionsStatement {
+    background-image: url("Photos/sign.jpg");
+  }
   .imgContainer img {
     max-width: 200px;
   }
