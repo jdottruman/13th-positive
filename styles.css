@@ -165,8 +165,8 @@ a:focus {
 }
 
 .nav__hamburger {
-  width: 3rem;
-  height: 3rem;
+  width: 2.7rem;
+  height: 2.7rem;
   display: none;
   flex-direction: column;
   justify-content: space-around;
@@ -181,7 +181,7 @@ a:focus {
   height: 0.26rem;
   width: 100%;
   background-color: white;
-  border-radius: 0.625rem;
+  border-radius: 15px;
   transition: all ease-in-out 0.2s;
 }
 /*  overall margin /padding for section */
