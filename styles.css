@@ -384,10 +384,11 @@ a:focus {
 }
 
 .missionContent p strong,
-.membersSection strong {
+.membersSection strong,
+.local-resources strong {
   color: var(--accent-color);
   font-family: var(--thirteen-font);
-  font-size: 2.5rem;
+  font-size: 2.6rem;
 }
 
 .missionContent p span:hover {
