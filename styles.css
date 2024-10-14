@@ -893,7 +893,7 @@ a:focus {
     font-size: 1rem; /* Padding to make the button sizable */
   }
   .imgContainer img {
-    max-width: 250px;
+    max-width: 200px;
   }
   .swiper-slide img {
     top: 00rem;
