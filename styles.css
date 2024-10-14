@@ -191,7 +191,7 @@ a:focus {
 
 /* Mission Statement Section */
 .overlay {
-  background-color: rgba(0, 0, 0, 0.45);
+  background-color: rgba(0, 0, 0, 0.4);
   height: 100%;
   width: 100%;
 }
@@ -877,7 +877,7 @@ a:focus {
     text-align: center;
     font-size: 1.6rem;
     line-height: 0.9;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.57);
     padding: 1.5rem;
   }
 
