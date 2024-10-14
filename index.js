@@ -18,8 +18,9 @@ const resources = [
     firstName: "Illinois Supplemental Nutrition Assistance Program (SNAP)",
     secondLink: "https://www.dhs.state.il.us/page.aspx?item=30513",
     secondName: "Women, Infants, and Children (WIC)",
-    thirdLink: "https://abe.illinois.gov/access/",
-    thirdName: "Food Stamp Assistance",
+    thirdLink:
+      "https://www.findhelp.org/food/food-pantry--maywood-il?postal=60153",
+    thirdName: "FindHelp.org(Food Pantry Finder)",
   },
 
   {
