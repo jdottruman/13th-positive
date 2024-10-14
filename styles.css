@@ -874,11 +874,11 @@ a:focus {
   .mobileParagrpah {
     display: flex;
     flex-direction: column;
-    color: var(--primary-color);
+    color: #fff;
     text-align: center;
     font-size: 1.6rem;
     line-height: 0.9;
-    background-color: rgba(230, 230, 230, 0.5);
+    background-color: rgba(0, 0, 0, 0.548);
     padding: 1.5rem;
     border: 1px solid var(--primary-color);
   }
@@ -904,7 +904,7 @@ a:focus {
     font-size: 1rem; /* Padding to make the button sizable */
   }
   .overlay {
-    background-color: rgba(0, 0, 0, 0.685);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 
   .imgContainer img {
