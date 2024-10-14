@@ -123,7 +123,9 @@ a:focus {
   left: 0;
   width: 100%;
 }
-
+.nav__location {
+  display: none;
+}
 .nav__logo {
   text-align: center;
   font-size: 1.8rem;
@@ -738,7 +740,11 @@ a:focus {
   .nav__hamburger {
     display: flex;
   }
-
+  .nav__location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .nav__menu {
     position: absolute;
     display: flex;
