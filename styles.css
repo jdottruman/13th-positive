@@ -16,7 +16,7 @@
   --background-light: #ececec;
   --shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
   --font-family-heading: "Oswald", sans-serif;
-  --font-family-body: "Roboto", sans-serif;
+  --font-family-body: "Oswald", sans-serif;
 }
 html {
   background-color: #212221;
