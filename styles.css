@@ -191,7 +191,7 @@ a:focus {
 
 /* Mission Statement Section */
 .overlay {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.685);
   height: 100%;
   width: 100%;
 }
@@ -202,7 +202,7 @@ a:focus {
   width: 100%;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 
-  background-image: url("Photos/4967074375_2100f22940_c.jpg");
+  background-image: url("Photos/1701-S-1st-Ave-Maywood-IL-Building-Photo-1-Large.jpg");
 
   background-size: cover; /* Ensures the image covers the entire background */
   background-position: center; /* Centers the background image */
@@ -904,7 +904,7 @@ a:focus {
     font-size: 1rem; /* Padding to make the button sizable */
   }
   .overlay {
-    background-color: rgba(0, 0, 0, 0.555);
+    background-color: rgba(0, 0, 0, 0.685);
   }
 
   .imgContainer img {
