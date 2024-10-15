@@ -354,7 +354,6 @@ a:focus {
   flex-direction: column;
   font-family: var(--font-family-body);
   /* margin: 80px auto;  */
-  border-bottom: 1px solid#ccc;
   /* Professional margin */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
 }
