@@ -987,7 +987,9 @@ a:focus {
 
   .ourMission h2,
   .local-resources h2,
-  .membersSection h1 {
+  .membersSection h1,
+  .funds-container h2,
+  .contact-container h2 {
     font-size: 2rem;
   }
   /* mobile paragraphs */
