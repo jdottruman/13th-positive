@@ -139,6 +139,7 @@ a:focus {
 
 .nav__menu ul {
   display: flex;
+  list-style: none;
 }
 
 .nav__logo__text {
