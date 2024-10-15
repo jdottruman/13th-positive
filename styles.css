@@ -907,6 +907,7 @@ a:focus {
   }
   .nav__location {
     display: flex;
+    color: #fff;
     align-items: center;
     justify-content: center;
   }
