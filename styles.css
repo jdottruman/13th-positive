@@ -904,6 +904,9 @@ a:focus {
 
 /* Mobile550px*/
 @media screen and (max-width: 950px) {
+  .nav {
+    background-color: #0000006b;
+  }
   .nav__hamburger {
     display: flex;
   }
