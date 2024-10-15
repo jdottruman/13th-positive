@@ -696,7 +696,7 @@ a:focus {
 }
 
 .btn-submit {
-  background-color: var(--accent-color);
+  background-color: var(--primary-color);
   color: white;
   padding: 15px;
   border: none;
