@@ -629,6 +629,7 @@ a:focus {
   padding: 60px 20px;
   background-color: #f4f4f4;
   color: #333;
+  font-family: var(--font-family-heading);
 }
 
 .contact-container {
@@ -771,8 +772,8 @@ a:focus {
 }
 
 .fund-item h3 {
-  font-family: var(--font-family-body);
-  color: #1d6f7a;
+  font-family: var(--font-family-heading);
+  color: var(--accent-color);
   margin-bottom: 10px;
 }
 
