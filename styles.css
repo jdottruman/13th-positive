@@ -909,12 +909,13 @@ a:focus {
   }
   .nav__location {
     display: flex;
-    color: var(--accent-color);
+    color: #fff;
+    font-size: 1.1rem;
     align-items: center;
     justify-content: center;
   }
   .nav__location i {
-    padding: 0.2rem;
+    padding: 0.3rem;
   }
   .nav__menu {
     position: absolute;
