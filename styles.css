@@ -646,7 +646,7 @@ a:focus {
   position: relative;
 }
 
-.contact-container h2::after {
+.funds-container h2::after {
   content: "";
   width: 60px;
   height: 3px;
@@ -999,7 +999,8 @@ a:focus {
   }
   .ourMission,
   .local-resources,
-  .membersSection {
+  .membersSection,
+  .funds-section {
     padding: 2rem 0rem;
   }
 
