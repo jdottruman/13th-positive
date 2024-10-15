@@ -1,7 +1,7 @@
 const resources = [
   {
     icons: "fa-solid fa-house",
-    header: "Home",
+    header: "Housing",
     firstLink: "https://www.thecha.org/residents/", // Added https://
     firstName: "Chicago Housing Authority (CHA)",
 
@@ -13,7 +13,7 @@ const resources = [
   },
   {
     icons: "fa-solid fa-apple-whole",
-    header: "Food",
+    header: "Food Assistance",
     firstLink: "https://abe.illinois.gov/access/",
     firstName: "Illinois Supplemental Nutrition Assistance Program (SNAP)",
     secondLink: "https://www.dhs.state.il.us/page.aspx?item=30513",
@@ -25,7 +25,7 @@ const resources = [
 
   {
     icons: "fa-solid fa-briefcase",
-    header: "Work",
+    header: "Job Opportunities",
     firstLink:
       "https://www.goodwillchicago.com/help-for-employers/workforce-connection-centers",
     firstName: "Goodwill Workforce Connection Center",
