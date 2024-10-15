@@ -909,7 +909,7 @@ a:focus {
   }
   .nav__location {
     display: flex;
-    color: #fff;
+    color: var(--accent-color);
     align-items: center;
     justify-content: center;
   }
