@@ -1004,7 +1004,7 @@ a:focus {
   .local-resources,
   .membersSection,
   .funds-section {
-    padding: 2rem 0rem;
+    padding: 0.5rem 1rem;
   }
 
   .resources-container {
