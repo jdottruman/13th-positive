@@ -1,386 +1,1125 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      13th Positive | A non-profit organization out of Maywood, Illinois
-    </title>
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-    <script src="script.js" defer></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    />
-  </head>
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap");
 
-  <body>
-    <!-- <nav class="nav">
-      <div class="nav__logo">
-        <img src="Photos/13th_Logo-removebg-preview(1).png" alt="" />
-      </div>
-      <a href="#" class="nav__hamburger">
-        <span class="nav__hamburger__line"></span>
-        <span class="nav__hamburger__line"></span>
-        <span class="nav__hamburger__line"></span>
-      </a>
-      <div class="nav__menu">
-        <ul>
-          <li class="nav__menu__link">
-            <a href="#ourMission">Our Mission.</a>
-          </li>
-          <li class="nav__menu__link">
-            <a href="#local-resources">Local Resources.</a>
-          </li>
-          <li class="nav__menu__link">
-            <a
-              target="_blank"
-              href="https://www.paypal.com/donate/?business=5S7ALM8QR4ZBL&no_recurring=0&currency_code=USD"
-              >Donate.</a
-            >
-          </li>
-        </ul>
-      </div>
-    </nav> -->
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Satisfy&display=swap");
+:root {
+  --primary-color: #1e293b;
+  --accent-color: #0097bd;
+  --accent-color-two: #00afaf;
 
-    <section class="missionsStatement">
-      <div class="overlay">
-        <nav class="nav">
-          <div class="nav__logo">
-            <!-- <img src="Photos/13th_Logo-removebg-preview(1).png" alt="" /> -->
-            <p class="nav__logo__text">13</p>
-          </div>
-          <p class="nav__location">
-            <i class="fa-solid fa-location-dot"></i>Maywood,Illinois
-          </p>
-          <a href="#" class="nav__hamburger">
-            <span class="nav__hamburger__line"></span>
-            <span class="nav__hamburger__line"></span>
-            <span class="nav__hamburger__line"></span>
-          </a>
-          <div class="nav__menu">
-            <ul>
-              <li class="nav__menu__link">
-                <a href="#ourMission">Our Mission.</a>
-              </li>
-              <li class="nav__menu__link">
-                <a href="#local-resources">Local Resources.</a>
-              </li>
-              <li class="nav__menu__link">
-                <a
-                  target="_blank"
-                  href="https://www.paypal.com/donate/?business=5S7ALM8QR4ZBL&no_recurring=0&currency_code=USD"
-                  >Donate.</a
-                >
-              </li>
-            </ul>
-          </div>
-        </nav>
+  --text-color: #1f2937;
+  --thirteen-font: "Qwitcher Grypen", cursive;
 
-        <div class="missionStatementContent">
-          <div class="missionsParagraph">
-            <h1 class="missionHeader">Established in Brotherhood</h1>
-            <p class="missionText">
-              <span class="highlight">13th Positive</span> aims to instill hope
-              in the lives of children and their families through service, acts
-              of goodwill, and mentorship.
-            </p>
+  --background-light: #ececec;
+  --shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  --font-family-heading: "Oswald", sans-serif;
+  --font-family-body: "Oswald", sans-serif;
+}
+html {
+  background-color: #212221;
+  scroll-behavior: smooth;
+}
+/* General Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: var(--font-family-body);
+}
+/* Global Section Padding & Margin */
+section {
+  overflow: hidden;
+}
 
-            <p class="mobileParagrpah">
-              Established in Brotherhood,<br />
-              <span class="highlight">13th Positive</span> aims to instill hope
-              in the lives of children and their families through service, acts
-              of goodwill, and mentorship.
-              <a
-                target="_blank"
-                href="//www.paypal.com/donate/?business=5S7ALM8QR4ZBL&no_recurring=0&currency_code=USD"
-                ><button>
-                  DONATE <i class="fa-solid fa-hand-holding-dollar"></i></button
-              ></a>
-            </p>
-          </div>
+/* .ourMission,
+.local-resources {
+  margin: 0 10rem;
+} */
+body {
+  background-color: var(--background-light);
+  color: var(--text-color);
+}
 
-          <div class="imgContainer">
-            <img
-              src="Photos/13th_Logo-removebg-preview(1).png"
-              alt="13th Positive Logo"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
+/* scroll to top */
+/* scroll to top & donate button - larger buttons */
+/* scroll to top & donate button - larger buttons */
 
-    <section id="ourMission" class="ourMission">
-      <div class="missionContent">
-        <h2>Our Mission</h2>
-        <p>
-          At <strong>13th Positive</strong>, we are committed to
-          <span>building a stronger community</span> by instilling hope,
-          support, and positive values in children and their families. Through
-          dedicated acts of service, mentorship, and goodwill, we aim to empower
-          individuals to rise above challenges and embrace a future filled with
-          opportunities.
-        </p>
-        <p>
-          Our purpose is to <span>create lasting change</span> in the lives of
-          those we touch, nurturing a cycle of positivity and growth that echoes
-          throughout Maywood and beyond.
-        </p>
-      </div>
-    </section>
+button:focus,
+a:focus {
+  outline: 2px solid var(--accent-color); /* For keyboard navigation visibility */
+}
 
-    <section id="how-we-use-funds" class="funds-section">
-      <div class="funds-container">
-        <h2>How Contributions Are Used</h2>
-        <p>
-          Your support makes a meaningful impact! Every dollar we receive goes
-          toward creating positive change within our community. Below is a
-          breakdown of how your contributions will be used:
-        </p>
+#fixedBtns {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  gap: 15px; /* Add space between the buttons */
+  z-index: 1000;
+  display: none;
+}
 
-        <div class="funds-breakdown">
-          <div class="fund-item">
-            <h3>Community Programs</h3>
-            <p>
-              We develop and sustain initiatives focused on mental health,
-              education, and youth empowerment to uplift the individuals we
-              serve.
-            </p>
-            <p><strong>40%</strong> of funds</p>
-          </div>
+#fixedBtns.show {
+  display: flex;
+}
 
-          <div class="fund-item">
-            <h3>Events & Workshops</h3>
-            <p>
-              We organize events, workshops, and training sessions to promote
-              growth, collaboration, and mental well-being.
-            </p>
-            <p><strong>30%</strong> of funds</p>
-          </div>
+#fixedBtns button {
+  padding: 20px 25px; /* Increased padding for larger buttons */
+  color: white;
+  border: none;
+  border-radius: 10px; /* Slightly larger border-radius */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
 
-          <div class="fund-item">
-            <h3>Operational Costs</h3>
-            <p>
-              From maintaining our website to covering essential resources and
-              tools, we ensure the organization runs efficiently.
-            </p>
-            <p><strong>20%</strong> of funds</p>
-          </div>
+#fixedBtns button:hover {
+  background-color: #007a9b; /* Darker shade for accent color on hover */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  transform: translateY(-5px); /* Slight lift on hover */
+}
 
-          <div class="fund-item">
-            <h3>Emergency Relief</h3>
-            <p>
-              A portion of donations is reserved for individuals in need of
-              urgent support due to unexpected crises.
-            </p>
-            <p><strong>10%</strong> of funds</p>
-          </div>
-        </div>
+#fixedBtns button i {
+  font-size: 2.5rem; /* Increased icon size */
+}
 
-        <p class="closing-message">
-          We are committed to transparency and ensuring that your contributions
-          create lasting positive change. Thank you for your generosity and
-          belief in our mission!
-        </p>
-      </div>
-    </section>
+#donateBtn {
+  background-color: #4caf50; /* Original donate button color */
+}
 
-    <section class="hero__section">
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="Photos/slider1.png" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="Photos/slider2.png" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="Photos/slider3.png" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="Photos/slider4.png" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="Photos/slider5.png" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="Photos/slider6.png" alt="" />
-          </div>
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </section>
-    <section class="membersSection">
-      <h1>Meet The Members</h1>
-      <p class="memberGist">
-        Our dedicated members of <strong>13th Positive</strong> are the driving
-        force behind our mission. Each individual brings unique skills,
-        experiences, and passion to help us make a positive impact on our
-        community. From our founders to our newest team members, their
-        collective efforts and vision push us towards a brighter, more inclusive
-        future.
-      </p>
-      <div class="cardContainer"></div>
-    </section>
+#donateBtn:hover {
+  background-color: #3a8b40; /* Darker green for donate button on hover */
+}
 
-    <section id="local-resources" class="local-resources">
-      <h2>Local Resources</h2>
-      <p class="description">
-        Local resources are vital for the success of the
-        <strong>13th Positive</strong>
-        Foundation because they foster a strong sense of community and allow for
-        direct, impactful engagement. By utilizing local businesses,
-        organizations, and volunteers, the foundation can tailor its programs to
-        meet the unique needs of the community it serves. Local resources also
-        enhance trust and collaboration, as they are familiar with the
-        challenges and opportunities within the area. Furthermore, partnering
-        with local entities ensures sustainability, as it supports the local
-        economy and encourages long-term involvement in the foundation’s
-        initiatives.
-      </p>
-      <div class="resources-container"></div>
-    </section>
-    <section id="stayConnected">
-      <h1 class="stayConnectedHeader">Stay Connected!</h1>
-      <p>Connect with us through our social media accounts</p>
-      <div class="socials">
-        <a href="https://www.facebook.com/13thPositiveFoundation/"
-          ><i class="fa-brands fa-facebook"></i
-        ></a>
+#donateBtn a {
+  color: white;
+}
 
-        <a href="https://www.instagram.com/13thpositiveonethree/"
-          ><i class="fa-brands fa-instagram"></i
-        ></a>
-      </div>
-    </section>
-    <section id="contact-us" class="contact-section">
-      <div class="contact-container">
-        <h2>Contact Us</h2>
-        <p>
-          We’d love to hear from you! Whether you have questions, feedback, or
-          ideas, reach out to us using the form below or connect with us
-          directly.
-        </p>
+#scrollToTop.show {
+  display: block;
+}
+#scrollToTop {
+  background-color: var(--accent-color);
+}
 
-        <form
-          class="contact-form"
-          action="https://formspree.io/f/mzzbbalw"
-          method="POST"
-        >
-          <div class="input-group">
-            <label for="name">Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Your Name"
-              required
-            />
-          </div>
+#scrollToTop i {
+  font-size: 2.5rem; /* Increased scroll-to-top icon size */
+}
 
-          <div class="input-group">
-            <label for="email">Email</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Your Email"
-              required
-            />
-          </div>
+/* end of scroll to top */
 
-          <div class="input-group">
-            <label for="message">Message</label>
-            <textarea
-              id="message"
-              name="message"
-              rows="5"
-              placeholder="Your Message"
-              required
-            ></textarea>
-          </div>
+/* Navbar Styles */
+.nav {
+  height: 5.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.nav__location {
+  display: none;
+}
 
-          <button type="submit" class="btn-submit">Send Message</button>
-        </form>
+.nav__logo {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #fff;
+  letter-spacing: 1.5px;
+}
+.nav__logo img {
+  width: 4.5rem;
+  padding: 0 4px;
+}
 
-        <div class="contact-info">
-          <p><strong>Email:</strong> 13thPositive@gmail.com</p>
-          <p><strong>Phone:</strong> +1 (123) 456-7890</p>
-          <p>
-            <strong> <i class="fa-solid fa-location-dot"></i> </strong>
-            Maywood,IL
-          </p>
-        </div>
-      </div>
-    </section>
+.nav__menu ul {
+  display: flex;
+}
 
-    <footer class="footer">
-      <div class="footer__container">
-        <div class="footer__logo">
-          <img
-            src="Photos/13th_Logo-removebg-preview(1).png"
-            alt="13th Positive Logo"
-          />
-          <p>Instilling hope through brotherhood, goodwill, and mentorship.</p>
-        </div>
+.nav__logo__text {
+  color: var(--accent-color);
+  font-size: 6rem;
+  font-family: var(--thirteen-font);
+  font-weight: 900;
+  display: none;
+}
 
-        <div class="footer__links">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="#">Our Mission</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Donate</a></li>
-            <li><a href="#">Contact Us</a></li>
-          </ul>
-        </div>
+.nav__menu ul li a {
+  color: rgba(255, 255, 255);
 
-        <div class="footer__contact">
-          <h4>Contact Us</h4>
-          <p>
-            Email:
-            <a href="mailto:13thPositive@gmail.com">13thPositive@gmail.com</a>
-          </p>
-          <p>Phone: (000) 123-4567</p>
-          <p>Maywood, Illinois</p>
-        </div>
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: var(--font-family-body);
+  transition: color 0.3s ease;
+}
+.nav__menu ul li a:hover,
+.nav__menu ul li a:focus {
+  /* border-bottom: 2px solid var(--accent-color); */
+  color: var(--accent-color);
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
 
-        <div class="footer__social">
-          <h4>Follow Us</h4>
-          <a href="https://www.facebook.com/13thPositiveFoundation/"
-            ><i class="fa-brands fa-facebook"></i
-          ></a>
+.nav__hamburger {
+  width: 1.875rem;
+  height: 1.5rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  top: 2.3rem;
+  left: 2rem;
+}
 
-          <a href="https://www.instagram.com/13thpositiveonethree/"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-        </div>
-      </div>
+.nav__hamburger__line {
+  height: 0.2rem;
+  width: 100%;
+  background-color: white;
+  border-radius: 0.625rem;
+  transition: all ease-in-out 0.2s;
+}
+/*  overall margin /padding for section */
+.ourMission,
+.local-resources,
+.membersSection,
+.funds-section {
+  padding: 6rem 13rem;
+}
 
-      <div class="footer__copyright">
-        <p>&copy; 2024 13th Positive. All Rights Reserved.</p>
-      </div>
-    </footer>
-    <script src="index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <div id="fixedBtns">
-      <button id="donateBtn">
-        <a
-          target="_blank"
-          href="https://www.paypal.com/donate/?business=5S7ALM8QR4ZBL&no_recurring=0&currency_code=USD"
-        >
-          <i class="fa-solid fa-hand-holding-dollar"></i
-        ></a>
-      </button>
-      <button id="scrollToTop">
-        <i class="fa-solid fa-chevron-up"></i>
-      </button>
-    </div>
-  </body>
-</html>
+/* Mission Statement Section */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.685);
+  height: 100%;
+  width: 100%;
+}
+.missionsStatement {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0 10px 70px rgba(0, 0, 0, 0.5);
+
+  background-image: url("Photos/neighborhood.jpg");
+
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents image repetition */
+
+  /* background: radial-gradient(circle at top, #0097bd, #4caf50); */
+}
+
+.missionsParagraph {
+  margin-right: 2rem;
+  font-family: var(--font-family-heading);
+  line-height: 3.9rem;
+}
+.mobileParagrpah {
+  display: none;
+  align-items: center;
+}
+.missionsParagraph .missionHeader {
+  text-align: center;
+  font-weight: 800;
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+}
+.missionsParagraph .missionText {
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+}
+.highlight {
+  color: var(--accent-color);
+  font-family: var(--thirteen-font);
+  font-weight: bolder;
+  font-size: 8.5rem;
+}
+.missionStatementContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2.8rem;
+  margin-top: 2rem;
+}
+/* Donate Button Styling */
+
+.missionStatementContent button {
+  background-color: var(--accent-color); /* Main button color */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 1rem 2rem; /* Padding to make the button sizable */
+  font-size: 1.6rem; /* Font size */
+  font-weight: bold;
+  text-transform: uppercase; /* Capitalize text */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
+  margin-top: 1rem; /* Space below the button */
+  display: none;
+}
+
+/* Hover effect */
+.missionStatementContent button:hover {
+  background-color: var(--accent-color); /* Change color on hover */
+  transform: translateY(-3px); /* Slight lift on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Increased shadow on hover */
+}
+
+/* Focus effect */
+.missionStatementContent button:focus {
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Add custom focus ring */
+}
+
+.imgContainer {
+  padding: 1rem;
+}
+.imgContainer img {
+  max-width: 450px;
+  height: auto;
+  /* box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15); */
+  transition: transform 0.3s ease-in-out;
+}
+
+.imgContainer img:hover {
+  transform: scale(1.05);
+}
+
+/* Hero Section */
+
+.hero__section {
+  background-color: var(--background-light);
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero__section span {
+  position: relative;
+  z-index: 1;
+  font-size: 4rem;
+  font-family: var(--font-family-heading);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+}
+
+/* swipier */
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: relative;
+  top: 10rem;
+}
+
+.swiper-button-next {
+  color: var(--accent-color);
+}
+.swiper-button-prev {
+  color: var(--accent-color);
+}
+
+/* end of swiper */
+
+/* Our Mission Section Styles */
+.ourMission {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: var(--font-family-body);
+  /* margin: 80px auto;  */
+  /* Professional margin */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
+}
+.ourMission h2 {
+  font-size: 4rem;
+  font-family: var(--font-family-heading);
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.ourMission h2::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: var(--accent-color);
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.missionContent p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+  font-family: var(--font-family-body);
+  text-align: center; /* Improve text alignment for readability */
+  padding: 0 10px; /* Add some padding for smaller screens */
+}
+
+.missionContent p strong,
+.membersSection strong,
+.local-resources strong {
+  color: var(--accent-color);
+  font-family: var(--thirteen-font);
+  font-size: 2.6rem;
+}
+
+.missionContent p span:hover {
+  color: var(--primary-color); /* Color swap on hover */
+}
+
+/* Local Resources Section */
+.local-resources {
+  text-align: center;
+  /* margin: 80px auto; */
+
+  /* Professional margin */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.local-resources h2 {
+  font-size: 4rem;
+  font-family: var(--font-family-heading);
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.local-resources h2::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: var(--accent-color);
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.local-resources .description {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+  font-family: var(--font-family-body);
+  text-align: center; /* Improve text alignment for readability */
+}
+
+.resources-container {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 2rem;
+  padding: 40px;
+}
+
+.resource {
+  background: linear-gradient(
+    135deg,
+    #f3f3f3,
+    #e0e0e0
+  ); /* Soft gradient background */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  flex: 1 1 calc(33.333% - 2rem); /* 3 resources per row */
+  max-width: 350px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resource i {
+  font-size: 2rem;
+  color: var(--accent-color);
+}
+.resource h3 {
+  font-size: 2rem;
+  font-family: var(--font-family-body);
+  margin-bottom: 1rem;
+  color: var(--accent-color);
+}
+
+.resource p {
+  font-size: 1.4rem;
+  text-align: left;
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+  font-family: var(--font-family-body);
+}
+
+.resource a {
+  font-size: 1.5rem;
+  font-family: var(--font-family-body);
+  color: var(--text-color);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease, color 0.3s ease;
+}
+
+.resource a:hover {
+  border-bottom: 2px solid var(--accent-color);
+  color: var(--primary-color);
+}
+
+.resource:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* end of resource */
+
+/* our members section */
+.membersSection {
+  text-align: center;
+}
+.membersSection h1 {
+  font-size: 4rem;
+  font-family: var(--font-family-heading);
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.membersSection h1::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: var(--accent-color);
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.membersSection .memberGist {
+  font-size: 1.5rem;
+  line-height: 1.5;
+
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+  font-family: var(--font-family-body);
+  text-align: center; /* Improve text alignment for readability */
+  padding: 0 10px;
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+  padding: 40px;
+  margin-top: 20px;
+}
+.cardImg {
+  width: 100%;
+}
+.cardImg img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border: 3px solid var(--primary-color); /* Add a border around the image */
+  margin-bottom: 15px;
+}
+
+.memberCard {
+  background: linear-gradient(
+    135deg,
+    #f3f3f3,
+    #e0e0e0
+  ); /* Soft gradient background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.memberCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Member Info */
+.cardText {
+  display: flex;
+
+  flex-direction: column;
+}
+.cardText .name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.cardText .title {
+  font-size: 14px;
+  color: var(--accent-color);
+  margin-bottom: 10px;
+}
+
+.cardText .memo {
+  font-size: 12px;
+  color: #666;
+  line-height: 1.4;
+}
+
+/* end of our members sectoion */
+
+/* stay connected section */
+
+#stayConnected {
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #212221;
+  color: white;
+}
+
+.stayConnectedHeader {
+  font-size: 3.8rem;
+}
+
+.socials i {
+  font-size: 9rem;
+  padding: 2rem;
+  color: white;
+}
+
+/* end of stay connected */
+
+/* contact section */
+
+.contact-section {
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-container h2 {
+  font-size: 4rem;
+  font-family: var(--font-family-heading);
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.contact-container h2::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: var(--accent-color);
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.contact-container p {
+  font-family: var(--font-family-heading);
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.input-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  outline: none;
+  border-color: #1d6f7a;
+  box-shadow: 0 0 5px rgba(29, 111, 122, 0.3);
+}
+
+.btn-submit {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: #174f5a;
+}
+
+.contact-info {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+/*  end of contact section*/
+
+/* how we use funds sec */
+.funds-section {
+  color: #333;
+  text-align: center;
+}
+
+.funds-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.funds-container h2 {
+  font-size: 4rem;
+  font-family: var(--font-family-heading);
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.funds-container h2::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: var(--accent-color);
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.funds-container p {
+  font-family: var(--font-family-heading);
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.funds-breakdown {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.fund-item {
+  flex: 1 1 calc(50% - 20px);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fund-item h3 {
+  font-family: var(--font-family-body);
+  color: #1d6f7a;
+  margin-bottom: 10px;
+}
+
+.fund-item p {
+  margin-bottom: 5px;
+}
+
+.closing-message {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+/* end of how funds */
+.footer {
+  border-top: 1px solid var(--primary-color);
+
+  background-color: var(--primary-color);
+
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.footer__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.footer__logo {
+  flex: 1;
+  text-align: center;
+}
+
+.footer__logo img {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+.footer__logo p {
+  font-size: 1rem;
+  color: #aaa;
+}
+
+.footer__links,
+.footer__contact,
+.footer__social {
+  flex: 1;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.footer__links h4,
+.footer__contact h4,
+.footer__social h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: rgb(255, 255, 255);
+}
+
+.footer__links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__links ul li {
+  margin: 0.5rem 0;
+}
+
+.footer__links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.footer__links ul li a:hover {
+  border-bottom: 2px solid var(--accent-color);
+  color: var(--primary-color);
+}
+
+.footer__contact p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.footer__contact a {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+
+  text-decoration: none;
+}
+.footer__contact a:hover {
+  border-bottom: 2px solid var(--accent-color);
+  color: white;
+}
+
+.footer__social a {
+  margin: 0 0.5rem;
+}
+
+.footer__social i {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.footer__social i:hover {
+  transition: all 0.3s ease;
+  color: var(--accent-color);
+}
+
+.footer__copyright {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #151f2b;
+
+  color: #aaa;
+  font-size: 0.9rem;
+}
+.swiper-pagination {
+  display: none;
+}
+
+/* Media Queries for Different Screen Sizes */
+
+/* Mobile550px*/
+@media screen and (max-width: 950px) {
+  .nav__hamburger {
+    display: flex;
+  }
+  .nav__location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav__location i {
+    padding: 0.2rem;
+  }
+  .nav__menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.13);
+    top: -15rem;
+    width: 100%;
+    transition: all ease-in-out 0.4s;
+  }
+
+  .nav__menu ul {
+    flex-direction: column;
+    width: 100%;
+    padding: 3rem 0 0.6rem;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+  }
+
+  .nav__menu ul li {
+    text-align: center;
+  }
+
+  .nav__hamburger {
+    display: flex;
+  }
+
+  .nav__menu {
+    display: none;
+  }
+
+  .nav__menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 70vh;
+  }
+
+  .nav__hamburger__line {
+    background: #fff;
+  }
+  .nav__hamburger.active .nav__hamburger__line:nth-child(1) {
+    transform: rotate(45deg) translate(0.45rem, 0.1875rem);
+  }
+
+  .nav__hamburger.active .nav__hamburger__line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav__hamburger.active .nav__hamburger__line:nth-child(3) {
+    transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
+  }
+
+  .nav__hamburger.active .nav__hamburger__line {
+    transition: all ease-in-out 0.35s;
+    z-index: 10000;
+  }
+  .hero__section {
+    height: 50vh; /* Reduce height for smaller screens */
+  }
+
+  .hero__section span {
+    font-size: 2.5rem; /* Scale down text */
+  }
+
+  .ourMission h2,
+  .local-resources h2,
+  .membersSection h1,
+  .funds-container h2,
+  .contact-container h2 {
+    font-size: 2rem;
+  }
+  /* mobile paragraphs */
+  .local-resources .description,
+  .membersSection .memberGist,
+  .missionContent p {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+  .ourMission,
+  .local-resources,
+  .membersSection,
+  .funds-section {
+    padding: 2rem 0rem;
+  }
+
+  .resources-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .resource {
+    flex: 1 1 calc(50% - 2rem); /* 2 resources per row */
+  }
+  .resource i {
+    font-size: 1.4rem;
+  }
+  .resource h3 {
+    font-size: 1.3rem;
+  }
+
+  .resource a {
+    font-size: 1.2rem;
+  }
+  .footer__links {
+    display: none;
+  }
+
+  .nav__logo__text {
+    display: none;
+  }
+
+  .missionContent p span {
+    line-height: 0.4;
+  }
+  .missionStatementContent {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.1;
+    padding: 2rem 0;
+    margin-top: 3rem;
+  }
+  .missionsParagraph .missionText {
+    text-align: center;
+    font-size: 2.1rem;
+    line-height: 0.85;
+    display: none;
+  }
+  .mobileParagrpah {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 0.9;
+    background-color: rgba(0, 0, 0, 0.548);
+    padding: 1.5rem;
+    border: 2.5px solid #ffffffad;
+  }
+
+  .highlight {
+    font-size: 4.5rem;
+  }
+  .missionsParagraph .missionHeader {
+    font-size: 1.9rem;
+    line-height: 0.85;
+    text-align: center;
+    display: none;
+  }
+  .missionsParagraph {
+    width: 90vw;
+
+    margin-right: 0;
+  }
+
+  .missionStatementContent button {
+    display: block;
+    padding: 0.5rem 6.5rem;
+    font-size: 1rem; /* Padding to make the button sizable */
+  }
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .imgContainer img {
+    max-width: 200px;
+  }
+  .swiper-slide img {
+    top: 00rem;
+  }
+
+  #stayConnected {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #212221;
+    color: white;
+  }
+
+  .stayConnectedHeader {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .socials i {
+    font-size: 7rem;
+    padding: 2rem;
+    color: white;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .resource p {
+    margin-bottom: 0.3rem;
+  }
+  .footer__container {
+    flex-direction: column;
+  }
+}
