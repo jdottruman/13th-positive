@@ -187,7 +187,8 @@ a:focus {
 /*  overall margin /padding for section */
 .ourMission,
 .local-resources,
-.membersSection {
+.membersSection,
+.funds-section {
   padding: 6rem 10rem;
 }
 
@@ -443,7 +444,7 @@ a:focus {
   flex-wrap: wrap;
   justify-content: center;
 
-  gap: 3rem;
+  gap: 2rem;
   padding: 40px;
 }
 
@@ -638,12 +639,23 @@ a:focus {
 }
 
 .contact-container h2 {
-  font-family: "Poppins", sans-serif;
-  font-size: 2rem;
-  color: #1d6f7a;
-  margin-bottom: 15px;
+  font-size: 4rem;
+  font-family: var(--font-family-heading);
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+  position: relative;
 }
 
+.contact-container h2::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: var(--accent-color);
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .contact-container p {
   font-family: "Roboto", sans-serif;
   margin-bottom: 30px;
@@ -683,7 +695,7 @@ a:focus {
 }
 
 .btn-submit {
-  background-color: #1d6f7a;
+  background-color: var(--text-color);
   color: white;
   padding: 15px;
   border: none;
@@ -710,8 +722,6 @@ a:focus {
 
 /* how we use funds sec */
 .funds-section {
-  padding: 60px 20px;
-  background-color: #e9f5f5;
   color: #333;
   text-align: center;
 }
@@ -722,14 +732,25 @@ a:focus {
 }
 
 .funds-container h2 {
-  font-family: "Poppins", sans-serif;
-  font-size: 2rem;
-  color: #1d6f7a;
-  margin-bottom: 15px;
+  font-size: 4rem;
+  font-family: var(--font-family-heading);
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+  position: relative;
 }
 
+.funds-container h2::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: var(--accent-color);
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .funds-container p {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family-heading);
   margin-bottom: 20px;
   color: #555;
 }
@@ -751,7 +772,7 @@ a:focus {
 }
 
 .fund-item h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-family-body);
   color: #1d6f7a;
   margin-bottom: 10px;
 }
