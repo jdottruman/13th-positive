@@ -189,12 +189,12 @@ a:focus {
 .local-resources,
 .membersSection,
 .funds-section {
-  padding: 6rem 10rem;
+  padding: 6rem 13rem;
 }
 
 /* Mission Statement Section */
 .overlay {
-  background-color: rgba(0, 0, 0, 0.455);
+  background-color: rgba(0, 0, 0, 0.685);
   height: 100%;
   width: 100%;
 }
@@ -203,9 +203,9 @@ a:focus {
   flex-direction: row;
   align-items: center;
   width: 100%;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 70px rgba(0, 0, 0, 0.5);
 
-  background-image: url("Photos/4967074375_2100f22940_c.jpg");
+  background-image: url("Photos/neighborhood.jpg");
 
   background-size: cover; /* Ensures the image covers the entire background */
   background-position: center; /* Centers the background image */
@@ -354,7 +354,7 @@ a:focus {
   flex-direction: column;
   font-family: var(--font-family-body);
   /* margin: 80px auto;  */
-
+  border-bottom: 1px solid#ccc;
   /* Professional margin */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
 }
@@ -646,7 +646,7 @@ a:focus {
   position: relative;
 }
 
-.funds-container h2::after {
+.contact-container h2::after {
   content: "";
   width: 60px;
   height: 3px;
@@ -657,7 +657,7 @@ a:focus {
   transform: translateX(-50%);
 }
 .contact-container p {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family-heading);
   margin-bottom: 30px;
   color: #555;
 }
@@ -695,7 +695,7 @@ a:focus {
 }
 
 .btn-submit {
-  background-color: var(--text-color);
+  background-color: var(--accent-color);
   color: white;
   padding: 15px;
   border: none;
@@ -1082,7 +1082,7 @@ a:focus {
     font-size: 1rem; /* Padding to make the button sizable */
   }
   .overlay {
-    background-color: rgba(194, 194, 194, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 
   .imgContainer img {
