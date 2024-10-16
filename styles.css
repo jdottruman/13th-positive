@@ -1098,8 +1098,62 @@ a:focus {
     padding: 1.88rem;
   }
 
+  toaddablureffectbehindthelogoimageinyourhtmlstructure,youcanuse CSS pseudo-elements or a background overlay for the blur. Here’s a solution tailored to your existing structure: CSS +
+      HTML Code Below is how you can implement the blur effect behind the logo
+      image while ensuring the layout remains clean. html Copy code <div class=
+      "missionStatementContent" > <div class= "missionsParagraph" > <h1 class=
+      "missionHeader" >Established in Brotherhood</h1> <p class= "missionText" >
+      <span class= "highlight" >13th Positive</span> aims to instill hope in the
+      lives of children and their families through service,
+    acts of goodwill,
+    and mentorship. </p> <p class= "mobileParagraph" > Established in
+      Brotherhood,
+    <br / > <span class= "highlight" >13th Positive</span> aims to instill hope
+      in the lives of children and their families through service,
+    acts of goodwill,
+    and mentorship. <a target= "_blank" href=
+      "//www.paypal.com/donate/?business=5S7ALM8QR4ZBL&no_recurring=0&currency_code=USD"
+      > <button> DONATE <i class= "fa-solid fa-hand-holding-dollar" ></i>
+      </button> </a> </p> </div> <div class= "imgContainer" > <div class=
+      "blurOverlay" ></div> <!-- Blur overlay --> <img src=
+      "Photos/13th_Logo-removebg-preview(1).png" alt= "13th Positive Logo" / >
+      </div> </div> CSS Styling css Copy code
+      /* Styling for missionStatementContent */ .missionStatementContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  /* Image Container with Positioning */
+  .imgContainer {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+
+  /* Blur Overlay */
+  .blurOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.007); /* Semi-transparent overlay */
+    backdrop-filter: blur(8px); /* Blur effect */
+    z-index: 1;
+    border-radius: 15px;
+  }
   .imgContainer img {
     max-width: 275px;
+    z-index: 2;
   }
   .swiper-slide img {
     top: 00rem;
