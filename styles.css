@@ -1109,7 +1109,7 @@ a:focus {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #ffffff42; /* Semi-transparent overlay */
+    background-color: #ffffff70; /* Semi-transparent overlay */
     backdrop-filter: blur(1px); /* Blur effect */
     z-index: 1;
     border-radius: 50%;
