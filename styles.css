@@ -285,6 +285,7 @@ a:focus {
 .imgContainer img {
   max-width: 450px;
   height: auto;
+
   /* box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15); */
   transition: transform 0.3s ease-in-out;
 }
@@ -905,7 +906,7 @@ a:focus {
 /* Mobile550px*/
 @media screen and (max-width: 950px) {
   .nav {
-    background-color: #0000006b;
+    background-color: #0000003d;
   }
   .nav__hamburger {
     display: flex;
@@ -1089,7 +1090,7 @@ a:focus {
     font-size: 1rem; /* Padding to make the button sizable */
   }
   .overlay {
-    background-color: rgba(61, 61, 61, 0.349);
+    background-color: rgba(155, 155, 155, 0.349);
   }
 
   .imgContainer img {
