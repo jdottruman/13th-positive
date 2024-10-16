@@ -1098,7 +1098,7 @@ a:focus {
     padding: 1.88rem;
   }
 
-  toaddablureffectbehindthelogoimageinyourhtmlstructure,youcanuse CSS pseudo-elements or a background overlay for the blur. Here’s a solution tailored to your existing structure: CSS +
+  toaddablureffectbehindthelogoimageinyourhtmlstructure,youcanuseCSS pseudo-elements or a background overlay for the blur. Here’s a solution tailored to your existing structure: CSS +
       HTML Code Below is how you can implement the blur effect behind the logo
       image while ensuring the layout remains clean. html Copy code <div class=
       "missionStatementContent" > <div class= "missionsParagraph" > <h1 class=
@@ -1146,7 +1146,7 @@ a:focus {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.007); /* Semi-transparent overlay */
+    background-color: rgba(255, 255, 255, 0.089); /* Semi-transparent overlay */
     backdrop-filter: blur(8px); /* Blur effect */
     z-index: 1;
     border-radius: 15px;
