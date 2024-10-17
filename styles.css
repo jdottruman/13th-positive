@@ -190,7 +190,7 @@ a:focus {
 .local-resources,
 .membersSection,
 .funds-section {
-  padding: 6rem 13rem;
+  padding: 3rem 11rem;
 }
 
 /* Mission Statement Section */
@@ -946,10 +946,6 @@ a:focus {
     text-align: center;
   }
 
-  .nav__hamburger {
-    display: flex;
-  }
-
   .nav__menu {
     display: none;
   }
@@ -993,7 +989,9 @@ a:focus {
   .hero__section span {
     font-size: 2.5rem; /* Scale down text */
   }
-
+  .missionsStatement {
+    border-radius: 0 0 15px 15px;
+  }
   .ourMission h2,
   .local-resources h2,
   .membersSection h1,
