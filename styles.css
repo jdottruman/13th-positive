@@ -1070,6 +1070,7 @@ a:focus {
 
   .highlight {
     font-size: 4.5rem;
+    font-weight: 900;
   }
   .missionsParagraph .missionHeader {
     font-size: 1.9rem;
@@ -1086,6 +1087,7 @@ a:focus {
   .missionStatementContent button {
     display: block;
     padding: 0.5rem 6.5rem;
+    font-weight: 900;
     font-size: 1.2rem; /* Padding to make the button sizable */
   }
   .overlay {
