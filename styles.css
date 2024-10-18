@@ -1109,7 +1109,7 @@ a:focus {
     font-size: 1.2rem; /* Padding to make the button sizable */
   }
   .overlay {
-    background-color: rgba(85, 85, 85, 0.432);
+    background-color: rgba(41, 41, 41, 0.432);
   }
   .imgContainer {
     position: relative;
