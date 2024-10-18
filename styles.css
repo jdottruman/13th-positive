@@ -351,7 +351,7 @@ a:focus {
   /* Professional margin */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
 
-  background-color: rgb(42 44 43);
+  background-color: rgba(42, 44, 43, 0.267);
 }
 
 .section__paragraph {
