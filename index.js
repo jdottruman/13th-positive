@@ -39,20 +39,21 @@ const resources = [
 const members = [
   {
     photo: "Photos/New_user_icon-01.svg.png",
+    name: "Anthony Lindsey",
+    role: "Board Member",
+    message:
+      "Anthony is a dedicated board member of 13th Positive, committed to empowering communities through education, mentorship, and positive change. In addition to serving on the board, Anthony is also a passionate youth football and basketball coach, working closely with young athletes to develop their skills both on and off the field. With years of leadership experience and a strong commitment to fostering growth and opportunity, Anthony plays a crucial role in guiding the foundation’s strategic vision, ensuring its mission continues to inspire and uplift those it serves.",
+  },
+  {
+    photo: "Photos/New_user_icon-01.svg.png",
     name: "John Doe",
-    role: "Founder",
+    role: "Board Member",
     message: "Short Message/ description / memo",
   },
   {
     photo: "Photos/New_user_icon-01.svg.png",
     name: "John Doe",
-    role: "Founder",
-    message: "Short Message/ description / memo",
-  },
-  {
-    photo: "Photos/New_user_icon-01.svg.png",
-    name: "John Doe",
-    role: "Founder",
+    role: "Board Member",
     message: "Short Message/ description / memo",
   },
 ];
