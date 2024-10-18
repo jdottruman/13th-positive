@@ -360,6 +360,31 @@ a:focus {
   /* margin: 80px auto;  */
   /* Professional margin */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
+
+  background: hsla(217, 33%, 17%, 1);
+
+  background: radial-gradient(
+    circle,
+    hsla(217, 33%, 17%, 1) 30%,
+    hsla(192, 85%, 18%, 1) 89%,
+    hsla(192, 94%, 25%, 1) 100%
+  );
+
+  background: -moz-radial-gradient(
+    circle,
+    hsla(217, 33%, 17%, 1) 30%,
+    hsla(192, 85%, 18%, 1) 89%,
+    hsla(192, 94%, 25%, 1) 100%
+  );
+
+  background: -webkit-radial-gradient(
+    circle,
+    hsla(217, 33%, 17%, 1) 30%,
+    hsla(192, 85%, 18%, 1) 89%,
+    hsla(192, 94%, 25%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E293B", endColorstr="#074554", GradientType=1 );
 }
 
 .section__paragraph {
@@ -1077,7 +1102,7 @@ a:focus {
     justify-content: center;
     align-items: center;
     line-height: 1.1;
-    padding: 2rem 0;
+    padding: 2rem 0rem;
     margin-top: 3rem;
   }
   .missionsParagraph .missionText {
