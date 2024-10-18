@@ -195,7 +195,7 @@ a:focus {
 
 /* Mission Statement Section */
 .overlay {
-  background-color: rgba(0, 0, 0, 0.568);
+  background-color: rgba(32, 32, 32, 0.4);
   height: 100%;
   width: 100%;
 }
@@ -204,7 +204,6 @@ a:focus {
   flex-direction: row;
   align-items: center;
   width: 100%;
-  height: 100vh;
   box-shadow: 0 10px 70px rgba(0, 0, 0, 0.5);
 
   background-image: url("Photos/neighborhood.jpg");
@@ -351,8 +350,8 @@ a:focus {
 /* Our Mission Section Styles */
 .ourMission {
   text-align: center;
-  height: 100vh;
   display: flex;
+  padding: 6.5rem;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
@@ -530,7 +529,7 @@ a:focus {
 }
 
 .membersSection .memberGist {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   line-height: 1.5;
 
   color: var(--text-color);
@@ -542,9 +541,10 @@ a:focus {
 .cardContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 4rem;
   padding: 40px;
+  width: 100%;
   margin-top: 20px;
 }
 .cardImg {
@@ -567,7 +567,7 @@ a:focus {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 300px;
+  width: calc((100% - 80px - 8rem) / 3); /* Adjusts dynamically */
   height: 300px;
   text-align: center;
   padding: 15px;
@@ -608,7 +608,7 @@ a:focus {
 /* stay connected section */
 
 #stayConnected {
-  padding: 70px;
+  padding: 8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -757,7 +757,11 @@ a:focus {
 .funds-container p {
   font-family: var(--font-family-heading);
   margin-bottom: 20px;
+  font-size: 1.2rem;
   color: #555;
+}
+.funds-section .howGist {
+  font-size: 1.8rem;
 }
 
 .funds-breakdown {
@@ -996,8 +1000,14 @@ a:focus {
   .hero__section span {
     font-size: 2.5rem; /* Scale down text */
   }
-  .missionsStatement {
-    border-radius: 0 0 15px 15px;
+
+  .missionContent p strong,
+  .membersSection strong,
+  .local-resources strong {
+    color: var(--accent-color);
+    font-family: var(--thirteen-font);
+    font-size: 3rem;
+    line-height: 0.6;
   }
   .ourMission h2,
   .local-resources h2,
@@ -1010,10 +1020,12 @@ a:focus {
   /* mobile paragraphs */
   .local-resources .description,
   .membersSection .memberGist,
-  .missionContent p {
-    font-size: 1.2rem;
+  .missionContent p,
+  .funds-container .howGist {
+    font-size: 1.6rem;
     padding: 1rem;
   }
+
   .ourMission,
   .local-resources,
   .membersSection,
@@ -1165,5 +1177,9 @@ a:focus {
   }
   .footer__container {
     flex-direction: column;
+  }
+
+  .memberCard {
+    width: 300px;
   }
 }
