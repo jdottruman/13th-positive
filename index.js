@@ -76,7 +76,7 @@ members.forEach((member) => {
 resources.forEach((resource) => {
   resourcesHtml += `
 
-          <div class="resource">
+          <div class="resource section__paragraph">
           <i class="${resource.icons}"></i>
           <h3>${resource.header}</h3>
           <ul>
