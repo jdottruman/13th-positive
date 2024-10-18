@@ -567,7 +567,7 @@ a:focus {
   ); /* Soft gradient background */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
+  overflow-x: hidden;
   width: calc((100% - 80px - 8rem) / 3); /* Adjusts dynamically */
   height: 300px;
   text-align: center;
