@@ -1,59 +1,142 @@
-const hamburger = document.querySelector(".nav__hamburger");
-const linksContainer = document.querySelector(".nav__menu");
-const links = document.querySelectorAll(".nav__menu__link");
+const resources = [
+  {
+    icons: "fa-solid fa-house",
+    header: "Housing",
+    firstLink: "https://www.thecha.org/residents/", // Added https://
+    firstName: "Chicago Housing Authority (CHA)",
 
-hamburger.addEventListener("click", () => {
-  linksContainer.classList.toggle("active");
-  hamburger.classList.toggle("active");
+    secondLink: "https://chicago.gov/housing", // Added https://
+    secondName: "City of Chicago Department of Housing",
+
+    thirdLink: "https://chicagoparkdistrict.com", // Added https://
+    thirdName: "Chicago Park District",
+  },
+  {
+    icons: "fa-solid fa-apple-whole",
+    header: "Food Assistance",
+    firstLink: "https://abe.illinois.gov/access/",
+    firstName: "Illinois Supplemental Nutrition Assistance Program (SNAP)",
+    secondLink: "https://www.dhs.state.il.us/page.aspx?item=30513",
+    secondName: "Women, Infants, and Children (WIC)",
+    thirdLink:
+      "https://www.findhelp.org/food/food-pantry--maywood-il?postal=60153",
+    thirdName: "FindHelp.org(Food Pantry Finder)",
+  },
+
+  {
+    icons: "fa-solid fa-briefcase",
+    header: "Job Opportunities",
+    firstLink:
+      "https://www.goodwillchicago.com/help-for-employers/workforce-connection-centers",
+    firstName: "Goodwill Workforce Connection Center",
+    secondLink: "https://enroll.jobcorps.gov/",
+    secondName: "U.S. Department of Labor - Job Corps",
+    thirdLink:
+      "https://ides.illinois.gov/jobs-workforce/programs/re-entry.html",
+    thirdName: "Re-Entry Employment Service Program",
+  },
+];
+const members = [
+  {
+    photo: "Photos/New_user_icon-01.svg.png",
+    name: "Anthony Lindsey",
+    role: "Board Member",
+    message:
+      "Anthony is a dedicated board member of 13th Positive, committed to empowering communities through education, mentorship, and positive change. In addition to serving on the board, Anthony is also a passionate youth football and basketball coach, working closely with young athletes to develop their skills both on and off the field. With years of leadership experience and a strong commitment to fostering growth and opportunity, Anthony plays a crucial role in guiding the foundation’s strategic vision, ensuring its mission continues to inspire and uplift those it serves.",
+  },
+  {
+    photo: "Photos/New_user_icon-01.svg.png",
+    name: "John Doe",
+    role: "Board Member",
+    message: "Short Message/ description / memo",
+  },
+  {
+    photo: "Photos/New_user_icon-01.svg.png",
+    name: "John Doe",
+    role: "Board Member",
+    message: "Short Message/ description / memo",
+  },
+];
+
+let resourcesHtml = ``;
+let membersHtml = ``;
+members.forEach((member) => {
+  membersHtml += `
+        <div class="memberCard">
+          <div class="cardImg">
+            <img src="${member.photo}" alt="" />
+          </div>
+          <div class="cardText">
+            <p class="name">${member.name}</p>
+            <p class="title">${member.role}</p>
+            <p class="memo">${member.message}</p>
+          </div>
+        </div>`;
 });
-window.addEventListener("resize", () => {
-  if (window.matchMedia("(max-width:550px)").matches) {
-    closeMenu();
-  }
+
+resources.forEach((resource) => {
+  resourcesHtml += `
+
+          <div class="resource section__paragraph">
+          <i class="${resource.icons}"></i>
+          <h3>${resource.header}</h3>
+          <ul>
+            <li>
+              <p>
+                <a
+                  target="_blank"
+                  href="${resource.firstLink}"
+                >
+                  ${resource.firstName}
+                </a>
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <a
+                  target="_blank"
+                  href="${resource.secondLink}"
+                >
+                  ${resource.secondName}
+                </a>
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <a
+                  target="_blank"
+                  href="${resource.thirdLink}"
+                >
+                 ${resource.thirdName}
+                </a>
+              </p>
+            </li>
+          </ul>
+        </div>
+  
+  `;
 });
 
-if (window.matchMedia("(max-width:550px)")) {
-  closeMenu();
-}
+document.querySelector(".resources-container").innerHTML = resourcesHtml;
+document.querySelector(".cardContainer").innerHTML = membersHtml;
 
-function closeMenu() {
-  links.forEach((link) => {
-    link.addEventListener("click", () => {
-      linksContainer.classList.remove("active");
-      hamburger.classList.remove("active");
-    });
+const paragraphs = document.querySelectorAll(".section__paragraph");
+document.addEventListener("scroll", () => {
+  paragraphs.forEach((paragraph) => {
+    if (isInView(paragraph)) {
+      paragraph.classList.add("section__paragraph--visible");
+    } else {
+      paragraph.classList.remove("section__paragraph--visible");
+    }
   });
+});
+
+function isInView(element) {
+  const rect = element.getBoundingClientRect();
+  return (
+    rect.bottom > 0 &&
+    rect.top < (window.innerHeight - 150 || documentElement.clientHeight - 150)
+  );
 }
-
-document.getElementById("scrollToTop").addEventListener("click", () => {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
-  });
-});
-
-window.addEventListener("scroll", () => {
-  const scrollToTopBtn = document.getElementById("fixedBtns");
-  if (window.scrollY > 200) {
-    scrollToTopBtn.classList.add("show");
-  } else {
-    scrollToTopBtn.classList.remove("show");
-  }
-});
-
-var swiper = new Swiper(".mySwiper", {
-  spaceBetween: 30,
-  centeredSlides: true,
-  autoplay: {
-    delay: 2300,
-    disableOnInteraction: false,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
