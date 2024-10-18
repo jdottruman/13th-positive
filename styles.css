@@ -457,7 +457,7 @@ a:focus {
   background: linear-gradient(
     135deg,
     #f3f3f3,
-    #e0e0e0
+    #e0e0e0a1
   ); /* Soft gradient background */
   padding: 2rem;
   border-radius: 10px;
@@ -564,7 +564,7 @@ a:focus {
   background: linear-gradient(
     135deg,
     #f3f3f3,
-    #e0e0e0
+    #e0e0e0a1
   ); /* Soft gradient background */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -776,7 +776,7 @@ a:focus {
 
 .fund-item {
   flex: 1 1 calc(50% - 20px);
-  background-color: #fff;
+  background: linear-gradient(135deg, #f3f3f3, #e0e0e0a1);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
