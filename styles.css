@@ -361,6 +361,16 @@ a:focus {
   /* Professional margin */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
 }
+
+.section__paragraph {
+  transform: translateY(20px);
+  opacity: 0;
+  transition: 1s ease;
+}
+.section__paragraph--visible {
+  transform: translateY(0);
+  opacity: 1;
+}
 .ourMission h2 {
   font-size: 4rem;
   font-family: var(--font-family-heading);
@@ -608,7 +618,7 @@ a:focus {
 /* stay connected section */
 
 #stayConnected {
-  padding: 8rem;
+  padding: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -617,12 +627,12 @@ a:focus {
 }
 
 .stayConnectedHeader {
-  font-size: 3.8rem;
+  font-size: 6rem;
 }
 
 .socials i {
-  font-size: 9rem;
-  padding: 2rem;
+  font-size: 15rem;
+  margin: 5rem;
   color: white;
 }
 
@@ -1163,8 +1173,9 @@ a:focus {
     margin-bottom: 1rem;
   }
   .socials i {
-    font-size: 7rem;
+    font-size: 8rem;
     padding: 2rem;
+    margin: 0;
     color: white;
   }
 
