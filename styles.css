@@ -599,7 +599,7 @@ a:focus {
 }
 
 .cardText .memo {
-  font-size: 12px;
+  font-size: 1rem;
   color: #666;
   line-height: 1.4;
 }
