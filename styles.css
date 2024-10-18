@@ -1064,7 +1064,7 @@ a:focus {
     align-items: center;
     line-height: 1.1;
     margin: 0rem;
-    padding-top: 3.5rem;
+    padding-top: 4.5rem;
   }
   .missionsParagraph .missionText {
     text-align: center;
@@ -1076,14 +1076,14 @@ a:focus {
   .mobileParagrpah {
     display: flex;
     flex-direction: column;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     font-size: 2rem;
     line-height: 0.9;
-    background-color: rgba(255, 255, 255, 0.226);
+    background-color: rgba(0, 0, 0, 0.534);
     padding: 1rem;
     font-weight: 700;
-    border: 2.5px solid #ffffffad;
+    /* border: 2.5px solid #ffffffad; */
   }
 
   .highlight {
@@ -1109,22 +1109,21 @@ a:focus {
     font-size: 1.2rem; /* Padding to make the button sizable */
   }
   .overlay {
-    background-color: rgba(0, 0, 0, 0.397);
+    background-color: rgba(59, 59, 59, 0.322);
   }
   .imgContainer {
     position: relative;
-    width: 375px;
+    width: 100vw;
     height: 375px;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    border-radius: 15px;
   }
 
   .imgContainer img {
-    width: 85%;
-    height: 85%;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
     z-index: 2; /* Ensure it appears above the blur */
     position: relative;
