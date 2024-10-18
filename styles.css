@@ -914,7 +914,6 @@ a:focus {
 /* Mobile550px*/
 @media screen and (max-width: 950px) {
   .nav {
-    background-color: #0000001c;
   }
   .nav__hamburger {
     display: flex;
@@ -1064,9 +1063,9 @@ a:focus {
     justify-content: center;
     align-items: center;
     line-height: 1.1;
-    margin-top: 5rem;
+    margin: 0rem;
+    padding-top: 4.5rem;
     background-color: rgba(0, 0, 0, 0.548);
-    border: 2.5px solid #ffffffad;
   }
   .missionsParagraph .missionText {
     text-align: center;
