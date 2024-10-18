@@ -365,21 +365,21 @@ a:focus {
 
   background: radial-gradient(
     circle,
-    hsla(217, 33%, 17%, 1) 30%,
+    hsla(217, 33%, 17%, 1) 10%,
     hsla(192, 85%, 18%, 1) 89%,
     hsla(192, 94%, 25%, 1) 100%
   );
 
   background: -moz-radial-gradient(
     circle,
-    hsla(217, 33%, 17%, 1) 30%,
+    hsla(217, 33%, 17%, 1) 10%,
     hsla(192, 85%, 18%, 1) 89%,
     hsla(192, 94%, 25%, 1) 100%
   );
 
   background: -webkit-radial-gradient(
     circle,
-    hsla(217, 33%, 17%, 1) 30%,
+    hsla(217, 33%, 17%, 1) 10%,
     hsla(192, 85%, 18%, 1) 89%,
     hsla(192, 94%, 25%, 1) 100%
   );
