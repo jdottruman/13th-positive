@@ -120,3 +120,20 @@ resources.forEach((resource) => {
 
 document.querySelector(".resources-container").innerHTML = resourcesHtml;
 document.querySelector(".cardContainer").innerHTML = membersHtml;
+
+const paragraphs = document.querySelectorAll(".section__paragraph");
+document.addEventListener("scroll", () => {
+  paragraphs.forEach((paragraph) => {
+    if (isInView(paragraph)) {
+      paragraph.classList.add("section__paragraph--visible");
+    }
+  });
+});
+
+function isInView(element) {
+  const rect = element.getBoundingClientRect();
+  return (
+    rect.bottom > 0 &&
+    rect.top < (window.innerHeight - 150 || documentElement.clientHeight - 150)
+  );
+}
