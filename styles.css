@@ -1064,8 +1064,7 @@ a:focus {
     align-items: center;
     line-height: 1.1;
     margin: 0rem;
-    padding-top: 4.5rem;
-    background-color: rgba(0, 0, 0, 0.548);
+    padding-top: 3.5rem;
   }
   .missionsParagraph .missionText {
     text-align: center;
@@ -1110,30 +1109,19 @@ a:focus {
     font-size: 1.2rem; /* Padding to make the button sizable */
   }
   .overlay {
-    background-color: rgba(0, 0, 0, 0.164);
+    background-color: rgba(0, 0, 0, 0.397);
   }
   .imgContainer {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 375px;
+    height: 375px;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     border-radius: 15px;
   }
-  .blurOverlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #ffffff70; /* Semi-transparent overlay */
-    backdrop-filter: blur(1px); /* Blur effect */
-    z-index: 1;
-    border-radius: 50%;
-    border: 2.5px solid #ffffffad;
-  }
+
   .imgContainer img {
     width: 85%;
     height: 85%;
