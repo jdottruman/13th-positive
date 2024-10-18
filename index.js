@@ -126,6 +126,8 @@ document.addEventListener("scroll", () => {
   paragraphs.forEach((paragraph) => {
     if (isInView(paragraph)) {
       paragraph.classList.add("section__paragraph--visible");
+    } else {
+      paragraph.classList.remove("section__paragraph--visible");
     }
   });
 });
