@@ -114,6 +114,7 @@ a:focus {
 .nav {
   height: 5.2rem;
   display: flex;
+  background-color: var(--primary-color);
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
@@ -144,10 +145,9 @@ a:focus {
 
 .nav__logo__text {
   color: var(--accent-color);
-  font-size: 6rem;
-  font-family: var(--thirteen-font);
+  font-size: 3.5rem;
+  font-family: var(--font-family-body);
   font-weight: 900;
-  display: none;
 }
 
 .nav__menu ul li a {
@@ -195,7 +195,7 @@ a:focus {
 
 /* Mission Statement Section */
 .overlay {
-  background-color: rgba(32, 32, 32, 0.4);
+  background-color: rgba(0, 0, 0, 0.459);
   height: 100%;
   width: 100%;
 }
@@ -246,7 +246,7 @@ a:focus {
   flex-direction: row;
   align-items: center;
   padding: 2.8rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 /* Donate Button Styling */
 
