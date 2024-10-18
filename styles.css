@@ -190,12 +190,12 @@ a:focus {
 .local-resources,
 .membersSection,
 .funds-section {
-  padding: 3rem 11rem;
+  padding: 3.5rem 8rem;
 }
 
 /* Mission Statement Section */
 .overlay {
-  background-color: rgba(0, 0, 0, 0.685);
+  background-color: rgba(0, 0, 0, 0.568);
   height: 100%;
   width: 100%;
 }
@@ -204,6 +204,7 @@ a:focus {
   flex-direction: row;
   align-items: center;
   width: 100%;
+  height: 100vh;
   box-shadow: 0 10px 70px rgba(0, 0, 0, 0.5);
 
   background-image: url("Photos/neighborhood.jpg");
@@ -350,11 +351,13 @@ a:focus {
 /* Our Mission Section Styles */
 .ourMission {
   text-align: center;
+  height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   font-family: var(--font-family-body);
+  background-color: var(--primary-color);
   /* margin: 80px auto;  */
   /* Professional margin */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
@@ -362,7 +365,7 @@ a:focus {
 .ourMission h2 {
   font-size: 4rem;
   font-family: var(--font-family-heading);
-  color: var(--primary-color);
+  color: #fff;
   margin-bottom: 2rem;
   position: relative;
 }
@@ -379,10 +382,10 @@ a:focus {
 }
 
 .missionContent p {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   line-height: 1.5;
-  color: var(--text-color);
-  margin-bottom: 1.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
   font-family: var(--font-family-body);
   text-align: center; /* Improve text alignment for readability */
   padding: 0 10px; /* Add some padding for smaller screens */
@@ -393,11 +396,11 @@ a:focus {
 .local-resources strong {
   color: var(--accent-color);
   font-family: var(--thirteen-font);
-  font-size: 2.6rem;
+  font-size: 4rem;
 }
 
 .missionContent p span:hover {
-  color: var(--primary-color); /* Color swap on hover */
+  color: var(--accent-color); /* Color swap on hover */
 }
 
 /* Local Resources Section */
@@ -957,7 +960,11 @@ a:focus {
     top: 0;
     right: 0;
     z-index: 1000;
-    background-color: rgb(0, 0, 0);
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.932),
+      rgba(0, 0, 0, 0.712)
+    );
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: 70vh;
@@ -998,6 +1005,7 @@ a:focus {
   .funds-container h2,
   .contact-container h2 {
     font-size: 2rem;
+    margin-bottom: 1rem;
   }
   /* mobile paragraphs */
   .local-resources .description,
@@ -1065,6 +1073,7 @@ a:focus {
     line-height: 0.9;
     background-color: rgba(0, 0, 0, 0.548);
     padding: 1.5rem;
+    font-weight: 700;
     border: 2.5px solid #ffffffad;
   }
 
