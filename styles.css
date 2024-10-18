@@ -1064,7 +1064,7 @@ a:focus {
     align-items: center;
     line-height: 1.1;
     margin: 0rem;
-    padding-top: 4.5rem;
+    padding-top: 5rem;
   }
   .missionsParagraph .missionText {
     text-align: center;
@@ -1078,7 +1078,7 @@ a:focus {
     flex-direction: column;
     color: #ffffff;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 0.9;
     background-color: rgba(0, 0, 0, 0.534);
     padding: 1rem;
@@ -1113,8 +1113,8 @@ a:focus {
   }
   .imgContainer {
     position: relative;
-    width: 100vw;
-    height: 375px;
+    width: 350vw;
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
