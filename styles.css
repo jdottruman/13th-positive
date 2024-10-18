@@ -351,7 +351,7 @@ a:focus {
   /* Professional margin */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
 
-  background-color: rgba(42, 44, 43, 0.267);
+  background-color: rgba(0, 0, 0, 0.377);
 }
 
 .section__paragraph {
@@ -389,7 +389,7 @@ a:focus {
   margin-bottom: 1rem;
   font-family: var(--font-family-body);
   text-align: center; /* Improve text alignment for readability */
-  padding: 0 10px; /* Add some padding for smaller screens */
+  padding: 0 20px; /* Add some padding for smaller screens */
 }
 
 .missionContent p strong,
@@ -1152,7 +1152,6 @@ a:focus {
     align-items: center;
     text-align: center;
     background-color: #212221;
-    border-radius: 0px 0px 15px 15px;
     color: white;
   }
 
@@ -1179,7 +1178,7 @@ a:focus {
     flex-direction: column;
   }
   body {
-    background-color: rgb(190 189 191);
+    background-color: rgba(255, 255, 255, 0.884);
   }
 
   .memberCard {
