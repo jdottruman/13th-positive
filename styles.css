@@ -114,7 +114,6 @@ a:focus {
 .nav {
   height: 5.2rem;
   display: flex;
-  background-color: var(--primary-color);
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
@@ -206,7 +205,7 @@ a:focus {
   width: 100%;
   box-shadow: 0 10px 70px rgba(0, 0, 0, 0.5);
 
-  background-image: url("Photos/neighborhood.jpg");
+  background-image: url("Photos/maywoodsign.jpg");
 
   background-size: cover; /* Ensures the image covers the entire background */
   background-position: center; /* Centers the background image */
