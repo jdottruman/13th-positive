@@ -758,7 +758,7 @@ a:focus {
   font-family: var(--font-family-heading);
   margin-bottom: 20px;
   font-size: 1.2rem;
-  color: #555;
+  color: var(--text-color);
 }
 .funds-section .howGist {
   font-size: 1.8rem;
