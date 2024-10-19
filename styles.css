@@ -236,7 +236,7 @@ a:focus {
 }
 .highlight {
   color: var(--accent-color);
-  font-family: var(--thirteen-font);
+  /* font-family: var(--thirteen-font); */
   font-weight: bolder;
   font-size: 8.5rem;
 }
@@ -1011,8 +1011,8 @@ a:focus {
   .membersSection strong,
   .local-resources strong {
     color: var(--accent-color);
-    font-family: var(--thirteen-font);
-    font-size: 3.5rem;
+    font-family: var(--font-family-heading);
+    font-size: 2rem;
     line-height: 0.7;
   }
   .ourMission h2,
@@ -1021,7 +1021,7 @@ a:focus {
   .funds-container h2,
   .contact-container h2 {
     font-size: 2.7rem;
-    line-height: 1.3;
+    line-height: 1.2;
     margin-bottom: 1rem;
   }
   /* mobile paragraphs */
@@ -1106,7 +1106,7 @@ a:focus {
   }
 
   .highlight {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: 900;
   }
   .missionsParagraph .missionHeader {
