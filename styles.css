@@ -530,45 +530,100 @@ a:focus {
   padding: 1rem;
 }
 
-/* modal */
+/* Modal Overlay */
 .modal {
-  display: none; /* Hidden by default */
+  display: none;
   position: fixed;
-  z-index: 1;
-  left: 0;
+  z-index: 1000;
   top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8); /* Dark overlay with transparency */
+  overflow-y: auto; /* Enable scroll if content overflows */
 }
 
-/* Modal content box */
+/* Modal Content Box */
 .modal-content {
-  background-color: #fefefe;
-  margin: 15% auto;
-  padding: 20px;
-  width: 100vw;
-  border-radius: 8px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  text-align: center;
+  position: relative;
+  margin: 5% auto;
+  background-color: #fff;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Ensures proper scroll inside */
 }
 
-.modal img {
-  height: 15rem;
-  width: 20rem;
-}
-
-/* Close button (X) */
+/* Close Button */
 .close-btn {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 32px;
+  color: #555;
+  background: none;
+  border: none;
   cursor: pointer;
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 .close-btn:hover {
-  color: #000;
+  color: #ff6347;
+  transform: scale(1.2); /* Slight scaling on hover */
 }
+
+/* Modal Header Section */
+.modal-header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.modal img {
+  width: 20rem;
+  height: 15rem;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+/* Header Text Styling */
+.modal-header h2 {
+  margin: 10px 0;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.modal-header p {
+  margin: 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Modal Body Section (Scrollable) */
+.modal-body {
+  padding: 20px;
+  max-height: 400px;
+  overflow-y: auto; /* Makes content scrollable */
+}
+
+.modal-body p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Smooth Scroll for the Modal Body */
+.modal-body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
 /* end of modal */
 .cardContainer {
   display: flex;
