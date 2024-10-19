@@ -174,7 +174,7 @@ a:focus {
   justify-content: space-around;
   position: absolute;
   top: 2.3rem;
-  left: 2rem;
+  right: 2rem;
 }
 
 .nav__hamburger__line {
@@ -1045,6 +1045,13 @@ a:focus {
 /* Mobile550px*/
 @media screen and (max-width: 950px) {
   .nav {
+    background-image: url("Photos/maywoodsign.jpg");
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat;
+  }
+  .nav__logo {
+    display: none;
   }
   .nav__hamburger {
     display: flex;
@@ -1198,12 +1205,13 @@ a:focus {
     line-height: 0.4;
   }
   .missionStatementContent {
-    flex-direction: column-reverse;
+    display: noe;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     line-height: 1.1;
     margin: 0rem;
-    padding-top: 5rem;
+    padding-top: 6rem;
   }
   .missionsParagraph .missionText {
     text-align: center;
@@ -1215,13 +1223,15 @@ a:focus {
   .mobileParagrpah {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+
     color: #ffffff;
-    text-align: center;
-    font-size: 1.8rem;
-    line-height: 0.9;
-    background-color: rgba(0, 0, 0, 0.534);
-    padding: 1rem;
-    font-weight: 700;
+    text-align: left;
+    font-size: 3rem;
+    line-height: 1;
+    margin: 0;
+    width: 100%;
+    font-weight: 900;
     /* border: 2.5px solid #ffffffad; */
   }
 
@@ -1243,7 +1253,7 @@ a:focus {
 
   .missionStatementContent button {
     display: block;
-    padding: 0.5rem 6.5rem;
+    padding: 0.5rem 8.8rem;
     font-weight: 900;
     font-size: 1.2rem; /* Padding to make the button sizable */
   }
@@ -1258,6 +1268,9 @@ a:focus {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+  }
+  .missionsStatement {
+    background: none;
   }
 
   .imgContainer img {
@@ -1338,3 +1351,4 @@ a:focus {
     margin: 1rem 3rem;
   }
 }
+
