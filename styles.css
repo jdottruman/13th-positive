@@ -547,7 +547,7 @@ a:focus {
   flex-direction: column;
   justify-content: space-evenly;
   gap: 3rem;
-  padding: 40px;
+  padding: 0 6rem;
   width: 100%;
   margin-top: 20px;
 }
@@ -559,8 +559,8 @@ a:focus {
 
   margin-bottom: 20px;
   border-radius: 15px;
-  height: 17rem;
-  width: 17rem;
+  height: 20rem;
+  width: 20rem;
   overflow: hidden;
 }
 
@@ -581,7 +581,7 @@ a:focus {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
   text-align: center;
-  padding: 20px;
+  padding: 1.5rem 3rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -598,15 +598,16 @@ a:focus {
   margin: 0 3rem;
 }
 .cardText .name {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 3rem;
+  font-weight: 800;
   color: #333;
 }
 
 .cardText .title {
-  font-size: 14px;
+  font-size: 1.2rem;
   color: var(--accent-color);
   margin-bottom: 10px;
+  font-weight: 500;
 }
 
 .cardText .memo {
@@ -1179,7 +1180,9 @@ a:focus {
   body {
     background-color: rgba(255, 255, 255, 0.884);
   }
-
+  .cardContainer {
+    width: 100vw;
+  }
   .memberCard {
     flex-direction: column;
     width: 100%;
