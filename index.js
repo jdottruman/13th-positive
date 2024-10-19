@@ -62,7 +62,7 @@ const members = [
 
 let resourcesHtml = ``;
 let membersHtml = ``;
-members.forEach((member) => {
+members.forEach((member, index) => {
   membersHtml += `
         <div class="memberCard section__paragraph">
           <div class="cardImg">
@@ -71,33 +71,28 @@ members.forEach((member) => {
           <div class="cardText">
             <p class="name">${member.name}</p>
             <p class="title">${member.role}</p>
-            <button id="cardModalBtn">About</button>
-
+            <button class="cardModalBtn" data-index="${index}">About</button>
           </div>
           <div class="cardSocial">
-           <a href="https://www.facebook.com/13thPositiveFoundation/"
-          ><i class="fa-brands fa-facebook"></i
-        ></a>
-
-        <a href="https://www.instagram.com/13thpositiveonethree/"
-          ><i class="fa-brands fa-instagram"></i
-        ></a>
+            <a href="https://www.facebook.com/13thPositiveFoundation/">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/13thpositiveonethree/">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
           </div>
         </div>
         
-          <div id="myModal" class="modal">
-    <div class="modal-content">
-      <span class="close-btn">&times;</span>
+        <div id="myModal-${index}" class="modal">
+          <div class="modal-content">
+            <span class="close-btn" data-index="${index}">&times;</span>
             <img src="${member.photo}" alt="" />
-
-                  <p class="name">${member.name}</p>
+            <p class="name">${member.name}</p>
             <p class="title">${member.role}</p>
             <p class="memo">${member.message}</p>
-
-    </div>
-  </div>
-        
-        `;
+          </div>
+        </div>
+  `;
 });
 
 resources.forEach((resource) => {
@@ -147,6 +142,28 @@ resources.forEach((resource) => {
 
 document.querySelector(".resources-container").innerHTML = resourcesHtml;
 document.querySelector(".cardContainer").innerHTML = membersHtml;
+
+// Add Event Listeners for Modal Open/Close
+document.querySelectorAll(".cardModalBtn").forEach((btn) => {
+  btn.addEventListener("click", (e) => {
+    const index = e.target.getAttribute("data-index");
+    document.getElementById(`myModal-${index}`).style.display = "block";
+  });
+});
+
+document.querySelectorAll(".close-btn").forEach((btn) => {
+  btn.addEventListener("click", (e) => {
+    const index = e.target.getAttribute("data-index");
+    document.getElementById(`myModal-${index}`).style.display = "none";
+  });
+});
+
+// Close Modals When Clicking Outside the Content
+window.addEventListener("click", (e) => {
+  if (e.target.classList.contains("modal")) {
+    e.target.style.display = "none";
+  }
+});
 
 const paragraphs = document.querySelectorAll(".section__paragraph");
 document.addEventListener("scroll", () => {
