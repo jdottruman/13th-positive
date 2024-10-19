@@ -1032,9 +1032,9 @@ a:focus {
   .local-resources .description,
   .membersSection .memberGist,
   .funds-container .howGist {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     padding: 1rem;
-    line-height: 1.2;
+    line-height: 1.1;
   }
   .missionContent p {
     padding: 0.5rem 0.2rem;
@@ -1134,8 +1134,8 @@ a:focus {
   }
   .imgContainer {
     position: relative;
-    width: 350vw;
-    height: 350px;
+    width: 300vw;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1197,11 +1197,17 @@ a:focus {
     padding: 3rem 1rem;
     margin: 0 01.5rem;
   }
+
   .cardImg {
     width: 15rem;
     height: 15rem;
   }
   .memo {
     padding: 0 1rem;
+  }
+  .cardText .name {
+    line-height: 1;
+    font-size: 3.4rem;
+    margin: 1rem 0;
   }
 }
