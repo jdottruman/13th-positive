@@ -1194,4 +1194,7 @@ a:focus {
     width: 16rem;
     height: 16rem;
   }
+  .memo {
+    padding: 1rem;
+  }
 }
