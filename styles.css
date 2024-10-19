@@ -509,6 +509,9 @@ a:focus {
 /* Our Members Section */
 .membersSection {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 40px 20px;
 }
 
