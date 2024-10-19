@@ -1016,8 +1016,8 @@ a:focus {
   .local-resources strong {
     color: var(--accent-color);
     font-family: var(--thirteen-font);
-    font-size: 3rem;
-    line-height: 0.6;
+    font-size: 3.5rem;
+    line-height: 0.7;
   }
   .ourMission h2,
   .local-resources h2,
@@ -1039,6 +1039,7 @@ a:focus {
     padding: 0.5rem 0.2rem;
     font-size: 2rem;
     font-weight: 900;
+    line-height: 1;
   }
 
   .ourMission,
