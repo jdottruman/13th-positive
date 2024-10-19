@@ -919,6 +919,7 @@ a:focus {
 
 .fund-item p {
   margin-bottom: 5px;
+  line-height: 1;
 }
 
 .closing-message {
