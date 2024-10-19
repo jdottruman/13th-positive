@@ -578,11 +578,9 @@ a:focus {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 4rem;
   background: linear-gradient(135deg, #f3f3f3, rgba(217, 217, 217, 0.582));
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 100%;
   text-align: center;
   padding: 1.5rem 3rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -1189,8 +1187,8 @@ a:focus {
   }
   .memberCard {
     flex-direction: column;
-    width: 100%;
-    padding: 3rem 2rem;
+    padding: 3rem 1rem;
+    margin: 1rem;
   }
   .cardImg {
     width: 16rem;
