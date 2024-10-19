@@ -73,6 +73,15 @@ members.forEach((member) => {
             <p class="title">${member.role}</p>
             <p class="memo">${member.message}</p>
           </div>
+          <div class="cardSocial">
+           <a href="https://www.facebook.com/13thPositiveFoundation/"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+
+        <a href="https://www.instagram.com/13thpositiveonethree/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+          </div>
         </div>`;
 });
 
