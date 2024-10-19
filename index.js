@@ -38,6 +38,13 @@ const resources = [
 ];
 const members = [
   {
+    photo: "Photos/regHeadshot.jpeg",
+    name: "Reginald Neal",
+    role: "President of 13th Positive Foundation",
+    message:
+      "I’ve been a lifelong resident of Maywood, proudly calling it home for 52 years. As a former business owner in the village, I carry a deep connection to the community. For the past 14 years, I’ve been employed by The Law Offices of Blitt and Gaines, P.C., where I currently serve as a supervisor, a role I’ve held for the last six years. In my personal life, I’ve had the joy of being happily married for 24 years to my wonderful wife, Kasonjia Neal. I’m a proud father of six children—four daughters (one of whom is sadly no longer with us) and two sons—and a devoted grandfather to eight beautiful grandchildren: five lovely granddaughters and three handsome grandsons.",
+  },
+  {
     photo: "Photos/anthony headshot.png",
     name: "Anthony Lindsey",
     role: "Board Member",
@@ -50,13 +57,6 @@ const members = [
     role: "Board Member",
     message:
       "Clayton Howard is a dedicated business owner with a lifelong passion for entrepreneurship. Over the years, he has built a successful career by pursuing innovative ventures and maintaining a strong work ethic. Clayton has been happily married for 25 years and is a proud father of three children and a grandchild. In addition to his business pursuits, Clayton is committed to giving back to the community, having volunteered in a juvenile detention program in 2008-09. His commitment to both his family and his business defines his approach to life, balancing his roles as a family man, entrepreneur, and mentor.",
-  },
-  {
-    photo: "Photos/regHeadshot.jpeg",
-    name: "Reginald Neal",
-    role: "President of 13th Positive Foundation",
-    message:
-      "I’ve been a lifelong resident of Maywood, proudly calling it home for 52 years. As a former business owner in the village, I carry a deep connection to the community. For the past 14 years, I’ve been employed by The Law Offices of Blitt and Gaines, P.C., where I currently serve as a supervisor, a role I’ve held for the last six years. In my personal life, I’ve had the joy of being happily married for 24 years to my wonderful wife, Kasonjia Neal. I’m a proud father of six children—four daughters (one of whom is sadly no longer with us) and two sons—and a devoted grandfather to eight beautiful grandchildren: five lovely granddaughters and three handsome grandsons.",
   },
 ];
 
