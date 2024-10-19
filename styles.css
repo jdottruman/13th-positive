@@ -1044,12 +1044,6 @@ a:focus {
 
 /* Mobile550px*/
 @media screen and (max-width: 950px) {
-  .nav {
-    background-image: url("Photos/maywoodsign.jpg");
-    background-size: cover; /* Ensures the image covers the entire background */
-    background-position: center; /* Centers the background image */
-    background-repeat: no-repeat;
-  }
   .nav__logo {
     display: none;
   }
@@ -1205,7 +1199,7 @@ a:focus {
     line-height: 0.4;
   }
   .missionStatementContent {
-    display: noe;
+    background-color: #b6b6b6;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -1224,8 +1218,7 @@ a:focus {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
-    color: #ffffff;
+    color: #000000;
     text-align: left;
     font-size: 3rem;
     line-height: 1;
@@ -1252,7 +1245,7 @@ a:focus {
   }
 
   .missionStatementContent button {
-    display: block;
+    display: ;
     padding: 0.5rem 8.8rem;
     font-weight: 900;
     font-size: 1.2rem; /* Padding to make the button sizable */
@@ -1262,7 +1255,6 @@ a:focus {
   }
   .imgContainer {
     position: relative;
-    width: 300vw;
     height: 300px;
     display: flex;
     align-items: center;
@@ -1351,4 +1343,3 @@ a:focus {
     margin: 1rem 3rem;
   }
 }
-
