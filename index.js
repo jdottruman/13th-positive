@@ -64,7 +64,7 @@ let resourcesHtml = ``;
 let membersHtml = ``;
 members.forEach((member) => {
   membersHtml += `
-        <div class="memberCard">
+        <div class="memberCard section__paragraph">
           <div class="cardImg">
             <img src="${member.photo}" alt="" />
           </div>
