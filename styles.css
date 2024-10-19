@@ -1024,16 +1024,21 @@ a:focus {
   .membersSection h1,
   .funds-container h2,
   .contact-container h2 {
-    font-size: 2rem;
+    font-size: 3rem;
+    line-height: 1.3;
     margin-bottom: 1rem;
   }
   /* mobile paragraphs */
   .local-resources .description,
   .membersSection .memberGist,
-  .missionContent p,
   .funds-container .howGist {
     font-size: 1.6rem;
     padding: 1rem;
+  }
+  .missionContent p {
+    padding: 0.5rem 0.2rem;
+    font-size: 2rem;
+    font-weight: 900;
   }
 
   .ourMission,
