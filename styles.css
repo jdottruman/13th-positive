@@ -549,7 +549,11 @@ a:focus {
   margin: 5% auto;
   background-color: #fff;
   border-radius: 12px;
+  padding: 3rem;
   width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 600px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden; /* Ensures proper scroll inside */
