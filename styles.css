@@ -1188,13 +1188,13 @@ a:focus {
   .memberCard {
     flex-direction: column;
     padding: 3rem 1rem;
-    margin: 0.5rem;
+    margin: 0 01.5rem;
   }
   .cardImg {
-    width: 16rem;
-    height: 16rem;
+    width: 15rem;
+    height: 15rem;
   }
   .memo {
-    padding: 1rem;
+    padding: 0 1rem;
   }
 }
