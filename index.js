@@ -53,7 +53,7 @@ const members = [
   },
   {
     photo: "Photos/regHeadshot.jpeg",
-    name: "John Doe",
+    name: "Reginald Neal",
     role: "President of 13th Positive Foundation",
     message:
       "I’ve been a lifelong resident of Maywood, proudly calling it home for 52 years. As a former business owner in the village, I carry a deep connection to the community. For the past 14 years, I’ve been employed by The Law Offices of Blitt and Gaines, P.C., where I currently serve as a supervisor, a role I’ve held for the last six years. In my personal life, I’ve had the joy of being happily married for 24 years to my wonderful wife, Kasonjia Neal. I’m a proud father of six children—four daughters (one of whom is sadly no longer with us) and two sons—and a devoted grandfather to eight beautiful grandchildren: five lovely granddaughters and three handsome grandsons.",
