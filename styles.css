@@ -1195,15 +1195,15 @@ a:focus {
   }
 
   .cardImg {
-    width: 15rem;
-    height: 15rem;
+    width: 13rem;
+    height: 13rem;
   }
   .memo {
     padding: 0 1rem;
   }
   .cardText .name {
     line-height: 1;
-    font-size: 3.4rem;
+    font-size: 3rem;
     margin: 1rem 0;
   }
   .cardSocial {
