@@ -293,20 +293,6 @@ a:focus {
   transform: scale(1.05);
 }
 
-/* Hero Section */
-
-.hero__section {
-  background-color: var(--background-light);
-  position: relative;
-  height: 80vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: rgba(42, 44, 43, 0);
-}
-
 /* swipier */
 .swiper {
   width: 100%;
@@ -314,6 +300,7 @@ a:focus {
 
 .swiper-slide {
   display: flex;
+  width: 30rem;
   justify-content: center;
   align-items: center;
 }
@@ -340,7 +327,6 @@ a:focus {
 .ourMission {
   text-align: center;
   display: flex;
-  padding: 6.5rem;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
@@ -349,7 +335,7 @@ a:focus {
   /* margin: 80px auto;  */
   /* Professional margin */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
-
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.897);
 }
 
@@ -385,7 +371,6 @@ a:focus {
   font-size: 3rem;
   line-height: 1.5;
   color: #fff;
-  margin-bottom: 1rem;
   font-family: var(--font-family-body);
   text-align: center; /* Improve text alignment for readability */
   padding: 0 20px; /* Add some padding for smaller screens */
@@ -535,8 +520,9 @@ a:focus {
 }
 
 .membersSection .memberGist {
-  font-size: 2.7rem;
+  font-size: 1.8rem;
   line-height: 1;
+  font-weight: 500;
   color: var(--text-color);
   margin-bottom: 1.5rem;
   font-family: var(--font-family-body);
@@ -555,6 +541,19 @@ a:focus {
   margin-top: 20px;
 }
 
+.cardSocial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  line-height: 1.3;
+}
+.cardSocial a {
+  color: var(--primary-color);
+  font-size: 5rem;
+}
+
 .cardImg {
   display: flex;
   justify-content: center;
@@ -563,7 +562,7 @@ a:focus {
   margin-bottom: 20px;
   border-radius: 15px;
   height: 20rem;
-  width: 20rem;
+  width: 25rem;
   overflow: hidden;
 }
 
@@ -601,7 +600,7 @@ a:focus {
 .cardText .name {
   font-size: 3rem;
   font-weight: 800;
-  color: #333;
+  color: var(--primary-color);
 }
 
 .cardText .title {
@@ -1007,9 +1006,6 @@ a:focus {
     transition: all ease-in-out 0.35s;
     z-index: 10000;
   }
-  .hero__section {
-    height: 50vh; /* Reduce height for smaller screens */
-  }
 
   .missionContent p strong,
   .membersSection strong,
@@ -1209,5 +1205,11 @@ a:focus {
     line-height: 1;
     font-size: 3.4rem;
     margin: 1rem 0;
+  }
+  .cardSocial {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding: 1rem 3rem;
   }
 }
