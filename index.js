@@ -84,8 +84,9 @@ members.forEach((member, index) => {
         </div>
         
         <div id="myModal-${index}" class="modal">
-          <div class="modal-content">
-            <span class="close-btn" data-index="${index}">&times;</span>
+                    <span class="close-btn" data-index="${index}">&times;</span>
+
+          <div class="modal-content">          
             <img src="${member.photo}" alt="" />
             <p class="name">${member.name}</p>
             <p class="title">${member.role}</p>
@@ -143,7 +144,6 @@ resources.forEach((resource) => {
 document.querySelector(".resources-container").innerHTML = resourcesHtml;
 document.querySelector(".cardContainer").innerHTML = membersHtml;
 
-// Add Event Listeners for Modal Open/Close
 document.querySelectorAll(".cardModalBtn").forEach((btn) => {
   btn.addEventListener("click", (e) => {
     const index = e.target.getAttribute("data-index");
@@ -158,7 +158,6 @@ document.querySelectorAll(".close-btn").forEach((btn) => {
   });
 });
 
-// Close Modals When Clicking Outside the Content
 window.addEventListener("click", (e) => {
   if (e.target.classList.contains("modal")) {
     e.target.style.display = "none";
