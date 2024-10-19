@@ -1025,15 +1025,16 @@ a:focus {
   .funds-container h2,
   .contact-container h2 {
     font-size: 3rem;
-    line-height: 1.3;
+    line-height: 1.2;
     margin-bottom: 1rem;
   }
   /* mobile paragraphs */
   .local-resources .description,
   .membersSection .memberGist,
   .funds-container .howGist {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     padding: 1rem;
+    line-height: 1;
   }
   .missionContent p {
     padding: 0.5rem 0.2rem;
