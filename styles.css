@@ -648,6 +648,7 @@ a:focus {
   flex-direction: column;
   justify-content: space-evenly;
   gap: 3rem;
+
   padding: 0 6rem;
   width: 100%;
   margin-top: 20px;
@@ -1168,6 +1169,8 @@ a:focus {
   .funds-section {
     padding: 03.5rem 1rem;
   }
+  .ourMission {
+  }
 
   .resources-container {
     flex-direction: column;
@@ -1199,7 +1202,7 @@ a:focus {
     line-height: 0.4;
   }
   .missionStatementContent {
-    background-color: #b6b6b6;
+    background-color: #f1f1f1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -1245,7 +1248,7 @@ a:focus {
   }
 
   .missionStatementContent button {
-    display: ;
+    display: blnock;
     padding: 0.5rem 8.8rem;
     font-weight: 900;
     font-size: 1.2rem; /* Padding to make the button sizable */
@@ -1312,25 +1315,26 @@ a:focus {
     background-color: rgba(255, 255, 255, 0.884);
   }
   .cardContainer {
-    width: 100vw;
     padding: 0;
+    gap: 0;
+    flex-direction: row;
   }
   .memberCard {
+    width: 30%;
     flex-direction: column;
-    padding: 3rem 1rem;
-    margin: 0 01.5rem;
+    padding: 0;
+    margin: 0;
   }
 
   .cardImg {
-    width: 13rem;
-    height: 13rem;
+    display: none;
   }
   .memo {
     padding: 0 1rem;
   }
   .cardText .name {
     line-height: 1;
-    font-size: 3rem;
+    font-size: 1.5rem;
     margin: 1rem 0;
   }
   .cardSocial {
