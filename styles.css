@@ -1188,7 +1188,7 @@ a:focus {
   .memberCard {
     flex-direction: column;
     padding: 3rem 1rem;
-    margin: 1rem;
+    margin: 0.5rem;
   }
   .cardImg {
     width: 16rem;
