@@ -1028,9 +1028,10 @@ a:focus {
   .local-resources .description,
   .membersSection .memberGist,
   .funds-container .howGist {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     padding: 1rem;
     line-height: 1.1;
+    font-weight: 400;
   }
   .missionContent p {
     padding: 0.5rem 0.2rem;
