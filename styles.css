@@ -538,14 +538,14 @@ a:focus {
   margin-bottom: 1.5rem;
   font-family: var(--font-family-body);
   text-align: center;
-  padding: 0 15px; /* Adjusted for better spacing */
+  padding: 0 15px;
 }
 
 .cardContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly; /* Better alignment */
-  gap: 2rem;
+  justify-content: space-evenly;
+  gap: 3rem;
   padding: 40px;
   width: 100%;
   margin-top: 20px;
@@ -553,29 +553,43 @@ a:focus {
 
 .cardImg {
   width: 100%;
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 20px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
 }
 
 .cardImg img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover; /* Creates a better visual fit */
-  border-radius: 50%; /* Circular avatar effect */
-  margin-bottom: 15px;
+  width: 100%;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for emphasis */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardImg img:hover {
+  transform: scale(1.1); /* Eye-catching zoom on hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .memberCard {
-  background: linear-gradient(135deg, #f3f3f3, #e0e0e0a1); /* Soft gradient */
-  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #f3f3f3, #e0e0e0a1);
+  border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: calc((100% - 8rem) / 3); /* Ensures cards align neatly */
+  width: calc((100% - 8rem) / 3);
   text-align: center;
   padding: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .memberCard:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
 /* Member Info */
@@ -1170,3 +1184,4 @@ a:focus {
     width: 300px;
   }
 }
+
