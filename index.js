@@ -71,7 +71,8 @@ members.forEach((member) => {
           <div class="cardText">
             <p class="name">${member.name}</p>
             <p class="title">${member.role}</p>
-            <p class="memo">${member.message}</p>
+            <button id="cardModalBtn">About</button>
+
           </div>
           <div class="cardSocial">
            <a href="https://www.facebook.com/13thPositiveFoundation/"
@@ -82,7 +83,21 @@ members.forEach((member) => {
           ><i class="fa-brands fa-instagram"></i
         ></a>
           </div>
-        </div>`;
+        </div>
+        
+          <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+            <img src="${member.photo}" alt="" />
+
+                  <p class="name">${member.name}</p>
+            <p class="title">${member.role}</p>
+            <p class="memo">${member.message}</p>
+
+    </div>
+  </div>
+        
+        `;
 });
 
 resources.forEach((resource) => {
