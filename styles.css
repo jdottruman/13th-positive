@@ -1043,7 +1043,7 @@ a:focus {
   .local-resources,
   .membersSection,
   .funds-section {
-    padding: 01.5rem 1rem;
+    padding: 03.5rem 1rem;
   }
 
   .resources-container {
@@ -1210,6 +1210,9 @@ a:focus {
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
-    padding: 1rem 3rem;
+    padding: 1rem 4rem;
+  }
+  .swiper {
+    margin: 1rem 3rem;
   }
 }
