@@ -1012,7 +1012,7 @@ a:focus {
   .local-resources strong {
     color: var(--accent-color);
     font-family: var(--font-family-heading);
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 0.7;
   }
   .ourMission h2,
@@ -1030,7 +1030,7 @@ a:focus {
   .funds-container .howGist {
     font-size: 1.5rem;
     padding: 1rem;
-    line-height: 1;
+    line-height: 1.1;
     width: 100%;
     font-weight: 400;
   }
