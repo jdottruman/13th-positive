@@ -1190,5 +1190,10 @@ a:focus {
   .memberCard {
     flex-direction: column;
     width: 100%;
+    padding: 3rem 2rem;
+  }
+  .cardImg {
+    width: 16rem;
+    height: 16rem;
   }
 }
