@@ -504,12 +504,14 @@ a:focus {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* end of resource */
+/* End of resource */
 
-/* our members section */
+/* Our Members Section */
 .membersSection {
   text-align: center;
+  padding: 40px 20px;
 }
+
 .membersSection h1 {
   font-size: 4rem;
   font-family: var(--font-family-heading);
@@ -532,46 +534,42 @@ a:focus {
 .membersSection .memberGist {
   font-size: 1.8rem;
   line-height: 1.5;
-
   color: var(--text-color);
   margin-bottom: 1.5rem;
   font-family: var(--font-family-body);
-  text-align: center; /* Improve text alignment for readability */
-  padding: 0 10px;
+  text-align: center;
+  padding: 0 15px; /* Adjusted for better spacing */
 }
+
 .cardContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 4rem;
+  justify-content: space-evenly; /* Better alignment */
+  gap: 2rem;
   padding: 40px;
   width: 100%;
   margin-top: 20px;
 }
+
 .cardImg {
   width: 100%;
 }
+
 .cardImg img {
   width: 150px;
   height: 150px;
-  object-fit: contain;
-  border: 3px solid var(--primary-color); /* Add a border around the image */
+  object-fit: cover; /* Creates a better visual fit */
+  border-radius: 50%; /* Circular avatar effect */
   margin-bottom: 15px;
 }
 
 .memberCard {
-  background: linear-gradient(
-    135deg,
-    #f3f3f3,
-    #e0e0e0a1
-  ); /* Soft gradient background */
+  background: linear-gradient(135deg, #f3f3f3, #e0e0e0a1); /* Soft gradient */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow-x: hidden;
-  width: calc((100% - 80px - 8rem) / 3); /* Adjusts dynamically */
-  height: 300px;
+  width: calc((100% - 8rem) / 3); /* Ensures cards align neatly */
   text-align: center;
-  padding: 15px;
+  padding: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
