@@ -1126,11 +1126,13 @@ a:focus {
 
   .missionContent p strong,
   .membersSection strong,
-  .local-resources strong {
+  .local-resources strong,
+  .ourMission strong {
     color: var(--accent-color);
     font-family: var(--font-family-heading);
-    font-size: 1.8rem;
-    line-height: 0.7;
+    font-size: 2rem;
+    line-height: 0.75;
+    font-weight: 400;
   }
   .ourMission h2,
   .local-resources h2,
@@ -1149,7 +1151,7 @@ a:focus {
     padding: 1rem;
     line-height: 1.1;
     width: 100%;
-    font-weight: 400;
+    font-weight: 300;
   }
   .missionContent p {
     padding: 0.5rem 0.2rem;
