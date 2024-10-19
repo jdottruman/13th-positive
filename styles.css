@@ -1182,6 +1182,7 @@ a:focus {
   }
   .cardContainer {
     width: 100vw;
+    padding: 0;
   }
   .memberCard {
     flex-direction: column;
