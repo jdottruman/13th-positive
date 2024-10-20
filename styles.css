@@ -1180,6 +1180,7 @@ a:focus {
   }
   .ourMission {
     padding: 3.5rem 1rem;
+    padding-bottom: 0;
   }
 
   .resources-container {
