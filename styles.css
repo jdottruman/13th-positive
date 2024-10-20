@@ -1136,7 +1136,7 @@ a:focus {
   .ourMission strong {
     color: var(--accent-color);
     font-family: var(--font-family-heading);
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 0.75;
     font-weight: 400;
   }
@@ -1146,7 +1146,7 @@ a:focus {
   .funds-container h2,
   .contact-container h2 {
     font-size: 2rem;
-    margin-bottom: 01rem;
+    margin-bottom: 0.8rem;
   }
   /* mobile paragraphs */
   .local-resources .description,
