@@ -1146,7 +1146,7 @@ a:focus {
     font-size: 2.3rem;
   }
   .ourMission span {
-    color: var(--accent-color-two);
+    color: var(--accent-color);
   }
   .ourMission h2,
   .local-resources h2,
@@ -1368,12 +1368,14 @@ a:focus {
   }
   .cardText .title {
     font-size: 1rem;
+    color: var(--primary-color);
     font-weight: 400;
+    margin: 0;
   }
   .cardText .name {
     line-height: 1;
     font-size: 1.1rem;
-    margin: 1rem 0;
+    margin: 0;
   }
   .cardSocial {
     flex-direction: row;
