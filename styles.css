@@ -833,7 +833,7 @@ a:focus {
 }
 
 .btn-submit {
-  background-color: var(--primary-color);
+  background-color: var(--accent-color-two);
   color: white;
   padding: 15px;
   border: none;
@@ -934,7 +934,7 @@ a:focus {
 .footer {
   border-top: 1px solid var(--primary-color);
 
-  background-color: var(--primary-color);
+  background-color: var(--accent-color-two);
 
   color: #fff;
   padding: 2rem 0;
@@ -1034,7 +1034,7 @@ a:focus {
 .footer__copyright {
   text-align: center;
   padding: 1rem 0;
-  background-color: #151f2b;
+  background-color: #3b3b3b;
 
   color: #aaa;
   font-size: 0.9rem;
@@ -1146,7 +1146,7 @@ a:focus {
     font-size: 2.3rem;
   }
   .ourMission span {
-    color: var(--accent-color);
+    color: var(--accent-color-two);
   }
   .ourMission h2,
   .local-resources h2,
