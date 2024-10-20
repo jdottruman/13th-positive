@@ -1214,7 +1214,7 @@ a:focus {
   }
   .missionStatementContent {
     background-color: #f1f1f1;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     line-height: 1.1;
@@ -1231,9 +1231,9 @@ a:focus {
   .mobileParagrpah {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     color: #000000;
-    text-align: left;
+    text-align: center;
     font-size: 3rem;
     line-height: 1;
     margin: 0;
