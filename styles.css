@@ -503,8 +503,7 @@ a:focus {
 .cardText button {
   background-color: #4a90e2;
   color: #fff;
-  border: none;
-  border-radius: 20px;
+  border: 2px solid var(--accent-color);
   padding: 10px 20px;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -1324,17 +1323,26 @@ a:focus {
     flex-direction: column;
     padding: 0;
     margin: 0;
+    border-radius: unset;
+  }
+  .cardText button {
   }
 
   .cardImg {
-    display: none;
+    width: 100%;
+    height: 50%;
+    border-radius: unset;
   }
-  .memo {
+  .cardImg img .memo {
     padding: 0 1rem;
+  }
+  .cardText .title {
+    font-size: 1rem;
+    font-weight: 400;
   }
   .cardText .name {
     line-height: 1;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 1rem 0;
   }
   .cardSocial {
