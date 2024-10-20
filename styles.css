@@ -1108,7 +1108,7 @@ a:focus {
   }
 
   .nav__hamburger__line {
-    background: #fff;
+    background: #000000;
   }
   .nav__hamburger.active .nav__hamburger__line:nth-child(1) {
     transform: rotate(45deg) translate(0.45rem, 0.1875rem);
@@ -1142,7 +1142,7 @@ a:focus {
   .membersSection h1,
   .funds-container h2,
   .contact-container h2 {
-    font-size: 2.7rem;
+    font-size: 2rem;
     line-height: 1.2;
     margin-bottom: 1rem;
   }
@@ -1152,7 +1152,7 @@ a:focus {
   .funds-container .howGist {
     font-size: 1.5rem;
     padding: 1rem;
-    line-height: 1.1;
+    line-height: 1;
     width: 100%;
     font-weight: 300;
   }
@@ -1316,7 +1316,7 @@ a:focus {
   }
   .cardContainer {
     padding: 0;
-    gap: 0;
+    gap: 1rem;
     flex-direction: row;
   }
   .memberCard {
