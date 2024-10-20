@@ -1060,10 +1060,10 @@ a:focus {
     font-size: 1.1rem;
     align-items: center;
     justify-content: center;
-    font-weight: 900;
+    font-weight: 400;
     position: absolute;
     top: 2.3rem;
-    right: 2rem;
+    right: 1rem;
   }
   .nav__location i {
     padding: 0.3rem;
