@@ -1178,9 +1178,9 @@ a:focus {
   .funds-section {
     padding: 01.5rem 1rem;
   }
-  /* .ourMission {
-    padding: 5rem 1rem;
-  } */
+  .ourMission {
+    padding: 3.5rem 1rem;
+  }
 
   .resources-container {
     flex-direction: column;
@@ -1216,7 +1216,7 @@ a:focus {
     line-height: 0.4;
   }
   .missionStatementContent {
-    background-color: #f1f1f1;
+    background-color: #c0c0c0;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
