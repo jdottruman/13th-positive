@@ -645,7 +645,7 @@ a:focus {
 .cardContainer {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-evenly;
   gap: 3rem;
 
@@ -700,6 +700,7 @@ a:focus {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   padding: 1.5rem 3rem;
+  width: 40%;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -1168,11 +1169,11 @@ a:focus {
   .local-resources,
   .membersSection,
   .funds-section {
-    padding: 03.5rem 1rem;
+    padding: 01.5rem 1rem;
   }
-  .ourMission {
+  /* .ourMission {
     padding: 5rem 1rem;
-  }
+  } */
 
   .resources-container {
     flex-direction: column;
