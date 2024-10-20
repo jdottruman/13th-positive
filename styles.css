@@ -502,15 +502,17 @@ a:focus {
 /* Modal Button */
 .cardText button {
   text-decoration: none;
-  color: var(--accent-color);
-  padding: 0.5rem 1rem;
-  border: 2px solid var(--accent-color);
+  font-size: 1rem;
+  color: var(--accent-color-two);
+  border: 2px solid var(--accent-color-two);
   border-radius: 4px;
   transition: background-color 0.3s, color 0.3s;
   margin: 0.3rem;
 }
 .cardText button:hover {
-  background-color: #357abd;
+  background-color: var(--accent-color-two);
+  border: 2px solid #fff;
+  color: #fff;
 }
 .membersSection h1 {
   font-size: 4rem;
