@@ -1145,8 +1145,7 @@ a:focus {
   .funds-container h2,
   .contact-container h2 {
     font-size: 2rem;
-    line-height: 1.2;
-    margin-bottom: 1rem;
+    margin-bottom: 01.3rem;
   }
   /* mobile paragraphs */
   .local-resources .description,
@@ -1161,7 +1160,7 @@ a:focus {
   .missionContent p {
     font-size: 1.8rem;
     font-weight: 900;
-    line-height: 1;
+    line-height: 1.2;
   }
 
   .ourMission,
