@@ -433,7 +433,7 @@ a:focus {
   flex-wrap: wrap;
   justify-content: center;
 
-  gap: 2rem;
+  gap: 1rem;
   padding: 40px;
 }
 
@@ -833,7 +833,7 @@ a:focus {
 }
 
 .btn-submit {
-  background-color: var(--accent-color-two);
+  background-color: var(--accent-color);
   color: white;
   padding: 15px;
   border: none;
@@ -1034,7 +1034,7 @@ a:focus {
 .footer__copyright {
   text-align: center;
   padding: 1rem 0;
-  background-color: #3b3b3b;
+  background-color: #00000049;
 
   color: #aaa;
   font-size: 0.9rem;
