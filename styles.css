@@ -1359,7 +1359,6 @@ a:focus {
     height: 100%;
     border: 1px solid rgba(0, 0, 0, 0.479);
     width: 100%;
-    border-radius: unset;
     object-fit: contain;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.575);
   }
