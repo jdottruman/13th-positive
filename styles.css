@@ -300,18 +300,17 @@ a:focus {
 
 .swiper-slide {
   display: flex;
-  width: 30rem;
+  width: 100%;
+
   justify-content: center;
   align-items: center;
+  object-fit: contain;
 }
 
 .swiper-slide img {
-  height: 100%;
   width: 100%;
 
   object-fit: contain;
-  position: relative;
-  top: 10rem;
 }
 
 .swiper-button-next {
@@ -1251,7 +1250,7 @@ a:focus {
   }
   .mobileParagrpah .highlight {
     font-size: 6rem;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 0.5;
     font-family: var(--thirteen-font);
   }
@@ -1300,8 +1299,8 @@ a:focus {
     z-index: 2; /* Ensure it appears above the blur */
     position: relative;
   }
-  .swiper-slide img {
-    top: 00rem;
+  .swiper-slide {
+    height: 50%;
   }
 
   #stayConnected {
@@ -1380,6 +1379,22 @@ a:focus {
     line-height: 1;
     margin: 0;
   }
+  .modal img {
+    object-fit: contain;
+  }
+
+  .modal .name {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    font-weight: 600;
+  }
+  .modal .title {
+    color: var(--accent-color);
+  }
+  .modal .title,
+  .modal .memo {
+    font-size: 1rem;
+  }
   .cardSocial {
     flex-direction: row;
     width: 100%;
@@ -1387,6 +1402,6 @@ a:focus {
     padding: 1rem 4rem;
   }
   .swiper {
-    margin: 1rem 3rem;
+    margin: 2.5rem 3rem;
   }
 }
