@@ -1335,6 +1335,8 @@ a:focus {
   .memberCard {
     width: 40%;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 1rem;
     margin: 0;
     border-radius: unset;
@@ -1343,15 +1345,13 @@ a:focus {
   }
 
   .cardImg {
-    width: 100%;
-    height: 50%;
-    border: 2px solid #000000;
+    height: 10rem;
+    width: 90%;
     border-radius: unset;
+    object-fit: contain;
   }
   .cardImg img {
     width: 100%;
-    top: 0;
-    height: 100%;
   }
   .memo {
     padding: 0 1rem;
@@ -1362,7 +1362,7 @@ a:focus {
   }
   .cardText .name {
     line-height: 1;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 1rem 0;
   }
   .cardSocial {
