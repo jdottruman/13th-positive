@@ -1356,7 +1356,7 @@ a:focus {
 
   .cardImg {
     height: 10rem;
-    width: 60%;
+    width: 100%;
     border-radius: unset;
     object-fit: contain;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.575);
