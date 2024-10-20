@@ -1241,7 +1241,7 @@ a:focus {
     color: #000000;
     text-align: center;
     font-size: 2rem;
-    line-height: 1;
+    line-height: 1.2;
     margin: 0;
     width: 100%;
     font-weight: 900;
@@ -1250,7 +1250,7 @@ a:focus {
   .mobileParagrpah .highlight {
     font-size: 6rem;
     font-weight: 900;
-    line-height: 0.6;
+    line-height: 0.5;
     font-family: var(--thirteen-font);
   }
   .highlight {
