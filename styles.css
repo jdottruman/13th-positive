@@ -1141,6 +1141,12 @@ a:focus {
     line-height: 0.75;
     font-weight: 400;
   }
+  .ourMission p strong {
+    font-size: 2.3rem;
+  }
+  .ourMission span {
+    color: var(--accent-color);
+  }
   .ourMission h2,
   .local-resources h2,
   .membersSection h1,
