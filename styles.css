@@ -1169,6 +1169,7 @@ a:focus {
     font-size: 2rem;
     font-weight: 900;
     line-height: 1;
+    text-align: left;
   }
 
   .ourMission,
