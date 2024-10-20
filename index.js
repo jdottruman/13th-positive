@@ -71,7 +71,7 @@ let resourcesHtml = ``;
 let membersHtml = ``;
 members.forEach((member, index) => {
   membersHtml += `
-        <div class="memberCard section__paragraph">
+        <div class="memberCard">
           <div class="cardImg">
             <img src="${member.photo}" alt="" />
           </div>
@@ -91,18 +91,18 @@ members.forEach((member, index) => {
             <p class="name">${member.name}</p>
             <p class="title">${member.role}</p>
             <p class="memo">${member.message}</p>
-          </div>
-        </div>
-  `;
-});
-/*           <div class="cardSocial">
+             <div class="cardSocial">
             <a href="https://www.facebook.com/13thPositiveFoundation/">
               <i class="fa-brands fa-facebook"></i>
             </a>
             <a href="https://www.instagram.com/13thpositiveonethree/">
               <i class="fa-brands fa-instagram"></i>
             </a>
-          </div> */
+          </div>
+          </div>
+        </div>
+  `;
+});
 
 resources.forEach((resource) => {
   resourcesHtml += `
