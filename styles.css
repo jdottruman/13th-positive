@@ -8,7 +8,7 @@
 :root {
   --primary-color: #1e293b;
   --accent-color: #0097bd;
-  --accent-color-two: #005368;
+  --accent-color-two: #005b72;
 
   --text-color: #1f2937;
   --thirteen-font: "Qwitcher Grypen", cursive;
@@ -501,13 +501,13 @@ a:focus {
 }
 /* Modal Button */
 .cardText button {
-  background-color: var(--accent-color-two);
-  color: #fff;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  font-size: 1rem;
-  border: none;
+  text-decoration: none;
+  color: var(--accent-color);
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--accent-color);
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 0.3rem;
 }
 .cardText button:hover {
   background-color: #357abd;
