@@ -1224,7 +1224,7 @@ a:focus {
     align-items: center;
     line-height: 1.1;
     margin: 0rem;
-    padding-top: 3.3rem;
+    padding-top: 3.8rem;
     padding-bottom: 4rem;
   }
   .missionsParagraph .missionText {
@@ -1248,9 +1248,9 @@ a:focus {
     /* border: 2.5px solid #ffffffad; */
   }
   .mobileParagrpah .highlight {
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: 900;
-    line-height: 0.5;
+    line-height: 0.6;
     font-family: var(--thirteen-font);
   }
   .highlight {
