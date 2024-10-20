@@ -503,10 +503,11 @@ a:focus {
   text-decoration: none;
   font-size: 1rem;
   color: var(--accent-color-two);
-  border: 2px solid var(--accent-color-two);
+  border: none;
   border-radius: 4px;
   transition: background-color 0.3s, color 0.3s;
   margin: 0.3rem;
+  padding: 0.5rem;
 }
 .cardText button:hover {
   background-color: var(--accent-color-two);
