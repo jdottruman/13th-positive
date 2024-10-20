@@ -1350,12 +1350,14 @@ a:focus {
     padding: 1rem;
     margin: 0;
     border-radius: unset;
+    border: 1px solid rgba(255, 255, 255, 0.616);
   }
   .cardText button {
   }
 
   .cardImg {
     height: 10rem;
+    border: 1px solid rgba(0, 0, 0, 0.479);
     width: 100%;
     border-radius: unset;
     object-fit: contain;
