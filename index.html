@@ -1,386 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="Photos/13th_Logo-removebg-preview(1).png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      13th Positive | A non-profit organization out of Maywood, Illinois
-    </title>
+/* CSS */
+.button-6 {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
 
-    <script src="script.js" defer></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    />
-  </head>
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
 
-  <body>
-    <nav class="nav">
-      <div class="nav__logo">
-        <img src="Photos/13th_Logo-removebg-preview(1).png" alt="" />
-      </div>
-      <p class="nav__location">
-        <i class="fa-solid fa-location-dot"></i>Maywood,Illinois
-      </p>
-      <a href="#" class="nav__hamburger">
-        <span class="nav__hamburger__line"></span>
-        <span class="nav__hamburger__line"></span>
-        <span class="nav__hamburger__line"></span>
-      </a>
-      <div class="nav__menu">
-        <ul>
-          <li class="nav__menu__link">
-            <a href="#ourMission">Our Mission.</a>
-          </li>
-          <li class="nav__menu__link">
-            <a href="#local-resources">Local Resources.</a>
-          </li>
-          <li class="nav__menu__link">
-            <a
-              target="_blank"
-              href="https://www.paypal.com/donate/?business=5S7ALM8QR4ZBL&no_recurring=0&currency_code=USD"
-              >Donate.</a
-            >
-          </li>
-        </ul>
-      </div>
-    </nav>
+.button-6:hover {
+  transform: translateY(-1px);
+}
 
-    <section class="missionsStatement">
-      <div class="overlay">
-        <!-- <nav class="nav">
-          <div class="nav__logo">
-            <img src="Photos/13th_Logo-removebg-preview(1).png" alt="" />
-            <p class="nav__logo__text">13</p>
-          </div>
-          <p class="nav__location">
-            <i class="fa-solid fa-location-dot"></i>Maywood,Illinois
-          </p>
-          <a href="#" class="nav__hamburger">
-            <span class="nav__hamburger__line"></span>
-            <span class="nav__hamburger__line"></span>
-            <span class="nav__hamburger__line"></span>
-          </a>
-          <div class="nav__menu">
-            <ul>
-              <li class="nav__menu__link">
-                <a href="#ourMission">Our Mission.</a>
-              </li>
-              <li class="nav__menu__link">
-                <a href="#local-resources">Local Resources.</a>
-              </li>
-              <li class="nav__menu__link">
-                <a
-                  target="_blank"
-                  href="https://www.paypal.com/donate/?business=5S7ALM8QR4ZBL&no_recurring=0&currency_code=USD"
-                  >Donate.</a
-                >
-              </li>
-            </ul>
-          </div>
-        </nav> -->
-
-        <div class="missionStatementContent">
-          <div class="missionsParagraph">
-            <h1 class="missionHeader">Established in Brotherhood</h1>
-
-            <p class="missionText">
-              <span class="highlight">13th Positive</span> aims to instill hope
-              in the lives of children and their families through service, acts
-              of goodwill, and mentorship.
-            </p>
-
-            <p class="mobileParagrpah">
-              Established in Brotherhood,<br />
-              <span class="highlight">13th Positive</span> aims to instill hope
-              in the lives of children and their families through service, acts
-              of goodwill, and mentorship.
-            </p>
-          </div>
-
-          <div class="imgContainer">
-            <!-- Blur overlay -->
-            <img
-              src="Photos/13th_Logo-removebg-preview(1).png"
-              alt="13th Positive Logo"
-            />
-          </div>
-          <a
-            target="_blank"
-            href="//www.paypal.com/donate/?business=5S7ALM8QR4ZBL&no_recurring=0&currency_code=USD"
-            ><button>
-              DONATE <i class="fa-solid fa-hand-holding-dollar"></i></button
-          ></a>
-        </div>
-      </div>
-    </section>
-
-    <section id="ourMission" class="ourMission">
-      <div class="missionContent">
-        <!-- <h2>Our Mission</h2> -->
-        <p class="section__paragraph">
-          At <strong>13th Positive</strong>, we are committed to
-          <span>building a stronger community</span> by instilling hope,
-          support, and positive values in children and their families. Through
-          dedicated acts of service, mentorship, and goodwill, we aim to empower
-          individuals to rise above challenges and embrace a future filled with
-          opportunities.
-        </p>
-        <p class="section__paragraph">
-          Our purpose is to <span>create lasting change</span> in the lives of
-          those we touch, nurturing a cycle of positivity and growth that echoes
-          throughout Maywood and beyond.
-        </p>
-      </div>
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="Photos/slider1.png" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="Photos/slider2.png" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="Photos/slider3.png" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="Photos/slider4.png" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="Photos/slider5.png" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="Photos/slider6.png" alt="" />
-          </div>
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </section>
-
-    <section class="membersSection">
-      <h1>Meet The Members</h1>
-      <p class="memberGist">
-        Our dedicated members of <strong>13th Positive</strong> are the driving
-        force behind our mission. Each individual brings unique skills,
-        experiences, and passion to help us make a positive impact on our
-        community. From our founders to our newest team members, their
-        collective efforts and vision push us towards a brighter, more inclusive
-        future.
-      </p>
-      <div class="cardContainer"></div>
-    </section>
-
-    <section id="how-we-use-funds" class="funds-section">
-      <div class="funds-container">
-        <h2>How Contributions Are Used</h2>
-        <p class="howGist section__paragraph">
-          Your support makes a meaningful impact! Every dollar we receive goes
-          toward creating positive change within our community. Below is a
-          breakdown of how your contributions will be used:
-        </p>
-
-        <div class="funds-breakdown">
-          <div class="fund-item section__paragraph">
-            <h3>Community Programs</h3>
-            <p>
-              We develop and sustain initiatives focused on mental health,
-              education, and youth empowerment to uplift the individuals we
-              serve.
-            </p>
-          </div>
-
-          <div class="fund-item section__paragraph">
-            <h3>Events & Workshops</h3>
-            <p>
-              We organize events, workshops, and training sessions to promote
-              growth, collaboration, and mental well-being.
-            </p>
-          </div>
-
-          <div class="fund-item section__paragraph">
-            <h3>Operational Costs</h3>
-            <p>
-              From maintaining our website to covering essential resources and
-              tools, we ensure the organization runs efficiently.
-            </p>
-          </div>
-
-          <div class="fund-item section__paragraph">
-            <h3>Emergency Relief</h3>
-            <p>
-              A portion of donations is reserved for individuals in need of
-              urgent support due to unexpected crises.
-            </p>
-          </div>
-        </div>
-
-        <p class="closing-message section__paragraph">
-          We are committed to transparency and ensuring that your contributions
-          create lasting positive change. Thank you for your generosity and
-          belief in our mission!
-        </p>
-      </div>
-    </section>
-
-    <section id="local-resources" class="local-resources">
-      <h2>Local Resources</h2>
-      <p class="description section__paragraph">
-        Local resources are vital for the success of the
-        <strong>13th Positive</strong>
-        Foundation because they foster a strong sense of community and allow for
-        direct, impactful engagement. By utilizing local businesses,
-        organizations, and volunteers, the foundation can tailor its programs to
-        meet the unique needs of the community it serves. Local resources also
-        enhance trust and collaboration, as they are familiar with the
-        challenges and opportunities within the area. Furthermore, partnering
-        with local entities ensures sustainability, as it supports the local
-        economy and encourages long-term involvement in the foundation’s
-        initiatives.
-      </p>
-      <div class="resources-container"></div>
-    </section>
-    <section id="stayConnected">
-      <h1 class="stayConnectedHeader">Stay Connected!</h1>
-      <p>Connect with us through our social media accounts</p>
-      <div class="socials section__paragraph">
-        <a href="https://www.facebook.com/13thPositiveFoundation/"
-          ><i class="fa-brands fa-facebook"></i
-        ></a>
-
-        <a href="https://www.instagram.com/13thpositiveonethree/"
-          ><i class="fa-brands fa-instagram"></i
-        ></a>
-      </div>
-    </section>
-    <section id="contact-us" class="contact-section">
-      <div class="contact-container">
-        <h2>Contact Us</h2>
-        <p class="section__paragraph">
-          We’d love to hear from you! Whether you have questions, feedback, or
-          ideas, reach out to us using the form below or connect with us
-          directly.
-        </p>
-
-        <form
-          class="contact-form section__paragraph"
-          action="https://formspree.io/f/mzzbbalw"
-          method="POST"
-        >
-          <div class="input-group">
-            <label for="name">Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Your Name"
-              required
-            />
-          </div>
-
-          <div class="input-group">
-            <label for="email">Email</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Your Email"
-              required
-            />
-          </div>
-
-          <div class="input-group">
-            <label for="message">Message</label>
-            <textarea
-              id="message"
-              name="message"
-              rows="5"
-              placeholder="Your Message"
-              required
-            ></textarea>
-          </div>
-
-          <button type="submit" class="btn-submit">Send Message</button>
-        </form>
-
-        <div class="contact-info">
-          <p><strong>Email:</strong> 13thPositive@gmail.com</p>
-          <p><strong>Phone:</strong> +1 (123) 456-7890</p>
-          <p>
-            <strong> <i class="fa-solid fa-location-dot"></i> </strong>
-            Maywood,IL
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <div class="footer__container">
-        <div class="footer__logo section__paragraph">
-          <img
-            src="Photos/13th_Logo-removebg-preview(1).png"
-            alt="13th Positive Logo"
-          />
-          <p>Instilling hope through brotherhood, goodwill, and mentorship.</p>
-        </div>
-
-        <div class="footer__links">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="#">Our Mission</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Donate</a></li>
-            <li><a href="#">Contact Us</a></li>
-          </ul>
-        </div>
-
-        <div class="footer__contact">
-          <h4>Contact Us</h4>
-          <p>
-            Email:
-            <a href="mailto:13thPositive@gmail.com">13thPositive@gmail.com</a>
-          </p>
-          <p>Phone: (000) 123-4567</p>
-          <p>Maywood, Illinois</p>
-        </div>
-
-        <div class="footer__social">
-          <h4>Follow Us</h4>
-          <a href="https://www.facebook.com/13thPositiveFoundation/"
-            ><i class="fa-brands fa-facebook"></i
-          ></a>
-
-          <a href="https://www.instagram.com/13thpositiveonethree/"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-        </div>
-      </div>
-
-      <div class="footer__copyright">
-        <p>&copy; 2024 13th Positive. All Rights Reserved.</p>
-      </div>
-    </footer>
-    <script src="index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <div id="fixedBtns">
-      <button id="donateBtn">
-        <a
-          target="_blank"
-          href="https://www.paypal.com/donate/?business=5S7ALM8QR4ZBL&no_recurring=0&currency_code=USD"
-        >
-          <i class="fa-solid fa-hand-holding-dollar"></i
-        ></a>
-      </button>
-      <button id="scrollToTop">
-        <i class="fa-solid fa-chevron-up"></i>
-      </button>
-    </div>
-  </body>
-</html>
+.button-6:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
