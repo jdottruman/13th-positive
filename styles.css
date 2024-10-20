@@ -174,7 +174,7 @@ a:focus {
   justify-content: space-around;
   position: absolute;
   top: 2.3rem;
-  right: 2rem;
+  left: 2rem;
 }
 
 .nav__hamburger__line {
@@ -1052,11 +1052,14 @@ a:focus {
   }
   .nav__location {
     display: flex;
-    color: #fff;
+    color: #000000;
     font-size: 1.1rem;
     align-items: center;
     justify-content: center;
     font-weight: 900;
+    position: absolute;
+    top: 2.3rem;
+    right: 2rem;
   }
   .nav__location i {
     padding: 0.3rem;
@@ -1262,6 +1265,7 @@ a:focus {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    margin: 1rem 0;
   }
   .missionsStatement {
     background: none;
@@ -1319,9 +1323,9 @@ a:focus {
     flex-direction: row;
   }
   .memberCard {
-    width: 30%;
+    width: 40%;
     flex-direction: column;
-    padding: 0;
+    padding: 1rem;
     margin: 0;
     border-radius: unset;
   }
@@ -1333,7 +1337,12 @@ a:focus {
     height: 50%;
     border-radius: unset;
   }
-  .cardImg img .memo {
+  .cardImg img {
+    width: 100%;
+    top: 0;
+    height: 100%;
+  }
+  .memo {
     padding: 0 1rem;
   }
   .cardText .title {
