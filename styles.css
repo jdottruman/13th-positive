@@ -1231,10 +1231,10 @@ a:focus {
   .mobileParagrpah {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     color: #000000;
-    text-align: center;
-    font-size: 3rem;
+    text-align: right;
+    font-size: 2.7rem;
     line-height: 1;
     margin: 0;
     width: 100%;
