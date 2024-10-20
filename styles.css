@@ -1251,7 +1251,7 @@ a:focus {
   }
   .mobileParagrpah .highlight {
     font-size: 6rem;
-    font-weight: 900;
+    font-weight: 500;
     line-height: 0.5;
     font-family: var(--thirteen-font);
   }
