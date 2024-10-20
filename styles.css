@@ -1159,8 +1159,7 @@ a:focus {
     font-weight: 300;
   }
   .missionContent p {
-    padding: 0.5rem 0.2rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 900;
     line-height: 1;
   }
@@ -1172,6 +1171,7 @@ a:focus {
     padding: 03.5rem 1rem;
   }
   .ourMission {
+    padding: 5rem 1rem;
   }
 
   .resources-container {
