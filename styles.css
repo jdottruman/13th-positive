@@ -1224,7 +1224,8 @@ a:focus {
     align-items: center;
     line-height: 1.1;
     margin: 0rem;
-    padding-top: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
   }
   .missionsParagraph .missionText {
     text-align: center;
