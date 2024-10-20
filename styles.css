@@ -1343,7 +1343,7 @@ a:focus {
     flex-direction: row;
   }
   .memberCard {
-    width: 40%;
+    width: 48%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -1356,7 +1356,7 @@ a:focus {
   }
 
   .cardImg {
-    height: 10rem;
+    height: 100%;
     border: 1px solid rgba(0, 0, 0, 0.479);
     width: 100%;
     border-radius: unset;
