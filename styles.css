@@ -503,11 +503,11 @@ a:focus {
 .cardText button {
   background-color: #4a90e2;
   color: #fff;
-  border: 2px solid var(--accent-color);
   padding: 10px 20px;
   cursor: pointer;
   transition: background-color 0.3s;
   font-size: 0.9rem;
+  border: none;
 }
 .cardText button:hover {
   background-color: #357abd;
@@ -726,7 +726,7 @@ a:focus {
   font-size: 1.2rem;
   color: var(--accent-color);
   margin-bottom: 10px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .cardText .memo {
@@ -1160,9 +1160,9 @@ a:focus {
     font-weight: 300;
   }
   .missionContent p {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 900;
-    line-height: 1.2;
+    line-height: 1;
   }
 
   .ourMission,
@@ -1178,6 +1178,8 @@ a:focus {
   .resources-container {
     flex-direction: column;
     align-items: center;
+    padding: 0;
+    margin: 1rem;
   }
 
   .resource {
