@@ -958,7 +958,7 @@ a:focus {
 }
 
 .event-btn {
-  background-color: #00796b;
+  background-color: var(--accent-color-two);
   color: #fff;
   border: none;
   padding: 10px 15px;
@@ -968,7 +968,7 @@ a:focus {
 }
 
 .event-btn:hover {
-  background-color: #004d40;
+  background-color: var(--accent-color);
 }
 
 /* end of events section */
@@ -1190,7 +1190,7 @@ a:focus {
   -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: baseline;
-  width: 75%;
+  width: 100%;
 }
 
 .button-6:hover,
@@ -1596,12 +1596,7 @@ a:focus {
   .button-6 {
     margin-top: 1rem;
   }
-  .button-7 {
-    padding: 0.5rem 2em;
-    font-size: 0.8rem;
-    font-weight: 300;
-    letter-spacing: 1px;
-  }
+
   /* 
   .cardText button {
     background-color: #ffffff36;
