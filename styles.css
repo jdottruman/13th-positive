@@ -1373,11 +1373,15 @@ a:focus {
     background-color: var(--accent-color-two);
     color: white;
   }
-  .stayConnectedHeader {
-    color: #fff;
+  #stayConnected p {
+    line-height: 1.2;
+    font-size: 1.75rem;
+    font-weight: 400;
   }
   .stayConnectedHeader {
     font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
     margin-bottom: 1rem;
   }
   .socials i {
