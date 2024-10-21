@@ -1403,11 +1403,9 @@ a:focus {
     padding: 2rem;
     margin: 0;
   }
-  .cardText button {
-  }
 
   .cardImg {
-    max-height: 10rem;
+    max-height: 5rem;
     border: 1px solid rgba(0, 0, 0, 0.479);
     width: 100%;
     object-fit: contain;
