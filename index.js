@@ -52,18 +52,18 @@ const members = [
       " Anthony is a dedicated board member of 13th Positive, committed to empowering communities through education, mentorship, and positive change. In addition to serving on the board, Anthony is also a passionate youth football and basketball coach, working closely with young athletes to develop their skills both on and off the field. With years of leadership experience and a strong commitment to fostering growth and opportunity, Anthony plays a crucial role in guiding the foundation’s strategic vision, ensuring its mission continues to inspire and uplift those it serves.",
   },
   {
-    photo: "Photos/New_user_icon-01.svg.png",
-    name: "Clayton <br> Howard ",
-    role: "Board Member",
-    message:
-      "Clayton Howard is a dedicated business owner with a lifelong passion for entrepreneurship. Over the years, he has built a successful career by pursuing innovative ventures and maintaining a strong work ethic. Clayton has been happily married for 25 years and is a proud father of three children and a grandchild. In addition to his business pursuits, Clayton is committed to giving back to the community, having volunteered in a juvenile detention program in 2008-09. His commitment to both his family and his business defines his approach to life, balancing his roles as a family man, entrepreneur, and mentor.",
-  },
-  {
     photo: "Photos/image0.jpeg",
     name: "Antwan <br> Coffie ",
     role: "Board Member",
     message:
       "Antwan serves as a board member for 13th Positive, an organization dedicated to fostering community development through education, mentorship, and impactful change. A lifelong Maywood resident of 47 years, he found the love of his life in the same community. His wife, a beloved educational leader, left a lasting impact even after her passing. He raised two daughters, Kennedy and Brittanie, both master’s degree holders with strong community ties, and now guides his son, Antwan Jr., who hopes to attend Proviso Math and Science Academy (PMSA). Antwan truly understanding the impact of family unity. In addition to his work with 13th Positive, Antwan has coached youth baseball & youth boxing, shaping future generations through sports and mentorship. Dedicated to honoring the Coffie name, he upholds his family’s legacy while contributing to a united, resilient future for Maywood.",
+  },
+  {
+    photo: "Photos/New_user_icon-01.svg.png",
+    name: "Clayton <br> Howard ",
+    role: "Board Member",
+    message:
+      "Clayton Howard is a dedicated business owner with a lifelong passion for entrepreneurship. Over the years, he has built a successful career by pursuing innovative ventures and maintaining a strong work ethic. Clayton has been happily married for 25 years and is a proud father of three children and a grandchild. In addition to his business pursuits, Clayton is committed to giving back to the community, having volunteered in a juvenile detention program in 2008-09. His commitment to both his family and his business defines his approach to life, balancing his roles as a family man, entrepreneur, and mentor.",
   },
 ];
 
