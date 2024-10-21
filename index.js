@@ -111,7 +111,9 @@ members.forEach((member, index) => {
           <div class="cardText">
             <p class="name">${member.name}</p>
             <p class="title">${member.role}</p>
-            <button class="cardModalBtn" data-index="${index}">About</button>
+            <button class="cardModalBtn button-7" data-index="${index}">About</button>
+            <!-- HTML !-->
+
           </div>
 
         </div>
