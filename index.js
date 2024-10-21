@@ -46,7 +46,7 @@ const members = [
   },
   {
     photo: "Photos/anthony headshot.png",
-    name: "Anthony Lindsey",
+    name: "Anthony <br> Lindsey",
     role: "Board Member",
     message:
       " Anthony is a dedicated board member of 13th Positive, committed to empowering communities through education, mentorship, and positive change. In addition to serving on the board, Anthony is also a passionate youth football and basketball coach, working closely with young athletes to develop their skills both on and off the field. With years of leadership experience and a strong commitment to fostering growth and opportunity, Anthony plays a crucial role in guiding the foundation’s strategic vision, ensuring its mission continues to inspire and uplift those it serves.",
