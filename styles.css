@@ -1549,6 +1549,7 @@ a:focus {
     font-size: 1rem;
     margin-top: 0.5rem;
     height: 1rem;
+    font-weight: 300;
     min-height: 1rem;
   }
   .memo {
