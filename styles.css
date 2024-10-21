@@ -501,13 +501,14 @@ a:focus {
 /* Modal Button */
 .cardText button {
   text-decoration: none;
+
   font-size: 1rem;
   color: var(--accent-color-two);
   border: none;
   border-radius: 4px;
   transition: background-color 0.3s, color 0.3s;
   margin: 0.3rem;
-  padding: 01rem;
+  padding: 0.5rem 02rem;
 }
 .cardText button:hover {
   background-color: var(--accent-color-two);
@@ -1425,7 +1426,7 @@ a:focus {
     margin: 0;
   }
   .cardText .name {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     line-height: 1;
     margin: 0;
   }
@@ -1434,7 +1435,7 @@ a:focus {
   }
 
   .modal .name {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--primary-color);
     font-weight: 600;
   }
@@ -1461,5 +1462,13 @@ a:focus {
 
   .button-6 {
     margin-top: 1rem;
+  }
+
+  .cardText button {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 0.7rem;
+    margin-top: 0.3rem;
   }
 }
