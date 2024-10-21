@@ -1545,6 +1545,12 @@ a:focus {
   .cardImg img {
     width: 100%;
   }
+  .cardModalBtn {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    height: 1rem;
+    min-height: 1rem;
+  }
   .memo {
     padding: 0 1rem;
   }
@@ -1591,10 +1597,6 @@ a:focus {
   }
   .swiper {
     margin: 2.5rem 3rem;
-  }
-
-  .button-6 {
-    margin-top: 1rem;
   }
 
   /* 
