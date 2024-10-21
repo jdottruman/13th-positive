@@ -1117,6 +1117,11 @@ a:focus {
   .nav__logo {
     display: none;
   }
+  .nav__menu ul li a {
+    color: var(--accent-color);
+    font-size: 3rem;
+    text-decoration: underline;
+  }
   .nav__hamburger {
     display: flex;
   }
@@ -1172,11 +1177,11 @@ a:focus {
     background: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.932),
-      rgba(0, 0, 0, 0.712)
+      rgba(0, 0, 0, 0.829)
     );
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: 70vh;
+    height: 90vh;
   }
 
   .nav__hamburger__line {
@@ -1196,6 +1201,7 @@ a:focus {
 
   .nav__hamburger.active .nav__hamburger__line {
     transition: all ease-in-out 0.35s;
+    background: var(--accent-color);
     z-index: 10000;
   }
 
@@ -1408,23 +1414,22 @@ a:focus {
   }
   .cardContainer {
     padding: 0;
-    gap: 0.8rem;
+    gap: 0rem;
     flex-direction: row;
   }
   .memberCard {
-    max-width: 25%;
+    max-width: 20%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0.2rem;
-    margin: 0;
+    padding: 0.5rem;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.233);
     border-radius: unset;
   }
 
   .cardImg {
     border-radius: unset;
-    max-height: 10rem;
+    max-height: 6.3rem;
     width: 100%;
     object-fit: contain;
   }
@@ -1441,9 +1446,10 @@ a:focus {
     margin: 0;
   }
   .cardText .name {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     line-height: 1;
     margin: 0;
+    font-weight: 500;
   }
   .modal img {
     object-fit: contain;
@@ -1488,6 +1494,9 @@ a:focus {
   }
   .socials {
     width: unset;
+  }
+  .socials i {
+    font-size: 8rem;
   }
 
   .contact-section {
