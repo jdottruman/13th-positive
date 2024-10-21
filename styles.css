@@ -1418,7 +1418,7 @@ a:focus {
     flex-direction: row;
   }
   .memberCard {
-    max-width: 20%;
+    max-width: 23%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -1429,7 +1429,7 @@ a:focus {
 
   .cardImg {
     border-radius: unset;
-    max-height: 6.3rem;
+    max-height: 7rem;
     width: 100%;
     object-fit: contain;
   }
@@ -1447,7 +1447,7 @@ a:focus {
   }
   .cardText .name {
     font-size: 0.7rem;
-    line-height: 1;
+    line-height: 1.2;
     margin: 0;
     font-weight: 500;
   }
@@ -1456,7 +1456,9 @@ a:focus {
   }
 
   .modal .name {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
+    line-height: 1.2;
+
     color: var(--primary-color);
     font-weight: 600;
   }
@@ -1468,6 +1470,7 @@ a:focus {
     font-weight: 400;
   }
   .modal .memo {
+    padding: 0.1rem;
     font-size: 1.3rem;
     font-weight: 300;
   }
@@ -1486,11 +1489,15 @@ a:focus {
   }
 
   .cardText button {
+    background-color: #ffffff67;
     padding: 0;
     margin: 0;
     width: 100%;
+    border-radius: unset;
+    font-weight: 400;
     font-size: 0.7rem;
     margin-top: 0.3rem;
+    color: var(--accent-color);
   }
   .socials {
     width: unset;
