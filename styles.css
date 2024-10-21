@@ -314,10 +314,10 @@ a:focus {
 }
 
 .swiper-button-next {
-  color: var(--accent-color);
+  display: none;
 }
 .swiper-button-prev {
-  color: var(--accent-color);
+  display: none;
 }
 
 /* end of swiper */
@@ -1446,7 +1446,7 @@ a:focus {
   }
   .modal .memo {
     font-size: 1.3rem;
-    font-weight: 400;
+    font-weight: 300;
   }
   .cardSocial {
     flex-direction: row;
