@@ -38,7 +38,7 @@ const resources = [
 ];
 const members = [
   {
-    photo: "Photos/regHeadshot.jpeg",
+    photo: "Photos/regHeadshot.png",
     name: "Reginald Neal",
     role: "President",
     message:
