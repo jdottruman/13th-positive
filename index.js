@@ -39,7 +39,7 @@ const resources = [
 const members = [
   {
     photo: "Photos/regHeadshot.png",
-    name: "Reginald Neal",
+    name: "Reginald <br> Neal",
     role: "President",
     message:
       "I’ve been a lifelong resident of Maywood, proudly calling it home for 52 years. As a former business owner in the village, I carry a deep connection to the community. For the past 14 years, I’ve been employed by The Law Offices of Blitt and Gaines, P.C., where I currently serve as a supervisor, a role I’ve held for the last six years. In my personal life, I’ve had the joy of being happily married for 24 years to my wonderful wife, Kasonjia Neal. I’m a proud father of six children—four daughters (one of whom is sadly no longer with us) and two sons—and a devoted grandfather to eight beautiful grandchildren: five lovely granddaughters and three handsome grandsons.",
@@ -53,14 +53,14 @@ const members = [
   },
   {
     photo: "Photos/New_user_icon-01.svg.png",
-    name: "Clayton Howard ",
+    name: "Clayton <br> Howard ",
     role: "Board Member",
     message:
       "Clayton Howard is a dedicated business owner with a lifelong passion for entrepreneurship. Over the years, he has built a successful career by pursuing innovative ventures and maintaining a strong work ethic. Clayton has been happily married for 25 years and is a proud father of three children and a grandchild. In addition to his business pursuits, Clayton is committed to giving back to the community, having volunteered in a juvenile detention program in 2008-09. His commitment to both his family and his business defines his approach to life, balancing his roles as a family man, entrepreneur, and mentor.",
   },
   {
     photo: "Photos/image0.jpeg",
-    name: "Antwan Coffie ",
+    name: "Antwan <br> Coffie ",
     role: "Board Member",
     message:
       "Antwan serves as a board member for 13th Positive, an organization dedicated to fostering community development through education, mentorship, and impactful change. A lifelong Maywood resident of 47 years, he found the love of his life in the same community. His wife, a beloved educational leader, left a lasting impact even after her passing. He raised two daughters, Kennedy and Brittanie, both master’s degree holders with strong community ties, and now guides his son, Antwan Jr., who hopes to attend Proviso Math and Science Academy (PMSA). Antwan truly understanding the impact of family unity. In addition to his work with 13th Positive, Antwan has coached youth baseball & youth boxing, shaping future generations through sports and mentorship. Dedicated to honoring the Coffie name, he upholds his family’s legacy while contributing to a united, resilient future for Maywood.",
