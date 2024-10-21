@@ -101,7 +101,7 @@ a:focus {
   display: block;
 }
 #scrollToTop {
-  background-color: var(--accent-color);
+  background-color: #00000050;
 }
 
 #scrollToTop i {
