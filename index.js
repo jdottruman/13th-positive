@@ -1,3 +1,29 @@
+const events = [
+  {
+    title: "Tester Event",
+    date: "10/10/2024",
+    location: "Maywood,IL",
+    memo: "dummy text dummy text dummy text dummy text dummy text",
+  },
+];
+
+let eventsHtml = ``;
+
+events.forEach((event) => {
+  eventsHtml += `
+    <article class="event-card">
+      <h3>${event.title}</h3>
+      <p><strong>Date:</strong>${event.date}</p>
+      <p><strong>Location:</strong>${event.location}</p>
+      <p>${event.memo}</p>
+      <button class="event-btn">Register Now</button>
+    </article>
+
+
+
+`;
+});
+
 const resources = [
   {
     icons: "fa-solid fa-house",
@@ -141,6 +167,7 @@ resources.forEach((resource) => {
   
   `;
 });
+document.querySelector(".events-container").innerHTML = eventsHtml;
 
 document.querySelector(".resources-container").innerHTML = resourcesHtml;
 document.querySelector(".cardContainer").innerHTML = membersHtml;
