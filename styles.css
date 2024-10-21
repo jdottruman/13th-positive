@@ -1437,12 +1437,12 @@ a:focus {
     color: var(--primary-color);
     font-weight: 600;
   }
-  .modal .title {
-    color: var(--accent-color);
-  }
+
   .modal .title {
     font-size: 1.5rem;
-    font-weight: 900;
+    color: var(--accent-color);
+
+    font-weight: 400;
   }
   .modal .memo {
     font-size: 1.3rem;
