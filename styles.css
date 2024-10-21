@@ -188,8 +188,9 @@ a:focus {
 .ourMission,
 .local-resources,
 .membersSection,
-.funds-section {
-  padding: 3.5rem 8rem;
+.funds-section,
+.contact-section {
+  padding: 3rem 11rem;
 }
 
 /* Mission Statement Section */
@@ -225,15 +226,15 @@ a:focus {
 }
 .missionsParagraph .missionHeader {
   text-align: center;
-  font-weight: 200;
-  font-size: 4rem;
+  font-weight: 300;
+  font-size: 3rem;
   color: rgb(0, 0, 0);
 }
 .missionsParagraph .missionText {
   text-align: center;
-  font-weight: 200;
+  font-weight: 300;
 
-  font-size: 4rem;
+  font-size: 3rem;
   color: rgb(0, 0, 0);
 }
 .highlight {
@@ -339,8 +340,7 @@ a:focus {
   flex-direction: column;
   font-family: var(--font-family-body);
   background-color: var(--primary-color);
-  /* margin: 80px auto;  */
-  /* Professional margin */
+
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
   width: 100%;
   background-color: rgba(0, 0, 0, 0.897);
@@ -355,27 +355,10 @@ a:focus {
   transform: translateY(0);
   opacity: 1;
 }
-.ourMission h2 {
-  font-size: 4rem;
-  font-family: var(--font-family-heading);
-  color: #fff;
-  margin-bottom: 2rem;
-  position: relative;
-}
-
-.ourMission h2::after {
-  content: "";
-  width: 60px;
-  height: 3px;
-  background-color: var(--accent-color);
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-}
 
 .missionContent p {
-  font-size: 3rem;
+  font-weight: 200;
+  font-size: 3.5rem;
   line-height: 1.1;
   color: #fff;
   font-family: var(--font-family-body);
@@ -394,7 +377,7 @@ a:focus {
   color: var(--accent-color);
   font-family: var(--thirteen-font);
   line-height: 0.2;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .missionContent p span:hover {
@@ -511,7 +494,6 @@ a:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px 20px;
 }
 /* Modal Button */
 .cardText button {
@@ -557,7 +539,6 @@ a:focus {
   margin-bottom: 1.5rem;
   font-family: var(--font-family-body);
   text-align: center;
-  padding: 1rem;
 }
 
 /* Modal Overlay */
@@ -668,7 +649,7 @@ a:focus {
   gap: 1rem;
 
   padding: 0 6rem;
-  width: 100%;
+  width: 100vw;
   margin-top: 20px;
 }
 
@@ -766,18 +747,29 @@ a:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #212221;
-  color: white;
+
+  justify-content: center;
+  background: linear-gradient(180deg, #e9e9e9 0%, #e4e4e4 60%, #f0f0f0);
+  color: rgb(99, 99, 99);
+  font-size: 3rem;
 }
 
 .stayConnectedHeader {
+  color: var(--accent-color-two);
+
   font-size: 6rem;
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5rem 23rem;
+  width: 100vw;
 }
 
 .socials i {
   font-size: 15rem;
-  margin: 5rem;
-  color: white;
+  color: var(--accent-color-two);
 }
 
 /* end of stay connected */
@@ -785,14 +777,12 @@ a:focus {
 /* contact section */
 
 .contact-section {
-  padding: 60px 20px;
   background-color: #f4f4f4;
   color: #333;
   font-family: var(--font-family-heading);
 }
 
 .contact-container {
-  max-width: 800px;
   margin: 0 auto;
   text-align: center;
 }
@@ -882,12 +872,14 @@ a:focus {
 /* how we use funds sec */
 .funds-section {
   color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
 .funds-container {
-  max-width: 800px;
-  margin: 0 auto;
+  /* max-width: 800px; */
 }
 
 .funds-container h2 {
@@ -1366,20 +1358,24 @@ a:focus {
     z-index: 2; /* Ensure it appears above the blur */
     position: relative;
   }
-  .swiper-slide {
-    height: 50%;
-  }
 
+  .swiper {
+    margin: 0;
+    width: 100%;
+  }
   #stayConnected {
-    padding: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background: unset;
+
     background-color: var(--accent-color-two);
     color: white;
   }
-
+  .stayConnectedHeader {
+    color: #fff;
+  }
   .stayConnectedHeader {
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -1392,6 +1388,7 @@ a:focus {
   }
 
   .socials {
+    padding: 0;
     display: flex;
     flex-direction: row;
   }
@@ -1484,5 +1481,12 @@ a:focus {
     width: 100%;
     font-size: 0.7rem;
     margin-top: 0.3rem;
+  }
+  .socials {
+    width: unset;
+  }
+
+  .contact-section {
+    padding: 2rem;
   }
 }
