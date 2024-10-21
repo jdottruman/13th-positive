@@ -16,7 +16,7 @@ events.forEach((event) => {
       <p><strong>Date:</strong>${event.date}</p>
       <p><strong>Location:</strong>${event.location}</p>
       <p>${event.memo}</p>
-      <button class="event-btn">Register Now</button>
+      <button class="button-6">Register Now</button>
     </article>
 
 
@@ -111,7 +111,7 @@ members.forEach((member, index) => {
           <div class="cardText">
             <p class="name">${member.name}</p>
             <p class="title">${member.role}</p>
-            <button class="cardModalBtn button-7" data-index="${index}">About</button>
+            <button class="cardModalBtn button-6" data-index="${index}">About</button>
             <!-- HTML !-->
 
           </div>
