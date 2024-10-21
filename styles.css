@@ -507,7 +507,7 @@ a:focus {
   border-radius: 4px;
   transition: background-color 0.3s, color 0.3s;
   margin: 0.3rem;
-  padding: 0.5rem;
+  padding: 01rem;
 }
 .cardText button:hover {
   background-color: var(--accent-color-two);
@@ -1392,7 +1392,7 @@ a:focus {
   }
   .cardContainer {
     padding: 0;
-    gap: 0.7rem;
+    gap: 0.8rem;
     flex-direction: row;
   }
   .memberCard {
@@ -1402,7 +1402,7 @@ a:focus {
     justify-content: center;
     padding: 0.2rem;
     margin: 0;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.411);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.233);
     border-radius: unset;
   }
 
