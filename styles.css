@@ -1525,6 +1525,7 @@ a:focus {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 0 0 3px 3px;
 
     padding: 0rem 0rem;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.233);
@@ -1532,10 +1533,11 @@ a:focus {
 
   .cardImg {
     box-shadow: unset;
-    border-radius: unset;
+    border-radius: 0 0 3px 3px;
     max-height: 7rem;
     width: 100%;
     object-fit: contain;
+    margin: 0;
   }
   .cardImg img {
     width: 100%;
@@ -1551,7 +1553,7 @@ a:focus {
   }
   .cardText .name {
     font-size: 0.7rem;
-    line-height: 1.2;
+    line-height: 1.1;
     margin: 0;
     font-weight: 500;
   }
