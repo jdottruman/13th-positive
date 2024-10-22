@@ -1237,8 +1237,8 @@ a:focus {
 /* end of donateSec */
 /* Media Queries for Different Screen Sizes */
 
-/* Mobile550px*/
-@media screen and (max-width: 950px) {
+/* iphone ver */
+@media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
   .nav__logo {
     display: none;
   }
@@ -1677,6 +1677,101 @@ a:focus {
     margin: 0rem;
   }
   .funds-container .imgDiv img {
+    max-width: 50rem;
+  }
+}
+/* iPhone Landscape (horizontal) */
+@media screen and (min-width: 667px) and (max-width: 935px) and (orientation: landscape) {
+  /* Styles for iPhone in landscape mode */
+  .nav__logo {
+    display: none;
+  }
+  .nav__menu ul li a {
+    color: var(--accent-color);
+    font-size: 3rem;
+    text-decoration: underline;
+  }
+  .nav__hamburger {
+    display: flex;
+  }
+  .nav__location {
+    display: flex;
+    color: #000000;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    position: absolute;
+    top: 2.3rem;
+    right: 1rem;
+  }
+  .nav__location i {
+    padding: 0.3rem;
+  }
+  .nav__menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.13);
+    top: -15rem;
     width: 100%;
+    transition: all ease-in-out 0.4s;
+  }
+
+  .nav__menu ul {
+    flex-direction: column;
+    width: 100%;
+    padding: 3rem 0 0.6rem;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+  }
+
+  .nav__menu ul li {
+    text-align: center;
+  }
+
+  .nav__menu {
+    display: none;
+  }
+
+  .nav__menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.897));
+
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 90vh;
+  }
+
+  .nav__hamburger__line {
+    background: #000000;
+  }
+  .nav__hamburger.active .nav__hamburger__line:nth-child(1) {
+    transform: rotate(45deg) translate(0.45rem, 0.1875rem);
+  }
+
+  .nav__hamburger.active .nav__hamburger__line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav__hamburger.active .nav__hamburger__line:nth-child(3) {
+    transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
+  }
+
+  .nav__hamburger.active .nav__hamburger__line {
+    transition: all ease-in-out 0.35s;
+    background: var(--accent-color);
+    z-index: 10000;
+  }
+
+  .funds-breakdown {
+    padding: 0;
   }
 }
