@@ -1521,7 +1521,7 @@ a:focus {
     flex-direction: row;
   }
   .memberCard {
-    max-width: 23%;
+    max-width: 33%;
     flex-direction: column;
     align-items: center;
 
@@ -1546,6 +1546,7 @@ a:focus {
     width: 100%;
   }
   .cardModalBtn {
+    border-radius: unset;
     font-size: 1rem;
     margin-top: 0.5rem;
     height: 1rem;
