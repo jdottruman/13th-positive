@@ -68,35 +68,35 @@ const members = [
     name: "Reginald <br> Neal",
     role: "President",
     message:
-      "I’ve been a lifelong resident of Maywood, proudly calling it home for 52 years. As a former business owner in the village, I carry a deep connection to the community. For the past 14 years, I’ve been employed by The Law Offices of Blitt and Gaines, P.C., where I currently serve as a supervisor, a role I’ve held for the last six years. In my personal life, I’ve had the joy of being happily married for 24 years to my wonderful wife, Kasonjia Neal. I’m a proud father of six children—four daughters (one of whom is sadly no longer with us) and two sons—and a devoted grandfather to eight beautiful grandchildren: five lovely granddaughters and three handsome grandsons.",
+      "Reginald Neal has been a lifelong resident of Maywood, proudly calling it home for 52 years. As a former business owner in the village, he holds a deep connection to the community. For the past 14 years, he has been employed by The Law Offices of Blitt and Gaines, P.C., where he currently serves as a supervisor—a role he has held for the past six years. <br> In his personal life, Reginald has enjoyed 24 years of marriage with his wonderful wife, Kasonjia Neal. He is a proud father of six children—four daughters (one of whom is sadly no longer with us) and two sons—and a devoted grandfather to eight cherished grandchildren: five lovely granddaughters and three handsome grandsons.",
   },
   {
     photo: "Photos/anthony headshot.png",
     name: "Anthony <br> Lindsey",
     role: "Board Member",
     message:
-      " Anthony is a dedicated board member of 13th Positive, committed to empowering communities through education, mentorship, and positive change. In addition to serving on the board, Anthony is also a passionate youth football and basketball coach, working closely with young athletes to develop their skills both on and off the field. With years of leadership experience and a strong commitment to fostering growth and opportunity, Anthony plays a crucial role in guiding the foundation’s strategic vision, ensuring its mission continues to inspire and uplift those it serves.",
+      "Anthony** is a dedicated board member of the 13th Positive Foundation, committed to empowering communities through education, mentorship, and positive change. Alongside his board responsibilities, Anthony is a passionate youth football and basketball coach, mentoring young athletes to excel both on and off the field. With extensive leadership experience and a deep commitment to fostering growth and opportunity, Anthony plays a key role in shaping the foundation’s strategic vision, ensuring its mission inspires and uplifts those it serves.",
   },
   {
     photo: "Photos/image0.png",
     name: "Antwan <br> Coffie ",
     role: "Board Member",
     message:
-      "Antwan serves as a board member for 13th Positive, an organization dedicated to fostering community development through education, mentorship, and impactful change. A lifelong Maywood resident of 47 years, he found the love of his life in the same community. His wife, a beloved educational leader, left a lasting impact even after her passing. He raised two daughters, Kennedy and Brittanie, both master’s degree holders with strong community ties, and now guides his son, Antwan Jr., who hopes to attend Proviso Math and Science Academy (PMSA). Antwan truly understanding the impact of family unity. In addition to his work with 13th Positive, Antwan has coached youth baseball & youth boxing, shaping future generations through sports and mentorship. Dedicated to honoring the Coffie name, he upholds his family’s legacy while contributing to a united, resilient future for Maywood.",
+      "Antwan serves as a board member of the 13th Positive Foundation, an organization focused on fostering community development through education, mentorship, and impactful change. A lifelong resident of Maywood for 47 years, he found the love of his life in the same community. His wife, a beloved educational leader, left a lasting legacy even after her passing. <br> Antwan raised two daughters, Kennedy and Brittanie—both master’s degree holders with strong community connections—and now mentors his son, Antwan Jr., who hopes to attend Proviso Math and Science Academy (PMSA). Deeply understanding the importance of family unity, Antwan remains committed to both his loved ones and the broader community. <br> In addition to his work with 13th Positive, he has coached youth baseball and youth boxing, shaping future generations through sports and mentorship. Dedicated to honoring the Coffie name, Antwan upholds his family’s legacy while contributing to a united, resilient future for Maywood.",
   },
   {
     photo: "Photos/clay.png",
     name: "Clayton <br> Howard ",
     role: "Board Member",
     message:
-      "Clayton Howard is a dedicated business owner with a lifelong passion for entrepreneurship. Over the years, he has built a successful career by pursuing innovative ventures and maintaining a strong work ethic. Clayton has been happily married for 25 years and is a proud father of three children and a grandchild. In addition to his business pursuits, Clayton is committed to giving back to the community, having volunteered in a juvenile detention program in 2008-09. His commitment to both his family and his business defines his approach to life, balancing his roles as a family man, entrepreneur, and mentor.",
+      "Clayton Howard is a passionate entrepreneur with a lifelong commitment to business excellence. Throughout his career, he has built a track record of success by embracing innovation and maintaining a strong work ethic. Happily married for 25 years, Clayton is a proud father of three and a devoted grandfather. <br> In addition to his business ventures, Clayton is dedicated to giving back to the community. He has volunteered in juvenile detention programs, mentoring young individuals and striving to make a positive impact. His life reflects a thoughtful balance between family, business, and service, embodying his roles as a loving family man, accomplished entrepreneur, and committed mentor.",
   },
   {
     photo: "Photos/james.png",
     name: "James<br> Truman",
     role: "Board Member",
     message:
-      "My name is James Truman and I serve as an active board member and Secretary of the 13th Positive Foundation. We are a collective group dedicated to the Proviso township to provide counseling,  guidance thru food drives ,toy drives,scholarships for youths and acts of kindness.As a true Chicagoan I am a super-fan to Chicago teams: The Bulls, The Cubs & The Bears. I live, work and thrive in the Proviso township.I am a devoted family man. As a husband, father & 'pop-pop' to two grandsons;I’m committed to God,family, friends & servitude to my community.",
+      "James Truman is an active board member and Secretary of the 13th Positive Foundation, a community-driven organization dedicated to supporting the Proviso Township through food drives, toy drives, youth scholarships, and acts of kindness. <br> A proud Chicagoan, James is a devoted fan of the Bulls, Cubs, and Bears. He lives, works, and thrives in Proviso Township, demonstrating his deep connection to the community. A committed family man, he balances his roles as a husband, father, and 'pop-pop' to two grandsons while remaining devoted to his faith, family, friends, and service.",
   },
 ];
 
