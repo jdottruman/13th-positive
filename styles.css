@@ -1774,4 +1774,25 @@ a:focus {
   .funds-breakdown {
     padding: 0;
   }
+
+  .ourMission,
+  .local-resources,
+  .membersSection,
+  .funds-section {
+    padding: 01.5rem 1rem;
+    width: 100%;
+  }
+  .swiper .ourMission {
+    flex-direction: column;
+  }
+}
+
+/* iPad Portrait (vertical) */
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  /* Styles for iPad in portrait mode */
+}
+
+/* iPad Landscape (horizontal) */
+@media screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+  /* Styles for iPad in landscape mode */
 }
