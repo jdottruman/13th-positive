@@ -1588,7 +1588,6 @@ a:focus {
   }
   .cardText .title {
     font-size: 0.7rem;
-    color: var(--primary-color);
     font-weight: 400;
     margin: 0;
   }
