@@ -1525,7 +1525,7 @@ a:focus {
     background-size: cover;
   }
   .memberCard {
-    max-width: 33%;
+    min-width: 30%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -1537,7 +1537,6 @@ a:focus {
 
   .cardImg {
     background-color: rgba(160, 159, 159, 0.329);
-
     box-shadow: unset;
     border-radius: 3px;
     max-height: 7rem;
