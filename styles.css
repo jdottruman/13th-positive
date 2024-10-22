@@ -186,7 +186,7 @@ a:focus {
 .membersSection,
 .funds-section,
 .contact-section {
-  padding: 3rem 14rem;
+  padding: 3rem 20rem;
 }
 
 /* Mission Statement Section */
@@ -1021,7 +1021,8 @@ a:focus {
   gap: 20px;
   justify-content: space-between;
   margin-top: 20px;
-  padding: 0 5rem;
+  padding: 0 15rem;
+  width: 100vw;
 }
 
 .fund-item {
@@ -1791,21 +1792,19 @@ a:focus {
   .cardImg {
     max-height: 10rem;
   }
+
   /* Styles for iPad in portrait mode */
 }
 
 /* iPad Landscape (horizontal) */
 @media screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
-  .ourMission {
-    flex-direction: column;
-  }
-  .memberCard {
-    flex-direction: column;
-  }
   .cardImg {
     max-height: 40rem;
   }
-  .swiper {
-    width: 100%;
-  } /* Styles for iPad in landscape mode */
+  /* Styles for iPad in landscape mode */
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .ourMission {
+    flex-direction: column;
+  } /* Styles for small laptops and tablets in landscape mode */
 }
