@@ -884,20 +884,6 @@ a:focus {
   box-shadow: 0 0 5px rgba(29, 111, 122, 0.3);
 }
 
-.btn-submit {
-  background-color: var(--accent-color);
-  color: white;
-  padding: 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.btn-submit:hover {
-  background-color: #174f5a;
-}
-
 .contact-info {
   margin-top: 30px;
   font-size: 0.9rem;
