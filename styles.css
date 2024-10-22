@@ -1328,7 +1328,8 @@ a:focus {
   .local-resources h2,
   .membersSection h1,
   .funds-container h2,
-  .contact-container h2 {
+  .contact-container h2,
+  .event-section h2 {
     font-size: 2rem;
     margin-bottom: 0.8rem;
   }
