@@ -186,7 +186,7 @@ a:focus {
 .membersSection,
 .funds-section,
 .contact-section {
-  padding: 3rem 11rem;
+  padding: 3rem 13rem;
 }
 
 /* Mission Statement Section */
@@ -346,8 +346,9 @@ a:focus {
 
 .missionContent p {
   font-weight: 200;
-  font-size: 3.5rem;
+  font-size: 2.8rem;
   line-height: 1.1;
+  margin-top: 2rem;
   color: #fff;
   font-family: var(--font-family-body);
   text-align: center; /* Improve text alignment for readability */
@@ -562,13 +563,13 @@ a:focus {
 }
 
 .membersSection .memberGist {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1;
   font-weight: 300;
   color: var(--text-color);
   margin-bottom: 1.5rem;
   font-family: var(--font-family-body);
-  text-align: center;
+  text-align: left;
 }
 
 /* Modal Overlay */
@@ -793,7 +794,7 @@ a:focus {
 .stayConnectedHeader {
   color: var(--accent-color-two);
 
-  font-size: 6rem;
+  font-size: 4rem;
 }
 .socials {
   display: flex;
@@ -805,7 +806,7 @@ a:focus {
 
 .socials i {
   font-size: 15rem;
-  color: var(--accent-color-two);
+  color: var(--accent-color);
 }
 
 /* end of stay connected */
@@ -978,13 +979,10 @@ a:focus {
   justify-content: center;
   width: 100%;
 }
-.funds-container .button-6 {
-  color: #4caf50;
-  border: 1px solid #4caf50;
-  width: 100vw;
-  font-size: 2rem;
-  margin: 1rem;
+.funds-container #donate-button {
+  width: 15rem;
 }
+
 .funds-container h2 {
   font-size: 4rem;
   font-family: var(--font-family-heading);
@@ -1630,7 +1628,9 @@ a:focus {
     font-size: 1.5rem;
     margin: 1rem 0;
   }
-
+  .funds-container #donate-button {
+    width: 50%;
+  }
   /* 
   .cardText button {
     background-color: #ffffff36;
