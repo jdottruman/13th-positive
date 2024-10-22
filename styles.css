@@ -1277,11 +1277,8 @@ a:focus {
     top: 0;
     right: 0;
     z-index: 1000;
-    background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.932),
-      rgba(0, 0, 0, 0.829)
-    );
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.897));
+
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: 90vh;
