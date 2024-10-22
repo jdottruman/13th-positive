@@ -89,7 +89,7 @@ const members = [
     name: "Charles M.<br> Stump ",
     role: "Vice President",
     message:
-      "Clarence Frison is a barber, entrepreneur, and investor with roots going back four generations in Maywood. He has spent the majority of his life in the Proviso Township, supporting local initiatives to rebuild, restore, and reinvigorate the area and the children within it. With over 25 years as a neighborhood barber, Clarence has used his role to mentor from behind the chair and collaborate with grassroots organizations. His partnerships include participating in community clean-ups, fundraising, and supporting various efforts for community partners, reflecting his deep commitment to service and community growth.",
+      "Charles is a barber, entrepreneur, and investor with roots going back four generations in Maywood. He has spent the majority of his life in the Proviso Township, supporting local initiatives to rebuild, restore, and reinvigorate the area and the children within it. With over 25 years as a neighborhood barber, Clarence has used his role to mentor from behind the chair and collaborate with grassroots organizations. His partnerships include participating in community clean-ups, fundraising, and supporting various efforts for community partners, reflecting his deep commitment to service and community growth.",
   },
 
   {
@@ -97,7 +97,7 @@ const members = [
     name: "Clarence <br> Frison ",
     role: "Board Member",
     message:
-      "Clarence Frison is a proud husband to his lovely wife, Kenya, with whom he has shared eight wonderful years of marriage. He is a dedicated father of ten children—seven boys and three girls—and a proud grandfather of 16. As a humble servant of the Lord Jesus Christ, Clarence is a resident of Mississippi, though he was born and raised in Maywood, IL. He has devoted his life to the service of others, embodying a commitment to uplifting those around him.",
+      "Clarence Frison is a proud board member of the 13th Positive Foundation. He has been a devoted pastor for over 20 years, passionately serving the Lord Jesus Christ. Clarence is a loving husband to his wife, Kenya, with whom he has shared 8 wonderful years of marriage. Together, they are blessed with 10 children—7 boys and 3 girls—and 16 grandchildren. Originally from Maywood, Illinois, Clarence now calls Mississippi home, where he has dedicated his life to serving others and uplifting his community through faith and leadership.",
   },
   {
     photo: "Photos/clay2.png",
