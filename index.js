@@ -75,7 +75,7 @@ const members = [
     name: "Anthony <br> Lindsey",
     role: "Board Member",
     message:
-      "Anthony** is a dedicated board member of the 13th Positive Foundation, committed to empowering communities through education, mentorship, and positive change. Alongside his board responsibilities, Anthony is a passionate youth football and basketball coach, mentoring young athletes to excel both on and off the field. With extensive leadership experience and a deep commitment to fostering growth and opportunity, Anthony plays a key role in shaping the foundation’s strategic vision, ensuring its mission inspires and uplifts those it serves.",
+      "Anthony is a dedicated board member of the 13th Positive Foundation, committed to empowering communities through education, mentorship, and positive change. Alongside his board responsibilities, Anthony is a passionate youth football and basketball coach, mentoring young athletes to excel both on and off the field. With extensive leadership experience and a deep commitment to fostering growth and opportunity, Anthony plays a key role in shaping the foundation’s strategic vision, ensuring its mission inspires and uplifts those it serves.",
   },
   {
     photo: "Photos/image0.png",
