@@ -1303,7 +1303,6 @@ a:focus {
 
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: 90vh;
   }
 
   .nav__hamburger__line {
@@ -1789,10 +1788,24 @@ a:focus {
 
 /* iPad Portrait (vertical) */
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .cardImg {
+    max-height: 10rem;
+  }
   /* Styles for iPad in portrait mode */
 }
 
 /* iPad Landscape (horizontal) */
 @media screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
-  /* Styles for iPad in landscape mode */
+  .ourMission {
+    flex-direction: column;
+  }
+  .memberCard {
+    flex-direction: column;
+  }
+  .cardImg {
+    max-height: 40rem;
+  }
+  .swiper {
+    width: 100%;
+  } /* Styles for iPad in landscape mode */
 }
