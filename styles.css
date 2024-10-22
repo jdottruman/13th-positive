@@ -803,8 +803,8 @@ a:focus {
 .socials {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 5rem 23rem;
+  justify-content: space-evenly;
+  margin: 5rem 0;
   width: 100vw;
 }
 
