@@ -359,7 +359,7 @@ a:focus {
   color: var(--accent-color);
   font-family: var(--thirteen-font);
   line-height: 0.2;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .membersSection strong,
@@ -367,7 +367,7 @@ a:focus {
   color: var(--accent-color);
   font-family: var(--thirteen-font);
   line-height: 0.2;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .missionContent p span:hover {
@@ -386,7 +386,7 @@ a:focus {
 }
 
 .local-resources h2 {
-  font-size: 4rem;
+  font-size: 2rem;
   font-family: var(--font-family-heading);
   color: var(--primary-color);
   margin-bottom: 2rem;
@@ -651,6 +651,9 @@ a:focus {
   font-size: 1rem;
   color: #666;
 }
+.modal .memo {
+  text-align: left;
+}
 
 /* Modal Body Section (Scrollable) */
 .modal-body {
@@ -764,13 +767,6 @@ a:focus {
   color: var(--accent-color);
   margin-bottom: 10px;
   font-weight: 400;
-}
-
-.cardText .memo {
-  font-size: 1.4rem;
-  color: #414141;
-  font-weight: 300;
-  line-height: 1;
 }
 
 /* end of our members sectoion */
@@ -907,7 +903,7 @@ a:focus {
 }
 
 .event-section h2 {
-  font-size: 4rem;
+  font-size: 2rem;
   font-family: var(--font-family-heading);
   color: var(--primary-color);
   margin-bottom: 2rem;
