@@ -924,6 +924,7 @@ a:focus {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  margin: 2rem;
 }
 
 .event-card {
@@ -977,7 +978,13 @@ a:focus {
   justify-content: center;
   width: 100%;
 }
-
+.funds-container .button-6 {
+  color: #4caf50;
+  border: 1px solid #4caf50;
+  width: 100vw;
+  font-size: 2rem;
+  margin: 1rem;
+}
 .funds-container h2 {
   font-size: 4rem;
   font-family: var(--font-family-heading);
