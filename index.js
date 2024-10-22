@@ -85,6 +85,13 @@ const members = [
       "Antwan serves as a board member of the 13th Positive Foundation, an organization focused on fostering community development through education, mentorship, and impactful change. A lifelong resident of Maywood for 47 years, he found the love of his life in the same community. His wife, a beloved educational leader, left a lasting legacy even after her passing. <br> Antwan raised two daughters, Kennedy and Brittanie—both master’s degree holders with strong community connections—and now mentors his son, Antwan Jr., who hopes to attend Proviso Math and Science Academy (PMSA). Deeply understanding the importance of family unity, Antwan remains committed to both his loved ones and the broader community. <br> In addition to his work with 13th Positive, he has coached youth baseball and youth boxing, shaping future generations through sports and mentorship. Dedicated to honoring the Coffie name, Antwan upholds his family’s legacy while contributing to a united, resilient future for Maywood.",
   },
   {
+    photo: "Photos/clarence.png",
+    name: "Clarence <br> Frison ",
+    role: "Board Member",
+    message:
+      "Clarence Frison is a proud husband to his lovely wife, Kenya, with whom he has shared eight wonderful years of marriage. He is a dedicated father of ten children—seven boys and three girls—and a proud grandfather of 16. As a humble servant of the Lord Jesus Christ, Clarence is a resident of Mississippi, though he was born and raised in Maywood, IL. He has devoted his life to the service of others, embodying a commitment to uplifting those around him.",
+  },
+  {
     photo: "Photos/clay.png",
     name: "Clayton <br> Howard ",
     role: "Board Member",
