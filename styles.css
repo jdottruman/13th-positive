@@ -1541,6 +1541,7 @@ a:focus {
     width: 100%;
     object-fit: contain;
     margin: 0;
+    margin-bottom: 0.5rem;
   }
   .cardImg img {
     width: 100%;
