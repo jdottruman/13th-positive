@@ -89,7 +89,7 @@ const members = [
     name: "Charles M.<br> Stump ",
     role: "Vice President",
     message:
-      "Charles is a barber, entrepreneur, and investor with roots going back four generations in Maywood. He has spent the majority of his life in the Proviso Township, supporting local initiatives to rebuild, restore, and reinvigorate the area and the children within it. With over 25 years as a neighborhood barber, Clarence has used his role to mentor from behind the chair and collaborate with grassroots organizations. His partnerships include participating in community clean-ups, fundraising, and supporting various efforts for community partners, reflecting his deep commitment to service and community growth.",
+      "Charles is a barber, entrepreneur, and investor with roots going back four generations in Maywood. He has spent the majority of his life in the Proviso Township, supporting local initiatives to rebuild, restore, and reinvigorate the area and the children within it. With over 25 years as a neighborhood barber, Charles has used his role to mentor from behind the chair and collaborate with grassroots organizations. His partnerships include participating in community clean-ups, fundraising, and supporting various efforts for community partners, reflecting his deep commitment to service and community growth.",
   },
 
   {
@@ -109,7 +109,7 @@ const members = [
   {
     photo: "Photos/james.png",
     name: "James<br> Truman",
-    role: "Board Member",
+    role: "Secretary",
     message:
       "James Truman is an active board member and Secretary of the 13th Positive Foundation, a community-driven organization dedicated to supporting the Proviso Township through food drives, toy drives, youth scholarships, and acts of kindness. <br> A proud Chicagoan, James is a devoted fan of the Bulls, Cubs, and Bears. He lives, works, and thrives in Proviso Township, demonstrating his deep connection to the community. A committed family man, he balances his roles as a husband, father, and 'pop-pop' to two grandsons while remaining devoted to his faith, family, friends, and service.",
   },
