@@ -202,14 +202,8 @@
           create lasting positive change. Thank you for your generosity and
           belief in our mission!
         </p>
-        <a
-          target="_blank"
-          href="//www.paypal.com/donate/?business=5S7ALM8QR4ZBL&no_recurring=0&currency_code=USD"
-        >
-          <button class="button-6 section__paragraph" role="button">
-            Donate Here
-          </button>
-        </a>
+
+        <div id="paypal-donate-button-container"></div>
       </div>
     </section>
     <section id="events" class="event-section">
@@ -360,6 +354,26 @@
       </div>
     </footer>
     <script src="index.js"></script>
+    <script
+      src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js"
+      charset="UTF-8"
+    ></script>
+    <script>
+      PayPal.Donation.Button({
+        env: "production",
+        hosted_button_id: "YOUR_LIVE_HOSTED_BUTTON_ID",
+        // business: 'YOUR_LIVE_EMAIL_OR_PAYERID',
+        image: {
+          src: "Photos/paypal-donate-blue-button-hd-png-21635276531bin35y3ign.png",
+          title: "PayPal - The safer, easier way to pay online!",
+          alt: "Donate with PayPal button",
+        },
+        onComplete: function (params) {
+          alert("Donation complete:", params);
+        },
+      }).render("#paypal-donate-button-container");
+    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <div id="fixedBtns">
       <button id="donateBtn">
