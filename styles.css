@@ -1551,10 +1551,10 @@ a:focus {
   }
   .cardModalBtn {
     border-radius: unset;
-    font-size: 1rem;
+    font-size: 0.7rem;
     margin-top: 0.5rem;
     height: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     border: none;
     min-height: 1rem;
   }
