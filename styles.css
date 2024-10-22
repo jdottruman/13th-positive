@@ -1784,6 +1784,10 @@ a:focus {
   .swiper .ourMission {
     flex-direction: column;
   }
+
+  .contact-section {
+    padding: 0;
+  }
 }
 
 /* iPad Portrait (vertical) */
