@@ -857,7 +857,9 @@ a:focus {
 
 .contact-form {
   display: flex;
+  margin: 1rem;
   flex-direction: column;
+  width: 75%;
   gap: 20px;
 }
 
