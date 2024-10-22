@@ -1533,7 +1533,7 @@ a:focus {
     justify-content: center;
     border-radius: 0 0 3px 3px;
     background: #ffffff;
-    padding: 0.5rem 01rem;
+    padding: 0.8rem 01rem;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.233);
   }
 
@@ -1606,6 +1606,11 @@ a:focus {
   }
   .swiper {
     margin: 2.5rem 3rem;
+  }
+
+  .funds-container .button-6 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
   }
 
   /* 
