@@ -1156,7 +1156,8 @@ a:focus {
 
 /* donateSec */
 /* CSS */
-.button-6 {
+.button-6,
+.submitBtn {
   align-items: center;
 
   border: 1px solid var(--accent-color);
@@ -1184,18 +1185,18 @@ a:focus {
   vertical-align: baseline;
   width: 100%;
 }
-
+.submitBtn,
 .button-6:hover,
 .button-6:focus {
   border-color: rgba(0, 0, 0, 0.15);
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
   color: rgba(0, 0, 0, 0.65);
 }
-
+.submitBtn,
 .button-6:hover {
   transform: translateY(-1px);
 }
-
+.submitBtn,
 .button-6:active {
   background-color: #f0f0f1;
   border-color: rgba(0, 0, 0, 0.15);
