@@ -1586,6 +1586,7 @@ a:focus {
     min-height: 1rem;
   }
   .memo {
+    text-align: left;
     padding: 0 1rem;
   }
   .cardText .title {
