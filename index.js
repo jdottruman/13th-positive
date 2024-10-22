@@ -92,7 +92,7 @@ const members = [
       "Clarence Frison is a proud husband to his lovely wife, Kenya, with whom he has shared eight wonderful years of marriage. He is a dedicated father of ten children—seven boys and three girls—and a proud grandfather of 16. As a humble servant of the Lord Jesus Christ, Clarence is a resident of Mississippi, though he was born and raised in Maywood, IL. He has devoted his life to the service of others, embodying a commitment to uplifting those around him.",
   },
   {
-    photo: "Photos/clay.png",
+    photo: "Photos/clay2.png",
     name: "Clayton <br> Howard ",
     role: "Board Member",
     message:
