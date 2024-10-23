@@ -16,7 +16,6 @@ events.forEach((event) => {
       <p><strong>Date:</strong>${event.date}</p>
       <p><strong>Location:</strong>${event.location}</p>
       <p>${event.memo}</p>
-      <button class="button-6">Register Now</button>
     </article>
 
 
