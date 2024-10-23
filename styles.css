@@ -117,7 +117,6 @@ a:focus {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #ffffff49;
 }
 .nav__location {
   display: none;
@@ -151,7 +150,7 @@ a:focus {
 
   padding: 1rem;
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 400;
   font-family: var(--font-family-body);
   transition: color 0.3s ease;
 }
@@ -208,7 +207,7 @@ a:focus {
 .missionsParagraph {
   margin-right: 2rem;
   font-family: var(--font-family-heading);
-  line-height: 3.9rem;
+  line-height: 2.75rem;
 }
 .mobileParagrpah {
   display: none;
@@ -216,22 +215,22 @@ a:focus {
 }
 .missionsParagraph .missionHeader {
   text-align: center;
-  font-weight: 300;
-  font-size: 3rem;
+  font-weight: 400;
+  font-size: 4rem;
   color: rgb(0, 0, 0);
 }
 .missionsParagraph .missionText {
   text-align: center;
   font-weight: 300;
 
-  font-size: 3rem;
+  font-size: 2.75rem;
   color: rgb(0, 0, 0);
 }
 .highlight {
   color: var(--accent-color);
   /* font-family: var(--thirteen-font); */
   font-weight: 700;
-  font-size: 8rem;
+  font-size: 7rem;
   font-family: var(--thirteen-font);
 }
 .missionStatementContent {
@@ -278,7 +277,7 @@ a:focus {
   padding: 1rem;
 }
 .imgContainer img {
-  max-width: 450px;
+  max-width: 350px;
   height: auto;
 
   /* box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15); */
@@ -291,7 +290,7 @@ a:focus {
 
 /* swipier */
 .swiper {
-  width: 130rem;
+  width: 100rem;
   aspect-ratio: 4 / 5;
   object-fit: contain;
 }
@@ -332,7 +331,7 @@ a:focus {
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
   width: 100%;
 
-  padding: 3rem 7rem;
+  padding: 1.75rem 7rem;
   background-color: rgba(0, 0, 0, 0.897);
 }
 
@@ -348,13 +347,13 @@ a:focus {
 
 .missionContent p {
   font-weight: 200;
-  font-size: 2.3rem;
+  font-size: 1.75rem;
   line-height: 1.1;
 
   color: #fff;
   font-family: var(--font-family-body);
-  text-align: center; /* Improve text alignment for readability */
-  padding: 0 2rem; /* Add some padding for smaller screens */
+  text-align: left; /* Improve text alignment for readability */
+  padding: 0 7rem; /* Add some padding for smaller screens */
 }
 .missionContent p strong {
   color: var(--accent-color);
@@ -565,15 +564,62 @@ a:focus {
 }
 
 .membersSection .memberGist {
-  font-size: 1.5rem;
-  line-height: 1;
-  font-weight: 400;
+  padding: 0 4rem;
+  font-weight: 300;
+  font-size: 1.75rem;
+  line-height: 1.1;
   color: var(--text-color);
   margin-bottom: 1.5rem;
   font-family: var(--font-family-body);
   text-align: left;
 }
+.button-6 {
+  align-items: center;
 
+  border: 1px solid var(--accent-color);
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: var(--accent-color);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 100%;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #f0f0f1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
 /* Modal Overlay */
 .modal {
   display: none;
@@ -621,7 +667,7 @@ a:focus {
 }
 
 .close-btn:hover {
-  color: #ff6347;
+  color: red;
   transform: scale(1.2); /* Slight scaling on hover */
 }
 
@@ -654,6 +700,21 @@ a:focus {
 }
 .modal .memo {
   text-align: left;
+  padding: 2rem 5rem;
+  font-size: 1.4rem;
+  background-color: #00000021;
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+.modal .name {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.modal .title {
+  color: var(--accent-color);
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  font-weight: 400;
 }
 
 /* Modal Body Section (Scrollable) */
@@ -661,12 +722,6 @@ a:focus {
   padding: 20px;
   max-height: 400px;
   overflow-y: auto; /* Makes content scrollable */
-}
-
-.modal-body p {
-  margin-bottom: 15px;
-  line-height: 1.6;
-  color: #444;
 }
 
 /* Smooth Scroll for the Modal Body */
@@ -686,7 +741,7 @@ a:focus {
   flex-direction: row;
   justify-content: space-evenly;
   gap: 0.75rem;
-  padding: 2rem 8rem;
+  padding: 2rem 7rem;
   width: 100vw;
   margin-top: 20px;
   background-color: #ececec;
@@ -717,7 +772,7 @@ a:focus {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25); /* Enhanced shadow */
   margin-bottom: 20px;
   overflow: hidden;
-  width: 100%; /* Fixed width */
+  width: 15rem; /* Fixed width */
   aspect-ratio: 4 / 6; /* Keeps the ratio consistent */
   position: relative; /* Helps control internal layout */
 }
@@ -740,7 +795,7 @@ a:focus {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   padding: 1rem 0.5rem;
-  width: 24%;
+  width: 25%;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -757,17 +812,22 @@ a:focus {
   margin: 0 3rem;
 }
 .cardText .name {
-  font-size: 1.5rem;
+  font-size: 0.9rem;
   line-height: 1;
   font-weight: 800;
   color: var(--primary-color);
 }
 
 .cardText .title {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: var(--accent-color);
   margin-bottom: 10px;
-  font-weight: 400;
+  font-weight: 300;
+}
+.cardText .button-6 {
+  min-height: unset;
+  font-size: 0.8rem;
+  padding: 0.25rem 1rem;
 }
 
 /* end of our members sectoion */
@@ -901,6 +961,11 @@ a:focus {
 /* events section */
 .event-section {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100%;
 }
 
 .event-section h2 {
@@ -921,12 +986,13 @@ a:focus {
   transform: translateX(-50%);
 }
 /* Event Card Styles */
+.eventsHalf {
+}
 .events-container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  margin: 2rem;
 }
 
 .event-card {
@@ -962,6 +1028,13 @@ a:focus {
 .event-btn:hover {
   background-color: var(--accent-color);
 }
+/* newsletter side */
+.newsHalf {
+  display: flex;
+  flex-direction: column;
+}
+.newsletter-container {
+}
 
 /* end of events section */
 /* how we use funds sec */
@@ -980,15 +1053,106 @@ a:focus {
   justify-content: center;
   width: 100%;
 }
-.donateButtons {
-  display: flex;
-  flex-direction: column;
-  margin: 2rem 0;
-  align-items: center;
-}
+
 /* .funds-container #donate-button {
   width: 15rem;
 } */
+
+.funds-container h2 {
+  font-size: 2rem;
+  font-family: var(--font-family-heading);
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.funds-container h2::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: var(--accent-color);
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.funds-container p {
+  font-family: var(--font-family-heading);
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: var(--text-color);
+}
+.funds-section .howGist {
+  font-weight: 300;
+  font-size: 1.75rem;
+  line-height: 1.1;
+  text-align: left;
+  padding: 0 4rem;
+}
+
+.funds-breakdown {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 20rem;
+  width: 100vw;
+}
+
+.fund-item {
+  flex: 1 1 calc(50% - 20px);
+  background: linear-gradient(135deg, #f3f3f3, #e0e0e0a1);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fund-item h3 {
+  font-family: var(--font-family-heading);
+  color: var(--accent-color);
+  margin-bottom: 10px;
+}
+
+.fund-item p {
+  margin-bottom: 5px;
+  line-height: 1;
+}
+
+.closing-message {
+  margin-top: 30px;
+  line-height: 1.1;
+  font-weight: bold;
+}
+.imgDiv {
+  width: 20rem; /* Fixed width */
+  aspect-ratio: 8/ 3; /* Keeps the ratio consistent */
+  position: relative;
+  padding: 1.75rem 2rem;
+  margin: 1rem;
+  background-color: #ffffff73;
+}
+.imgDiv img {
+  width: 100%;
+}
+
+.imgContainerTwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #e9e9e9 0%, #d3d3d3 100%);
+  padding: 1rem;
+  width: 100vw;
+}
+/* cashapp paypal */
+.donateButtons {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 4rem;
+  align-items: center;
+}
 .payPalBtn {
   margin: 2rem 0;
   display: flex;
@@ -1047,98 +1211,11 @@ a:focus {
 
 .cashAppBtn img {
   margin-right: 0.5rem;
-  width: 2.5rem;
+  width: 1.5rem;
 }
 .payPalBtn img {
-  width: 2rem;
+  width: 1.5rem;
   margin-right: 0.5rem;
-}
-.funds-container h2 {
-  font-size: 2rem;
-  font-family: var(--font-family-heading);
-  color: var(--primary-color);
-  margin-bottom: 2rem;
-  position: relative;
-}
-
-.funds-container h2::after {
-  content: "";
-  width: 60px;
-  height: 3px;
-  background-color: var(--accent-color);
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.funds-container p {
-  font-family: var(--font-family-heading);
-  margin-bottom: 20px;
-  font-size: 1.2rem;
-  font-weight: 300;
-  color: var(--text-color);
-}
-.funds-section .howGist {
-  font-size: 1.5rem;
-  line-height: 1;
-  font-weight: 400;
-  text-align: left;
-}
-
-.funds-breakdown {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-between;
-  margin-top: 20px;
-  padding: 0 15rem;
-  width: 100vw;
-}
-
-.fund-item {
-  flex: 1 1 calc(50% - 20px);
-  background: linear-gradient(135deg, #f3f3f3, #e0e0e0a1);
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.fund-item h3 {
-  font-family: var(--font-family-heading);
-  color: var(--accent-color);
-  margin-bottom: 10px;
-}
-
-.fund-item p {
-  margin-bottom: 5px;
-  line-height: 1;
-}
-
-.closing-message {
-  margin-top: 30px;
-  line-height: 1.1;
-  font-weight: bold;
-}
-.imgDiv {
-  width: 30rem; /* Fixed width */
-  aspect-ratio: 8/ 3; /* Keeps the ratio consistent */
-  position: relative;
-  padding: 1.75rem 2rem;
-  margin: 1rem;
-  background-color: #ffffff73;
-}
-.imgDiv img {
-  width: 100%;
-}
-
-.imgContainerTwo {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(180deg, #e9e9e9 0%, #d3d3d3 100%);
-  padding: 1rem;
-  width: 100vw;
 }
 
 /* end of how funds */
@@ -1256,54 +1333,6 @@ a:focus {
 
 /* donateSec */
 /* CSS */
-.button-6,
-.submitBtn {
-  align-items: center;
-
-  border: 1px solid var(--accent-color);
-  border-radius: 0.25rem;
-  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-  box-sizing: border-box;
-  color: var(--accent-color);
-  cursor: pointer;
-  display: inline-flex;
-  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
-    Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  justify-content: center;
-  line-height: 1.25;
-  margin: 0;
-  min-height: 3rem;
-  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
-  position: relative;
-  text-decoration: none;
-  transition: all 250ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: baseline;
-  width: 100%;
-}
-.submitBtn,
-.button-6:hover,
-.button-6:focus {
-  border-color: rgba(0, 0, 0, 0.15);
-  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-  color: rgba(0, 0, 0, 0.65);
-}
-.submitBtn,
-.button-6:hover {
-  transform: translateY(-1px);
-}
-.submitBtn,
-.button-6:active {
-  background-color: #f0f0f1;
-  border-color: rgba(0, 0, 0, 0.15);
-  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
-  color: rgba(0, 0, 0, 0.65);
-  transform: translateY(0);
-}
 
 /* end of donateSec */
 /* Media Queries for Different Screen Sizes */
@@ -1754,6 +1783,15 @@ a:focus {
   }
   .funds-container .imgDiv img {
     max-width: 50rem;
+  }
+
+  .event-section {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    width: 100%;
   }
 }
 /* iPhone Landscape (horizontal) */
