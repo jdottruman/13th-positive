@@ -706,10 +706,10 @@ a:focus {
 .modal .memo {
   text-align: left;
   padding: 2rem 5rem;
+  border-radius: 3px;
   font-size: 1.4rem;
-  background-color: #00000021;
-  color: var(--primary-color);
-  text-decoration: underline;
+  background-color: #000000;
+  color: #fff;
 }
 .modal .name {
   font-size: 2rem;
@@ -1747,10 +1747,9 @@ a:focus {
     font-weight: 400;
   }
   .modal .memo {
-    padding: 0.1rem;
+    padding: 01rem;
     font-size: 1.3rem;
     font-weight: 500;
-    color: #000000;
   }
   .cardSocial {
     flex-direction: row;
