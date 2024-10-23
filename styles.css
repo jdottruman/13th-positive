@@ -1242,7 +1242,7 @@ a:focus {
 @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
   .nav {
     background-color: #ffffff49;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   .nav__logo {
@@ -1690,7 +1690,7 @@ a:focus {
   /* Styles for iPhone in landscape mode */
   .nav {
     background-color: #ffffff49;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   .nav__logo {
     display: none;
