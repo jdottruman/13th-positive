@@ -1046,12 +1046,12 @@ a:focus {
 }
 
 .cashAppBtn img {
-  margin: 1rem;
+  margin-right: 0.5rem;
   width: 2.5rem;
 }
 .payPalBtn img {
   width: 2rem;
-  margin: 1rem;
+  margin-right: 0.5rem;
 }
 .funds-container h2 {
   font-size: 2rem;
