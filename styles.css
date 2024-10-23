@@ -995,6 +995,8 @@ a:focus {
 /* Event Card Styles */
 .eventsHalf {
   width: 50vw;
+  display: flex;
+  flex-direction: column;
 }
 .events-container {
   display: flex;
@@ -1014,6 +1016,9 @@ a:focus {
   padding: 2.5rem 5rem;
   min-width: 300px;
   width: 100%;
+}
+.eventGist {
+  padding: 2.5rem 5rem;
 }
 
 .event-card {
@@ -1810,7 +1815,11 @@ a:focus {
   }
   .formcon {
     width: 100vw;
-    padding: 1rem 3rem;
+    padding: 1.5rem 3rem;
+    margin: 1rem 0;
+  }
+  .eventGist {
+    padding: 0;
   }
 
   .event-section {
@@ -1819,13 +1828,15 @@ a:focus {
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column-reverse;
-    width: 100%;
   }
   .events-container {
     padding: 1rem 0;
   }
   .descriptionText {
     flex-direction: column;
+  }
+  .eventsHalf {
+    width: 100%;
   }
 }
 /* iPhone Landscape (horizontal) */
