@@ -407,7 +407,6 @@ a:focus {
   display: flex;
   width: 100%;
   flex-direction: row;
-  padding: 0 1rem;
   justify-content: space-between;
 }
 
@@ -416,7 +415,6 @@ a:focus {
   font-size: 1.75rem;
   line-height: 1.1;
   color: var(--text-color);
-  margin-bottom: 1.5rem;
   font-family: var(--font-family-body);
   text-align: left; /* Improve text alignment for readability */
 }
@@ -974,7 +972,7 @@ a:focus {
   flex-direction: row;
   width: 100%;
 
-  padding: 2rem 0;
+  padding: 2rem 3rem;
 }
 
 .event-section h2 {
@@ -996,12 +994,15 @@ a:focus {
 }
 /* Event Card Styles */
 .eventsHalf {
+  width: 50vw;
 }
 .events-container {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center;
 }
 .formcon {
   background-color: #ececec;
@@ -1010,8 +1011,9 @@ a:focus {
   background-size: cover;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  max-width: 300px;
+  padding: 2.5rem 5rem;
+  min-width: 300px;
+  width: 100%;
 }
 
 .event-card {
@@ -1054,9 +1056,10 @@ a:focus {
 .newsHalf {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 50vw;
 }
 .newsletter-container {
-  background-color: unset;
 }
 
 .mce_field_eroor {
@@ -1145,7 +1148,6 @@ a:focus {
 }
 
 .closing-message {
-  margin-top: 30px;
   line-height: 1.1;
   font-weight: bold;
 }
@@ -1173,11 +1175,11 @@ a:focus {
 .donateButtons {
   display: flex;
   flex-direction: column;
-  padding: 1rem 4rem;
   align-items: center;
+  margin: 0.5rem 0;
 }
 .payPalBtn {
-  margin: 2rem 0;
+  margin: 0.5rem 0;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1807,6 +1809,10 @@ a:focus {
   .funds-container .imgDiv img {
     max-width: 50rem;
   }
+  .formcon {
+    width: 100vw;
+    padding: 1rem 3rem;
+  }
 
   .event-section {
     text-align: center;
@@ -1815,6 +1821,12 @@ a:focus {
     justify-content: space-evenly;
     flex-direction: column-reverse;
     width: 100%;
+  }
+  .events-container {
+    padding: 1rem 0;
+  }
+  .descriptionText {
+    flex-direction: column;
   }
 }
 /* iPhone Landscape (horizontal) */
