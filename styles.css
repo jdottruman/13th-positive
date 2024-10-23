@@ -117,6 +117,7 @@ a:focus {
   top: 0;
   left: 0;
   width: 100%;
+  background-color: #ffffff49;
 }
 .nav__location {
   display: none;
@@ -1242,7 +1243,8 @@ a:focus {
 @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
   .nav {
     background-color: #ffffff49;
-    margin-bottom: 1rem;
+    height: unset;
+    padding: 2.4rem 0;
   }
 
   .nav__logo {
@@ -1690,7 +1692,8 @@ a:focus {
   /* Styles for iPhone in landscape mode */
   .nav {
     background-color: #ffffff49;
-    margin-bottom: 1rem;
+    height: unset;
+    padding: 2.4rem 0;
   }
   .nav__logo {
     display: none;
@@ -1821,3 +1824,4 @@ a:focus {
     flex-direction: column;
   } /* Styles for small laptops and tablets in landscape mode */
 }
+
