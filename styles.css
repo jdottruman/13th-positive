@@ -980,10 +980,79 @@ a:focus {
   justify-content: center;
   width: 100%;
 }
-.funds-container #donate-button {
+.donateButtons {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  align-items: center;
+}
+/* .funds-container #donate-button {
   width: 15rem;
+} */
+.payPalBtn {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 230px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: #fff;
+  background-color: #012169;
+  height: 48px;
+}
+.payPalBtn:hover {
+  background-color: #022f97;
+}
+.cashAppBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 230px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: #fff;
+  background-color: #15883e;
+  height: 48px;
+}
+.cashAppBtn:hover {
+  background-color: #1db954;
 }
 
+.cashAppBtn img {
+  margin: 1rem;
+  width: 2.5rem;
+}
+.payPalBtn img {
+  width: 2rem;
+  margin: 1rem;
+}
 .funds-container h2 {
   font-size: 2rem;
   font-family: var(--font-family-heading);
@@ -1824,4 +1893,3 @@ a:focus {
     flex-direction: column;
   } /* Styles for small laptops and tablets in landscape mode */
 }
-
