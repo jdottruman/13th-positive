@@ -40,6 +40,11 @@ body {
  color: var(--text-color);
 }
 /* key frame animations */
+
+@keyframes grown {
+  from {scale: .7; opacity: 0;}
+  to  {scale: 1; opacity: 1;}
+}
 @keyframes fade-down {
   0%{
     opacity: 0;
@@ -310,7 +315,7 @@ a:focus {
 
 .imgContainer {
   padding: 1rem;
-  animation: from-right .7s;
+  animation: grown .7s;
 }
 .imgContainer img {
   max-width: 350px;
