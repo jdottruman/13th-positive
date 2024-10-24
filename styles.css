@@ -987,7 +987,8 @@ background-color: #fff;
   align-items: center;
   width: 50vw;
 }
-.newsletter-container {
+#mc_embed_signup{
+  width: 100%;
 }
 
 .mce_field_eroor {
