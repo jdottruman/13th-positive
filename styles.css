@@ -48,13 +48,14 @@ body {
 @keyframes fade-down {
   0%{
     opacity: 0;
-    transform: translateY(-30px);
+    transform: translateY(-350px);
   }
   100%{
     opacity: 1;
     transform: translateY(0px);
   }
 }
+
 
 @keyframes from-left {
   0%{
@@ -245,7 +246,7 @@ a:focus {
   margin-right: 2rem;
   font-family: var(--font-family-heading);
   line-height: 2.75rem;
-  animation: from-left 1s;
+  animation: fade-down 1s;
   padding: 0 2rem;
 }
 .mobileParagrpah {
