@@ -1535,7 +1535,7 @@ background-color: #fff;
 
   .swiper {
     margin: 0;
-    width: 100%;
+    width: 100vw;
   }
   #stayConnected {
     display: flex;
