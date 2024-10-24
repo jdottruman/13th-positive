@@ -572,7 +572,7 @@ background-color: #000000;
 .modal-content {
   position: relative;
   margin: 5% auto;
-
+background-color: #fff;
   border-radius: 12px;
   padding: 3rem;
   width: 100%;
@@ -1651,7 +1651,6 @@ background-color: #000000;
     font-size: 1.8rem;
     line-height: 1.2;
 
-    color: var(--primary-color);
     font-weight: 500;
   }
 
