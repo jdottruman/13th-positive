@@ -106,7 +106,7 @@ const members = [
       "Clayton Howard is a passionate entrepreneur with a lifelong commitment to business excellence. Throughout his career, he has built a track record of success by embracing innovation and maintaining a strong work ethic. Happily married for 25 years, Clayton is a proud father of three and a devoted grandfather. <br> In addition to his business ventures, Clayton is dedicated to giving back to the community. He has volunteered in juvenile detention programs, mentoring young individuals and striving to make a positive impact. His life reflects a thoughtful balance between family, business, and service, embodying his roles as a loving family man, accomplished entrepreneur, and committed mentor.",
   },
   {
-    photo: "Photos/",
+    photo: "Photos/#",
     name: " <br>  ",
     role: "Board Member",
     message:
@@ -124,7 +124,15 @@ const members = [
     name: "Lorenzo <br> Williams  ",
     role: "Board Member",
     message:
-      "Lorenzo Williams one of the founders of 13th Positive Foundation who serves as a former Secretary and now board member. Over 20 plus years serving the surrounding communities and neighborhoods in the Proviso Township. Lorenzo is a successful entrepreneur and owner of ZinZo 1 Luxury Black Car service of 8 years. In his personal life he's a Loving family man and grandfather who's adventurous and loves passing time being a Chicago Fan of all sports teams and an advocate Golfer. Lorenzo enjoys giving back to the community he grew up in and helping paving the way for youth and their development.",
+      " Lorenzo Williams served as a former Secretary and currently as a board member. With over 20 years of experience, Lorenzo has been dedicated to supporting the communities and neighborhoods of Proviso Township. Lorenzo is a successful entrepreneur and the owner of ZinZo 1 Luxury Black Car Service, which he has operated for the past 8 years. In his personal life, Lorenzo is a devoted family man and grandfather, known for his adventurous spirit. He is a passionate Chicago sports fan and an avid golfer. Lorenzo takes great pride in giving back to the community where he grew up, with a strong focus on paving the way for youth development and their future success.",
+  },
+
+  {
+    photo: "/Photos/#",
+    name: "Craig<br>Flowers",
+    role: "Ambassador",
+    message:
+      "Craig Flowers is the Ambassador of 13th Positive, a foundation dedicated to bringing positivity and change to the community. As the jokester of the group, Craig has an infectious sense of humor that keeps everyone laughing and uplifted, no matter the situation. He is a strong, loving, and kindhearted individual with an unwavering passion for people and his community, always ready to lend a helping hand or a comforting word. In his professional life, Craig is a God-gifted psalmist, known for his powerful voice and soul-stirring performances at funerals and special occasions. His voice has been a source of comfort for countless families, and his reputation as a talented and compassionate artist extends far beyond his local community. Craig is also a devoted family man, having been married to his wife, Yolanda Flowers, for over 24 years. Together, they have built a beautiful family, blessed with three daughters and five amazing grandchildren—four boys and one girl—whom he loves dearly. His commitment to his family is as strong as his commitment to his community, making him a beloved figure both at home and beyond.",
   },
 ];
 
