@@ -246,7 +246,7 @@ a:focus {
   margin-right: 2rem;
   font-family: var(--font-family-heading);
   line-height: 2.75rem;
-  animation: from-left .7s;
+  animation: from-left 1s;
   padding: 0 2rem;
 }
 .mobileParagrpah {
@@ -315,7 +315,7 @@ a:focus {
 
 .imgContainer {
   padding: 1rem;
-  animation: grown .7s;
+  animation: grown 1.5s;
 }
 .imgContainer img {
   max-width: 350px;
