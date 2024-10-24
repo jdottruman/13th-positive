@@ -74,7 +74,7 @@ const members = [
     name: "Anthony <br> Lindsey",
     role: "Board Member",
     message:
-      "Anthony is a dedicated board member of the 13th Positive Foundation, committed to empowering communities through education, mentorship, and positive change. Alongside his board responsibilities, Anthony is a passionate youth football and basketball coach, mentoring young athletes to excel both on and off the field. With extensive leadership experience and a deep commitment to fostering growth and opportunity, Anthony plays a key role in shaping the foundation’s strategic vision, ensuring its mission inspires and uplifts those it serves.",
+      "Anthony is a dedicated board member of the 13th Positive Foundation, committed to empowering communities through education, mentorship, and positive change. Alongside his board responsibilities, Anthony is responsible for marketing and managing the social media presence of 13th Positive, ensuring the foundation’s mission reaches a wider audience and continues to inspire and uplift those it serves.Anthony is also a passionate youth football and basketball coach, mentoring young athletes to excel both on and off the field. With extensive leadership experience and a deep commitment to fostering growth and opportunity, Anthony plays a key role in shaping the foundation’s strategic vision and supporting its initiatives that create lasting, positive impacts in the community. By combining his love for sports, mentorship, and community building, Anthony’s contributions help ensure 13th Positive continues to grow, while empowering the next generation of leaders and athletes.",
   },
   {
     photo: "Photos/image0.png",
@@ -106,11 +106,25 @@ const members = [
       "Clayton Howard is a passionate entrepreneur with a lifelong commitment to business excellence. Throughout his career, he has built a track record of success by embracing innovation and maintaining a strong work ethic. Happily married for 25 years, Clayton is a proud father of three and a devoted grandfather. <br> In addition to his business ventures, Clayton is dedicated to giving back to the community. He has volunteered in juvenile detention programs, mentoring young individuals and striving to make a positive impact. His life reflects a thoughtful balance between family, business, and service, embodying his roles as a loving family man, accomplished entrepreneur, and committed mentor.",
   },
   {
+    photo: "Photos/",
+    name: " <br>  ",
+    role: "Board Member",
+    message:
+      "Craig Flowers is the Ambassador of 13th Positive, a foundation dedicated to bringing positivity and change to the community. As the jokester of the group, Craig has an infectious sense of humor that keeps everyone laughing and uplifted, no matter the situation. He is a strong, loving, and kindhearted individual with an unwavering passion for people and his community, always ready to lend a helping hand or a comforting word. In his professional life, Craig is a God-gifted psalmist, known for his powerful voice and soul-stirring performances at funerals and special occasions. His voice has been a source of comfort for countless families, and his reputation as a talented and compassionate artist extends far beyond his local community. Craig is also a devoted family man, having been married to his wife, Yolanda Flowers, for over 24 years. Together, they have built a beautiful family, blessed with three daughters and five amazing grandchildren—four boys and one girl—whom he loves dearly. His commitment to his family is as strong as his commitment to his community, making him a beloved figure both at home and beyond.",
+  },
+  {
     photo: "Photos/james.png",
     name: "James<br> Truman",
     role: "Secretary",
     message:
       "James Truman is an active board member and Secretary of the 13th Positive Foundation, a community-driven organization dedicated to supporting the Proviso Township through food drives, toy drives, youth scholarships, and acts of kindness. <br> A proud Chicagoan, James is a devoted fan of the Bulls, Cubs, and Bears. He lives, works, and thrives in Proviso Township, demonstrating his deep connection to the community. A committed family man, he balances his roles as a husband, father, and 'pop-pop' to two grandsons while remaining devoted to his faith, family, friends, and service.",
+  },
+  {
+    photo: "/Photos/Lorenzo.png",
+    name: "Lorenzo <br> Williams  ",
+    role: "Board Member",
+    message:
+      "Lorenzo Williams one of the founders of 13th Positive Foundation who serves as a former Secretary and now board member. Over 20 plus years serving the surrounding communities and neighborhoods in the Proviso Township. Lorenzo is a successful entrepreneur and owner of ZinZo 1 Luxury Black Car service of 8 years. In his personal life he's a Loving family man and grandfather who's adventurous and loves passing time being a Chicago Fan of all sports teams and an advocate Golfer. Lorenzo enjoys giving back to the community he grew up in and helping paving the way for youth and their development.",
   },
 ];
 
@@ -118,7 +132,7 @@ let resourcesHtml = ``;
 let membersHtml = ``;
 members.forEach((member, index) => {
   membersHtml += `
-        <div class="memberCard">
+        <div class="memberCard section__paragraph">
           <div class="cardImg">
             <img src="${member.photo}" alt="" />
           </div>
