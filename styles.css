@@ -330,16 +330,16 @@ a:focus {
 /* swipier */
 .swiper {
   width: 100rem;
-  aspect-ratio: 4 / 5;
+  /* aspect-ratio: 4 / 5; */
   object-fit: contain;
 }
 
 .swiper-slide {
   display: flex;
-  height: 100%;
+  height: 10%;
   width: 100%;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   object-fit: contain;
 }
 
@@ -1415,12 +1415,13 @@ background-color: #fff;
     text-align: left;
   }
   .missionContent p {
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 1;
     text-align: left;
     width: 100vw;
     padding: 0;
+    margin-left: 1rem;
   }
 
   .ourMission,
@@ -1535,6 +1536,7 @@ background-color: #fff;
 
   .swiper {
     margin: 0;
+    padding: 0;
     width: 100vw;
   }
   #stayConnected {
@@ -1683,18 +1685,7 @@ background-color: #fff;
   .funds-container #donate-button {
     width: 50%;
   }
-  /* 
-  .cardText button {
-    background-color: #ffffff36;
-    padding: 0 1.5rem;
-    margin: 0;
-    width: 100%;
-    font-weight: 400;
-    font-size: 0.7rem;
-    margin: 0.8rem 0;
-    margin-bottom: 0;
-    color: var(--accent-color);
-  } */
+
   .socials {
     width: unset;
   }
