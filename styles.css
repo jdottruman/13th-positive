@@ -370,7 +370,7 @@ background-color: #000000;
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
   width: 100%;
 
-  padding: 1.75rem 7rem;
+  padding: 4rem 7rem;
 }
 
 .section__paragraph {
@@ -397,7 +397,7 @@ background-color: #000000;
   color: var(--accent-color);
   font-family: var(--thirteen-font);
   line-height: 0.2;
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 
 .membersSection strong,
