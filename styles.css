@@ -1444,7 +1444,9 @@ border-radius: 16px;
     margin: 1.5rem;
     padding: 3rem 2rem;
   }
-
+.local-resources{
+  margin: 0 1.5rem;
+}
 .newsHalf{width: 100%;}
   .ourMission {margin:01.5rem ;
     padding: 3rem 2rem;
@@ -1506,7 +1508,7 @@ border-radius: 16px;
     line-height: 1;
     margin: 0;
     width: 100%;
-    padding: .8rem;
+    padding: 2rem;
     font-weight:700;
     /* border: 2.5px solid #ffffffad; */
   }
@@ -1591,9 +1593,7 @@ border-radius: 16px;
   .footer__container {
     flex-direction: column;
   }
-  body {
-    background-color: rgba(255, 255, 255, 0.884);
-  }
+
   .cardContainer {
     padding:1rem;
     gap: .3rem;
