@@ -388,7 +388,7 @@ line-height: 1;
 .missionContent p {
   font-size: 1.8rem;
   line-height: 1.1;
-color: #000000;
+  color: #000000;
   font-family: var(--font-family-body);
   text-align: justify; /* Improve text alignment for readability */
   padding: 0 7rem; /* Add some padding for smaller screens */
@@ -939,13 +939,14 @@ background-color: #fff;
 }
 .formcon p {
   padding:0 1.5rem;
+  text-align: justify;
 }
 .eventGist {
   /* padding: 2.5rem 5rem;
    */
    font-size: 1.5rem;
   padding:0 1.5rem;
-
+text-align: justify;
    font-weight: 300;
 }
 
@@ -1395,7 +1396,7 @@ background-color: #fff;
   .funds-container h2,
   .contact-container h2,
   .event-section h2 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-bottom: 0.8rem;
   }
   /* mobile paragraphs */
@@ -1407,16 +1408,14 @@ background-color: #fff;
     line-height: 1.3;
     width: 100%;
     font-weight: 300;
-    text-align: left;
+    text-align: justify;
   }
   .missionContent p {
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 1;
-    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 200;
+    text-align: justify;
     width: 100vw;
-    padding: 0rem 1rem ;
-    margin-left: 1rem;
+    padding: 0 2.5rem ;
   }
 
   .ourMission,
