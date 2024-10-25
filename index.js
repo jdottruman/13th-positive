@@ -120,13 +120,19 @@ const members = [
       "James Truman is an active board member and Secretary of the 13th Positive Foundation, a community-driven organization dedicated to supporting the Proviso Township through food drives, toy drives, youth scholarships, and acts of kindness. <br> A proud Chicagoan, James is a devoted fan of the Bulls, Cubs, and Bears. He lives, works, and thrives in Proviso Township, demonstrating his deep connection to the community. A committed family man, he balances his roles as a husband, father, and 'pop-pop' to two grandsons while remaining devoted to his faith, family, friends, and service.",
   },
   {
-    photo: "/Photos/Lorenzo.png",
+    photo: "/Photos/lorenzo.png",
     name: "Lorenzo <br> Williams  ",
     role: "Board Member",
     message:
       " Lorenzo Williams served as a former Secretary and currently as a board member. With over 20 years of experience, Lorenzo has been dedicated to supporting the communities and neighborhoods of Proviso Township. Lorenzo is a successful entrepreneur and the owner of ZinZo 1 Luxury Black Car Service, which he has operated for the past 8 years. In his personal life, Lorenzo is a devoted family man and grandfather, known for his adventurous spirit. He is a passionate Chicago sports fan and an avid golfer. Lorenzo takes great pride in giving back to the community where he grew up, with a strong focus on paving the way for youth development and their future success.",
   },
-
+  {
+    photo: "/Photos/#",
+    name: "Martese<br> Owens",
+    role: "Board Member",
+    message:
+      "Martese Owens Board Member, 13th Positive Foundation Martese Owens, 48, has been self-employed for the past 20 years as the owner of Owens Construction and Services, specializing in all aspects of real estate and property management. A former resident of Bellwood, Broadview, and Maywood, Martese is a proud alumnus of Proviso West High School, class of 1994. He has been married to LaTanya Owens for 14 years and is a dedicated father of six children and grandfather to three. Martese has a deep love for children and is passionate about ensuring they have better opportunities for success and a brighter future. His life is built on the foundation of kindness, with a commitment to uplifting his community through his work and philanthropic efforts. He strives to create a lasting, positive impact on the Proviso community and surrounding areas, always focusing on providing the next generation with the tools they need for a better life.",
+  },
   ,
 ];
 
