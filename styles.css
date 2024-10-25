@@ -33,16 +33,19 @@ html {
   font-family: var(--font-family-body);
 }
 /* Global Section Padding & Margin */
-section {
-  overflow: hidden;
+body{
+  background-color: #000;
+  
 }
 
 /* .ourMission,
 .local-resources {
   margin: 0 10rem;
 } */
-body {
+.bodyLower {  overflow: hidden;
 
+
+  background-color: #000000;
 }
 /* key frame animations */
 
@@ -243,23 +246,14 @@ a:focus {
   border-radius: 0.625rem;
   transition: all ease-in-out 0.2s;
 }
-/*  overall margin /padding for section */
-/* .ourMission, */
-.local-resources,
-.membersSection,
-.funds-section,
-.contact-section {
-  padding: 0rem 18rem;
-}
 
 /* Mission Statement Section */
 .overlay {
   width: 100%;
 }
 .missionsStatement {
-
-
-  /* background: linear-gradient(180deg, #e9e9e9 0%, #d3d3d3 100%); */
+  border-radius: 0 0 40px 40px;
+  background-color: #fff;
   flex-direction: row;
   width: 100%;
   /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.233); */
@@ -302,11 +296,13 @@ a:focus {
 }
 .missionStatementContent {
 
+
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 2.8rem;
-  padding-top: 6rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 
@@ -329,7 +325,7 @@ a:focus {
 
 /* swipier */
 .swiper {
-  width: 150rem;
+  width: 80rem;
   height: 100%;  /* aspect-ratio: 4 / 5; */
 
   object-fit: contain;
@@ -360,7 +356,6 @@ a:focus {
 
 /* Our Mission Section Styles */
 .ourMission {
-
   /* background: linear-gradient(180deg, #e9e9e9 0%, #d3d3d3 100%); */
   text-align: center;
   display: flex;
@@ -369,10 +364,10 @@ a:focus {
   flex-direction: row-reverse;
   font-family: var(--font-family-body);
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
-  width: 100%;
-
-  padding: 4rem 7rem;
-  padding-top: 0;
+background-color: rgb(255, 255, 255);
+margin: 2rem 10rem;
+border-radius: 16px;
+  padding:3rem 5rem;
 }
 
 .section__paragraph {
@@ -386,13 +381,12 @@ a:focus {
 }
 
 .missionContent p {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   line-height: 1.1;
   color: #000000;
   font-family: var(--font-family-body);
   text-align: justify; /* Improve text alignment for readability */
-  padding: 0 7rem; /* Add some padding for smaller screens */
-}
+margin-left: 2rem;}
 .missionContent p strong {
   color: var(--accent-color);
   font-family: var(--thirteen-font);
@@ -400,10 +394,6 @@ a:focus {
   font-size: 2rem;
 }
 
-.membersSection strong,
-.local-resources strong {
-
-}
 
 .missionContent p span:hover {
   color: var(--accent-color); /* Color swap on hover */
@@ -523,6 +513,10 @@ a:focus {
   flex-direction: column;
   align-items: center;
   color: #000000;
+  background-color: #fff;
+  margin:0rem 10rem ;
+  padding: 2rem;
+  border-radius: 15px;
 }
 /* Modal Button */
 
@@ -673,9 +667,10 @@ background-color: #fff;
   flex-direction: row;
   justify-content: space-evenly;
   gap: 0.75rem;
-  padding: 2rem 9rem;
-  width: 100vw;
-  margin-top: 20px;
+  width: 100%;
+  background-color: rgb(136, 136, 136);
+  border-radius: 8px;
+  padding: 2rem;
 
 }
 
@@ -710,6 +705,7 @@ background-color: #fff;
   width: 100%;
   height: 100%;
   object-fit: cover; /* Ensures the image covers the container without distortion */
+  border-radius: 8px;
 
   object-position: center; /* Centers the image nicely */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -725,6 +721,7 @@ background-color: #fff;
   text-align: center;
   padding: 1rem 0.5rem;
   width: 25%;
+  border-radius: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -883,16 +880,17 @@ background-color: #fff;
   align-items: flex-start;
   justify-content: space-evenly;
   flex-direction: row;
-  width: 100%;
+  border-radius: 8px;
+  margin: 3rem 10rem;
+background-color: #fff;
 
-  padding: 0rem 3rem;
 }
 
 .event-section h2 {
   font-size: 2rem;
   font-family: var(--font-family-heading);
   color: var(--primary-color);
-  margin-bottom: 2rem;
+  margin-bottom: .5rem;
   position: relative;
 }
 .event-section h2::after {
@@ -907,9 +905,15 @@ background-color: #fff;
 }
 /* Event Card Styles */
 .eventsHalf {
-  width: 50vw;
+  width: 50%;
   display: flex;
   flex-direction: column;
+  background-color: red;
+padding: 3rem;
+border-radius: 8px;
+margin: 3rem 4rem;
+
+
 }
 .events-container {
   display: flex;
@@ -930,16 +934,16 @@ background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 8px;
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-  padding: 2rem 8rem;
-  min-width: 300px;
+  padding: 2rem 2rem;
+  width: 100%;
   font-size: 1.5rem;
   font-weight: 300;
 }
 .formcon p {
-  padding:0 1.5rem;
-  text-align: justify;
+  padding: 1rem; 
+   text-align: justify;
 }
 .eventGist {
   /* padding: 2.5rem 5rem;
@@ -984,11 +988,13 @@ text-align: justify;
 }
 
 /* newsletter side */
-.newsHalf {
+.newsHalf {margin: 3rem;
+  background-color: red;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 50vw;
+    border-radius: 8px;
+    align-items: center;
+  width: 50%;
 }
 #mc_embed_signup{
   width: 100%;
@@ -1004,6 +1010,10 @@ text-align: justify;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  background-color: #fff;
+border-radius: 16px;
+  margin: 4rem 15rem;
+  padding: 6rem 7rem;
 }
 
 .funds-container {
@@ -1089,19 +1099,24 @@ text-align: justify;
   position: relative;
   padding: 1.75rem 2rem;
   margin: 1rem;
-  background-color: #ffffff73;
+  border-radius: 16px;
+  background-color: #ffffff;
 }
 .imgDiv img {
+  border-radius: 16px;
   width: 100%;
 }
 
-.imgContainerTwo {
+.imgContainerTwo {  background-color: #7c7c7cec;
+  border-radius: 16px;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
-  width: 100vw;
+  padding: 2rem;
+  width:100%;
+  margin: 1rem;
 }
 /* cashapp paypal */
 .donateButtons {
@@ -1411,20 +1426,26 @@ text-align: justify;
     text-align: justify;
   }
   .missionContent p {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-weight: 200;
     text-align: justify;
-    width: 100vw;
-    padding: 0 2.5rem ;
+    margin: 0;
+  }
+  .membersSection{
+    background-color: #fff;
+    margin: 1.5rem;
+    padding: 2rem;
+    border-radius: 15px;
   }
 
-  .ourMission,
-  .local-resources,
-  .membersSection,
-  .funds-section {
-    padding: 01.5rem 1rem;
+  .funds-section{
+    margin: 1.5rem;
+    padding: 3rem 2rem;
   }
-  .ourMission {padding:0 ;
+
+.newsHalf{width: 100%;}
+  .ourMission {margin:01.5rem ;
+    padding: 3rem 2rem;
     flex-direction: column-reverse;
   }
 
@@ -1468,15 +1489,9 @@ text-align: justify;
     line-height: 1.1;
     margin: 0rem;
     padding: 0;
-    padding-top: 8rem;
+    padding-top: 5.5rem;
   }
-  .missionsParagraph .missionText {
-    text-align: center;
-    font-size: 2.1rem;
-    line-height: 0.85;
 
-    display: none;
-  }
   .mobileParagrpah {
  
     animation: fade-up 1.5s;
@@ -1500,12 +1515,7 @@ text-align: justify;
     font-weight: 900;
   }
 
-  .missionsParagraph .missionHeader {
-    font-size: 1.9rem;
-    line-height: 0.85;
-    text-align: center;
-    display: none;
-  }
+
   .missionsParagraph {
     width: 100vw;
     margin-top: 0;
@@ -1526,8 +1536,7 @@ text-align: justify;
   }
 
   .swiper {
-   
-    width: 100vw;
+   width: 100%;
   }
   #stayConnected {
     display: flex;
@@ -1584,8 +1593,8 @@ text-align: justify;
     background-color: rgba(255, 255, 255, 0.884);
   }
   .cardContainer {
-    padding: 2.5rem 0.5rem;
-    gap: 1rem;
+    padding:1rem;
+    gap: .3rem;
     flex-direction: row;
   }
   .memberCard {
@@ -1716,6 +1725,7 @@ text-align: justify;
   .event-section {
     text-align: center;
     display: flex;
+    margin: 1rem;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column-reverse;
@@ -1738,13 +1748,6 @@ text-align: justify;
     padding: 0;
   }
 
-  .ourMission,
-  .local-resources,
-  .membersSection,
-  .funds-section {
-    padding: 01.5rem 1rem;
-    width: 100%;
-  }
   .swiper .ourMission {
     flex-direction: column;
   }
