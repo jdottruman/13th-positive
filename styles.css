@@ -249,7 +249,7 @@ a:focus {
 .membersSection,
 .funds-section,
 .contact-section {
-  padding: 1.5rem 18rem;
+  padding: 0rem 18rem;
 }
 
 /* Mission Statement Section */
@@ -262,7 +262,7 @@ a:focus {
   /* background: linear-gradient(180deg, #e9e9e9 0%, #d3d3d3 100%); */
   flex-direction: row;
   width: 100%;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.233);
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.233); */
 }
 
 .missionsParagraph {
@@ -330,23 +330,22 @@ line-height: 1;
 
 /* swipier */
 .swiper {
-  width: 100rem;
-  /* aspect-ratio: 4 / 5; */
+  width: 100%;
+  height: 100%;  /* aspect-ratio: 4 / 5; */
   object-fit: contain;
 }
 
 .swiper-slide {
+  text-align: center;
   display: flex;
-  height: 10%;
-  width: 100%;
-  justify-content: center;
-  align-items: flex-start;
-  object-fit: contain;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.swiper-slide img {
+.swiper-slide img {overflow: hidden;
+  display: block;
   width: 100%;
-
+  height: 100%;
   object-fit: contain;
 }
 
@@ -373,6 +372,7 @@ line-height: 1;
   width: 100%;
 
   padding: 4rem 7rem;
+  padding-top: 0;
 }
 
 .section__paragraph {
@@ -1425,7 +1425,7 @@ background-color: #fff;
   .funds-section {
     padding: 01.5rem 1rem;
   }
-  .ourMission {
+  .ourMission {padding:0 ;
     flex-direction: column-reverse;
   }
 
@@ -1468,8 +1468,9 @@ background-color: #fff;
     align-items: center;
     line-height: 1.1;
     margin: 0rem;
-    padding-top: 5rem;
-    padding-bottom: 3rem;
+    padding: 0;
+
+    padding-top: 8rem;
   }
   .missionsParagraph .missionText {
     text-align: center;
@@ -1487,7 +1488,7 @@ background-color: #fff;
     color: #000000;
     text-align: justify;
     font-size: 2rem;
-    line-height: 0.89;
+    line-height: 1;
     margin: 0;
     width: 100%;
     padding: .8rem;
@@ -1514,12 +1515,7 @@ background-color: #fff;
     margin-right: 0;padding: 0;
   }
 
-  .missionStatementContent button {
-    display: blnock;
-    padding: 0.5rem 8.8rem;
-    font-weight: 900;
-    font-size: 1.2rem; /* Padding to make the button sizable */
-  }
+ 
   .overlay {
   }
 
@@ -1532,8 +1528,7 @@ background-color: #fff;
   }
 
   .swiper {
-    margin: 0;
-    padding: 0;
+   
     width: 100vw;
   }
   #stayConnected {
