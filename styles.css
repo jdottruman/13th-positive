@@ -41,7 +41,7 @@ body {
 }
 /* key frame animations */
 
-@keyfraames grown {
+@keyframes grown {
   from {scale: .7; opacity: 0;}
   to  {scale: 1; opacity: 1;}
 }
@@ -155,7 +155,7 @@ a:focus {
 
 /* Navbar Styles */
 .nav {
-  height: 5.2rem;
+  height: 4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -165,6 +165,16 @@ a:focus {
   left: 0;
   width: 100%;
   animation: fade-down .7s;
+
+  border-radius: 8px; /* Slight rounding for modern feel */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
+              0 2px 4px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.nav:hover{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15), 
+  0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .nav__location {
   display: none;
@@ -177,7 +187,7 @@ a:focus {
   letter-spacing: 1.5px;
 }
 .nav__logo img {
-  width: 4.5rem;
+  width: 3.5rem;
   padding: 0 4px;
 }
 
@@ -197,8 +207,8 @@ a:focus {
   color: var(--text-color);
 
   padding: 1rem;
-  font-size: 2rem;
-  font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 600;
   font-family: var(--font-family-body);
   transition: color 0.3s ease;
 }
@@ -240,13 +250,11 @@ a:focus {
 
 /* Mission Statement Section */
 .overlay {
-  height: 100%;
   width: 100%;
 }
 .missionsStatement {
   display: flex;
   /* background: linear-gradient(180deg, #e9e9e9 0%, #d3d3d3 100%); */
-
   flex-direction: row;
   width: 100%;
   box-shadow: 0 10px 70px rgba(0, 0, 0, 0.5);
@@ -257,20 +265,24 @@ a:focus {
   font-family: var(--font-family-heading);
   line-height: 2.75rem;
   animation: fade-down 1s;
-  padding: 0 2rem;
+  padding: 0 5rem;
+  margin-top: 10rem;
 }
 .mobileParagrpah {
-  display: none;
-  align-items: center;
+  /* text-justify: inter-word; */
+  text-align: justify;
+       hyphens: auto;                  /* Enable word hyphenation */
+word-spacing: 1px;
+  font-size: 2rem;font-weight: 300;
 }
 .missionsParagraph .missionHeader {
-  text-align: center;
+  text-align: justify;
   font-weight: 300;
   font-size: 4rem;
   color: rgb(0, 0, 0);
 }
 .missionsParagraph .missionText {
-  text-align: center;
+  text-align: justify;
   font-weight: 300;
 
   font-size: 2.75rem;
@@ -407,7 +419,7 @@ background-color: #000000;
   color: var(--accent-color);
   font-family: var(--thirteen-font);
   line-height: 0.2;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .membersSection strong,
@@ -1490,12 +1502,13 @@ background-color: #fff;
     display: none;
   }
   .mobileParagrpah {
+ 
     animation: fade-up 1.5s;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #000000;
-    text-align: center;
+    text-align: justify;
     font-size: 2rem;
     line-height: 0.89;
     margin: 0;
