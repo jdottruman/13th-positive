@@ -41,7 +41,7 @@ body {
 }
 /* key frame animations */
 
-@keyframes grown {
+@keyfraames grown {
   from {scale: .7; opacity: 0;}
   to  {scale: 1; opacity: 1;}
 }
