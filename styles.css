@@ -277,8 +277,7 @@ a:focus {
   /* text-justify: inter-word; */
   text-align: justify;
        hyphens: auto;                  /* Enable word hyphenation */
-line-height: 1;
-       font-size: 3.2rem; /* Adjust as needed */
+       font-size: 3rem; /* Adjust as needed */
        color: #000000;
 }
 /* .missionsParagraph .missionHeader {
@@ -317,7 +316,7 @@ line-height: 1;
   animation: grown 1.5s;
 }
 .imgContainer img {
-  max-width: 350px;
+  max-width: 250px;
   height: auto;
 
   /* box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15); */
@@ -330,8 +329,9 @@ line-height: 1;
 
 /* swipier */
 .swiper {
-  width: 100%;
+  width: 150rem;
   height: 100%;  /* aspect-ratio: 4 / 5; */
+
   object-fit: contain;
 }
 
@@ -1485,12 +1485,12 @@ text-align: justify;
     align-items: center;
     color: #000000;
     text-align: justify;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1;
     margin: 0;
     width: 100%;
     padding: .8rem;
-    font-weight: 900;
+    font-weight:700;
     /* border: 2.5px solid #ffffffad; */
   }
 
