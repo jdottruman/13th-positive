@@ -120,7 +120,7 @@ const members = [
       "James Truman is an active board member and Secretary of the 13th Positive Foundation, a community-driven organization dedicated to supporting the Proviso Township through food drives, toy drives, youth scholarships, and acts of kindness. <br> A proud Chicagoan, James is a devoted fan of the Bulls, Cubs, and Bears. He lives, works, and thrives in Proviso Township, demonstrating his deep connection to the community. A committed family man, he balances his roles as a husband, father, and 'pop-pop' to two grandsons while remaining devoted to his faith, family, friends, and service.",
   },
   {
-    photo: "/Photos/lorenzo.png",
+    photo: "Photos/lorenzo.png",
     name: "Lorenzo <br> Williams  ",
     role: "Board Member",
     message:
