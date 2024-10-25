@@ -323,7 +323,6 @@ a:focus {
 }
 
 .imgContainer {
-  padding: 1rem;
   animation: grown 1.5s;
 }
 .imgContainer img {
@@ -1480,7 +1479,7 @@ background-color: #fff;
     align-items: center;
     line-height: 1.1;
     margin: 0rem;
-    padding-top: 4.5rem;
+    padding-top: 5rem;
     padding-bottom: 3rem;
   }
   .missionsParagraph .missionText {
@@ -1535,8 +1534,8 @@ background-color: #fff;
   }
 
   .imgContainer img {
-    width: 100%;
-    height: 100%;
+    max-width: 200px;  
+      height: 100%;
     object-fit: contain;
     z-index: 2; /* Ensure it appears above the blur */
     position: relative;
