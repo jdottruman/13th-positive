@@ -34,7 +34,8 @@ html {
 }
 /* Global Section Padding & Margin */
 body{
-background-color: #00799bda;
+  background-color: #eeeeee; /* Solid grey */
+
 }
 
 /* .ourMission,
@@ -163,17 +164,17 @@ a:focus {
 
 /* Navbar Styles */
 .nav {
+  backdrop-filter: blur(10px);
   height: 4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2rem;
+  padding: 0 3rem;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   animation: fade-down .7s;
-
   border-radius: 8px; /* Slight rounding for modern feel */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
               0 2px 4px rgba(0, 0, 0, 0.06);
@@ -212,10 +213,10 @@ a:focus {
 }
 
 .nav__menu ul li a {
-  color: var(--text-color);
-
+  color: #ffffff;
+font-weight: 300;
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: 'IBM Plex Sans', sans-serif;
   transition: color 0.3s ease;
 }
@@ -249,30 +250,36 @@ a:focus {
 
 /* Mission Statement Section */
 .overlay {
+background-color: #00799b67;
   width: 100%;
 }
 .missionsStatement {
-  border-radius: 0 0 40px 40px;
-  background-color: #fff;
-  flex-direction: row;
   width: 100%;
+
+ 
+  background: url(Photos/mckenna-phillips-Db-stA8meJY-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
   /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.233); */
 }
 
 .missionsParagraph {
-  margin-right: 2rem;
-
+  margin-right: 0rem;
   animation: fade-down 1s;
-  padding: 0 5rem;
-
+  padding: 0 0rem;
 
 }
 .mobileParagrpah {
   /* text-justify: inter-word; */
   text-align: justify;
        hyphens: auto;                  /* Enable word hyphenation */
-       font-size: 3rem; /* Adjust as needed */
-       color: #000000;
+       font-size: 2.5rem; /* Adjust as needed */
+       color: #ffffff;
+margin: 0 7rem;
+font-weight: 300;
+line-height: 1.3;
+font-family: poppins;
 }
 /* .missionsParagraph .missionHeader {
   text-align: justify;
@@ -295,24 +302,22 @@ a:focus {
   font-family: var(--thirteen-font);
 }
 .missionStatementContent {
-
-
+height: 100vh;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 2.8rem;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  flex-direction: column-reverse;
+  align-items: center;justify-content: center;
+  padding-top: 2rem;
+  padding: 0 5rem;
 }
-
 
 
 
 .imgContainer {
   animation: grown 1.5s;
+
 }
 .imgContainer img {
-  max-width: 250px;
+  max-width: 300px;
   height: auto;
 
   /* box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15); */
@@ -325,10 +330,9 @@ a:focus {
 
 /* swipier */
 .swiper {
-  width: 80rem;
-  height: 100%;  /* aspect-ratio: 4 / 5; */
-
-  object-fit: contain;
+  width: 1rem;
+  /* aspect-ratio: 4 / 5; */
+  object-fit: cover;
 }
 
 .swiper-slide {
@@ -358,16 +362,29 @@ a:focus {
 .ourMission {
   /* background: linear-gradient(180deg, #e9e9e9 0%, #d3d3d3 100%); */
   text-align: center;
+  display: flex; 
+padding: 1.5rem 10rem;
+  align-items: center;
+  flex-direction:row-reverse;
+  font-family: var(--font-family-body);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
+}
+
+.ourMissionImgContainer{
+  border-radius: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row-reverse;
-  font-family: var(--font-family-body);
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
-background-color: rgb(255, 255, 255);
-margin: 1.5rem 10rem;
-border-radius: 16px;
-  padding:3rem 5rem;
+  width: 200rem;
+  overflow: hidden; /* Ensures the image does not overflow */
+ /* Optional: Adjust the max width for layout */
+/*    aspect-ratio: 16 / 9; Optional: Maintains a consistent aspect ratio */
+
+}
+.ourMissionImgContainer img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .section__paragraph {
@@ -381,31 +398,56 @@ border-radius: 16px;
 }
 
 .missionContent p {
-  font-size: 1.4rem;
-  line-height: 1.1;
+  font-size: 1.8rem;
+  line-height: 1.1;font-weight: 400;
   color: #000000;
+  padding:1.5rem;
   font-family: var(--font-family-body);
   text-align: justify; /* Improve text alignment for readability */
-margin-left: 2rem;}
+;}
 .missionContent p strong {
   color: var(--accent-color);
   font-family: var(--thirteen-font);
   line-height: 0.2;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 
 .missionContent p span:hover {
   color: var(--accent-color); /* Color swap on hover */
 }
+/* photo sec */
+.photoSec{
+  width: 100%;
+}
 
+.imgContainerTwo { 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+    overflow: hidden; /* Ensures the image does not overflow */
+
+}
+.imgContainerTwo img{
+  width: 100%;
+  object-fit: cover;
+}
+.imgDiv {
+  width: 25rem; /* Fixed width */
+  aspect-ratio: 8/ 3; /* Keeps the ratio consistent */
+  position: relative;
+}
+.imgDiv img {
+  width: 100%;
+}
+
+/* end of photo sec */
 /* Local Resources Section */
 .local-resources {
   text-align: center;
-  /* margin: 80px auto; */
-background-color: #fff;
-margin: 2rem 10rem;
-padding: 1.5rem;
+
 border-radius: 8px;
   /* Professional margin */
   display: flex;
@@ -516,10 +558,7 @@ border-radius: 8px;
   flex-direction: column;
   align-items: center;
   color: #000000;
-  background-color: #fff;
-  margin:0rem 10rem ;
-  padding: 2rem;
-  border-radius: 15px;
+
 }
 /* Modal Button */
 
@@ -1006,186 +1045,148 @@ text-align: justify;
 }
 /* end of events section */
 /* how we use funds sec */
-.funds-section {
-  color: #333;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background-color: #fff;
-border-radius: 16px;
-  margin: 4rem 15rem;
-  padding: 6rem 7rem;
-}
 
-.funds-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
 
 /* .funds-container #donate-button {
   width: 15rem;
 } */
 
-.funds-container h2 {
-  font-size: 2rem;
-  font-family: var(--font-family-heading);
-  color: var(--primary-color);
-  margin-bottom: .5rem;
-  position: relative;
+.funds-section {
+  background: linear-gradient(135deg, #f0fdff, #ffffff);
+  padding: 80px 15rem;
+  text-align: center;
+  overflow: hidden;
 }
 
-.funds-container h2::after {
-  content: "";
-  width: 60px;
-  height: 3px;
-  background-color: var(--accent-color);
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
+.funds-container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.funds-container p {
-  font-family: var(--font-family-heading);
-  margin-bottom: 20px;
+
+/* Headings & Text */
+.funds-section h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  animation: fadeIn 1s ease-out;
+}
+
+.howGist {
+  font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
-  font-weight: 300;
-  color: var(--text-color);
-}
-.funds-section .howGist {
-  padding: 0 4rem;
-  font-weight: 300;
-  font-size: 1.5rem;
-  line-height: 1.1;
-  text-align: justify;
+  color: #000000;
+  margin-bottom: 50px;
+  line-height: 1.7;
+  animation: fadeIn 1.2s ease-out;
 }
 
+/* Fund Breakdown Items */
 .funds-breakdown {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
   justify-content: space-between;
-  padding: 0;
-  width: 100%;
+  gap: 30px;
 }
 
 .fund-item {
-  flex: 1 1 calc(50% - 20px);
-  background: linear-gradient(135deg, #f3f3f3, #e0e0e0a1);
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border: 2px solid rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 30px;
+  width: calc(50% - 15px);
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+  animation: slideInUp 1s ease-out;
+}
+
+.fund-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .fund-item h3 {
-  font-family: var(--font-family-heading);
-  color: var(--accent-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
   margin-bottom: 10px;
 }
 
 .fund-item p {
-  margin-bottom: 5px;
-  line-height: 1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  color: #000000;
+  line-height: 1.6;
 }
 
+/* Closing Message */
 .closing-message {
-  line-height: 1.1;
-  font-weight: bold;
-}
-.imgDiv {
-  width: 18rem; /* Fixed width */
-  aspect-ratio: 8/ 3; /* Keeps the ratio consistent */
-  position: relative;
-  padding: 1.75rem 2rem;
-  margin: 1rem;
-  border-radius: 16px;
-  background-color: #ffffff;
-}
-.imgDiv img {
-  border-radius: 16px;
-  width: 100%;
+  margin-top: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  color: #455a64;
+  line-height: 1.7;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: fadeIn 1.3s ease-out;
 }
 
-.imgContainerTwo {  background-color: #7c7c7cec;
-  border-radius: 16px;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-  width:100%;
-  margin: 1rem;
-}
-/* cashapp paypal */
+/* Buttons Section */
 .donateButtons {
+  margin-top: 40px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0.5rem 0;
-}
-.payPalBtn {
-  margin: 0.5rem 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: center;
-  outline: none;
-  cursor: pointer;
-  font-size: 14px;
-  line-height: 1;
-  border-radius: 500px;
-  transition-property: background-color, border-color, color, box-shadow, filter;
-  transition-duration: 0.3s;
-  border: 1px solid transparent;
-  letter-spacing: 2px;
-  min-width: 230px;
-  text-transform: uppercase;
-  white-space: normal;
-  font-weight: 700;
-  text-align: center;
-  padding: 16px 14px 18px;
-  color: #fff;
-  height: 48px;
-}
-.payPalBtn:hover {
-}
-.cashAppBtn {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  outline: none;
-  cursor: pointer;
-  font-size: 14px;
-  line-height: 1;
-  border-radius: 500px;
-  transition-property: background-color, border-color, color, box-shadow, filter;
-  transition-duration: 0.3s;
-  border: 1px solid transparent;
-  letter-spacing: 2px;
-  min-width: 230px;
-  text-transform: uppercase;
-  white-space: normal;
-  font-weight: 700;
-  text-align: center;
-  padding: 16px 14px 18px;
-  color: #fff;
-  height: 48px;
-}
-.cashAppBtn:hover {
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
-.cashAppBtn img {
-  margin-right: 0.5rem;
-  width: 1.5rem;
+/* Button Styles */
+.cashAppBtn, .payPalBtn {
+  background: linear-gradient(45deg, #00c244, #00796b);
+  border: none;
+  padding: 15px 25px;
+  border-radius: 30px;
+  width: 15rem;
+  margin-top: 1rem;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease, transform 0.2s ease;
 }
-.payPalBtn img {
-  width: 1.5rem;
-  margin-right: 0.5rem;
+
+.payPalBtn {
+  background: linear-gradient(45deg, #0070ba, #003f87);
+}
+
+.cashAppBtn:hover, .payPalBtn:hover {
+  background: linear-gradient(45deg, #004d40, #00251a);
+  transform: scale(1.05);
+}
+
+/* Button Icons */
+.cashAppBtn img, .payPalBtn img {
+  width: 28px;
+  height: 28px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .fund-item {
+    width: 100%;
+  }
+
+  .funds-section h2 {
+    font-size: 2.4rem;
+  }
+
+  .howGist {
+    font-size: 1rem;
+  }
 }
 
 /* end of how funds */
@@ -1321,11 +1322,11 @@ border-radius: 16px;
   }
   .nav__location {
     display: flex;
-    color: #000000;
+    color: #ffffff;
     font-size: 1.2rem;
     align-items: center;
     justify-content: center;
-    font-weight: 400;
+    font-weight: 200;
     position: absolute;
     top: 2.3rem;
     right: 1rem;
@@ -1397,12 +1398,12 @@ border-radius: 16px;
   .ourMission strong {
     color: var(--accent-color);
     font-family: var(--font-family-heading);
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 0.75;
     font-weight: 400;
   }
   .ourMission p strong {
-    font-size: 2.3rem;
+    font-size: 1.3rem;
   }
   .ourMission span {
     color: var(--accent-color);
@@ -1420,7 +1421,7 @@ border-radius: 16px;
   .local-resources .description,
   .membersSection .memberGist,
   .funds-container .howGist {
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 1rem;
     line-height: 1.3;
     width: 100%;
@@ -1448,11 +1449,18 @@ border-radius: 16px;
   margin: 0 1.5rem;
 }
 .newsHalf{width: 100%;}
-  .ourMission {margin:01.5rem ;
-    padding: 3rem 2rem;
+ 
+.ourMission {
+    padding: 0;
+    margin: 0;
+    height: unset;
     flex-direction: column-reverse;
   }
-
+  .ourMissionImgContainer{
+    width:100vw;
+    height: 100%;
+  
+  }
   .resources-container {
     flex-direction: column;
     align-items: center;
@@ -1493,7 +1501,10 @@ border-radius: 16px;
     line-height: 1.1;
     margin: 0rem;
     padding: 0;
-    padding-top: 5.5rem;
+    padding-top: 5REM;
+    height: unset;
+
+
   }
 
   .mobileParagrpah {
@@ -1502,7 +1513,6 @@ border-radius: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #000000;
     text-align: justify;
     font-size: 1.5rem;
     line-height: 1;
@@ -1702,7 +1712,6 @@ border-radius: 16px;
     text-align: left;
   }
   .imgContainerTwo {
-    padding: 2rem;
     flex-direction: column;
   }
   .funds-container .imgDiv {
