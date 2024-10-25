@@ -208,7 +208,6 @@ a:focus {
 
   padding: 1rem;
   font-size: 1.5rem;
-  font-weight: 600;
   font-family: var(--font-family-body);
   transition: color 0.3s ease;
 }
@@ -272,10 +271,9 @@ a:focus {
   /* text-justify: inter-word; */
   text-align: justify;
        hyphens: auto;                  /* Enable word hyphenation */
-word-spacing: 1px;
-  font-size: 2rem;font-weight: 300;
+  font-size: 2rem;
 }
-.missionsParagraph .missionHeader {
+/* .missionsParagraph .missionHeader {
   text-align: justify;
   font-weight: 300;
   font-size: 4rem;
@@ -287,7 +285,7 @@ word-spacing: 1px;
 
   font-size: 2.75rem;
   color: rgb(0, 0, 0);
-}
+} */
 .highlight {
   color: var(--accent-color);
   /* font-family: var(--thirteen-font); */
@@ -303,36 +301,9 @@ word-spacing: 1px;
   padding: 2.8rem;
   padding-top: 6rem;
 }
-/* Donate Button Styling */
 
-.missionStatementContent button {
-  background-color: var(--accent-color); /* Main button color */
-  color: #fff; /* Text color */
-  border: none;
-  padding: 1rem 2rem; /* Padding to make the button sizable */
-  font-size: 1.6rem; /* Font size */
-  font-weight: bold;
-  text-transform: uppercase; /* Capitalize text */
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
-  margin-top: 1rem; /* Space below the button */
-  display: none;
-}
 
-/* Hover effect */
-.missionStatementContent button:hover {
-  background-color: var(--accent-color); /* Change color on hover */
-  transform: translateY(-3px); /* Slight lift on hover */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Increased shadow on hover */
-}
 
-/* Focus effect */
-.missionStatementContent button:focus {
-  outline: none; /* Remove default outline */
-  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Add custom focus ring */
-}
 
 .imgContainer {
   animation: grown 1.5s;
@@ -406,13 +377,12 @@ background-color: #000000;
 }
 
 .missionContent p {
-  font-weight: 200;
   font-size: 1.75rem;
   line-height: 1.1;
 
   color: #fff;
   font-family: var(--font-family-body);
-  text-align: left; /* Improve text alignment for readability */
+  text-align: justify; /* Improve text alignment for readability */
   padding: 0 7rem; /* Add some padding for smaller screens */
 }
 .missionContent p strong {
@@ -1547,7 +1517,7 @@ background-color: #fff;
   }
 
   .imgContainer img {
-    max-width: 200px;  
+    width: 200px;  
       height: 100%;
     object-fit: contain;
     z-index: 2; /* Ensure it appears above the blur */
