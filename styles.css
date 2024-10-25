@@ -1426,7 +1426,7 @@ background-color: #fff;
     padding: 01.5rem 1rem;
   }
   .ourMission {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .resources-container {
