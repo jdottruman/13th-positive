@@ -251,7 +251,7 @@ font-weight: 500;
 /* Mission Statement Section */
 .overlay {
   width: 100%;
-  background-color: #0066ff3d;
+  background-color: #0036866e;
 
 }
 .missionsStatement {
@@ -1380,9 +1380,10 @@ text-align: justify;
   .missionContent p {
     max-width: unset;
     font-weight: 200;
- width: 100vw;
  font-size: 1rem;
- padding: 1rem;
+ padding: 1rem 2.5rem;
+ width: 100%;
+
   }
   .missionContentImgCon{
     width: 100vw;
@@ -1399,7 +1400,6 @@ text-align: justify;
 
 
 .missionP{
-  width: 100%;
 
 }
   .ourMissionImgContainer{
