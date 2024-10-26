@@ -169,7 +169,7 @@ a:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 3rem;
+  padding: 0 5rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -192,12 +192,12 @@ a:focus {
 .nav__logo {
   text-align: center;
   font-size: 1.8rem;
-  color: #fff;
+  color: #fff;  width: 4rem;
+
   letter-spacing: 1.5px;
 }
 .nav__logo img {
-  width: 3.5rem;
-  padding: 0 4px;
+  padding: 0 4px;width: 100%;
 }
 
 .nav__menu ul {
@@ -367,7 +367,7 @@ font-family: poppins;
   flex-direction: row;justify-content: center;align-items: center;
 }
 .missionContentImgCon{
-  width: 100rem;
+  width: 40rem;
 }
 .missionContentImgCon img {
   width: 100%;
@@ -1379,9 +1379,9 @@ text-align: justify;
   }
   .missionContent p {
     max-width: unset;
-    font-weight: 300;
+    font-weight: 200;
  width: 100vw;
- line-height: 1;
+ font-size: 1rem;
  padding: 1rem;
   }
   .missionContentImgCon{
