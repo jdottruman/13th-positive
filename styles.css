@@ -1379,9 +1379,10 @@ text-align: justify;
   }
   .missionContent p {
     max-width: unset;
-    font-weight: 200;
+    font-weight: 300;
  font-size: 1rem;
- padding: 1rem 2.5rem;
+ padding: 1rem 4rem;
+ line-height: 2;
  width: 100%;
 
   }
