@@ -164,8 +164,8 @@ a:focus {
 
 /* Navbar Styles */
 .nav {
-  backdrop-filter: blur(10px);
-  height: 4rem;
+  backdrop-filter: blur(3px);
+  height: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -214,9 +214,9 @@ a:focus {
 
 .nav__menu ul li a {
   color: #ffffff;
-font-weight: 300;
+font-weight: 500;
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-family: 'IBM Plex Sans', sans-serif;
   transition: color 0.3s ease;
 }
@@ -250,15 +250,15 @@ font-weight: 300;
 
 /* Mission Statement Section */
 .overlay {
-background-color: #00799b67;
   width: 100%;
+  background-color: #0066ff3d;
+
 }
 .missionsStatement {
   width: 100%;
 
- 
-  background: url(Photos/mckenna-phillips-Db-stA8meJY-unsplash.jpg);
-  background-size: cover;
+ background: url(Photos/frank-mckenna-f1A-oXmkYpE-unsplash.jpg);
+background-size: cover;
   background-repeat: no-repeat;
   
   /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.233); */
@@ -274,10 +274,10 @@ background-color: #00799b67;
   /* text-justify: inter-word; */
   text-align: justify;
        hyphens: auto;                  /* Enable word hyphenation */
-       font-size: 2.5rem; /* Adjust as needed */
+       font-size: 2rem; /* Adjust as needed */
        color: #ffffff;
 margin: 0 7rem;
-font-weight: 300;
+font-weight: 800;
 line-height: 1.3;
 font-family: poppins;
 }
@@ -302,12 +302,12 @@ font-family: poppins;
   font-family: var(--thirteen-font);
 }
 .missionStatementContent {
-height: 100vh;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;justify-content: center;
-  padding-top: 2rem;
-  padding: 0 5rem;
+  padding: 03rem 5rem;
+  padding-top: 6rem;
+
 }
 
 
@@ -319,7 +319,6 @@ height: 100vh;
 .imgContainer img {
   max-width: 300px;
   height: auto;
-
   /* box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15); */
   transition: transform 0.3s ease-in-out;
 }
@@ -359,33 +358,31 @@ height: 100vh;
 /* end of swiper */
 
 /* Our Mission Section Styles */
-.ourMission {
-  /* background: linear-gradient(180deg, #e9e9e9 0%, #d3d3d3 100%); */
-  text-align: center;
-  display: flex; 
-padding: 1.5rem 10rem;
-  align-items: center;
-  flex-direction:row-reverse;
-  font-family: var(--font-family-body);
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
+.ourMission {width: 100%
 }
+.missionContent{
 
-.ourMissionImgContainer{
-  border-radius: 16px;
+  padding: 3rem 6rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 200rem;
-  overflow: hidden; /* Ensures the image does not overflow */
- /* Optional: Adjust the max width for layout */
-/*    aspect-ratio: 16 / 9; Optional: Maintains a consistent aspect ratio */
-
+  flex-direction: row;justify-content: center;align-items: center;
 }
-.ourMissionImgContainer img{
+.missionContentImgCon{
+  width: 100rem;
+}
+.missionContentImgCon img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
+.missionContent p {  
+  font-family: poppins;
+  font-size: 1.7rem;
+  max-width: 50vw;
+  line-height: 1.1;font-weight: 400;
+  color: #000000;
+  padding:5rem;
+  text-align: center; /* Improve text alignment for readability */
+}
+
+
 
 .section__paragraph {
   transform: translateY(20px);
@@ -397,25 +394,8 @@ padding: 1.5rem 10rem;
   opacity: 1;
 }
 
-.missionContent p {
-  font-size: 1.8rem;
-  line-height: 1.1;font-weight: 400;
-  color: #000000;
-  padding:1.5rem;
-  font-family: var(--font-family-body);
-  text-align: justify; /* Improve text alignment for readability */
-;}
-.missionContent p strong {
-  color: var(--accent-color);
-  font-family: var(--thirteen-font);
-  line-height: 0.2;
-  font-size: 1rem;
-}
 
 
-.missionContent p span:hover {
-  color: var(--accent-color); /* Color swap on hover */
-}
 /* photo sec */
 .photoSec{
   width: 100%;
@@ -1193,8 +1173,7 @@ text-align: justify;
 .footer {
   border-top: 1px solid var(--primary-color);
 
-
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .footer__container {
@@ -1212,7 +1191,7 @@ text-align: justify;
 }
 
 .footer__logo img {
-  width: 150px;
+  width: 100px;
   margin-bottom: 1rem;
 }
 
@@ -1371,7 +1350,7 @@ text-align: justify;
     background-color: #ffffffde;
     width: 100%;
     height: 70vh;
-    z-index: 100;
+    z-index: 800;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
@@ -1387,58 +1366,25 @@ text-align: justify;
     transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
   }
 
-  .nav__hamburger.active .nav__hamburger__line {
+ .nav__hamburger.active .nav__hamburger__line {
     transition: all ease-in-out 0.35s;
     z-index: 2000;
   }
 
-  .missionContent p strong,
-  .membersSection strong,
-  .local-resources strong,
-  .ourMission strong {
-    color: var(--accent-color);
-    font-family: var(--font-family-heading);
-    font-size: 1rem;
-    line-height: 0.75;
-    font-weight: 400;
-  }
-  .ourMission p strong {
-    font-size: 1.3rem;
-  }
-  .ourMission span {
-    color: var(--accent-color);
-  }
-  .ourMission h2,
-  .local-resources h2,
-  .membersSection h1,
-  .funds-container h2,
-  .contact-container h2,
-  .event-section h2 {
-    font-size: 1.6rem;
-    margin-bottom: 0.8rem;
-  }
+
   /* mobile paragraphs */
-  .local-resources .description,
-  .membersSection .memberGist,
-  .funds-container .howGist {
-    font-size: 1rem;
-    padding: 1rem;
-    line-height: 1.3;
-    width: 100%;
-    font-weight: 300;
-    text-align: justify;
+  .missionContent{
+    padding: 0;
   }
   .missionContent p {
-    font-size: 1.3rem;
-    font-weight: 200;
-    text-align: justify;
-    margin: 0;
+    max-width: unset;
+    font-weight: 300;
+ width: 100vw;
+ line-height: 1;
+ padding: 1rem;
   }
-  .membersSection{
-    background-color: #fff;
-    margin: 1.5rem;
-    padding: 2rem;
-    border-radius: 15px;
+  .missionContentImgCon{
+    width: 100vw;
   }
 
   .funds-section{
@@ -1449,13 +1395,13 @@ text-align: justify;
   margin: 0 1.5rem;
 }
 .newsHalf{width: 100%;}
- 
-.ourMission {
-    padding: 0;
-    margin: 0;
-    height: unset;
-    flex-direction: column-reverse;
-  }
+ .missionContent{
+  flex-direction: column;
+ }
+.missionP{
+  width: 100%;
+
+}
   .ourMissionImgContainer{
     width:100vw;
     height: 100%;
@@ -1545,8 +1491,6 @@ text-align: justify;
     width: 200px;  
       height: 100%;
     object-fit: contain;
-    z-index: 2; /* Ensure it appears above the blur */
-    position: relative;
   }
 
   .swiper {
