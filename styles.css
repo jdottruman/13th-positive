@@ -1375,6 +1375,7 @@ text-align: justify;
   /* mobile paragraphs */
   .missionContent{
     padding: 0;
+    flex-direction: column-reverse;
   }
   .missionContent p {
     max-width: unset;
@@ -1395,9 +1396,8 @@ text-align: justify;
   margin: 0 1.5rem;
 }
 .newsHalf{width: 100%;}
- .missionContent{
-  flex-direction: column;
- }
+
+
 .missionP{
   width: 100%;
 
@@ -1437,11 +1437,8 @@ text-align: justify;
     display: none;
   }
 
-  .missionContent p span {
-    line-height: 0.4;
-  }
+ 
   .missionStatementContent {
-    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     line-height: 1.1;
