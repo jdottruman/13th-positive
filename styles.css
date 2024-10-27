@@ -381,7 +381,6 @@ text-justify: inter-word;
   width: 40rem;
 }
 .takeActionImgCon img{
-  border: 3px solid rgba(0, 0, 0, 0.658);
   width: 100%;background: transparent;padding: 0 1rem;
 }
 .imgContainer {
@@ -430,42 +429,61 @@ text-justify: inter-word;
 /* end of swiper */
 /* button Styler */
 
-.button-50 {
+.btn {
+  --color: #00A97F;
+  --color2: rgb(10, 25, 30);
+  padding: 0.8em 1.75em;
+  background-color: transparent;
+  border-radius: 6px;
+  border: .5px solid var(--color);
+  transition: .5s;
+  position: relative;
+  overflow: hidden;
   cursor: pointer;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  transition: all 0.2s;
-  padding: 10px 20px;
-  border-radius: 100px;
-  background: linear-gradient(to bottom, #0070ba, #0099ff); /* Vertical gradient */
-  border: 1px solid transparent;
-  display: flex;
-  width: 40%;
-  align-items: center;
-  font-size: 15px;font-weight: 300;
-  color: #fff;
-}
-
-.button-50:hover {
-  background: #0070ba;
-}
-
-.button-50 > svg {
-  width: 34px;
-  margin-left: 10px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.button-50:hover svg {
-  transform: translateX(5px);
-}
-.button-50:active {
-  transform: scale(0.95);
-}
-
+  z-index: 1;
+  font-weight: 400;
+  font-size: 17px;
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+  text-transform: uppercase;
+  color: var(--color);
+ }
+ 
+ .btn::after, .btn::before {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  transform: skew(90deg) translate(-50%, -50%);
+  position: absolute;
+  inset: 50%;
+  left: 25%;
+  z-index: -1;
+  transition: .5s ease-out;
+  background-color: var(--color);
+ }
+ 
+ .btn::before {
+  top: -50%;
+  left: -25%;
+  transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+ }
+ 
+ .btn:hover::before {
+  transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+ }
+ 
+ .btn:hover::after {
+  transform: skew(45deg) translate(-50%, -50%);
+ }
+ 
+ .btn:hover {
+  color: var(--color2);
+ }
+ 
+ .btn:active {
+  filter: brightness(.7);
+  transform: scale(.98);
+ }
 /* end of button*/
 /* Our Mission Section Styles */
 .ourMission {width: 100%
@@ -482,7 +500,6 @@ text-justify: inter-word;
 .missionContentImgCon img {
   width: 100%;
   padding: 1rem;
-  border: 3px solid rgba(0, 0, 0, 0.658);
   height: 100%;
   background: transparent;
 }
