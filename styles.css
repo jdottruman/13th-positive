@@ -165,23 +165,61 @@ a:focus {
 
 /* Navbar Styles */
 .nav {
-  /* backdrop-filter: blur(1px); */
-  height: 4.5rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0rem 6rem;
-  position: absolute;
-  top: 0;
-  background-color: #000000b7;
-  left: 0;
-  width: 100%;
-  animation: fade-down 0.7s;
-  border-radius: 0 0 8px 8px; /* Slight rounding for modern feel */
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
-              0 2px 4px rgba(0, 0, 0, 0.06); */
-  transition: box-shadow 0.3s ease-in-out;
+flex-direction: column;  width: 100%;
+position: absolute;
+top: 0;  left: 0;
 }
+.navLower{  height:2rem;
+
+ display: flex;flex-direction: row;
+}
+.navLower ul{
+  width: 100%;display: flex;flex-direction: row;
+  justify-content: center;
+  align-items: center;
+   background-color: rgb(255, 255, 255);
+}
+.navLower ul li{
+  width: 50%;
+  height: 100%;
+  display: flex;flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.navLower ul li a {
+  color:#fff ;
+}
+.navLowerPapPal{
+  background: linear-gradient(45deg, #0070ba, #003f87);
+}
+.navLowerCashApp{
+  background: linear-gradient(45deg, #00c244, #00796b);
+
+}
+.navUpper{
+  height: 4.5rem;
+
+  padding: 0rem 6rem;
+    /* backdrop-filter: blur(1px); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+   
+    background-color: #000000b7;
+    width: 100%;
+    animation: fade-down 0.7s;
+    border-radius: 0 0 8px 8px; /* Slight rounding for modern feel */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
+                0 2px 4px rgba(0, 0, 0, 0.06); */
+    transition: box-shadow 0.3s ease-in-out;
+
+
+}
+
+
 
 .nav:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15), 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -603,7 +641,7 @@ a:focus {
 .section__paragraph--visible {
   opacity: 1;
   transform: translateY(0);
-  transition: all 01s;
+  transition: all 0s;
 }
 
 /* photo sec */
@@ -1453,9 +1491,10 @@ a:focus {
     font-weight: 300;
   }
 
-  .nav {
+  .navUpper {
     height: unset;
     flex-direction: row-reverse;
+    border-radius: unset ;
     padding: 1rem 2rem;
   }
 
