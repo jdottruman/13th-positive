@@ -376,6 +376,9 @@ text-justify: inter-word;
 }
 
 .takeActionImgCon{
+
+  border: 3px solid #1d1d1d;
+
   width: 40rem;
 }
 .takeActionImgCon img{
@@ -475,9 +478,12 @@ width: 100%;
 }
 .missionContentImgCon{
   width: 40rem;
+  border: 3px solid #1d1d1d;
 }
 .missionContentImgCon img {
   width: 100%;
+  height: 100%;
+  background: transparent;
 }
 .missionContent p {  
   font-family: poppins;
