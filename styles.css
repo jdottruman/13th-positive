@@ -192,7 +192,7 @@ a:focus {
 .nav__logo {
   text-align: center;
   font-size: 2rem;
-  color: #000000; 
+  color: #ffffff; 
   font-weight: 900;
 
 }
@@ -275,7 +275,7 @@ background-size: cover;
   text-align: justify;
        hyphens: auto;                  /* Enable word hyphenation */
        font-size: 2rem; /* Adjust as needed */
-       color: #000000;
+       color: #ffffff;
 margin: 0 7rem;
 font-weight: 800;
 line-height: 1.3;
@@ -1370,9 +1370,10 @@ font-size: 1.3rem;
  font-size: 1rem;
  text-align: justify;
  padding: 1rem 0;
- line-height: 2;
+ line-height: 1.5;
  hyphens: auto;
 
+ text-justify: inter-word;
 
   }
   .missionContentImgCon{
@@ -1388,13 +1389,18 @@ padding: 1rem 0;
  }
  .formcon p {
   padding: 0;
+  font-size: 1rem;
  }
 .takeActionP{
   max-width: unset;
   font-weight: 300;
 font-size: 1rem;
 padding: 1rem 4rem;
-line-height: 2;
+line-height: 1.5;
+
+hyphens: auto;
+text-align: justify;
+text-justify: inter-word;
 width: 100%;
 }
 .takeActionImgCon{
