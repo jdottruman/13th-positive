@@ -212,24 +212,24 @@ resources.forEach((resource) => {
   
   `;
 });
-document.querySelector(".events-container").innerHTML = eventsHtml;
+// document.querySelector(".events-container").innerHTML = eventsHtml;
 
-document.querySelector(".resources-container").innerHTML = resourcesHtml;
-document.querySelector(".cardContainer").innerHTML = membersHtml;
+// document.querySelector(".resources-container").innerHTML = resourcesHtml;
+// document.querySelector(".cardContainer").innerHTML = membersHtml;
 
-document.querySelectorAll(".cardModalBtn").forEach((btn) => {
-  btn.addEventListener("click", (e) => {
-    const index = e.target.getAttribute("data-index");
-    document.getElementById(`myModal-${index}`).style.display = "block";
-  });
-});
+// document.querySelectorAll(".cardModalBtn").forEach((btn) => {
+//   btn.addEventListener("click", (e) => {
+//     const index = e.target.getAttribute("data-index");
+//     document.getElementById(`myModal-${index}`).style.display = "block";
+//   });
+// });
 
-document.querySelectorAll(".close-btn").forEach((btn) => {
-  btn.addEventListener("click", (e) => {
-    const index = e.target.getAttribute("data-index");
-    document.getElementById(`myModal-${index}`).style.display = "none";
-  });
-});
+// document.querySelectorAll(".close-btn").forEach((btn) => {
+//   btn.addEventListener("click", (e) => {
+//     const index = e.target.getAttribute("data-index");
+//     document.getElementById(`myModal-${index}`).style.display = "none";
+//   });
+// });
 
 window.addEventListener("click", (e) => {
   if (e.target.classList.contains("modal")) {
@@ -238,6 +238,7 @@ window.addEventListener("click", (e) => {
 });
 
 const paragraphs = document.querySelectorAll(".section__paragraph");
+
 document.addEventListener("scroll", () => {
   paragraphs.forEach((paragraph) => {
     if (isInView(paragraph)) {
@@ -250,8 +251,8 @@ document.addEventListener("scroll", () => {
 
 function isInView(element) {
   const rect = element.getBoundingClientRect();
-  return (
-    rect.bottom > 0 &&
-    rect.top < (window.innerHeight - 150 || documentElement.clientHeight - 150)
-  );
+  const windowHeight =
+    window.innerHeight || document.documentElement.clientHeight;
+
+  return rect.top < windowHeight - 150 && rect.bottom > 0;
 }
