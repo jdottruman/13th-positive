@@ -1416,6 +1416,7 @@ a:focus {
 
 /* iphone ver */
 @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
+
   .btn-23 {
     width: 100%;
     font-size: 1rem;
@@ -1526,6 +1527,7 @@ a:focus {
   .navCashAppBtn,
   .navPayPalBtn {
     display: flex;
+  height: 1rem;
     margin-top: 1rem;
     border-radius: 8px;
   }
