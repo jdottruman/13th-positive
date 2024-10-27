@@ -195,7 +195,7 @@ a:focus {
   text-align: center;
   font-size:1.5rem;
   color: #cacaca ;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
 
   font-weight: bold;
 
@@ -406,7 +406,7 @@ width: 100%;
   transition: all 0.2s;
   padding: 10px 20px;
   border-radius: 100px;
-  background: #cfef00;
+  background: linear-gradient(to bottom, #4a90e2, #3ba17c); /* Vertical gradient */
   border: 1px solid transparent;
   display: flex;
   width: 40%;
@@ -1206,7 +1206,7 @@ text-align: justify;
 /* end of how funds */
 .footer {
   border-top: 1px solid var(--primary-color);
-
+background-color: #111111;
   padding: 1rem 0;
 }
 
@@ -1247,6 +1247,7 @@ text-align: justify;
 .footer__social h4 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
+  color: #fff;
 }
 
 .footer__links ul {
@@ -1261,6 +1262,7 @@ text-align: justify;
 .footer__links ul li a {
   text-decoration: none;
   font-size: 1.1rem;
+  color: #fff;
   transition: color 0.3s ease;
 }
 
@@ -1272,10 +1274,13 @@ text-align: justify;
 .footer__contact p {
   margin: 0.5rem 0;
   font-size: 1.1rem;
+  color: #fff;
+
 }
 
 .footer__contact a {
   font-weight: bold;
+  color: #fff;
 
   text-decoration: none;
 }
@@ -1300,6 +1305,8 @@ text-align: justify;
 
 .footer__copyright {
   text-align: center;
+  color: #fff;
+
   padding: 1rem 0;
   background-color: #00000049;
 
