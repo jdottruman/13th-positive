@@ -457,7 +457,7 @@ width: 100%;
   font-size: 1.7rem;  line-height: 1.5;font-weight: 400;
   color: #000000;
   padding:4rem;
-  text-align: center; /* Improve text alignment for readability */
+  text-align: justify; /* Improve text alignment for readability */
 }
 
 
@@ -1438,9 +1438,8 @@ padding: 0;text-align: right;
     width: 100%;
     font-weight: 300;
  font-size: 1rem;
-
  padding: 1rem 3.5rem;
- line-height: 2;
+ line-height: 1.7;
 
 
   }
@@ -1469,7 +1468,7 @@ padding: 1rem 3.5rem;
   font-weight: 300;
 font-size: 1rem;
 padding: 1rem 3.5rem;width: 100%;
-line-height: 2;
+line-height: 1.7;
 
 width: 100%;
 }
