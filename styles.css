@@ -587,7 +587,6 @@ a:focus {
 }
 .missionContent p {
   font-family: poppins;
-animation:  from-right 1s ease;
   max-width: 50vw;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -1575,7 +1574,8 @@ animation:  from-right 1s ease;
     width: 100%;
     font-weight: 300;
     font-size: 1rem;
-    padding: 1rem 3.5rem;
+animation:  grown 1s ease;
+padding: 1rem 3.5rem;
     line-height: 1.7;
   }
   .missionContentImgCon {
