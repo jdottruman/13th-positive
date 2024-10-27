@@ -169,9 +169,10 @@ a:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 6rem;
+  padding: 0rem 6rem;
   position: absolute;
   top: 0;
+  background-color: #00000015;
   left: 0;
   width: 100%;
   animation: fade-down .7s;
@@ -179,6 +180,7 @@ a:focus {
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
               0 2px 4px rgba(0, 0, 0, 0.06); */
   transition: box-shadow 0.3s ease-in-out;
+
 }
 
 .nav:hover{
@@ -192,7 +194,6 @@ a:focus {
 .nav__logo {
   text-align: center;
   font-size: 1.5rem;
-  padding-top: 1rem;
   color: #cacaca ;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 
@@ -208,13 +209,22 @@ a:focus {
   list-style: none;
 }
 
+.nav__menu ul li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ justify-content: center;
+}
 
+.nav__menu ul li a i{
+  font-size: 2.5rem;
+}
 
 .nav__menu ul li a {
   color: #000000;
 font-weight: 500;
   padding: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-family: 'IBM Plex Sans', sans-serif;
   transition: color 0.3s ease;
 }
@@ -270,7 +280,7 @@ background-size: cover;
 }
 .mobileParagrpah {
   /* text-justify: inter-word; */
-  text-align: justify;
+  text-align: center;
        hyphens: auto;                  /* Enable word hyphenation */
        font-size: 2rem; /* Adjust as needed */
        color: #cacaca ;
@@ -1309,8 +1319,8 @@ text-align: justify;
  
   .nav {
     height: unset;
-    flex-direction: row;
-    padding: 2rem 2.1rem;
+    flex-direction: row-reverse;
+    padding: 2rem 2rem;
 
   }
 
@@ -1505,7 +1515,6 @@ padding-bottom:2rem;
     animation: fade-up 1.5s;
 
     align-items: center;
-    text-align: center;
     font-size: 1.7rem;
     line-height: unset;
     margin: 0;
