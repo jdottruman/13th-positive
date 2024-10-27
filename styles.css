@@ -376,12 +376,14 @@ text-justify: inter-word;
 }
 
 .takeActionImgCon{
-
-
   width: 40rem;
+  
+
+overflow: hidden;
 }
 .takeActionImgCon img{
-  width: 100%;background: transparent;padding: 0 1rem;
+width: 100%;
+height: 100%;
 }
 .imgContainer {
   animation: grown 1.5s;
@@ -442,7 +444,7 @@ text-justify: inter-word;
 .btn-23 {
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: button;
-  background-color: #4c7bfc;
+  background-color: #4facfe;
   background-image: none;
   border: none;
   color: #fff;
