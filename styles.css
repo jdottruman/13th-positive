@@ -336,8 +336,8 @@ a:focus {
   flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
-  padding: 03rem 8rem;
-  padding-top: 4rem;
+  padding: 03rem 7rem;
+  padding-top: 4.5rem;
 }
 /* takeAction section */
 .takeActionContainer {
@@ -382,7 +382,7 @@ a:focus {
   animation: grown 1.5s;
 }
 .imgContainer img {
-  max-width: 275px;
+  max-width: 255px;
   height: auto;
   /* box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15); */
   transition: transform 0.3s ease-in-out;
@@ -1658,7 +1658,7 @@ a:focus {
     animation: fade-up 1.5s;
 
     align-items: center;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     line-height: unset;
     margin: 0;
     padding: 1rem 1rem;
