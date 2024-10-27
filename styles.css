@@ -172,7 +172,7 @@ top: 0;  left: 0;
 animation: fade-down 0.7s;
 
 }
-.navLower{  height:2rem;
+.navLower{ 
 
  display: flex;flex-direction: row;
 }
@@ -194,6 +194,9 @@ animation: fade-down 0.7s;
 }
 .navLower ul li a {
   color:#fff ;
+  padding: .5rem;
+  font-size: 1rem;
+  font-weight: 500;
 }
 .navLowerPapPal{
   background: linear-gradient(45deg, #0070ba, #003f87);
@@ -1691,9 +1694,9 @@ padding: 1rem 3.5rem;
     line-height: 1.1;
     margin: 0rem;
     padding: 0;
-    padding-top: 6.5rem;
+    padding-top: 7rem;
     height: unset;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
 
   .mobileParagrpah {
