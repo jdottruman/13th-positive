@@ -1527,6 +1527,7 @@ a:focus {
   .navPayPalBtn {
     display: flex;
     margin-top: 1rem;
+    border-radius: 8px;
   }
   .navDonation {
     display: none;
