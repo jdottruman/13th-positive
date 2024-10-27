@@ -313,7 +313,7 @@ background-size: cover;
   text-align: center;
        hyphens: auto;                  /* Enable word hyphenation */
        font-size: 2.3rem; /* Adjust as needed */
-       color: #c1cfff ;
+       color: rgb(176, 224, 230);
 font-weight: 800;
 line-height: 1;
 width: 100%;
@@ -436,7 +436,7 @@ width: 100%;
   transition: all 0.2s;
   padding: 10px 20px;
   border-radius: 100px;
-  background: linear-gradient(to bottom, #4a90e2, #3ba17c); /* Vertical gradient */
+  background: linear-gradient(to bottom, #B0E0E6, #3ba17c); /* Vertical gradient */
   border: 1px solid transparent;
   display: flex;
   width: 40%;
