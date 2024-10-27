@@ -223,10 +223,40 @@ a:focus {
 .nav__menu ul li a {
   color: #cacaca ;
 font-weight: 500;
-  padding: 1.5rem;
+margin-left:1.5rem ;
   font-size: 1.5rem;
   font-family: 'IBM Plex Sans', sans-serif;
   transition: color 0.3s ease;
+}.navPayPalBtn{  background: linear-gradient(45deg, #0070ba, #003f87);
+  border: none;
+  padding: 8px 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease, transform 0.2s ease;
+  width: 6rem;
+
+}
+.navCashAppBtn{
+  background: linear-gradient(45deg, #00c244, #00796b);
+  width: 6rem;
+  border: none;
+  padding: 8px 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 .nav__menu ul li a:hover,
 .nav__menu ul li a:focus {
@@ -282,10 +312,10 @@ background-size: cover;
   /* text-justify: inter-word; */
   text-align: center;
        hyphens: auto;                  /* Enable word hyphenation */
-       font-size: 3rem; /* Adjust as needed */
+       font-size: 2.3rem; /* Adjust as needed */
        color: #c1cfff ;
 font-weight: 800;
-line-height: 1.2;
+line-height: 1;
 width: 100%;
 height: 100%;
 font-family: "Rubik", sans-serif;
@@ -326,7 +356,7 @@ text-justify: inter-word;
 
 .takeActionP{
   font-family: poppins;
-  font-size: 1.7rem;  line-height: 1.5;font-weight: 400;
+  font-size: 1.2rem;  line-height: 1.5;font-weight: 400;
   max-width: 50vw;
   hyphens: auto;
   text-align: justify;
@@ -451,11 +481,8 @@ width: 100%;
 .missionContent p {  
   font-family: poppins;
 
-
-
-  
   max-width: 50vw;
-  font-size: 1.7rem;  line-height: 1.5;font-weight: 400;
+  font-size: 1.5rem;  line-height: 1.5;font-weight: 400;
   color: #000000;
   padding:4rem;
   text-align: justify; /* Improve text alignment for readability */
