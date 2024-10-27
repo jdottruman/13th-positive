@@ -1474,7 +1474,7 @@ a:focus {
     width: 100%;
     padding: 3rem 0 0.6rem;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 100%;
   }
   .nav__menu ul li button {
