@@ -437,7 +437,7 @@ width: 100%;
   transition: all 0.2s;
   padding: 10px 20px;
   border-radius: 100px;
-  background: linear-gradient(to bottom, #0070ba, #3ba17c); /* Vertical gradient */
+  background: linear-gradient(to bottom, #0070ba, #0099ff); /* Vertical gradient */
   border: 1px solid transparent;
   display: flex;
   width: 40%;
