@@ -1341,10 +1341,11 @@ font-weight: bold;
 font-size: 1.1rem;
 padding: 0;text-align: right;
   }
-  .nav__menu ul li a {
-   
-    font-size: 2.5rem;
-    text-decoration: underline;
+  .nav__menu ul li a ,
+  .nav__menu ul li a i{
+   color: #000000;
+    font-size: 4rem;
+  
   }
   .nav__hamburger {
     display: flex;
@@ -1387,6 +1388,7 @@ padding: 0;text-align: right;
   .nav__menu ul li {
     text-align: center;
   }
+
 
   .nav__menu {
     display: none;
