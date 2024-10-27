@@ -283,7 +283,7 @@ background-size: cover;
   text-align: center;
        hyphens: auto;                  /* Enable word hyphenation */
        font-size: 3rem; /* Adjust as needed */
-       color: #cacaca ;
+       color: #c1cfff ;
 font-weight: 800;
 line-height: 1.2;
 width: 100%;
@@ -302,7 +302,7 @@ text-align: justify;
 text-justify: inter-word;
 }
 .missionP button{
-  margin: 1rem;
+  margin: 2rem;
 }
 
 
@@ -341,7 +341,7 @@ text-justify: inter-word;
   
 }
 .takeActionP button{
-  margin: 1rem;
+  margin: 2rem;
 }
 
 .takeActionImgCon{
@@ -411,7 +411,8 @@ width: 100%;
   display: flex;
   width: 40%;
   align-items: center;
-  font-size: 15px;
+  font-size: 15px;font-weight: 300;
+  color: #fff;
 }
 
 .button-50:hover {
