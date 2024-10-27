@@ -1500,6 +1500,8 @@ animation: fade-down 0.7s;
   .btn-31 {
     width: 100%;
     font-size: 1rem;
+    height: unset;
+    padding: .5rem;
     font-weight: 300;
   }.navLower{
     display: flex;
