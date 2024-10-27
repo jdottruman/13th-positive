@@ -1324,7 +1324,7 @@ text-align: justify;
   .nav {
     height: unset;
     flex-direction: row-reverse;
-    padding: 2rem 2rem;
+    padding: 1rem 2rem;
 
   }
 
