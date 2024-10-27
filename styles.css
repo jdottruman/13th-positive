@@ -203,7 +203,12 @@ animation: fade-down 0.7s;
 }
 .navLowerCashApp{
   background: linear-gradient(45deg, #00c244, #00796b);
-
+}
+.navLowerPhone{
+  color: #fff;
+  background-color: #000;
+}.navLowerPhone i {
+  margin:.5rem;
 }
 .navUpper{
   height: 4.5rem;
