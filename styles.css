@@ -205,12 +205,7 @@ a:focus {
   list-style: none;
 }
 
-.nav__logo__text {
-  color: var(--accent-color);
-  font-size: 3.5rem;
-  font-family: var(--font-family-body);
-  font-weight: 900;
-}
+
 
 .nav__menu ul li a {
   color: #000000;
@@ -243,7 +238,7 @@ font-weight: 500;
 .nav__hamburger__line {
   height: 0.2rem;
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(219, 219, 219);
   border-radius: 0.625rem;
   transition: all ease-in-out 0.2s;
 }
@@ -375,7 +370,48 @@ width: 100%;
 }
 
 /* end of swiper */
+/* button Styler */
 
+.button-50 {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+/* end of button*/
 /* Our Mission Section Styles */
 .ourMission {width: 100%
 }
@@ -1265,6 +1301,10 @@ text-align: justify;
 
 /* iphone ver */
 @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
+  .button-50 {
+    padding: 2px 0px;
+  }
+ 
   .nav {
     height: unset;
     flex-direction: row;
@@ -1274,7 +1314,8 @@ text-align: justify;
 
   .nav__logo {
 font-weight: 900;
-font-size: 1.3rem;
+font-weight: bold;
+font-size: 1rem;
   }
   .nav__menu ul li a {
     color: var(--accent-color);
@@ -1439,9 +1480,6 @@ width: 100%;
     display: none;
   }
 
-  .nav__logo__text {
-    display: none;
-  }
 
  
   .missionStatementContent {
