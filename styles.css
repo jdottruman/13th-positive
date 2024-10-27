@@ -174,7 +174,7 @@ animation: fade-down 0.7s;
 }
 .navLower{ 
 
- display: flex;flex-direction: row;
+ display: none;flex-direction: row;
 }
 .navLower ul{
   width: 100%;display: flex;flex-direction: row;
@@ -1495,8 +1495,9 @@ animation: fade-down 0.7s;
     width: 100%;
     font-size: 1rem;
     font-weight: 300;
+  }.navLower{
+    display: flex;
   }
-
   .navUpper {
     height: unset;
     flex-direction: row-reverse;
