@@ -233,7 +233,7 @@ margin-left:1.5rem ;
   color: white;
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
-  display: flex;
+  display: none;
   align-items: center;
   gap: 10px;
   cursor: pointer;
@@ -251,12 +251,13 @@ margin-left:1.5rem ;
   color: white;
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
-  display: flex;
+  display: none;
   align-items: center;
   cursor: pointer;
   align-items: center;
   justify-content: center;
   transition: background 0.3s ease, transform 0.2s ease;
+
 }
 .nav__menu ul li a:hover,
 .nav__menu ul li a:focus {
@@ -313,13 +314,13 @@ background-size: cover;
   text-align: center;
        hyphens: auto;                  /* Enable word hyphenation */
        font-size: 2.3rem; /* Adjust as needed */
-       color: rgb(176, 224, 230);
+       color: rgb(255, 255, 255);
 font-weight: 800;
 line-height: 1;
 width: 100%;
 height: 100%;
 font-family: "Rubik", sans-serif;
-text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.808);
 
 }
 
@@ -436,7 +437,7 @@ width: 100%;
   transition: all 0.2s;
   padding: 10px 20px;
   border-radius: 100px;
-  background: linear-gradient(to bottom, #B0E0E6, #3ba17c); /* Vertical gradient */
+  background: linear-gradient(to bottom, #0070ba, #3ba17c); /* Vertical gradient */
   border: 1px solid transparent;
   display: flex;
   width: 40%;
@@ -446,7 +447,7 @@ width: 100%;
 }
 
 .button-50:hover {
-  background: #c4e201;
+  background: #0070ba;
 }
 
 .button-50 > svg {
@@ -1372,7 +1373,7 @@ padding: 0;text-align: right;
   .nav__menu ul li a ,
   .nav__menu ul li a i{
    color: #000000;
-    font-size: 4rem;
+    font-size: 3rem;
   
   }
   .nav__hamburger {
@@ -1382,7 +1383,7 @@ padding: 0;text-align: right;
     display: flex;
     color: #cacaca ;
 
-    font-size: .8rem;
+    font-size: .5rem;
     align-items: center;
     justify-content: center;
     font-weight: 100;
@@ -1453,8 +1454,12 @@ padding: 0;text-align: right;
 
     z-index: 2000;
   }
-
-
+  .navCashAppBtn,.navPayPalBtn{
+    display: flex;
+  }
+.navDonation{
+  display: none;
+}
   /* mobile paragraphs */
   .missionContent{
     padding: 0;
