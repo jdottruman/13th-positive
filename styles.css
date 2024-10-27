@@ -444,6 +444,7 @@ text-justify: inter-word;
   -webkit-appearance: button;
   background-color: #4c7bfc;
   background-image: none;
+  border: none;
   color: #fff;
   cursor: pointer;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
