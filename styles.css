@@ -164,18 +164,18 @@ a:focus {
 
 /* Navbar Styles */
 .nav {
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(1px);
   height: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5rem;
+  padding: 0 6rem;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   animation: fade-down .7s;
-  border-radius: 8px; /* Slight rounding for modern feel */
+  border-radius:0 0 8px  8px; /* Slight rounding for modern feel */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
               0 2px 4px rgba(0, 0, 0, 0.06);
   transition: box-shadow 0.3s ease-in-out;
@@ -251,7 +251,7 @@ font-weight: 500;
 /* Mission Statement Section */
 .overlay {
   width: 100%;
-  background-color: #0036866e;
+  background-color: #0036863b;
 
 }
 .missionsStatement {
@@ -275,43 +275,62 @@ background-size: cover;
   text-align: justify;
        hyphens: auto;                  /* Enable word hyphenation */
        font-size: 2rem; /* Adjust as needed */
-       color: #ffffff;
+       color: #000000;
 margin: 0 7rem;
 font-weight: 800;
 line-height: 1.3;
 font-family: poppins;
 }
-/* .missionsParagraph .missionHeader {
-  text-align: justify;
-  font-weight: 300;
-  font-size: 4rem;
-  color: rgb(0, 0, 0);
-}
-.missionsParagraph .missionText {
-  text-align: justify;
-  font-weight: 300;
 
-  font-size: 2.75rem;
-  color: rgb(0, 0, 0);
-} */
-.highlight {
-  color: var(--accent-color);
-  /* font-family: var(--thirteen-font); */
-  font-weight: 700;
-  font-size: 4rem;
-  font-family: var(--thirteen-font);
+.missionP{
+  display: flex;
+  flex-direction: column;
 }
+.missionP button{
+  margin: 1rem;
+}
+
+
 .missionStatementContent {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;justify-content: center;
-  padding: 03rem 5rem;
+  padding: 03rem 8rem;
   padding-top: 6rem;
 
+}
+/* takeAction section */
+.takeActionContainer{
+  padding: 3rem 6rem;
+  display: flex;
+  flex-direction: row-reverse;justify-content: center;align-items: center;
+  padding-bottom: 0;
 }
 
 
 
+.takeActionP{
+  font-family: poppins;
+  font-size: 1.7rem;
+  max-width: 50vw;
+  
+  line-height: 1.5;font-weight: 400;
+  color: #000000;
+  padding:5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center; 
+}
+.takeActionP button{
+  margin: 1rem;
+}
+
+.takeActionImgCon{
+  width: 40rem;
+}
+.takeActionImgCon img{
+width: 100%;
+}
 .imgContainer {
   animation: grown 1.5s;
 
@@ -924,48 +943,24 @@ background-color: #fff;
   left: 50%;
   transform: translateX(-50%);
 }
-/* Event Card Styles */
-.eventsHalf {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  background-color: red;
-padding: 3rem;
-border-radius: 8px;
-margin: 3rem 4rem;
 
 
-}
-.events-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.formcon label {
-  font-size: 0.5rem;
-  font-weight: 400;
-}
 
 .formcon {
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 8px;
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-  padding: 2rem 2rem;
+  justify-content: center;
+  padding: 2rem 10rem;
   width: 100%;
   font-size: 1.5rem;
   font-weight: 300;
 }
 .formcon p {
-  padding: 1rem; 
-   text-align: justify;
-}
+  padding: 0 15rem; 
+   text-align: center;
+} */
 .eventGist {
   /* padding: 2.5rem 5rem;
    */
@@ -1154,20 +1149,7 @@ text-align: justify;
   height: 28px;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .fund-item {
-    width: 100%;
-  }
 
-  .funds-section h2 {
-    font-size: 2.4rem;
-  }
-
-  .howGist {
-    font-size: 1rem;
-  }
-}
 
 /* end of how funds */
 .footer {
@@ -1390,19 +1372,28 @@ text-align: justify;
     width: 100vw;
     padding: 2rem;
   }
-
-  .funds-section{
-    margin: 1.5rem;
-    padding: 3rem 2rem;
-  }
-.local-resources{
-  margin: 0 1.5rem;
+.takeActionContainer{
+  padding: 0;
+  flex-direction: column-reverse;
 }
-.newsHalf{width: 100%;}
-
-
-.missionP{
-
+ .formcon{
+padding: 1rem 0;
+ }
+ .formcon p {
+  padding: 0;
+ }
+.takeActionP{
+  max-width: unset;
+  font-weight: 300;
+font-size: 1rem;
+padding: 1rem 4rem;
+line-height: 2;
+width: 100%;
+}
+.takeActionImgCon{
+    padding: 2rem;
+    width:100vw;
+  height: 100%;
 }
   .ourMissionImgContainer{
     width:100vw;
@@ -1647,43 +1638,10 @@ text-align: justify;
     font-size: 8rem;
   }
 
-  .contact-section {
-    padding: 2rem;
-  }
-  .contact-section p {
-    margin-top: 1rem;
-    text-align: left;
-  }
-  .imgContainerTwo {
-    flex-direction: column;
-  }
-  .funds-container .imgDiv {
-    width: 100%; /* Fixed width */
-    aspect-ratio: 8/ 8; /* Keeps the ratio consistent */
-    position: relative;
-    padding: 3rem;
-    margin: 0rem;
-  }
-  .funds-container .imgDiv img {
-    max-width: 50rem;
-  }
-  .formcon {
-    width: 100vw;
-    padding: 1.5rem 3rem;
-    margin: 1rem 0;
-  }
-  .eventGist {
-    padding: 0;
-  }
 
-  .event-section {
-    text-align: center;
-    display: flex;
-    margin: 1rem;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column-reverse;
-  }
+
+
+
   .events-container {
     padding: 1rem 0;
   }
