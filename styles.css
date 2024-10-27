@@ -377,12 +377,12 @@ text-justify: inter-word;
 
 .takeActionImgCon{
 
-  border: 3px solid #1d1d1d;
 
   width: 40rem;
 }
 .takeActionImgCon img{
-width: 100%;
+  border: 3px solid rgba(0, 0, 0, 0.658);
+  width: 100%;background: transparent;padding: 0 1rem;
 }
 .imgContainer {
   animation: grown 1.5s;
@@ -478,10 +478,11 @@ width: 100%;
 }
 .missionContentImgCon{
   width: 40rem;
-  border: 3px solid #1d1d1d;
 }
 .missionContentImgCon img {
   width: 100%;
+  padding: 1rem;
+  border: 3px solid rgba(0, 0, 0, 0.658);
   height: 100%;
   background: transparent;
 }
