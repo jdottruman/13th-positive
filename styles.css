@@ -164,7 +164,7 @@ a:focus {
 
 /* Navbar Styles */
 .nav {
-  backdrop-filter: blur(1px);
+  /* backdrop-filter: blur(1px); */
   height: 5rem;
   display: flex;
   justify-content: space-between;
@@ -176,8 +176,8 @@ a:focus {
   width: 100%;
   animation: fade-down .7s;
   border-radius:0 0 8px  8px; /* Slight rounding for modern feel */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
-              0 2px 4px rgba(0, 0, 0, 0.06);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
+              0 2px 4px rgba(0, 0, 0, 0.06); */
   transition: box-shadow 0.3s ease-in-out;
 }
 
@@ -191,10 +191,10 @@ a:focus {
 
 .nav__logo {
   text-align: center;
-  font-size: 1.8rem;
-  color: #fff;  width: 4rem;
+  font-size: 2rem;
+  color: #000000; 
+  font-weight: 900;
 
-  letter-spacing: 1.5px;
 }
 .nav__logo img {
   padding: 0 4px;width: 100%;
@@ -213,7 +213,7 @@ a:focus {
 }
 
 .nav__menu ul li a {
-  color: #ffffff;
+  color: #000000;
 font-weight: 500;
   padding: 1rem;
   font-size: 1.3rem;
@@ -235,15 +235,15 @@ font-weight: 500;
   display: none;
   flex-direction: column;
   justify-content: space-around;
-  position: absolute;
+  /* position: absolute;
   top: 2.3rem;
-  left: 2rem;
+  left: 2rem; */
 }
 
 .nav__hamburger__line {
   height: 0.2rem;
   width: 100%;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   border-radius: 0.625rem;
   transition: all ease-in-out 0.2s;
 }
@@ -952,7 +952,7 @@ background-color: #fff;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem 10rem;
+  padding: 2rem 15rem;
   width: 100%;
   font-size: 1.5rem;
   font-weight: 300;
@@ -1267,11 +1267,14 @@ text-align: justify;
 @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
   .nav {
     height: unset;
-    padding: 2.4rem 0;
+    flex-direction: row;
+    padding: 2rem 2.1rem;
+
   }
 
   .nav__logo {
-    display: none;
+font-weight: 900;
+font-size: 1.3rem;
   }
   .nav__menu ul li a {
     color: var(--accent-color);
@@ -1284,10 +1287,10 @@ text-align: justify;
   .nav__location {
     display: flex;
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: .8rem;
     align-items: center;
     justify-content: center;
-    font-weight: 200;
+    font-weight: 100;
     position: absolute;
     top: 2.3rem;
     right: 1rem;
