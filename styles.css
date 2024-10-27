@@ -165,14 +165,14 @@ a:focus {
 /* Navbar Styles */
 .nav {
   /* backdrop-filter: blur(1px); */
-  height: 5rem;
+  height: 6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0rem 6rem;
   position: absolute;
   top: 0;
-  background-color: #00000015;
+  background-color: #000000b7;
   left: 0;
   width: 100%;
   animation: fade-down .7s;
@@ -193,7 +193,7 @@ a:focus {
 
 .nav__logo {
   text-align: center;
-  font-size: 1.5rem;
+  font-size:1.5rem;
   color: #cacaca ;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 
@@ -221,9 +221,9 @@ a:focus {
 }
 
 .nav__menu ul li a {
-  color: #000000;
+  color: #cacaca ;
 font-weight: 500;
-  padding: 1rem;
+  padding: 1.5rem;
   font-size: 1.5rem;
   font-family: 'IBM Plex Sans', sans-serif;
   transition: color 0.3s ease;
@@ -282,11 +282,12 @@ background-size: cover;
   /* text-justify: inter-word; */
   text-align: center;
        hyphens: auto;                  /* Enable word hyphenation */
-       font-size: 2rem; /* Adjust as needed */
+       font-size: 3rem; /* Adjust as needed */
        color: #cacaca ;
-margin: 0 7rem;
-font-weight: bolder;
-line-height: 1.3;
+font-weight: 800;
+line-height: 1.2;
+width: 100%;
+height: 100%;
 font-family: "Rubik", sans-serif;
 text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 
@@ -310,7 +311,7 @@ text-justify: inter-word;
   flex-direction: column-reverse;
   align-items: center;justify-content: center;
   padding: 03rem 8rem;
-  padding-top: 6rem;
+  padding-top: 7rem;
 
 }
 /* takeAction section */
@@ -325,15 +326,15 @@ text-justify: inter-word;
 
 .takeActionP{
   font-family: poppins;
-  font-size: 1.7rem;
+  font-size: 1.7rem;  line-height: 1.5;font-weight: 400;
   max-width: 50vw;
   hyphens: auto;
   text-align: justify;
   text-justify: inter-word;
   
-  line-height: 1.5;font-weight: 400;
+
   color: #000000;
-  padding:5rem;
+  padding:4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -448,11 +449,14 @@ width: 100%;
 }
 .missionContent p {  
   font-family: poppins;
-  font-size: 1.7rem;
+
+
+
+  
   max-width: 50vw;
-  line-height: 1.1;font-weight: 400;
+  font-size: 1.7rem;  line-height: 1.5;font-weight: 400;
   color: #000000;
-  padding:5rem;
+  padding:4rem;
   text-align: center; /* Improve text alignment for readability */
 }
 
@@ -1341,7 +1345,6 @@ padding: 0;
   .nav__location {
     display: flex;
     color: #cacaca ;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 
     font-size: .8rem;
     align-items: center;
@@ -1451,6 +1454,7 @@ padding: 1rem 3.5rem;
 #mc_embed_signup{
   width: 100%;
 }
+
 .takeActionP{
   max-width: unset;
   font-weight: 300;
@@ -1504,7 +1508,7 @@ width: 100%;
     line-height: 1.1;
     margin: 0rem;
     padding: 0;
-    padding-top: 5REM;
+    padding-top: 6.5rem;
     height: unset;
 padding-bottom:2rem;
 
@@ -1518,7 +1522,7 @@ padding-bottom:2rem;
     font-size: 1.7rem;
     line-height: unset;
     margin: 0;
-    padding: 2rem;
+    padding: 1rem 1rem;
     font-weight:700;
     /* border: 2.5px solid #ffffffad; */
   }
