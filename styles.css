@@ -180,8 +180,6 @@ animation: fade-down 0.7s;
   width: 100%;display: flex;flex-direction: row;
   justify-content: center;
   align-items: center;
-   background-color: rgb(255, 255, 255);
-   animation: from-right 01.5s ease;
 
 }
 .navLower ul li{
@@ -199,14 +197,17 @@ animation: fade-down 0.7s;
   font-weight: 500;
 }
 .navLowerPapPal{
+  animation: from-left .8s ease ;
   background: linear-gradient(45deg, #0070ba, #003f87);
 }
 .navLowerCashApp{
+  animation: from-right .8s ease;
   background: linear-gradient(45deg, #00c244, #00796b);
 }
 .navLowerPhone{
   color: #fff;
-  background-color: #000;
+  animation: fade-down .75s ease;
+  background-color: #000000b7;
 }.navLowerPhone i {
   margin:.5rem;
 }
