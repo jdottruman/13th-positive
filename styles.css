@@ -49,6 +49,15 @@ section{
 }
 /* key frame animations */
 
+
+
+@keyframes bounce {
+  0%,100%{
+    transform: translateY(0);}
+  50%{
+transform: translateY(-10px);
+    }
+}
 @keyframes grown {
   from {
     scale: 0.7;
@@ -210,7 +219,10 @@ a:focus {
 .missionP button {
   margin: 2rem;
 }
-
+.missionStatementContent i{
+  font-size: 2rem;display: inline-block;
+  animation: bounce 1s infinite;
+}
 .missionStatementContent {
   display: flex;
   flex-direction: column-reverse;
