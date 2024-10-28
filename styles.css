@@ -1360,7 +1360,7 @@ a:focus {
     max-width: unset;
     width: 100%;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.2rem;
 animation:  grown 1s ease;
 padding: 1rem 3.5rem;
     line-height: 1.7;
@@ -1388,7 +1388,7 @@ padding: 1rem 3.5rem;
   .takeActionP {
     max-width: unset;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 1rem 3.5rem;
     width: 100%;
     line-height: 1.7;
