@@ -34,6 +34,9 @@ html {
 body {
   background-color: #eeeeee; /* Solid grey */
 }
+section{
+  overflow: hidden;
+}
 
 /* .ourMission,
 .local-resources {
@@ -482,7 +485,6 @@ a:focus {
   transform: translateY(0);
   transition: all 2s;
 }
-
 
 .fromLeft {
   opacity: 0;
