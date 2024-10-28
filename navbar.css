@@ -6,6 +6,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 100;
   animation: fade-down 0.7s;
 }
 .navLower {
