@@ -1420,11 +1420,11 @@ padding: 1rem 3.5rem;
     animation: fade-up 1.5s;
 
     align-items: center;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     line-height: unset;
     margin: 0;
     padding: 1rem 1rem;
-    font-weight: 500;
+    font-weight: 300;
     /* border: 2.5px solid #ffffffad; */
   }
 
