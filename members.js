@@ -43,7 +43,7 @@ const members = [
       "Clayton Howard is a passionate entrepreneur with a lifelong commitment to business excellence. Throughout his career, he has built a track record of success by embracing innovation and maintaining a strong work ethic. Happily married for 25 years, Clayton is a proud father of three and a devoted grandfather. <br> In addition to his business ventures, Clayton is dedicated to giving back to the community. He has volunteered in juvenile detention programs, mentoring young individuals and striving to make a positive impact. His life reflects a thoughtful balance between family, business, and service, embodying his roles as a loving family man, accomplished entrepreneur, and committed mentor.",
   },
   {
-    photo: "Photos/#",
+    photo: "Photos/craig.png",
     name: "Craig <br> Flowers",
     role: "Board Member",
     message:
@@ -64,7 +64,7 @@ const members = [
       " Lorenzo Williams served as a former Secretary and currently as a board member. With over 20 years of experience, Lorenzo has been dedicated to supporting the communities and neighborhoods of Proviso Township. Lorenzo is a successful entrepreneur and the owner of ZinZo 1 Luxury Black Car Service, which he has operated for the past 8 years. In his personal life, Lorenzo is a devoted family man and grandfather, known for his adventurous spirit. He is a passionate Chicago sports fan and an avid golfer. Lorenzo takes great pride in giving back to the community where he grew up, with a strong focus on paving the way for youth development and their future success.",
   },
   {
-    photo: "/Photos/#",
+    photo: "/Photos/martese.png",
     name: "Martese<br> Owens",
     role: "Board Member",
     message:

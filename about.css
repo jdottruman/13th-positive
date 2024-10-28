@@ -232,11 +232,12 @@ body {
 .cardContainer {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-evenly;
   gap: 3rem;
-  padding: 0 6rem;
+  padding: 0rem;
   width: 100%;
+  background-color: red;
   margin-top: 20px;
 }
 
@@ -280,6 +281,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 10%;
   background: linear-gradient(135deg, #f3f3f3, rgba(217, 217, 217, 0.582));
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
