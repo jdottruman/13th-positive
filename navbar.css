@@ -31,7 +31,7 @@
 .navLower ul li a {
   color: #fff;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 500;
   padding: 2px;
 }
 .navLowerPapPal {
@@ -172,13 +172,6 @@
 
 /* iphone ver */
 @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
-  .btn-31 {
-    width: 100%;
-    font-size: 1rem;
-    height: unset;
-    padding: 0.5rem;
-    font-weight: 300;
-  }
   .navLower {
     display: flex;
   }
