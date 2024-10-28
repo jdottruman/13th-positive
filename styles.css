@@ -1336,7 +1336,7 @@ a:focus {
     width: 100%;
     font-weight: 300;
     font-size: 1rem;
-animation:  grown 1s ease;
+animation:  grown 2s ease;
 padding: 1rem 3.5rem;
     line-height: 1.7;
   }
@@ -1647,3 +1647,4 @@ padding: 1rem 3.5rem;
     flex-direction: column;
   } /* Styles for small laptops and tablets in landscape mode */
 }
+s
