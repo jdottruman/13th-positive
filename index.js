@@ -270,4 +270,4 @@ document.getElementById("aboutBtn").addEventListener("click", () => {
 });
 document.getElementById("takeActionBtn").addEventListener("click", () => {
   window.location.href = "#"; // Replace with the correct PayPal link
-});
+} );
