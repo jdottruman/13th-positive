@@ -215,21 +215,21 @@ resources.forEach((resource) => {
 // document.querySelector(".events-container").innerHTML = eventsHtml;
 
 // document.querySelector(".resources-container").innerHTML = resourcesHtml;
-// document.querySelector(".cardContainer").innerHTML = membersHtml;
+document.querySelector(".cardContainer").innerHTML = membersHtml;
 
-// document.querySelectorAll(".cardModalBtn").forEach((btn) => {
-//   btn.addEventListener("click", (e) => {
-//     const index = e.target.getAttribute("data-index");
-//     document.getElementById(`myModal-${index}`).style.display = "block";
-//   });
-// });
+document.querySelectorAll(".cardModalBtn").forEach((btn) => {
+  btn.addEventListener("click", (e) => {
+    const index = e.target.getAttribute("data-index");
+    document.getElementById(`myModal-${index}`).style.display = "block";
+  });
+});
 
-// document.querySelectorAll(".close-btn").forEach((btn) => {
-//   btn.addEventListener("click", (e) => {
-//     const index = e.target.getAttribute("data-index");
-//     document.getElementById(`myModal-${index}`).style.display = "none";
-//   });
-// });
+document.querySelectorAll(".close-btn").forEach((btn) => {
+  btn.addEventListener("click", (e) => {
+    const index = e.target.getAttribute("data-index");
+    document.getElementById(`myModal-${index}`).style.display = "none";
+  });
+});
 
 window.addEventListener("click", (e) => {
   if (e.target.classList.contains("modal")) {
@@ -270,4 +270,4 @@ document.getElementById("aboutBtn").addEventListener("click", () => {
 });
 document.getElementById("takeActionBtn").addEventListener("click", () => {
   window.location.href = "#"; // Replace with the correct PayPal link
-} );
+});
