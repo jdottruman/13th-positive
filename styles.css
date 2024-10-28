@@ -221,7 +221,10 @@ a:focus {
 }
 .missionStatementContent i{
   font-size: 2rem;display: inline-block;
-  animation: bounce 1s infinite;
+  animation: bounce 1.3s infinite,
+  grown 4s ease;
+  
+  
 }
 .missionStatementContent {
   display: flex;
