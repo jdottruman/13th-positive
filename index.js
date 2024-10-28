@@ -112,25 +112,6 @@ resources.forEach((resource) => {
 
 // document.querySelector(".resources-container").innerHTML = resourcesHtml;
 //
-document.querySelectorAll(".cardModalBtn").forEach((btn) => {
-  btn.addEventListener("click", (e) => {
-    const index = e.target.getAttribute("data-index");
-    document.getElementById(`myModal-${index}`).style.display = "block";
-  });
-});
-
-document.querySelectorAll(".close-btn").forEach((btn) => {
-  btn.addEventListener("click", (e) => {
-    const index = e.target.getAttribute("data-index");
-    document.getElementById(`myModal-${index}`).style.display = "none";
-  });
-});
-
-window.addEventListener("click", (e) => {
-  if (e.target.classList.contains("modal")) {
-    e.target.style.display = "none";
-  }
-});
 
 const paragraphs = document.querySelectorAll(".section__paragraph");
 const fromRightElements = document.querySelectorAll(".fromRight");
