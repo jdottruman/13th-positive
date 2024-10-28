@@ -180,8 +180,8 @@ a:focus {
 
 .missionsParagraph {
   margin-right: 0rem;
+  animation: fade-down 1s;
   padding: 0 0rem;
-  animation: grown 1s ease;
 }
 .mobileParagrpah {
   /* text-justify: inter-word; */
@@ -256,7 +256,7 @@ a:focus {
   height: 100%;
 }
 .imgContainer {
-  animation: grown 1s;
+  animation: grown 1.5s;
 }
 .imgContainer img {
   max-width: 255px;
@@ -476,15 +476,37 @@ a:focus {
 .section__paragraph {
   opacity: 0;
   transform: translateY(20px);
-  transition: all 0.5s ease-in-out; /* Add proper transition duration */
 }
-
 .section__paragraph--visible {
   opacity: 1;
   transform: translateY(0);
+  transition: all 2s;
 }
 
 
+.fromLeft {
+  opacity: 0;
+  transform: translateX(-20px); /* Keep X-axis for consistency */
+}
+
+.fromLeft--visible {
+  /* Fixed typo */
+  opacity: 1;
+  transform: translateX(0); /* Changed to X-axis */
+  transition: all 1s ease-in-out;
+}
+
+.fromRight {
+  opacity: 0;
+  transform: translateX(20px); /* Keep X-axis for consistency */
+}
+
+.fromRight--visible {
+  /* Fixed typo */
+  opacity: 1;
+  transform: translateX(0); /* Changed to X-axis */
+  transition: all 1s ease-in-out;
+}
 
 /* photo sec */
 .photoSec {
@@ -1326,13 +1348,7 @@ a:focus {
 
 /* iphone ver */
 @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
-  .btn-31 {
-    width: 100%;
-    font-size: 1rem;
-    height: unset;
-    padding: 0.4rem;
-    font-weight: 300;
-  }
+
 
   /* mobile paragraphs */
   .missionContent {
@@ -1344,7 +1360,8 @@ a:focus {
     max-width: unset;
     width: 100%;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1rem;
+animation:  grown 1s ease;
 padding: 1rem 3.5rem;
     line-height: 1.7;
   }
@@ -1371,7 +1388,7 @@ padding: 1rem 3.5rem;
   .takeActionP {
     max-width: unset;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 1rem 3.5rem;
     width: 100%;
     line-height: 1.7;
@@ -1425,13 +1442,14 @@ padding: 1rem 3.5rem;
   }
 
   .mobileParagrpah {
+    animation: fade-up 1.5s;
 
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     line-height: unset;
     margin: 0;
     padding: 1rem 1rem;
-    font-weight: 400;
+    font-weight: 500;
     /* border: 2.5px solid #ffffffad; */
   }
 

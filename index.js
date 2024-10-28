@@ -215,7 +215,7 @@ resources.forEach((resource) => {
 // document.querySelector(".events-container").innerHTML = eventsHtml;
 
 // document.querySelector(".resources-container").innerHTML = resourcesHtml;
-document.querySelector(".cardContainer").innerHTML = membersHtml;
+// document.querySelector(".cardContainer").innerHTML = membersHtml;
 
 document.querySelectorAll(".cardModalBtn").forEach((btn) => {
   btn.addEventListener("click", (e) => {
@@ -238,6 +238,29 @@ window.addEventListener("click", (e) => {
 });
 
 const paragraphs = document.querySelectorAll(".section__paragraph");
+const fromRightElements = document.querySelectorAll(".fromRight");
+
+const fromLeftElements = document.querySelectorAll(".fromLeft");
+
+document.addEventListener("scroll", () => {
+  fromRightElements.forEach((element) => {
+    if (isInView(element)) {
+      element.classList.add("fromRight--visible"); // Make sure this matches the CSS
+    } else {
+      element.classList.remove("fromRight--visible");
+    }
+  });
+});
+
+document.addEventListener("scroll", () => {
+  fromLeftElements.forEach((element) => {
+    if (isInView(element)) {
+      element.classList.add("fromLeft--visible"); // Make sure this matches the CSS
+    } else {
+      element.classList.remove("fromLeft--visible");
+    }
+  });
+});
 
 document.addEventListener("scroll", () => {
   paragraphs.forEach((paragraph) => {

@@ -323,10 +323,23 @@ body {
 .section__paragraph {
   opacity: 0;
   transform: translateY(20px);
-  transition: all 0.5s ease-in-out; /* Add proper transition duration */
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
 }
 
 .section__paragraph--visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+.fromLeft {
+  opacity: 0;
+  transform: translateX(20px); /* Keep X-axis for consistency */
+  transition: all 0.2s ease-in-out;
+}
+
+.fromLeft--visible {
+  /* Fixed typo */
+  opacity: 1;
+  transform: translateX(0); /* Changed to X-axis */
+  transition: all 1s ease-in-out;
 }
