@@ -64,7 +64,7 @@ const members = [
       " Lorenzo Williams served as a former Secretary and currently as a board member. With over 20 years of experience, Lorenzo has been dedicated to supporting the communities and neighborhoods of Proviso Township. Lorenzo is a successful entrepreneur and the owner of ZinZo 1 Luxury Black Car Service, which he has operated for the past 8 years. In his personal life, Lorenzo is a devoted family man and grandfather, known for his adventurous spirit. He is a passionate Chicago sports fan and an avid golfer. Lorenzo takes great pride in giving back to the community where he grew up, with a strong focus on paving the way for youth development and their future success.",
   },
   {
-    photo: "/Photos/martese.png",
+    photo: "Photos/martese.png",
     name: "Martese<br> Owens",
     role: "Board Member",
     message:
