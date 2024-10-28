@@ -90,6 +90,8 @@ members.forEach((member, index) => {
 
         </div>
         
+
+
         <div id="myModal-${index}" class="modal">
                     <span class="close-btn" data-index="${index}">&times;</span>
 
