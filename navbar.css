@@ -75,7 +75,9 @@
   display: none;
 }
 
-.nav__logo {
+.nav__logo,
+.nav__logo a {
+  color: #fff;
   text-align: center;
   font-size: 1.5rem;
   color: #ffffff;
@@ -108,7 +110,7 @@
   color: #ffffff;
   font-weight: 400;
   margin-left: 1.5rem;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-family: "IBM Plex Sans", sans-serif;
   transition: color 0.3s ease;
 }
