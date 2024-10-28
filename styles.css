@@ -505,7 +505,7 @@ a:focus {
 
 .fromLeft {
   opacity: 0;
-  transform: translateX(-20px); /* Keep X-axis for consistency */
+  transform: translateX(-30px); /* Keep X-axis for consistency */
 }
 
 .fromLeft--visible {
@@ -517,7 +517,7 @@ a:focus {
 
 .fromRight {
   opacity: 0;
-  transform: translateX(20px); /* Keep X-axis for consistency */
+  transform: translateX(30px); /* Keep X-axis for consistency */
 }
 
 .fromRight--visible {
