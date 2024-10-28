@@ -215,7 +215,7 @@ resources.forEach((resource) => {
 // document.querySelector(".events-container").innerHTML = eventsHtml;
 
 // document.querySelector(".resources-container").innerHTML = resourcesHtml;
-// document.querySelector(".cardContainer").innerHTML = membersHtml;
+document.querySelector(".cardContainer").innerHTML = membersHtml;
 
 document.querySelectorAll(".cardModalBtn").forEach((btn) => {
   btn.addEventListener("click", (e) => {
