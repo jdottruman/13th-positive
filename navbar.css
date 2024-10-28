@@ -32,14 +32,15 @@
   color: #fff;
   font-size: 1rem;
   font-weight: 500;
+  padding: 2px;
 }
 .navLowerPapPal {
   animation: from-left 0.8s ease;
-  background: linear-gradient(45deg, #0070ba, #003f87);
+  background: linear-gradient(45deg, #0070bab0, #003f87b6);
 }
 .navLowerCashApp {
   animation: from-right 0.8s ease;
-  background: linear-gradient(45deg, #00c244, #00796b);
+  background: linear-gradient(45deg, #00c244c0, #00796bbd);
 }
 .navLowerPhone {
   color: #fff;
