@@ -180,8 +180,8 @@ a:focus {
 
 .missionsParagraph {
   margin-right: 0rem;
-  animation: fade-down 1s;
   padding: 0 0rem;
+  animation: grown 1s ease;
 }
 .mobileParagrpah {
   /* text-justify: inter-word; */
@@ -256,7 +256,7 @@ a:focus {
   height: 100%;
 }
 .imgContainer {
-  animation: grown 1.5s;
+  animation: grown 1s;
 }
 .imgContainer img {
   max-width: 255px;
@@ -1336,7 +1336,6 @@ a:focus {
     width: 100%;
     font-weight: 300;
     font-size: 1rem;
-animation:  grown 2s ease;
 padding: 1rem 3.5rem;
     line-height: 1.7;
   }
@@ -1417,7 +1416,6 @@ padding: 1rem 3.5rem;
   }
 
   .mobileParagrpah {
-    animation: fade-up .75s;
 
     align-items: center;
     font-size: 1.5rem;
@@ -1647,4 +1645,3 @@ padding: 1rem 3.5rem;
     flex-direction: column;
   } /* Styles for small laptops and tablets in landscape mode */
 }
-s
