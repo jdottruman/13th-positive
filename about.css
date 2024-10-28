@@ -41,7 +41,7 @@ body {
   height: 100%;
   backdrop-filter: blur(2px);
   width: 100%;
-  background-color: #0036863b;
+  background-color: #000000b9;
 }
 
 .heroContent {
@@ -450,3 +450,68 @@ body {
   align-items: center;
 }
 /* ennd of photosection */
+
+/* fixed button */
+/* scroll to top */
+
+button:focus,
+a:focus {
+  outline: 2px solid var(--accent-color); /* For keyboard navigation visibility */
+}
+
+#fixedBtns {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  gap: 15px; /* Add space between the buttons */
+  z-index: 500;
+  display: none;
+}
+
+#fixedBtns.show {
+  display: flex;
+}
+
+#fixedBtns button {
+  padding: 20px 25px; /* Increased padding for larger buttons */
+  color: white;
+  border: none;
+  border-radius: 10px; /* Slightly larger border-radius */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#fixedBtns button:hover {
+  background-color: #007a9b; /* Darker shade for accent color on hover */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+
+#fixedBtns button i {
+  font-size: 2.5rem; /* Increased icon size */
+}
+
+#donateBtn {
+  background-color: #4caf50; /* Original donate button color */
+}
+
+#donateBtn:hover {
+  background-color: #3a8b40; /* Darker green for donate button on hover */
+}
+
+#donateBtn a {
+  color: white;
+}
+
+#scrollToTop.show {
+  display: block;
+}
+#scrollToTop {
+  background-color: #00000050;
+}
+
+#scrollToTop i {
+  font-size: 2.5rem; /* Increased scroll-to-top icon size */
+}
+
+/* end of fixed buttons */
