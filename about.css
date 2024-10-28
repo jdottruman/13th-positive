@@ -320,3 +320,13 @@ body {
 }
 
 /* end of our members sectoion */
+.section__paragraph {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease-in-out; /* Add proper transition duration */
+}
+
+.section__paragraph--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
