@@ -16,7 +16,7 @@ body {
   background-color: #eeeeee; /* Solid grey background */
   color: #333; /* Ensure readable text */
 }
-
+.heroContentText,
 .aboutUs,
 .membersSection {
   padding: 0 15rem;
@@ -76,6 +76,7 @@ body {
 
 .aboutUs p {
   text-align: justify;
+  padding: 1rem;
   font-size: 1.5rem;
 }
 
@@ -220,6 +221,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   gap: 1rem;
+  padding: 1rem;
   background-color: rgb(0, 0, 0);
   margin-top: 20px;
 }
@@ -260,15 +262,23 @@ body {
 }
 
 .memberCard {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  width: 20%;
-  background: linear-gradient(135deg, #f3f3f3, rgba(217, 217, 217, 0.582));
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  width: 190px;
+  height: 254px;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
   text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
