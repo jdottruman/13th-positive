@@ -169,6 +169,13 @@ function isInView(element) {
 
   return rect.top < windowHeight - 150 && rect.bottom > 0;
 }
+// for about button
+const aboutButtons = document.getElementsByClassName("aboutBtn");
+for (let button of aboutButtons) {
+  button.addEventListener("click", () => {
+    window.location.href = "about.html";
+  });
+}
 
 document.getElementById("payPalBtn").addEventListener("click", () => {
   window.location.href = "https://www.paypal.com"; // Replace with the correct PayPal link

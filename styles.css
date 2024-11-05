@@ -413,15 +413,12 @@ a:focus {
 
 .button:hover {
   box-shadow: 1px 1px 200px #252525;
-  color: #fff;
   border: none;
 }
 
 .type1:hover::after {
   visibility: visible;
   transform: scale(100) translateX(2px);
-}
-.aboutBtn {
 }
 
 @-webkit-keyframes move-up-alternate {
