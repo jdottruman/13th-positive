@@ -1635,7 +1635,7 @@ color: #ffffff;
   }
 
   .imgContainer img {
-    width: 150gpx;
+    width: 150px;
     height: 100%;
     object-fit: contain;
   }
