@@ -271,12 +271,16 @@ a:focus {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
-width: 100%;}
-.navLower ul li a img,
+}
+
+
+.navLower ul li a svg,
 .navLower ul li a i{
   color: #000000;
-  width: 2rem;font-size: 2rem;margin: .2rem;
+  width: 2.7rem;
+  height: 2.7rem;
+  font-size: 2.7rem;
+  margin: .2rem;
 }
 .navLowerPapPal {
   background: linear-gradient(45deg, #0070bab0, #003f87b6);
@@ -1599,9 +1603,11 @@ padding: 1rem 3.5rem;
     align-items: center;
     line-height: 1.1;
     margin: 0rem;
-    padding: 5rem 0;
+    padding: 6rem 0;
     height: unset;
   }
+
+  
 
   .mobileParagrpah {
     animation: fade-up 1.5s;
