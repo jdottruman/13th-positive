@@ -300,7 +300,6 @@ a:focus {
 }
 .navLowerPhone {
   color: #fff;
-  animation: fade-down 0.75s ease;
   background-color: #0000008c;
 }
 .navLowerPhone i {
