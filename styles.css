@@ -251,7 +251,8 @@ a:focus {
   width: 100%;
   display: flex;
   flex-direction: row;
-  animation: bounce 2s infinite;
+  animation: bounce 2s infinite,
+  grown 1s ease;
 
   justify-content: center;
   align-items: center;
@@ -1619,7 +1620,7 @@ padding: 1rem 3.5rem;
   
 
   .mobileParagrpah {
-    animation: fade-up 1.5s;
+    animation: fade-up 1s;
 color: #ffffff;
     align-items: center;
     font-size: 1.8rem;
