@@ -1559,7 +1559,7 @@ a:focus {
     line-height: 1;
     margin: 0;
     padding: 1rem 1rem;
-    font-weight: 400;
+    font-weight: bold;
     /* border: 2.5px solid #ffffffad; */
   }
 
