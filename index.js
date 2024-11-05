@@ -76,7 +76,7 @@ testimoney.forEach((test) => {
   
   `;
 });
-document.querySelector(".testimonyCardContainer").innerHTML = resourcesHtml;
+// document.querySelector(".testimonyCardContainer").innerHTML = resourcesHtml;
 
 resources.forEach((resource) => {
   resourcesHtml += `
