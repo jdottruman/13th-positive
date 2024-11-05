@@ -410,7 +410,7 @@ a:focus {
 }
 .btn-31 i {
   margin: 0.5rem;
-  font-size: 150%;
+  font-size: 100%;
 }
 .btn-31:disabled {
   cursor: default;
