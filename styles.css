@@ -1519,15 +1519,16 @@ a:focus {
     color: #fff;
     width: 100%;
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 2rem 3rem;
     padding-bottom: 0;
 
-    line-height: 1.4;
+    line-height: 1.5;
   }
   .missionContentImgCon {
     width: 100vw;
-    padding: 2rem;
+    padding: 0rem 2rem;
+    padding-bottom: 2rem;
   }
   .takeActionContainer {
     padding: 0;
@@ -1548,11 +1549,11 @@ a:focus {
   .takeActionP {
     max-width: unset;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 2rem 3rem;
     padding-bottom: 0;
     width: 100%;
-    line-height: 1.4;
+    line-height: 1.5;
 
     width: 100%;
   }
