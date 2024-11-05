@@ -252,7 +252,7 @@ a:focus {
   display: flex;
   flex-direction: row;
   animation: bounce 2s infinite,
-  grown 1s ease;
+  grown 1.5s ease;
 
   justify-content: center;
   align-items: center;
