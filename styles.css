@@ -220,10 +220,12 @@ a:focus {
 .missionP button {
   margin: 2rem;
 }
-.missionStatementContent i{
+.missionStatementContent .fa-chevron-down{
   font-size: 2rem;display: inline-block;
   animation: bounce 1.3s infinite,
   grown 4s ease;
+  position: absolute;
+  bottom: 1.5rem;
   margin: 1rem;color: #fff;
   
   
@@ -234,7 +236,52 @@ a:focus {
   align-items: center;
   justify-content: center;
   padding: 03rem 7rem;
-  padding-top: 5rem;
+  padding-top: 3rem;
+  position: relative;
+}
+
+.navLower {
+  display: none;
+  flex-direction: row;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.navLower ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.navLower ul li {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.navLower ul li a {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 2px;
+}
+.navLowerPapPal {
+  background: linear-gradient(45deg, #0070bab0, #003f87b6);
+}
+.navLowerCashApp {
+  background: linear-gradient(45deg, #00c244c0, #00796bbd);
+}
+.navLowerPhone {
+  color: #fff;
+  animation: fade-down 0.75s ease;
+  background-color: #000000b7;
+}
+.navLowerPhone i {
+  margin: 0.5rem;
 }
 /* takeAction section */
 .takeActionContainer {
@@ -1454,7 +1501,9 @@ a:focus {
 
 /* iphone ver */
 @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
-
+  .navLower {
+    display: flex;
+  }
 
   /* mobile paragraphs */
   .missionContent {
@@ -1540,10 +1589,9 @@ padding: 1rem 3.5rem;
     align-items: center;
     line-height: 1.1;
     margin: 0rem;
-    padding: 0;
+    padding: 4rem 0;
     padding-top: 8rem;
     height: unset;
-    padding-bottom: 1rem;
   }
 
   .mobileParagrpah {
