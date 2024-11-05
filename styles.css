@@ -1601,7 +1601,7 @@ a:focus {
   }
 
   .mobileParagrpah {
-    font-family: "Permanent Marker", cursive;
+    font-family: "Rubik", serif;
 
     animation: grown 1s;
     color: #ffffff;
@@ -1610,7 +1610,7 @@ a:focus {
     line-height: 1;
     margin: 0;
     padding: 1rem 1rem;
-    font-weight: 100;
+    font-weight: 400;
     /* border: 2.5px solid #ffffffad; */
   }
 
