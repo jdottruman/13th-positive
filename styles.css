@@ -1509,7 +1509,7 @@ a:focus {
   .missionContent {
     padding: 0;
     padding-top: 1rem;
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(17, 17, 17);
     flex-direction: column-reverse;
   }
   .missionContent p {
