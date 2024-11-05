@@ -1596,7 +1596,7 @@ padding: 1rem 3.5rem;
 
   .mobileParagrpah {
     animation: fade-up 1.5s;
-
+color: #000;
     align-items: center;
     font-size: 1.8rem;
     line-height: unset;
