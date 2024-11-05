@@ -322,12 +322,12 @@ a:focus {
 
 .takeActionImgCon {
   width: 40rem;
-
-  overflow: hidden;
 }
 .takeActionImgCon img {
   width: 100%;
+  object-fit: cover;
   height: 100%;
+  border-radius: 8px;
 }
 .imgContainer {
   animation: grown 1.5s;
@@ -536,6 +536,7 @@ a:focus {
   width: 100%;
   height: 100%;
   background: transparent;
+  border-radius: 8px;
 }
 .missionContent p {
   font-family: poppins;
@@ -1509,7 +1510,6 @@ a:focus {
     padding: 0;
     padding-top: 1rem;
     background-color: #000;
-    border-radius: 0 0 8px 8px;
     flex-direction: column-reverse;
   }
   .missionContent p {
@@ -1518,7 +1518,7 @@ a:focus {
     width: 100%;
     font-weight: 100;
     font-size: 1.3rem;
-    padding: 4rem 2rem;
+    padding: 4rem 3rem;
     padding-bottom: 0;
     line-height: 1.4;
   }
@@ -1546,7 +1546,7 @@ a:focus {
     max-width: unset;
     font-weight: 300;
     font-size: 1.3rem;
-    padding: 4rem 2rem;
+    padding: 4rem 3rem;
     padding-bottom: 0;
     width: 100%;
     line-height: 1.4;
@@ -1555,7 +1555,7 @@ a:focus {
   }
   .takeActionImgCon {
     padding: 2rem;
-    width: 100vw;
+    width: 100%;
     height: 100%;
     background-color: #000;
   }
