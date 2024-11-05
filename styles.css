@@ -282,9 +282,9 @@ a:focus {
 .navLower ul li a svg,
 .navLower ul li a i{
   color: #ffffff;
-  width: 2rem;
-  height: 2rem;
-  font-size: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1.5rem;
   fill: #fff;
   margin: .2rem;
 }
