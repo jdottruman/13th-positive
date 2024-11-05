@@ -1498,12 +1498,14 @@ a:focus {
     width: 100%;
   }
   .takeActionImgCon {
-    padding: 2rem;
-    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
     background-color: rgb(0, 0, 0);
-    border-radius: 8px;
   }
   .takeActionImgCon img {
+    width: 20rem;
   }
   .ourMissionImgContainer {
     width: 100vw;
