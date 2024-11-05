@@ -278,10 +278,11 @@ a:focus {
 
 .navLower ul li a svg,
 .navLower ul li a i{
-  color: #000000;
+  color: #ffffff;
   width: 2.5rem;
   height: 2.5rem;
   font-size: 2.5rem;
+  fill: #fff;
   margin: .2rem;
 }
 .navLowerPapPal {
