@@ -1384,7 +1384,7 @@ a:focus {
 /* end of how funds */
 .footer {
   border-top: 1px solid var(--primary-color);
-  background-color: rgb(32, 32, 32);
+  background-color: rgba(0, 0, 0, 0.918);
   padding: 1rem 0;
 }
 
