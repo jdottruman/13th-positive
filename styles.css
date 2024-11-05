@@ -1623,7 +1623,7 @@ padding: 1rem 3.5rem;
 color: #ffffff;
     align-items: center;
     font-size: 1.8rem;
-    line-height: unset;
+    line-height: 1;
     margin: 0;
     padding: 1rem 1rem;
     font-weight: 600;
