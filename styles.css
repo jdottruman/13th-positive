@@ -1518,7 +1518,7 @@ a:focus {
     width: 100%;
     font-weight: 100;
     font-size: 1.3rem;
-    padding: 4rem 3.5rem;
+    padding: 4rem 2rem;
     padding-bottom: 0;
     line-height: 1.4;
   }
@@ -1545,10 +1545,11 @@ a:focus {
   .takeActionP {
     max-width: unset;
     font-weight: 300;
-    font-size: 1.2rem;
-    padding: 1rem 3.5rem;
+    font-size: 1.3rem;
+    padding: 4rem 2rem;
+    padding-bottom: 0;
     width: 100%;
-    line-height: 1.7;
+    line-height: 1.4;
 
     width: 100%;
   }
@@ -1616,9 +1617,6 @@ a:focus {
     margin: 0;
     margin-right: 0;
     padding: 0;
-  }
-
-  .overlay {
   }
 
   .imgContainer img {
