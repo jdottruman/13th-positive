@@ -178,7 +178,7 @@ a:focus {
 /* Mission Statement Section */
 .overlay {
   width: 100%;
-  background-color: #1f78fd7c;
+  background-color: #0066ff7c;
 }
 .missionsStatement {
   width: 100%;
@@ -240,7 +240,7 @@ a:focus {
   position: relative;
 }
 
-.navLower {border-top: 1.5px solid #000000;
+.navLower {border-top: .2rem solid #000000;
   display: none;
   flex-direction: row;
   width: 100%;
@@ -285,7 +285,7 @@ width: 100%;}
 .navLowerPhone {
   color: #fff;
   animation: fade-down 0.75s ease;
-  background-color: #000000b7;
+  background-color: #0000008c;
 }
 .navLowerPhone i {
   margin: 0.5rem;
