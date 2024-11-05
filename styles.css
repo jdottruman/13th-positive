@@ -1615,11 +1615,11 @@ padding: 1rem 3.5rem;
     animation: grown 1s;
 color: #ffffff;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 1;
     margin: 0;
     padding: 1rem 1rem;
-    font-weight: 300;
+    font-weight: 100;
     /* border: 2.5px solid #ffffffad; */
   }
 
@@ -1635,7 +1635,7 @@ color: #ffffff;
   }
 
   .imgContainer img {
-    width: 150px;
+    width: 150gpx;
     height: 100%;
     object-fit: contain;
   }
