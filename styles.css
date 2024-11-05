@@ -1478,6 +1478,9 @@ a:focus {
     padding: 0;
     font-size: 1rem;
   }
+  .formcon label {
+    font-size: 1rem;
+  }
   .formcon h2 {
     font-size: 1.8rem;
   }
