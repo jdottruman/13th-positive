@@ -266,6 +266,7 @@ a:focus {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 0.5rem;
 }
 
 .navLower ul li a svg,
