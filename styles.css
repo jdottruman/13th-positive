@@ -1520,7 +1520,7 @@ a:focus {
     width: 100%;
     font-weight: 100;
     font-size: 1rem;
-    padding: 2rem 3rem;
+    padding: 1rem 3rem;
     padding-bottom: 0;
 
     line-height: 1.5;
@@ -1550,7 +1550,7 @@ a:focus {
     max-width: unset;
     font-weight: 300;
     font-size: 1rem;
-    padding: 2rem 3rem;
+    padding: 1rem 3rem;
     padding-bottom: 0;
     width: 100%;
     line-height: 1.5;
