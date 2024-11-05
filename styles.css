@@ -1504,8 +1504,6 @@ a:focus {
   .navLower {
     display: flex;
   }
-  .btn-31 {
-  }
 
   /* mobile paragraphs */
   .missionContent {
@@ -1519,7 +1517,7 @@ a:focus {
     color: #fff;
     width: 100%;
     font-weight: 100;
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 1rem 3rem;
     padding-bottom: 0;
 
@@ -1549,7 +1547,7 @@ a:focus {
   .takeActionP {
     max-width: unset;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 1rem 3rem;
     padding-bottom: 0;
     width: 100%;
