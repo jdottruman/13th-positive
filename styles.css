@@ -493,6 +493,93 @@ a:focus {
   text-align: justify; /* Improve text alignment for readability */
 }
 
+
+
+
+
+/* testimony con */
+/* From Uiverse.io by xopc333 */ 
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 320px;
+  background: #C6C6D0;
+  color: #212121;
+  box-shadow: inset 0 0 0 4px #212121;
+  transition: .6s 0.4s;
+  cursor: pointer;
+}
+
+.testimonyHeadshotCon{
+  width: 100%;
+}
+.testimonyHeadshotCon img{
+  width: 100%;
+}
+.border {
+  position: absolute;
+  inset: 0;
+}
+
+.border line {
+  stroke-width: 4px;
+  stroke: #C6C6D0;
+  fill: none;
+  transition: .6s ease-in-out;
+}
+
+.border line.top,
+.border line.bottom {
+  stroke-dasharray: 200;
+}
+
+.border line.left,
+.border line.right {
+  stroke-dasharray: 320;
+}
+
+
+.card:hover {
+  background-color: transparent;
+  transition-delay: 0s;
+}
+
+.card:hover .border line {
+  transition-delay: 0.1s;
+}
+
+.card:hover .border line.top {
+  transform: translateX(-400px);
+}
+
+.card:hover .border line.bottom {
+  transform: translateX(400px);
+}
+
+.card:hover .border line.left {
+  transform: translateY(640px);
+}
+
+.card:hover .border line.right {
+  transform: translateY(-640px);
+}
+
+.card:hover .logo {
+  transition-delay: 0s;
+  transform: scale(1.1);
+  fill: #C6C6D0;
+  filter: drop-shadow( 0 0 30px #C6C6D080);
+  opacity: 0.9;
+}
+/* end of testimony */
+
+
+
+
+
 .section__paragraph {
   opacity: 0;
   transform: translateY(20px);
