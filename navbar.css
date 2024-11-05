@@ -58,7 +58,6 @@
   justify-content: space-between;
   align-items: center;
 
-  background-color: #000000b7;
   width: 100%;
   border-radius: 0 0 8px 8px; /* Slight rounding for modern feel */
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
@@ -178,7 +177,7 @@
   }
   .navUpper {
     height: unset;
-    flex-direction: row-reverse;
+    flex-direction: row;
     border-radius: unset;
     padding: 1rem 2rem;
   }
@@ -187,7 +186,7 @@
     font-weight: 700;
     font-size: 1.1rem;
     padding: 0;
-    text-align: right;
+    text-align: left;
     color: #fff;
   }
   .nav__menu ul li a,
