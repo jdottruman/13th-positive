@@ -394,6 +394,7 @@ a:focus {
   z-index: 1;
   font-weight: 800;
   letter-spacing: 4px;
+  font-size: 1rem;
 }
 
 .type1::after {
