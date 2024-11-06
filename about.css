@@ -218,7 +218,7 @@ body {
   justify-content: space-evenly;
   gap: 1rem;
   padding: 1rem;
-  background-color: rgb(0, 0, 0);
+  /* background-color: rgb(0, 0, 0); */
   border-radius: 8px;
   margin-top: 20px;
 }
@@ -261,7 +261,6 @@ body {
 .memberCard {
   box-sizing: border-box;
   width: 190px;
-  height: 254px;
   background: rgba(217, 217, 217, 0.58);
   border: 1px solid white;
   box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
@@ -281,10 +280,18 @@ body {
 }
 
 .memberCard:hover {
-  transform: translateY(-10px);
+  animation: bounce 0.8s infinite;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
-
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
 /* Member Info */
 .cardText {
   display: flex;
@@ -529,9 +536,29 @@ a:focus {
 @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
   .imageSectionContainer {
     width: 100vw;
+    background-color: #000;
+    padding: 1.5rem;
   }
   .imageSectionContainer img {
     width: 80%;
     border-radius: 8px;
+  }
+  .membersSection {
+    flex-direction: column-reverse;
+  }
+  .cardContainer {
+    gap: 0;
+    padding: 0;
+  }
+  .memberCard {
+    width: 33%;
+    margin: 1rem;
+  }
+  .cardText .name {
+    font-size: 1.3rem;
+    line-height: 1;
+  }
+  .cardText .title {
+    font-size: 1rem;
   }
 }
