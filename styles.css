@@ -1577,6 +1577,7 @@ a:focus {
     width: 150px;
     height: 100%;
     object-fit: contain;
+    animation: bounce 2s infinite;
   }
 
   .swiper {
