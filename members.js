@@ -7,6 +7,13 @@ const members = [
       "Reginald Neal has been a lifelong resident of Maywood, proudly calling it home for 52 years. As a former business owner in the village, he holds a deep connection to the community. For the past 14 years, he has been employed by The Law Offices of Blitt and Gaines, P.C., where he currently serves as a supervisor—a role he has held for the past six years. <br> In his personal life, Reginald has enjoyed 24 years of marriage with his wonderful wife, Kasonjia Neal. He is a proud father of six children—four daughters (one of whom is sadly no longer with us) and two sons—and a devoted grandfather to eight cherished grandchildren: five lovely granddaughters and three handsome grandsons.",
   },
   {
+    photo: "Photos/chuck.png",
+    name: "Charles M Stump ",
+    role: "Vice President",
+    message:
+      "Charles is a barber, entrepreneur, and investor with roots going back four generations in Maywood. He has spent the majority of his life in the Proviso Township, supporting local initiatives to rebuild, restore, and reinvigorate the area and the children within it. With over 25 years as a neighborhood barber, Charles has used his role to mentor from behind the chair and collaborate with grassroots organizations. His partnerships include participating in community clean-ups, fundraising, and supporting various efforts for community partners, reflecting his deep commitment to service and community growth.",
+  },
+  {
     photo: "Photos/anthony headshot.png",
     name: "Anthony <br> Lindsey",
     role: "Board Member",
@@ -20,14 +27,6 @@ const members = [
     message:
       "Antwan serves as a board member of the 13th Positive Foundation, an organization focused on fostering community development through education, mentorship, and impactful change. A lifelong resident of Maywood for 47 years, he found the love of his life in the same community. His wife, a beloved educational leader, left a lasting legacy even after her passing. <br> Antwan raised two daughters, Kennedy and Brittanie—both master’s degree holders with strong community connections—and now mentors his son, Antwan Jr., who hopes to attend Proviso Math and Science Academy (PMSA). Deeply understanding the importance of family unity, Antwan remains committed to both his loved ones and the broader community. <br> In addition to his work with 13th Positive, he has coached youth baseball and youth boxing, shaping future generations through sports and mentorship. Dedicated to honoring the Coffie name, Antwan upholds his family’s legacy while contributing to a united, resilient future for Maywood.",
   },
-  {
-    photo: "Photos/chuck.png",
-    name: "Charles M.<br> Stump ",
-    role: "Vice President",
-    message:
-      "Charles is a barber, entrepreneur, and investor with roots going back four generations in Maywood. He has spent the majority of his life in the Proviso Township, supporting local initiatives to rebuild, restore, and reinvigorate the area and the children within it. With over 25 years as a neighborhood barber, Charles has used his role to mentor from behind the chair and collaborate with grassroots organizations. His partnerships include participating in community clean-ups, fundraising, and supporting various efforts for community partners, reflecting his deep commitment to service and community growth.",
-  },
-
   {
     photo: "Photos/clarence.png",
     name: "Clarence <br> Frison ",
