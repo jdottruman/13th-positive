@@ -53,7 +53,7 @@ body {
 
 .heroContentText h1 {
   font-size: 3rem;
-  font-weight: 800;
+  font-weight: 800;padding: 0 4rem;
   line-height: 1;
 }
 .heroContentText p {
