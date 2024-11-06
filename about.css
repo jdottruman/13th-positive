@@ -538,8 +538,10 @@ a:focus {
     margin: 1rem;
     width: unset;
     background-color: #ffffff;
-    padding: 3.5rem;
+    padding: 2.5rem;
     border-radius: 8px;
+    margin: 2rem;
+    margin-top: 0;
   }
   .imageSectionContainer img {
     width: 100%;
