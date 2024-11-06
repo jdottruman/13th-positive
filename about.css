@@ -561,4 +561,10 @@ a:focus {
   .cardText .title {
     font-size: 1rem;
   }
+  .membersSection .memberGist {
+    padding: 2rem;
+  }
+  .aboutUs p {
+    padding: 2rem;
+
 }
