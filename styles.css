@@ -171,7 +171,7 @@ section {
   font-family: "Rubik", sans-serif;
 }
 .mobileParagraphHighlight {
-  color: #007a9b;
+  color: #000000;
   font-weight: bold;
 }
 
@@ -769,6 +769,9 @@ section {
     margin: 0;
     padding: 1rem 1rem;
     font-weight: bold;
+  }
+  .mobileParagraphHighlight {
+    font-size: 1.8rem;
   }
 
   .missionsParagraph {
