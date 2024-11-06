@@ -53,7 +53,8 @@ body {
 
 .heroContentText h1 {
   font-size: 3rem;
-  font-weight: 800;padding: 0 4rem;
+  font-weight: 800;
+  padding: 0 4rem;
 }
 .heroContentText p {
   font-size: 2.5rem;
@@ -268,7 +269,7 @@ body {
   }
 }
 /* Member Info */
-/* From Uiverse.io by LilaRest */ 
+/* From Uiverse.io by LilaRest */
 .card {
   --bg: #e8e8e8;
   --contrast: #e2e0e0;
@@ -277,14 +278,20 @@ body {
   padding: 9px;
   background-color: var(--bg);
   border-radius: 35px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .card-overlay {
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: repeating-conic-gradient(var(--bg) 0.0000001%, var(--grey) 0.000104%) 60% 60%/600% 600%;
+  background: repeating-conic-gradient(
+      var(--bg) 0.0000001%,
+      var(--grey) 0.000104%
+    )
+    60% 60%/600% 600%;
   filter: opacity(10%) contrast(105%);
 }
 
@@ -307,22 +314,23 @@ body {
   font-family: monospace;
   position: relative;
 }
-.cardModalBtn{
+.cardModalBtn {
   position: relative;
   background-color: transparent;
   cursor: pointer;
   border: 2px solid #252525;
   overflow: hidden;
   border-radius: 30px;
-  padding: .5rem 2.5rem;
+  padding: 0.5rem 2.5rem;
   color: #333;
   transition: all 0.5s ease-in-out;
-position: absolute;
-bottom: 1rem;
-font-size: 1.2rem;}
+  position: absolute;
+  bottom: 1rem;
+  font-size: 1.2rem;
+}
 
-.card .title{
-  font-size: .8rem;
+.card .title {
+  font-size: 0.8rem;
 }
 /* end of our members sectoion */
 .section__paragraph {
@@ -542,10 +550,10 @@ a:focus {
   .imageSectionContainer {
     width: 100vw;
     background-color: #000;
-    padding: 1.5rem;
+    padding: 3.5rem;
   }
   .imageSectionContainer img {
-    width: 80%;
+    width: 100%;
     border-radius: 8px;
   }
   .membersSection {
@@ -571,5 +579,8 @@ a:focus {
   }
   .aboutUs p {
     padding: 2rem;
-
+  }
+  .aboutUs {
+    padding: 2rem 0;
+  }
 }
