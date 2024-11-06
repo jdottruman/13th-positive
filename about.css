@@ -476,6 +476,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 /* ennd of photosection */
 
@@ -561,9 +562,11 @@ a:focus {
     padding: 1rem;
   }
   .imageSectionContainer {
-    width: 100vw;
-    background-color: #000;
+    margin: 1rem;
+    width: unset;
+    background-color: #ffffff;
     padding: 3.5rem;
+    border-radius: 8px;
   }
   .imageSectionContainer img {
     width: 100%;
@@ -589,9 +592,18 @@ a:focus {
   }
   .membersSection .memberGist {
     padding: 2rem;
+    color: #fff;
+  }
+  .aboutUs h1 {
+    color: #fff;
   }
   .aboutUs p {
+    color: #fff;
     padding: 2rem;
+  }
+
+  body {
+    background-color: #000;
   }
   .aboutUs {
     padding: 2rem 0;
