@@ -40,6 +40,9 @@
 
   font-weight: bold;
 }
+.nav__logo__highlight {
+  color: #000000;
+}
 .nav__logo img {
   padding: 0 4px;
   width: 100%;

@@ -200,6 +200,10 @@ a:focus {
   height: 100%;
   font-family: "Rubik", sans-serif;
 }
+.mobileParagraphHighlight {
+  color: #007a9b;
+  font-weight: bold;
+}
 
 .missionP {
   display: flex;
@@ -208,6 +212,11 @@ a:focus {
   hyphens: auto;
   text-align: justify;
   text-justify: inter-word;
+}
+.missionPHighlight {
+  font-weight: bold;
+
+  color: #007a9b;
 }
 .missionP button {
   margin: 2rem;
@@ -317,6 +326,10 @@ a:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.takeActionPHighlight {
+  color: #007a9b;
+  font-weight: bold;
 }
 .takeActionP button {
   margin: 2rem;
@@ -1463,6 +1476,9 @@ a:focus {
 
     line-height: 1.2;
   }
+  .missionPHighlight {
+    font-size: 1.5rem;
+  }
   .missionContentImgCon {
     width: 100vw;
     padding: 0rem 2rem;
@@ -1471,6 +1487,9 @@ a:focus {
   .takeActionContainer {
     padding: 0;
     flex-direction: column-reverse;
+  }
+  .takeActionPHighlight {
+    font-size: 1.5rem;
   }
   .formcon {
     padding: 1rem 3.5rem;
