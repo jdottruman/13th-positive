@@ -8,7 +8,7 @@ const members = [
   },
   {
     photo: "Photos/chuck.png",
-    name: "Charles M Stump ",
+    name: "Charles M.<br> Stump ",
     role: "Vice President",
     message:
       "Charles is a barber, entrepreneur, and investor with roots going back four generations in Maywood. He has spent the majority of his life in the Proviso Township, supporting local initiatives to rebuild, restore, and reinvigorate the area and the children within it. With over 25 years as a neighborhood barber, Charles has used his role to mentor from behind the chair and collaborate with grassroots organizations. His partnerships include participating in community clean-ups, fundraising, and supporting various efforts for community partners, reflecting his deep commitment to service and community growth.",
