@@ -77,7 +77,7 @@ members.forEach((member, index) => {
   membersHtml += `
   
         
-<div class="card">
+<div class="card section__paragraph">
   <div class="card-overlay"></div>
   <div class="card-inner">
               <p class="name">${member.name}</p>
