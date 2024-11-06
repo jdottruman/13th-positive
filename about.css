@@ -39,22 +39,21 @@ body {
   height: 100%;
   backdrop-filter: blur(2px);
   width: 100%;
-  background-color: #000000b9;
+  background-color: #00000086;
 }
 
 .heroContent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  position: relative;
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .heroContentText h1 {
   font-size: 3rem;
   font-weight: 800;
-  padding: 0 4rem;
 }
 .heroContentText p {
   font-size: 2.5rem;
@@ -547,9 +546,19 @@ a:focus {
 
 /* iphone ver */
 @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
+  .hero {
+    height: 35vh;
+  }
+
+  .heroContent {
+    align-items: flex-end;
+  }
+
   .heroContent h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: 700;
+    line-height: 1.5;
+    padding: 1rem;
   }
   .imageSectionContainer {
     width: 100vw;
