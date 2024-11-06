@@ -265,7 +265,7 @@ a:focus {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 8px;
+  border-radius: 30px;
   text-align: center;
   margin: 0.5rem;
 }
@@ -1477,7 +1477,7 @@ a:focus {
     line-height: 1.2;
   }
   .missionPHighlight {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .missionContentImgCon {
     width: 100vw;
@@ -1489,7 +1489,7 @@ a:focus {
     flex-direction: column-reverse;
   }
   .takeActionPHighlight {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .formcon {
     padding: 1rem 3.5rem;
