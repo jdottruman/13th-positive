@@ -573,6 +573,8 @@ a:focus {
     border-radius: 8px;
   }
   .membersSection {
+    background-color: #fff;
+
     flex-direction: column-reverse;
   }
   .cardContainer {
@@ -588,14 +590,14 @@ a:focus {
   }
   .membersSection .memberGist {
     padding: 2rem;
-    color: #fff;
+    color: #000000;
   }
   .aboutUs h1 {
     color: #fff;
   }
   .aboutUs p {
     color: #fff;
-    padding: 2rem;
+    padding: 0 2rem;
   }
 
   body {
