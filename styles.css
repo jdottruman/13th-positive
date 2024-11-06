@@ -171,7 +171,7 @@ section {
   font-family: "Rubik", sans-serif;
 }
 .mobileParagraphHighlight {
-  color: #000000;
+  color: #0084ff;
   font-weight: bold;
 }
 
@@ -186,7 +186,7 @@ section {
 .missionPHighlight {
   font-weight: bold;
 
-  color: #007a9b;
+  color: #0084ff;
 }
 .missionP button {
   margin: 2rem;
@@ -289,7 +289,7 @@ section {
   align-items: center;
 }
 .takeActionPHighlight {
-  color: #007a9b;
+  color: #0084ff;
   font-weight: bold;
 }
 .takeActionP button {
@@ -323,10 +323,10 @@ section {
   position: relative;
   background-color: transparent;
   cursor: pointer;
-  border: 2px solid #007a9b;
+  border: 2px solid #0084ff;
   overflow: hidden;
   border-radius: 30px;
-  color: #007a9b;
+  color: #0084ff;
   transition: all 0.5s ease-in-out;
 }
 
@@ -771,7 +771,7 @@ section {
     font-weight: bold;
   }
   .mobileParagraphHighlight {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
   }
 
   .missionsParagraph {
