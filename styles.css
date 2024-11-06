@@ -873,15 +873,7 @@ section {
   .cardImg img {
     width: 100%;
   }
-  .cardModalBtn {
-    border-radius: unset;
-    font-size: 0.7rem;
-    margin-top: 0.5rem;
-    height: 1rem;
-    font-weight: 400;
-    border: none;
-    min-height: 1rem;
-  }
+
   .memo {
     text-align: left;
     padding: 0 1rem;

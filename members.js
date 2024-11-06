@@ -75,20 +75,16 @@ const members = [
 let membersHtml = ``;
 members.forEach((member, index) => {
   membersHtml += `
-        <div class="memberCard section__paragraph">
-          <div class="cardImg">
-            <img src="${member.photo}" alt="" />
-          </div>
-          <div class="cardText">
-            <p class="name">${member.name}</p>
+  
+        
+<div class="card">
+  <div class="card-overlay"></div>
+  <div class="card-inner">
+              <p class="name">${member.name}</p>
             <p class="title">${member.role}</p>
             <button class="cardModalBtn button-6" data-index="${index}">About</button>
-            <!-- HTML !-->
-
-          </div>
-
-        </div>
-        
+  </div>
+</div>
 
 
         <div id="myModal-${index}" class="modal">
