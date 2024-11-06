@@ -114,7 +114,7 @@
 .nav__hamburger {
   width: 1.875rem;
   z-index: 2000;
-  height: 1.5rem;
+  height: 1.8rem;
   display: none;
   color: #fff;
   flex-direction: column;
@@ -141,7 +141,7 @@
 
   .nav__logo,
   .nav__logo a {
-    font-weight: 500;
+    font-weight: 100;
     padding: 0;
     font-size: 1.2rem;
     text-align: left;
