@@ -10,17 +10,15 @@ html {
   text-decoration: none;
   font-family: "Poppins", sans-serif; /* Ensure consistency */
 }
-
+section {
+  overflow: hidden;
+}
 /* Global Section Padding & Margin */
 body {
   background-color: #eeeeee; /* Solid grey background */
   color: #333; /* Ensure readable text */
 }
-.heroContentText,
-.aboutUs,
-.membersSection {
-  padding: 0 15rem;
-}
+
 /* Hero Section */
 
 /* About Section */
@@ -526,3 +524,13 @@ a:focus {
 }
 
 /* end of fixed buttons */
+
+/* iphone ver */
+@media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
+  .imageSectionContainer {
+    width: 100vw;
+  }
+  .imageSectionContainer img {
+    width: 100%;
+  }
+}
