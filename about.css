@@ -583,12 +583,8 @@ a:focus {
     width: 33%;
     margin: 1rem;
   }
-  .cardText .name {
-    font-size: 1.3rem;
-    line-height: 1;
-  }
-  .cardText .title {
-    font-size: 1rem;
+  .card .title {
+    color: #0084ff;
   }
   .membersSection .memberGist {
     padding: 2rem;
