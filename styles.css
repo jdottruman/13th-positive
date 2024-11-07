@@ -219,7 +219,7 @@ section {
   align-items: center;
   border-radius: 30px;
   text-align: center;
-  margin: 0.5rem;
+  margin: 0.5rem 1rem;
 }
 .navLower ul li a {
   color: #fff;
@@ -234,9 +234,9 @@ section {
 .navLower ul li a svg,
 .navLower ul li a i {
   color: #ffffff;
-  width: 1.2rem;
-  height: 1.2rem;
-  font-size: 1.2rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  font-size: 1.6rem;
   fill: #fff;
   margin: 0.2rem;
 }
@@ -733,10 +733,11 @@ section {
     animation: grown 1s;
     color: #ffffff;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 1.3;
     margin: 0;
-    padding: 1rem 3rem;
+    padding: 3rem;
+    padding-top: 1rem;
     font-weight: 300;
   }
 
@@ -753,20 +754,6 @@ section {
     height: 100%;
     object-fit: contain;
     animation: bounce 2s infinite;
-  }
-
-  .swiper {
-    width: 100%;
-  }
-  #stayConnected {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background: unset;
-    padding: 2rem 1rem;
-
-    color: var(--primary-color);
   }
 
   .footer__container {
