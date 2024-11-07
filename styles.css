@@ -655,8 +655,7 @@ section {
     font-size: 1rem;
     padding: 1.5rem 3rem;
     padding-bottom: 0;
-
-    line-height: 1.2;
+    line-height: 2;
   }
   .missionPHighlight {
     font-size: 1rem;
@@ -836,29 +835,12 @@ section {
     justify-content: space-around;
     padding: 1rem 4rem;
   }
-  .swiper {
-    margin: 2.5rem 3rem;
-  }
-
-  .funds-container #donate-button {
-    width: 50%;
-  }
 
   .socials {
     width: unset;
   }
   .socials i {
     font-size: 8rem;
-  }
-
-  .events-container {
-    padding: 1rem 0;
-  }
-  .descriptionText {
-    flex-direction: column;
-  }
-  .eventsHalf {
-    width: 100%;
   }
 }
 /* iPhone Landscape (horizontal) */
