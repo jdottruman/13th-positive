@@ -562,15 +562,22 @@ a:focus {
   }
   .membersSection .memberGist {
     padding: 2rem;
+    font-weight: 100;
+    font-size: 1.1rem;
+    line-height: 1.5;
     color: #000000;
   }
-  .aboutUs h1 {
-  }
-  .aboutUs p {
-    padding: 0 2rem;
-  }
 
+  .aboutUs p {
+    padding: 0rem 2rem;
+    font-weight: 100;
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
   .aboutUs {
     padding: 2rem 0;
+  }
+  .learnMoreBtn {
+    margin: 1.5rem;
   }
 }
