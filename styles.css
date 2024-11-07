@@ -218,7 +218,7 @@ section {
   margin: 0.5rem 0;
 }
 .navLower ul li {
-  width: 50%;
+  width: 20%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -639,6 +639,13 @@ section {
   .navLower {
     display: flex;
   }
+  .btn-txt {
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+  }
+  .btn-txt i {
+    font-size: 1rem;
+  }
 
   /* mobile paragraphs */
   .missionContent {
@@ -652,14 +659,14 @@ section {
     color: #fff;
     width: 100%;
     font-weight: 100;
-    font-size: 1.3rem;
+    font-size: 1em;
     padding: 1.5rem 3rem;
     padding-bottom: 0;
 
     line-height: 1.2;
   }
   .missionPHighlight {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
   .missionContentImgCon {
     width: 100vw;
@@ -670,9 +677,7 @@ section {
     padding: 0;
     flex-direction: column-reverse;
   }
-  .takeActionPHighlight {
-    font-size: 1.4rem;
-  }
+
   .formcon {
     padding: 1rem 3.5rem;
   }
@@ -694,7 +699,7 @@ section {
   .takeActionP {
     max-width: unset;
     font-weight: 300;
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding: 1.5rem 3rem;
     padding-bottom: 0;
     width: 100%;
