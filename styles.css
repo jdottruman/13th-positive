@@ -303,6 +303,25 @@ section {
 .imgContainer img:hover {
   transform: scale(1.05);
 }
+.button {
+  height: 50px;
+  width: 200px;
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid #0084ff;
+  overflow: hidden;
+  border-radius: 30px;
+  color: #0084ff;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-txt {
+  z-index: 1;
+  font-weight: 800;
+  letter-spacing: 4px;
+  font-size: 1rem;
+}
 
 .type1::after {
   content: "";
