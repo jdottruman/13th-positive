@@ -266,7 +266,7 @@ body {
 .cardModalBtn {
   background-color: transparent;
   cursor: pointer;
-  border: 2px solid #0084ff;
+  border: 2px solid #006cd1;
   overflow: hidden;
   border-radius: 30px;
   padding: 0.5rem 1rem;
@@ -284,10 +284,10 @@ body {
   position: relative;
   background-color: transparent;
   cursor: pointer;
-  border: 2px solid #0084ff;
+  border: 2px solid #006cd1;
   overflow: hidden;
   border-radius: 30px;
-  color: #0084ff;
+  color: #006cd1;
   transition: all 0.5s ease-in-out;
 }
 
@@ -559,7 +559,7 @@ a:focus {
     letter-spacing: 1.5px;
   }
   .card .title {
-    color: #0084ff;
+    color: #006cd1;
   }
   .membersSection .memberGist {
     padding: 2rem;
