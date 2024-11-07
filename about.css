@@ -275,8 +275,8 @@ body {
   transition: all 0.5s ease-in-out;
   position: absolute;
   bottom: 1rem;
-  font-weight: 800;
-  letter-spacing: 3px;
+  font-weight: 600;
+  letter-spacing: 2px;
   font-size: 1rem;
 }
 .button {
