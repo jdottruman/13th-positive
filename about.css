@@ -87,19 +87,7 @@ body {
   align-items: center;
 }
 /* Modal Button */
-.cardText button {
-  background-color: #4a90e2;
-  color: #fff;
-  border: none;
-  border-radius: 10px;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  font-size: 0.9rem;
-}
-.cardText button:hover {
-  background-color: #357abd;
-}
+
 .membersSection h1 {
   font-size: 2rem;
 }
@@ -210,7 +198,6 @@ body {
   padding: 1rem;
   /* background-color: rgb(0, 0, 0); */
   border-radius: 8px;
-  margin-top: 20px;
 }
 
 .cardImg {
@@ -258,12 +245,6 @@ body {
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: repeating-conic-gradient(
-      var(--bg) 0.0000001%,
-      var(--grey) 0.000104%
-    )
-    60% 60%/600% 600%;
-  filter: opacity(10%) contrast(105%);
 }
 
 .card-inner {
@@ -531,7 +512,7 @@ a:focus {
   .heroContent h1 {
     font-size: 2.5rem;
     font-weight: 700;
-    line-height: 1.5;
+    line-height: 1;
     padding: 1rem;
   }
   .imageSectionContainer {
@@ -548,14 +529,13 @@ a:focus {
     border-radius: 8px;
   }
   .membersSection {
-    background-color: #ffffff;
     border-radius: 8px;
 
     flex-direction: column-reverse;
   }
   .cardContainer {
     gap: 0;
-    padding: 0;
+    padding: 1rem 0;
     margin: 0;
   }
   .card .name {
@@ -571,16 +551,11 @@ a:focus {
     color: #000000;
   }
   .aboutUs h1 {
-    color: #fff;
   }
   .aboutUs p {
-    color: #fff;
     padding: 0 2rem;
   }
 
-  body {
-    background-color: #000;
-  }
   .aboutUs {
     padding: 2rem 0;
   }

@@ -41,7 +41,7 @@
   font-weight: bold;
 }
 .nav__logo__highlight {
-  color: #0084ff;
+  color: #000000;
 }
 .nav__logo img {
   padding: 0 4px;
@@ -144,8 +144,8 @@
     font-weight: 100;
     padding: 0;
     font-size: 1.2rem;
+    width: 15rem;
     text-align: left;
-    color: #000000;
   }
   .nav__menu ul li a,
   .nav__menu ul li a i {
