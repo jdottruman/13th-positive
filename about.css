@@ -292,6 +292,13 @@ body {
   transition: all 0.5s ease-in-out;
 }
 
+.btn-txt {
+  z-index: 1;
+  font-weight: 800;
+  letter-spacing: 4px;
+  font-size: 1rem;
+}
+
 .card .title {
   font-size: 0.8rem;
 }
