@@ -229,7 +229,7 @@
   }
 
   .nav__hamburger.active .nav__hamburger__line:nth-child(3) {
-    transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
+    transform: rotate(-45deg) translate(0.25rem, -0.01975rem);
   }
 
   .nav__hamburger.active .nav__hamburger__line {
