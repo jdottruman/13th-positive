@@ -130,7 +130,7 @@ resources.forEach((resource) => {
 const paragraphs = document.querySelectorAll(".section__paragraph");
 const fromRightElements = document.querySelectorAll(".fromRight");
 
-const fromLeftElements = document.querySelectorAll(".fromLeft");
+// const fromLeftElements = document.querySelectorAll(".fromLeft");
 
 document.addEventListener("scroll", () => {
   fromRightElements.forEach((element) => {
@@ -142,15 +142,15 @@ document.addEventListener("scroll", () => {
   });
 });
 
-document.addEventListener("scroll", () => {
-  fromLeftElements.forEach((element) => {
-    if (isInView(element)) {
-      element.classList.add("fromLeft--visible"); // Make sure this matches the CSS
-    } else {
-      element.classList.remove("fromLeft--visible");
-    }
-  });
-});
+// document.addEventListener("scroll", () => {
+//   fromLeftElements.forEach((element) => {
+//     if (isInView(element)) {
+//       element.classList.add("fromLeft--visible"); // Make sure this matches the CSS
+//     } else {
+//       element.classList.remove("fromLeft--visible");
+//     }
+//   });
+// });
 
 document.addEventListener("scroll", () => {
   paragraphs.forEach((paragraph) => {
