@@ -265,18 +265,31 @@ body {
   position: relative;
 }
 .cardModalBtn {
-  position: relative;
   background-color: transparent;
   cursor: pointer;
-  border: 2px solid #252525;
+  border: 2px solid #0084ff;
   overflow: hidden;
   border-radius: 30px;
   padding: 0.5rem 2.5rem;
-  color: #333;
+  color: #000000;
   transition: all 0.5s ease-in-out;
   position: absolute;
   bottom: 1rem;
-  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  font-size: 1rem;
+}
+.button {
+  height: 50px;
+  width: 200px;
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid #0084ff;
+  overflow: hidden;
+  border-radius: 30px;
+  color: #0084ff;
+  transition: all 0.5s ease-in-out;
 }
 
 .card .title {

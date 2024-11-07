@@ -82,7 +82,7 @@ members.forEach((member, index) => {
   <div class="card-inner">
               <p class="name">${member.name}</p>
             <p class="title">${member.role}</p>
-            <button class="cardModalBtn button-6" data-index="${index}">About</button>
+            <button class="cardModalBtn " data-index="${index}">About</button>
   </div>
 </div>
 
