@@ -20,7 +20,6 @@ html {
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: var(--font-family-body);
 }
 /* Global Section Padding & Margin */
 body {
@@ -168,7 +167,6 @@ section {
   line-height: 1;
   width: 100%;
   height: 100%;
-  font-family: "Rubik", sans-serif;
 }
 .mobileParagraphHighlight {
   color: #0084ff;
@@ -273,7 +271,6 @@ section {
 }
 
 .takeActionP {
-  font-family: poppins;
   font-size: 1.2rem;
   line-height: 1.5;
   font-weight: 300;
@@ -457,7 +454,6 @@ section {
   font-size: 1.5rem;
   line-height: 1.1;
   margin-bottom: 1.5rem;
-  font-family: var(--font-family-body);
   text-align: left;
 }
 
@@ -495,7 +491,6 @@ section {
   width: 15rem;
   margin-top: 1rem;
   color: white;
-  font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
   display: flex;
   align-items: center;
@@ -759,8 +754,6 @@ section {
   }
 
   .mobileParagrpah {
-    font-family: "Rubik", serif;
-
     animation: grown 1s;
     color: #ffffff;
     align-items: center;
