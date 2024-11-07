@@ -177,7 +177,7 @@ section {
   text-justify: inter-word;
 }
 .missionPHighlight {
-  font-weight: bold;
+  font-weight: ;
 }
 .missionP button {
   margin: 2rem;
@@ -652,13 +652,14 @@ section {
     color: #fff;
     width: 100%;
     font-weight: 100;
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 1.5rem 3rem;
     padding-bottom: 0;
     line-height: 2;
   }
   .missionPHighlight {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: 200;
   }
   .missionContentImgCon {
     width: 65vw;
