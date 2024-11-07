@@ -162,7 +162,6 @@ section {
   hyphens: auto;
   font-size: 2.3rem;
   color: rgb(255, 255, 255);
-  font-weight: 800;
   margin: 2rem 0;
   line-height: 1;
   width: 100%;
@@ -738,7 +737,7 @@ section {
     line-height: 1;
     margin: 0;
     padding: 1rem 1rem;
-    font-weight: bold;
+    font-weight: 100;
   }
 
   .missionsParagraph {
