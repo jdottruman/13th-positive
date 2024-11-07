@@ -196,7 +196,6 @@ body {
   justify-content: space-evenly;
   gap: 1rem;
   padding: 1rem;
-  border-radius: 8px;
 }
 
 .cardImg {
@@ -270,14 +269,14 @@ body {
   border: 2px solid #0084ff;
   overflow: hidden;
   border-radius: 30px;
-  padding: 0.5rem 2.5rem;
+  padding: 0.5rem 1rem;
   color: #000000;
   transition: all 0.5s ease-in-out;
   position: absolute;
-  bottom: 1rem;
+  bottom: 2.5rem;
   font-weight: 600;
   letter-spacing: 2px;
-  font-size: 1rem;
+  font-size: 0.5rem;
 }
 .button {
   height: 50px;
@@ -443,9 +442,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 /* ennd of photosection */
 
@@ -533,15 +530,11 @@ a:focus {
   .imageSectionContainer {
     margin: 1rem;
     width: unset;
-    background-color: #ffffff;
-    padding: 1.5rem;
-    border-radius: 8px;
     margin: 2rem;
     margin-top: 0;
   }
   .imageSectionContainer img {
     width: 100%;
-    border-radius: 8px;
   }
   .membersSection {
     border-radius: 8px;
@@ -550,8 +543,7 @@ a:focus {
   }
   .cardContainer {
     gap: 0;
-    padding: 1rem 0;
-    margin: 0;
+    padding-top: 0;
   }
   .card {
     padding: 5px;
@@ -566,7 +558,6 @@ a:focus {
     font-size: 1rem;
   }
   .card .title {
-    margin: 0.5rem;
     color: #0084ff;
   }
   .membersSection .memberGist {
