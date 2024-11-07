@@ -551,6 +551,7 @@ a:focus {
   }
   .card {
     padding: 5px;
+    margin: 1rem 0;
   }
   .card-inner {
     height: 190px;
