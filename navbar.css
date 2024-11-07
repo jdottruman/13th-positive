@@ -143,8 +143,8 @@
   .nav__logo a {
     font-weight: 100;
     padding: 0;
-    font-size: 1.2rem;
-    width: 15rem;
+    font-size: 1rem;
+    width: 10rem;
     text-align: left;
   }
   .nav__menu ul li a,
