@@ -649,7 +649,7 @@ section {
     width: 100%;
     font-weight: 100;
     font-size: 1.1rem;
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 2rem;
     padding-bottom: 0;
     text-align: center;
     line-height: 1.5;
@@ -686,7 +686,7 @@ section {
     max-width: unset;
     font-weight: 300;
     font-size: 1.1rem;
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 2rem;
     padding-bottom: 0;
     width: 100%;
     line-height: 1.5;
@@ -727,10 +727,10 @@ section {
     animation: grown 1s;
     color: #ffffff;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 1.2;
     margin: 0;
-    padding: 1rem 2rem;
+    padding: 1rem 2.5rem;
     font-weight: 800;
   }
 
