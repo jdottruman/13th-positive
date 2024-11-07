@@ -219,7 +219,7 @@ section {
   align-items: center;
   border-radius: 30px;
   text-align: center;
-  margin: 0.8rem 1rem;
+  margin: 0.25rem;
 }
 .navLower ul li a {
   color: #fff;
@@ -691,11 +691,11 @@ section {
   .takeActionP {
     max-width: unset;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 1.5rem 3rem;
     padding-bottom: 0;
     width: 100%;
-    line-height: 1.2;
+    line-height: 2;
 
     width: 100%;
   }
