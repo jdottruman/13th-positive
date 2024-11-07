@@ -176,9 +176,7 @@ section {
   text-align: justify;
   text-justify: inter-word;
 }
-.missionPHighlight {
-  font-weight: ;
-}
+
 .missionP button {
   margin: 2rem;
 }
@@ -278,10 +276,7 @@ section {
   flex-direction: column;
   align-items: center;
 }
-.takeActionPHighlight {
-  color: #0084ff;
-  font-weight: bold;
-}
+
 .takeActionP button {
   margin: 2rem;
 }
@@ -657,10 +652,7 @@ section {
     padding-bottom: 0;
     line-height: 1.5;
   }
-  .missionPHighlight {
-    font-size: 1.2rem;
-    font-weight: 200;
-  }
+
   .missionContentImgCon {
     width: 65vw;
     padding: 1rem;
