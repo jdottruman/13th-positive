@@ -193,10 +193,15 @@ section {
 
 .navLower {
   display: none;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   position: absolute;
+  background-color: #0000008c;
   bottom: 0;
+}
+.navLower p {
+  color: #fff;
 }
 .navLower ul {
   width: 100%;
@@ -206,7 +211,6 @@ section {
 
   justify-content: center;
   align-items: center;
-  margin: 0.5rem 0;
 }
 .navLower ul li {
   width: 25%;
@@ -215,7 +219,6 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 30px;
   text-align: center;
   margin: 0.25rem;
 }
@@ -239,14 +242,13 @@ section {
   margin: 0.2rem;
 }
 .navLowerPapPal {
-  background: linear-gradient(45deg, #0070bab0, #003f87b6);
+  /* background: linear-gradient(45deg, #0070bab0, #003f87b6); */
 }
 .navLowerCashApp {
-  background: linear-gradient(45deg, #00c244c0, #00796bbd);
+  /* background: linear-gradient(45deg, #00c244c0, #00796bbd); */
 }
 .navLowerPhone {
-  color: #fff;
-  background-color: #0000008c;
+  /* background-color: #0000008c; */
 }
 .navLowerPhone i {
   margin: 0.5rem;
@@ -725,12 +727,12 @@ section {
     animation: grown 1s;
     color: #ffffff;
     align-items: center;
-    font-size: 1.5rem;
-    line-height: 1.3;
+    font-size: 1.2rem;
+    line-height: 1.2;
     margin: 0;
     padding: 2rem 3rem;
     padding-top: 1rem;
-    font-weight: 500;
+    font-weight: 800;
   }
 
   .missionsParagraph {
@@ -742,7 +744,7 @@ section {
   }
 
   .imgContainer img {
-    width: 150px;
+    width: 125px;
     height: 100%;
     object-fit: contain;
     animation: bounce 2s infinite;
