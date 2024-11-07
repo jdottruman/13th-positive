@@ -246,8 +246,9 @@ section {
   /* background: linear-gradient(45deg, #00c244c0, #00796bbd); */
 }
 .navLowerPhone {
-  border-left: 1px solid #000000;
-  border-right: 1px solid #000000;
+  border-left: 1.5px solid #000000;
+  border-right: 1.5px solid #000000;
+
   /* background-color: #0000008c; */
 }
 .navLowerPhone i {
