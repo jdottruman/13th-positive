@@ -112,9 +112,9 @@
 }
 
 .nav__hamburger {
-  width: 1.8rem;
+  width: 1.5rem;
   z-index: 2000;
-  height: 1.5rem;
+  height: 1rem;
   display: none;
   color: #fff;
   flex-direction: column;
@@ -122,7 +122,7 @@
 }
 
 .nav__hamburger__line {
-  height: 0.15rem;
+  height: 0.19rem;
   width: 100%;
   background-color: rgb(255, 255, 255);
 
