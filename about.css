@@ -233,9 +233,9 @@ body {
   position: relative;
   padding: 9px;
   border-radius: 35px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(50, 50, 93, 0.15) 0px 20px 40px -10px,
+    rgba(0, 0, 0, 0.15) 0px 10px 20px -15px,
+    rgba(10, 37, 64, 0.15) 0px -1px 3px 0px inset;
 }
 
 .card-overlay {
@@ -273,7 +273,7 @@ body {
   color: #000000;
   transition: all 0.5s ease-in-out;
   position: absolute;
-  bottom: 2.5rem;
+  bottom: 2.3rem;
   font-weight: 600;
   letter-spacing: 2px;
   font-size: 0.5rem;
