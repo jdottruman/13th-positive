@@ -753,25 +753,6 @@ section {
     flex-direction: column;
   }
 
-  .cardContainer {
-    padding: 1rem;
-    gap: 0.3rem;
-    flex-direction: row;
-  }
-  .memberCard {
-    min-width: 30%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0 0 3px 3px;
-    background: #ffffff;
-    padding: 0.8rem 01rem;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.233);
-  }
-  .funds-breakdown {
-    padding: 0;
-  }
-
   .cardImg {
     background-color: rgba(160, 159, 159, 0.329);
     box-shadow: unset;

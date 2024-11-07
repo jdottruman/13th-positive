@@ -196,7 +196,6 @@ body {
   justify-content: space-evenly;
   gap: 1rem;
   padding: 1rem;
-  /* background-color: rgb(0, 0, 0); */
   border-radius: 8px;
 }
 
@@ -234,7 +233,6 @@ body {
   --grey: #93a1a1;
   position: relative;
   padding: 9px;
-  background-color: var(--bg);
   border-radius: 35px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
@@ -537,6 +535,9 @@ a:focus {
     gap: 0;
     padding: 1rem 0;
     margin: 0;
+  }
+  .card {
+    padding: 5px;
   }
   .card .name {
     line-height: 1;
