@@ -554,11 +554,12 @@ a:focus {
     margin: 1rem 0;
   }
   .card-inner {
+    width: 170px;
     height: 190px;
   }
   .card .name {
     line-height: 1;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .card .title {
     margin: 0.5rem;
