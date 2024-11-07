@@ -556,6 +556,7 @@ a:focus {
   .card .name {
     line-height: 1;
     font-size: 1rem;
+    letter-spacing: 1.5px;
   }
   .card .title {
     color: #0084ff;
