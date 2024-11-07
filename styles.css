@@ -142,7 +142,7 @@ section {
 /* Mission Statement Section */
 .overlay {
   width: 100%;
-  background-color: #1f618d91;
+  background-color: #0000009a;
 }
 .missionsStatement {
   width: 100%;
@@ -196,10 +196,10 @@ section {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: #1f618d;
+  background-color: #00305a;
 }
 .navLower p {
-  color: #fff;
+  color: #000000;
 }
 .navLower ul {
   width: 100%;
@@ -221,7 +221,7 @@ section {
   margin: 0.25rem;
 }
 .navLower ul li a {
-  color: #fff;
+  color: #0288d1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -232,11 +232,11 @@ section {
 
 .navLower ul li a svg,
 .navLower ul li a i {
-  color: #ffffff;
+  color: #0288d1;
   width: 1.6rem;
   height: 1.6rem;
   font-size: 1.6rem;
-  fill: #fff;
+  fill: #0288d1;
   margin: 0.2rem;
 }
 .navLowerPapPal {
@@ -289,6 +289,7 @@ section {
 .takeActionImgCon img {
   width: 100%;
   object-fit: cover;
+
   height: 100%;
 }
 .imgContainer {
@@ -309,10 +310,10 @@ section {
   position: relative;
   background-color: transparent;
   cursor: pointer;
-  border: 2px solid #006cd1;
+  border: 2px solid #0288d1;
   overflow: hidden;
   border-radius: 30px;
-  color: #006cd1;
+  color: #0288d1;
   transition: all 0.5s ease-in-out;
 }
 
