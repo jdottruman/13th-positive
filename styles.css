@@ -196,9 +196,7 @@ section {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  position: absolute;
-  background-color: #0000008c;
-  bottom: 0;
+  background: linear-gradient(45deg, #00c244c0, #00796bbd);
 }
 .navLower p {
   color: #fff;
@@ -640,18 +638,18 @@ section {
   /* mobile paragraphs */
   .missionContent {
     padding: 0;
-    padding-top: 1rem;
-    background-color: rgba(0, 0, 0, 0.918);
+
     flex-direction: column-reverse;
   }
   .missionContent p {
     max-width: unset;
-    color: #fff;
+    color: #000000;
     width: 100%;
     font-weight: 100;
     font-size: 1.1rem;
     padding: 1.5rem 3rem;
     padding-bottom: 0;
+    text-align: center;
     line-height: 1.5;
   }
 
@@ -718,8 +716,8 @@ section {
     align-items: center;
     line-height: 1.1;
     margin: 0rem;
-    padding: 4.5rem 0rem;
-    padding-bottom: 3.3rem;
+    padding-top: 2.5rem;
+    padding-bottom: 0;
     height: unset;
   }
 
