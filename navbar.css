@@ -243,7 +243,7 @@
     display: flex;
     height: 1rem;
     margin-top: 1rem;
-    border-radius: 8px;
+    border-radius: 30px;
   }
   .navDonation {
     display: none;
