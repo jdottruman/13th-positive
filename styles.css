@@ -240,12 +240,7 @@ section {
   fill: #0288d1;
   margin: 0.2rem;
 }
-.navLowerPapPal {
-  /* background: linear-gradient(45deg, #0070bab0, #003f87b6); */
-}
-.navLowerCashApp {
-  /* background: linear-gradient(45deg, #00c244c0, #00796bbd); */
-}
+
 .navLowerPhone {
   border-left: 1.5px solid #000000;
   border-right: 1.5px solid #000000;
