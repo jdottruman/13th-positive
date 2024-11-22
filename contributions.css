@@ -173,9 +173,7 @@ section {
   .whereDonationsGoSec h2 {
     text-align: center;
   }
-  .whereDonationsGoSec ul {
-    margin: 1rem 0;
-  }
+
   .whereDonationsGoSec ul li {
     padding: 0.5rem 0;
   }
