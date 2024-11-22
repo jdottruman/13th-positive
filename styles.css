@@ -234,11 +234,11 @@ section {
 
 .navLower ul li a svg,
 .navLower ul li a i {
-  color: #0288d1;
+  color: #ccc;
   width: 2rem;
   height: 2rem;
   font-size: 2rem;
-  fill: #0288d1;
+  fill: #ccc;
   margin: 0.2rem;
 }
 
