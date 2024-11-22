@@ -159,7 +159,7 @@ section {
   .ourMissionSec {
     text-align: justify;
     hyphens: auto;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
   }
   .ourMissionSec p {
   }
@@ -167,7 +167,7 @@ section {
   .whereDonationsGoSec {
     text-align: justify;
     hyphens: auto;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
   }
 
   .whereDonationsGoSec h2 {
@@ -180,7 +180,7 @@ section {
   .transparencySec {
     text-align: justify;
     hyphens: auto;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
   }
   .transparencySec h2 {
     text-align: center;
@@ -188,7 +188,7 @@ section {
   .thankYouSec {
     text-align: justify;
     hyphens: auto;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
   }
   .thankYouSec h2 {
     text-align: center;
