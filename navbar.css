@@ -124,7 +124,7 @@
 .nav__hamburger__line {
   height: 0.13rem;
   width: 100%;
-  background-color: hsl(0, 0%, 100%);
+  background-color: #ccc;
 
   border-radius: 0.625rem;
   transition: all ease-in-out 0.2s;
