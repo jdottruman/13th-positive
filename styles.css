@@ -712,10 +712,6 @@ section {
     height: 100%;
   }
 
-  .footer__links {
-    display: none;
-  }
-
   .missionStatementContent {
     justify-content: center;
     align-items: center;
@@ -734,7 +730,7 @@ section {
     line-height: 1;
     margin: 0;
     padding: 1rem;
-    font-weight: 600;
+    font-weight: bolder;
   }
 
   .missionsParagraph {
