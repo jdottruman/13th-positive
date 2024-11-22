@@ -199,6 +199,7 @@
   .nav__menu ul li {
     text-align: center;
     width: 100%;
+    margin: 1rem 0;
   }
 
   .nav__menu {
@@ -213,7 +214,6 @@
     right: 0;
     background-color: #000000f6;
     width: 100%;
-    height: 100vh;
     z-index: 800;
     backdrop-filter: blur(5px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -242,7 +242,7 @@
   .navPayPalBtn {
     display: flex;
     height: 1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   .navDonation {
     display: none;
