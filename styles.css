@@ -234,9 +234,9 @@ section {
 .navLower ul li a svg,
 .navLower ul li a i {
   color: #0288d1;
-  width: 1.6rem;
-  height: 1.6rem;
-  font-size: 1.6rem;
+  width: 2rem;
+  height: 2rem;
+  font-size: 2rem;
   fill: #0288d1;
   margin: 0.2rem;
 }
@@ -730,11 +730,11 @@ section {
     animation: grown 1s;
     color: #ffffff;
     align-items: center;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     line-height: 1.2;
     margin: 0;
-    padding: 1rem 2.5rem;
-    font-weight: 800;
+    padding: 1rem;
+    font-weight: 600;
   }
 
   .missionsParagraph {
