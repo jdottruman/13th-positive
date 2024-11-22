@@ -229,6 +229,7 @@ section {
   align-items: center;
   font-size: 0.5rem;
   font-weight: bold;
+  line-height: 1;
 }
 
 .navLower ul li a svg,
