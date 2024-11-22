@@ -633,9 +633,7 @@ section {
   .navLower {
     display: flex;
   }
-  .button {
-    width: 150px;
-  }
+
   .btn-txt {
     font-size: 0.8rem;
     letter-spacing: 2px;
