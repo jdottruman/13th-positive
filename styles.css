@@ -309,12 +309,13 @@ section {
 .button {
   height: 50px;
   width: 200px;
+  padding: 0 1rem;
   position: relative;
   background-color: transparent;
   cursor: pointer;
   border: 2px solid #0288d1;
   overflow: hidden;
-  border-radius: 30px;
+  /* border-radius: 30px; */
   color: #0288d1;
   transition: all 0.5s ease-in-out;
 }
@@ -720,7 +721,7 @@ section {
     align-items: center;
     line-height: 1.1;
     margin: 0rem;
-    padding-top: 2.5rem;
+    padding-top: 4rem;
     padding-bottom: 0;
     height: unset;
   }
@@ -745,7 +746,7 @@ section {
   }
 
   .imgContainer img {
-    width: 125px;
+    width: 250px;
     height: 100%;
     object-fit: contain;
     animation: bounce 2s infinite;
