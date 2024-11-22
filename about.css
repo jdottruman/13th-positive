@@ -85,7 +85,7 @@ body {
 .membersSection {
   text-align: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
 }
 /* Modal Button */
@@ -540,8 +540,6 @@ a:focus {
   }
   .membersSection {
     border-radius: 8px;
-
-    flex-direction: column-reverse;
   }
   .cardContainer {
     gap: 0;
