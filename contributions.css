@@ -150,7 +150,7 @@ section {
 
 @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
   .hero {
-    height: 3vh;
+    height: 35vh;
   }
   .howHeader {
     text-align: center;
