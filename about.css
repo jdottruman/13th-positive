@@ -270,7 +270,7 @@ body {
   cursor: pointer;
   border: 2px solid #006cd1;
   overflow: hidden;
-  border-radius: 30px;
+  border-radius: 18px;
   padding: 0.5rem 1rem;
   color: #000000;
   transition: all 0.5s ease-in-out;
@@ -291,6 +291,7 @@ body {
   transition: all 0.5s ease-in-out;
   padding: 0 1rem;
   margin: 3rem;
+  border-radius: 18px;
 }
 
 .card .title {
