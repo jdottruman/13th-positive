@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
 }
 /* Global Section Padding & Margin */
 body {
@@ -148,6 +149,9 @@ section {
 /* end of footer */
 
 @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
+  .hero {
+    height: 3vh;
+  }
   .howHeader {
     text-align: center;
   }
@@ -155,23 +159,30 @@ section {
   .ourMissionSec {
     text-align: justify;
     hyphens: auto;
+    padding: 1rem 2rem;
   }
-  .ourMissionSec h2 {
-    text-align: center;
+  .ourMissionSec p {
   }
 
   .whereDonationsGoSec {
     text-align: justify;
     hyphens: auto;
+    padding: 1rem 2rem;
   }
 
   .whereDonationsGoSec h2 {
     text-align: center;
   }
-
+  .whereDonationsGoSec ul {
+    margin: 1rem 0;
+  }
+  .whereDonationsGoSec ul li {
+    padding: 0.5rem 0;
+  }
   .transparencySec {
     text-align: justify;
     hyphens: auto;
+    padding: 1rem 2rem;
   }
   .transparencySec h2 {
     text-align: center;
@@ -179,6 +190,7 @@ section {
   .thankYouSec {
     text-align: justify;
     hyphens: auto;
+    padding: 1rem 2rem;
   }
   .thankYouSec h2 {
     text-align: center;
