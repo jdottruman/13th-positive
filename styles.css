@@ -446,7 +446,14 @@ section {
   margin-bottom: 1.5rem;
   text-align: left;
 }
-
+#mc_embed_signup {
+  width: 75%;
+}
+.clear {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .formcon {
   display: flex;
   flex-direction: column;
