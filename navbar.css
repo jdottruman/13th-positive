@@ -242,8 +242,7 @@
   .navPayPalBtn {
     display: flex;
     height: 1rem;
-    margin-top: 1rem;
-    border-radius: 30px;
+    margin-top: 2rem;
   }
   .navDonation {
     display: none;
