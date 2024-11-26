@@ -13,20 +13,18 @@ body {
 
   background-color: #eeeeee;
 }
-section {
-  overflow: hidden;
-}
+
 .hero {
   width: 100%;
   background: url("Photos/joel-muniz-3k3l2brxmwQ-unsplash.jpg") no-repeat
     center/cover;
-  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: rgb(255, 255, 255);
+  position: relative;
 }
 
 /* Overlay */
@@ -148,6 +146,96 @@ section {
 
 /* end of footer */
 
+/* nav lower styles */
+
+.navLower {
+  width: 100%;
+  background-color: transparent;
+}
+.navLower p {
+  color: #000000;
+}
+.navLower ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  animation: grown 1.5s ease;
+
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navLower ul li {
+  text-align: center;
+}
+.navLower ul li a {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.75;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.navLower ul li a svg,
+.navLower ul li a i {
+  color: #f7f7f7;
+  width: 2rem;
+  height: 2rem;
+  font-size: 2rem;
+  fill: #ffffff;
+}
+
+/* scroll to top */
+
+#fixedBtns {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  gap: 15px; /* Add space between the buttons */
+  z-index: 500;
+  display: none;
+}
+
+#fixedBtns.show {
+  display: flex;
+}
+
+#fixedBtns button {
+  padding: 20px 25px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#fixedBtns button i {
+  font-size: 2.5rem; /* Increased icon size */
+}
+
+#scrollToTop.show {
+  display: block;
+}
+#scrollToTop {
+  background-color: #00000050;
+}
+#donateBtn {
+  background-color: #4caf50; /* Original donate button color */
+}
+
+#donateBtn a {
+  color: #ffffff;
+}
+
+#scrollToTop i {
+  font-size: 2.5rem;
+}
+
+/* end of scroll to top */
+
+/* end of nav lower */
 @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
   .hero {
     height: 35vh;
@@ -157,17 +245,22 @@ section {
   }
 
   .ourMissionSec {
-    text-align: justify;
+    text-align: center;
     hyphens: auto;
-    padding: 0.5rem 2rem;
+    padding: 2rem 2rem;
   }
   .ourMissionSec p {
+    font-size: 1.3rem;
+    line-height: 1.5;
   }
 
   .whereDonationsGoSec {
     text-align: justify;
     hyphens: auto;
-    padding: 0.5rem 2rem;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .whereDonationsGoSec h2 {
@@ -176,24 +269,50 @@ section {
 
   .whereDonationsGoSec ul li {
     padding: 0.5rem 0;
-  }
-  .transparencySec {
-    text-align: justify;
-    hyphens: auto;
-    padding: 0.5rem 2rem;
-  }
-  .transparencySec h2 {
+    font-size: 1.3rem;
     text-align: center;
+    line-height: 1.5;
+  }
+  .photoSection {
+    width: 100%;
+  }
+  .photoSection .photo {
+    width: 100%;
+    padding: 0.5rem 4rem;
+  }
+
+  .transparencySec {
+    text-align: center;
+    hyphens: auto;
+    padding: 1rem 2rem;
+  }
+
+  .transparencySec p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+
+  .photoSectionTwo {
+    width: 100%;
+  }
+  .photoSectionTwo img {
+    width: 100%;
+    padding: 1rem 5rem;
   }
   .thankYouSec {
     text-align: justify;
     hyphens: auto;
-    padding: 0.5rem 2rem;
+
+    padding: 2rem 2rem;
   }
   .thankYouSec h2 {
     text-align: center;
   }
-
+  .thankYouSec p {
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 1.5;
+  }
   .footer__container {
     flex-direction: column;
   }

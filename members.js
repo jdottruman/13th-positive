@@ -80,6 +80,13 @@ members.forEach((member, index) => {
 <div class="card section__paragraph">
   <div class="card-overlay"></div>
   <div class="card-inner">
+    <div class="cardImgCont">
+
+              <img src="${member.photo}" alt="" />
+
+    </div>
+  
+
               <p class="name">${member.name}</p>
             <p class="title">${member.role}</p>
             <button class="cardModalBtn " data-index="${index}">About</button>

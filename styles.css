@@ -133,6 +133,13 @@ section {
 #scrollToTop {
   background-color: #00000050;
 }
+#donateBtn {
+  background-color: #4caf50; /* Original donate button color */
+}
+
+#donateBtn a {
+  color: #ffffff;
+}
 
 #scrollToTop i {
   font-size: 2.5rem;
@@ -143,12 +150,12 @@ section {
 /* Mission Statement Section */
 .overlay {
   width: 100%;
-  background-color: #00000085;
+  background-color: #0000007a;
 }
 .missionsStatement {
   width: 100%;
 
-  background: url(Photos/frank-mckenna-f1A-oXmkYpE-unsplash.jpg);
+  background: url(Photos/coverphoto2.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -191,13 +198,14 @@ section {
   padding-top: 3rem;
   position: relative;
 }
+/* nav lower styles */
 
 .navLower {
-  display: none;
+  display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: #012840;
+  background-color: transparent;
 }
 .navLower p {
   color: #000000;
@@ -208,18 +216,11 @@ section {
   flex-direction: row;
   animation: grown 1.5s ease;
 
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 .navLower ul li {
-  width: 25%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
-  margin: 0.25rem 1rem;
 }
 .navLower ul li a {
   color: #ffffff;
@@ -227,30 +228,22 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 0.5rem;
-  font-weight: bold;
-  line-height: 1;
+  line-height: 0.75;
+  font-size: 0.8rem;
+  font-weight: 500;
 }
 
 .navLower ul li a svg,
 .navLower ul li a i {
-  color: #ccc;
+  color: #f7f7f7;
   width: 2rem;
   height: 2rem;
   font-size: 2rem;
-  fill: #ccc;
-  margin: 0.2rem;
+  fill: #ffffff;
 }
 
-.navLowerPhone {
-  border-left: 1.5px solid #000000;
-  border-right: 1.5px solid #000000;
+/* end of nav lower */
 
-  /* background-color: #0000008c; */
-}
-.navLowerPhone i {
-  margin: 0.5rem;
-}
 /* takeAction section */
 .takeActionContainer {
   padding: 0rem 4.5rem;
@@ -463,10 +456,11 @@ section {
   font-size: 1.5rem;
 }
 .formcon p {
-  font-size: 1.3rem;
-  padding: 0 15rem;
   font-weight: 300;
-  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  padding: 0 15rem;
+  text-align: justify;
 }
 
 /* Buttons Section */
@@ -515,6 +509,30 @@ section {
   height: 28px;
 }
 
+/* swiper */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center; /* Optional: to center the image */
+  align-items: center; /* Optional: to center the image */
+  overflow: hidden;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* end of swiper */
 .footer {
   background-color: rgba(0, 0, 0, 0.918);
   padding: 1rem 0;
@@ -630,10 +648,6 @@ section {
 
 /* iphone ver */
 @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
-  .navLower {
-    display: flex;
-  }
-
   .btn-txt {
     font-size: 0.8rem;
     letter-spacing: 2px;
@@ -650,8 +664,8 @@ section {
     color: #000000;
     width: 100%;
     font-weight: 100;
-    font-size: 1.1rem;
-    padding: 1.5rem 2rem;
+    font-size: 1.3rem;
+    padding: 4rem 2rem;
     padding-bottom: 0;
     text-align: center;
     line-height: 1.5;
@@ -668,11 +682,13 @@ section {
   }
 
   .formcon {
-    padding: 1rem 3.5rem;
+    padding: 1rem 2rem;
   }
   .formcon p {
-    padding: 0;
-    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.3rem;
   }
   .formcon label {
     font-size: 1rem;
@@ -688,8 +704,8 @@ section {
   .takeActionP {
     max-width: unset;
     font-weight: 300;
-    font-size: 1.1rem;
-    padding: 1.5rem 2rem;
+    font-size: 1.3rem;
+    padding: 4rem 2rem;
     padding-bottom: 0;
     width: 100%;
     line-height: 1.5;
@@ -717,28 +733,23 @@ section {
     align-items: center;
     line-height: 1.1;
     margin: 0rem;
-    padding-top: 5.5rem;
-    padding-bottom: 0;
-    height: unset;
+    padding: 0;
+    height: 100vh;
   }
 
   .mobileParagrpah {
     animation: grown 1s;
     color: #ffffff;
-    align-items: center;
-    font-size: 1.5rem;
-    line-height: 1;
+    line-height: 0.8;
+    font-size: 3rem;
     margin: 0;
-    padding: 1rem;
-    font-weight: bolder;
+    padding: 0 0.5rem;
+    padding-top: 1rem;
+    font-weight: 800;
   }
 
   .missionsParagraph {
     width: 100vw;
-    margin-top: 0;
-    margin: 0;
-    margin-right: 0;
-    padding: 0;
   }
 
   .imgContainer img {
@@ -820,7 +831,30 @@ section {
 /* iPhone Landscape (horizontal) */
 @media screen and (min-width: 667px) and (max-width: 935px) and (orientation: landscape) {
   /* Styles for iPhone in landscape mode */
+  .missionContent {
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .formcon p {
+    margin: 0rem;
+    padding: 2rem;
+    width: 100%;
+  }
+  .missionContent p {
+    padding: 0;
+  }
+
+  .missionContentImgCon {
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .missionContentImgCon {
+    width: 20rem;
+  }
   .funds-breakdown {
     padding: 0;
   }
