@@ -7,8 +7,6 @@
   --thirteen-font: ;
 
   --shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-  --font-family-heading: ;
-  --font-family-body: ;
 }
 html {
   scroll-behavior: smooth;
@@ -22,8 +20,6 @@ html {
 }
 /* Global Section Padding & Margin */
 body {
-  font-family: "Zilla Slab", serif;
-
   background-color: #eeeeee;
 }
 section {
@@ -745,6 +741,8 @@ section {
     margin: 0;
     padding: 0 0.5rem;
     padding-top: 1rem;
+    font-family: "Zilla Slab", serif;
+
     font-weight: 800;
   }
 
