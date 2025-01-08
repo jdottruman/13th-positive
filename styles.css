@@ -288,9 +288,7 @@ section {
 
   height: 100%;
 }
-.imgContainer {
-  animation: grown 1.5s;
-}
+
 .imgContainer img {
   max-width: 255px;
   height: auto;
@@ -743,6 +741,7 @@ section {
 
   .mobileParagrpah {
     animation: grown 1.5s;
+
     color: #ffffff;
     line-height: 0.8;
     font-size: 3rem;
