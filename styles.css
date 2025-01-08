@@ -761,7 +761,6 @@ section {
     height: 100%;
     margin-bottom: 5rem;
     object-fit: contain;
-    animation: rotate 15s linear infinite; /* 2s duration, linear easing, infinite loop */
   }
 
   .footer__container {
