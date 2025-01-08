@@ -761,7 +761,7 @@ section {
     width: 250px;
     height: 100%;
     object-fit: contain;
-    animation: rotate 10s linear infinite; /* 2s duration, linear easing, infinite loop */
+    animation: rotate 15s linear infinite; /* 2s duration, linear easing, infinite loop */
   }
 
   .footer__container {
