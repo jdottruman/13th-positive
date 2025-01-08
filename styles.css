@@ -759,7 +759,6 @@ section {
   .imgContainer img {
     width: 250px;
     height: 100%;
-    margin-bottom: 3rem;
     object-fit: contain;
   }
 
