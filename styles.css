@@ -33,6 +33,14 @@ section {
 }
 /* key frame animations */
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 @keyframes bounce {
   0%,
   100% {
@@ -44,7 +52,7 @@ section {
 }
 @keyframes grown {
   from {
-    scale: 0.7;
+    scale: 0.3;
     opacity: 0;
   }
   to {
@@ -734,7 +742,7 @@ section {
   }
 
   .mobileParagrpah {
-    animation: grown 1s;
+    animation: grown 1.5s;
     color: #ffffff;
     line-height: 0.8;
     font-size: 3rem;
@@ -754,7 +762,7 @@ section {
     width: 250px;
     height: 100%;
     object-fit: contain;
-    animation: bounce 2s infinite;
+    animation: rotate 60s linear infinite; /* 2s duration, linear easing, infinite loop */
   }
 
   .footer__container {
