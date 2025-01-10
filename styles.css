@@ -52,8 +52,8 @@ section {
 }
 @keyframes grown {
   from {
-    scale: 0.3;
-    opacity: 0;
+    scale: 0.8;
+    opacity: 0.75;
   }
   to {
     scale: 1;
@@ -758,6 +758,7 @@ section {
 
   .imgContainer img {
     width: 250px;
+    animation: grown 7s infinite;
     height: 100%;
     object-fit: contain;
   }
