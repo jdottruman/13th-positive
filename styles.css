@@ -465,6 +465,9 @@ section {
   text-align: justify;
 }
 
+/* testimony
+ */
+
 /* Buttons Section */
 .donateButtons {
   margin-top: 40px;
@@ -650,6 +653,20 @@ section {
 
 /* iphone ver */
 @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
+  /* testimony
+ */
+  .testimony h1 {
+    font-size: 2rem;
+  }
+  .testimony {
+    text-align: center;
+    background-color: #003f87;
+    padding: 3rem;
+    color: #fff;
+  }
+
+  /* end of testimony */
+
   .btn-txt {
     font-size: 0.8rem;
     letter-spacing: 2px;
