@@ -27,6 +27,8 @@
     />
   </head>
   <body>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
     <section class="missionsStatement">
       <nav class="nav">
         <div class="navUpper">
@@ -225,14 +227,14 @@
     <section class="testimony">
       <h1>Testimonials</h1>
       <div class="testimonyCard">
-        <p class="testimonyText">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        <p class="testimonyText" id="testimonyText">
+          <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat. Duis aute irure dolor in
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborums
+          culpa qui officia deserunt mollit anim id est laborums -->
         </p>
       </div>
     </section>
@@ -345,5 +347,14 @@
         <i class="fa-solid fa-chevron-up"></i>
       </button>
     </div>
+    <script>
+      var typed = new Typed("#testimonyText", {
+        strings: [
+          "Example example example Example example example Example example example Example example example",
+          " John doe 10/10/2020",
+        ],
+        typeSpeed: 65,
+      });
+    </script>
   </body>
 </html>
