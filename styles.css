@@ -468,6 +468,41 @@ section {
 /* testimony
  */
 
+/* General container styling */
+#testimonyText {
+  padding: 20px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px; /* Space between testimonies */
+}
+
+/* Individual testimony card */
+.testimony {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Name styling */
+.testimony h3 {
+  margin: 0 0 10px;
+  font-size: 1/2rem;
+  color: #0070ba;
+  font-weight: bold;
+}
+
+/* Message styling */
+.testimony p {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  color: #585858;
+}
+
 /* Buttons Section */
 .donateButtons {
   margin-top: 40px;
@@ -656,15 +691,14 @@ section {
   /* testimony
  */
   .testimony h1 {
-    font-size: 2.5rem;
-    padding: 1rem;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
   }
   .testimonyText {
     font-size: 1.5rem;
   }
   .testimony {
     text-align: center;
-    background-color: #003f87;
     padding: 3rem;
     color: #fff;
   }
