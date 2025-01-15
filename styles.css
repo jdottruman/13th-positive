@@ -692,7 +692,8 @@ section {
  */
   .testimony h1 {
     font-size: 3rem;
-    margin-bottom: 1.5rem;
+    color: #0070ba;
+    margin-bottom: 1rem;
   }
   .testimonyText {
     font-size: 1.5rem;
