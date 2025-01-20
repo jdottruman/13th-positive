@@ -546,7 +546,11 @@ section {
   line-height: 1.4;
   color: #0070ba; /* Blue text for testimonies */
 }
-
+.testimony .button {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 /* Buttons Section */
 .donateButtons {
   margin-top: 40px;
