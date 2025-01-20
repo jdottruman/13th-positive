@@ -549,7 +549,10 @@ section {
 .testimony .button {
   margin-top: 2rem;
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: unset;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
 }
 /* Buttons Section */
 .donateButtons {
