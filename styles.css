@@ -497,11 +497,24 @@ section {
 
 /* Individual testimony card */
 .testimony {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 15px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  background-color: #ffffff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Background settings */
+  background-image: url("Photos/cementsign.jpg"); /* Replace with the path to your image */
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+
+  /* Optional overlay for text readability */
+  position: relative;
+
+  width: 100%;
+  height: 50vh;
 }
 
 /* Name styling */
@@ -708,9 +721,8 @@ section {
   /* testimony
  */
   .testimony h1 {
-    font-size: 3rem;
-    color: #0070ba;
-    margin-bottom: 1rem;
+    font-size: 4rem;
+    color: #ffffff;
   }
   .testimonyText {
     font-size: 1.5rem;
