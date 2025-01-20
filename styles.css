@@ -483,54 +483,68 @@ section {
 }
 
 /* testimony
- */
-
-/* General container styling */
-#testimonyText {
-  padding: 20px;
-  background-color: #f9f9f9;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  gap: 15px; /* Space between testimonies */
-}
-
-/* Individual testimony card */
+ */ /* Testimony Section Styling */
 .testimony {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  /* Background settings */
-  background-image: url("Photos/cementsign.jpg"); /* Replace with the path to your image */
-  background-size: cover; /* Ensures the image covers the entire section */
-  background-position: center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents tiling */
-
-  /* Optional overlay for text readability */
   position: relative;
-
   width: 100%;
-  height: 50vh;
+  height: 50vh; /* Adjust height as needed */
+  background-image: url("Photos/cementsign.jpg"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff; /* Default text color */
 }
 
-/* Name styling */
-.testimony h3 {
-  margin: 0 0 10px;
-  font-size: 1/2rem;
-  color: #0070ba;
-  font-weight: bold;
+/* Overlay Styling */
+.testoverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Dark overlay with transparency */
+  z-index: 1;
 }
 
-/* Message styling */
-.testimony p {
-  margin: 0;
+/* Testimony Section Content */
+.testimonySection {
+  position: relative;
+  z-index: 2; /* Ensures content is above the overlay */
+  padding: 20px;
+  color: #0070ba; /* Blue text */
+}
+
+/* Testimony Header */
+.testimonySection h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #0070ba; /* Blue header text */
+}
+
+/* Testimony Description */
+.testimonySection p {
   font-size: 1.2rem;
-  line-height: 1.2;
-  color: #585858;
+  line-height: 1.5;
+  color: #ffffff; /* White text for paragraph */
+}
+
+/* Individual Testimony Card */
+.testimonyCard {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+/* Testimony Text */
+.testimonyText {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #0070ba; /* Blue text for testimonies */
 }
 
 /* Buttons Section */
