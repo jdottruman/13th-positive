@@ -844,10 +844,10 @@ section {
     animation: grown 1.5s;
 
     color: #ffffff;
-    line-height: 0.8;
+    line-height: unset;
     font-size: 2.5rem;
     margin: 0;
-    padding: 1rem;
+    padding: 1rem 2.5rem;
     font-family: "Zilla Slab", serif;
 
     font-weight: 500;
@@ -857,6 +857,9 @@ section {
     width: 100vw;
   }
 
+  .imgContainer {
+    z-index: 1000;
+  }
   .imgContainer img {
     width: 250px;
     height: 100%;
