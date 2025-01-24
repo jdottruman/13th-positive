@@ -265,7 +265,7 @@ section {
   font-weight: 300;
   max-width: 50vw;
   hyphens: auto;
-  text-align: left;
+  text-align: center;
   text-justify: inter-word;
 
   color: #ffffff;
@@ -771,7 +771,7 @@ section {
     font-size: 1.75rem;
     padding: 4rem 2rem;
     padding-bottom: 0;
-    text-align: left;
+    text-align: center;
     line-height: unset;
   }
 
@@ -791,7 +791,7 @@ section {
   .formcon p {
     padding: 1rem 1.5rem;
     line-height: unset;
-    text-align: left;
+    text-align: center;
     font-size: 1.75rem;
   }
   .formcon label {
