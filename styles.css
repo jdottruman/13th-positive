@@ -473,6 +473,7 @@ section {
   justify-content: center;
   width: 100%;
   font-size: 1.5rem;
+  padding: 1rem 0;
 }
 .formcon p {
   font-weight: 300;
@@ -767,7 +768,7 @@ section {
     color: #000000;
     width: 100%;
     font-weight: 100;
-    font-size: 2rem;
+    font-size: 1.75rem;
     padding: 4rem 2rem;
     padding-bottom: 0;
     text-align: left;
@@ -791,7 +792,7 @@ section {
     padding: 1rem 1.5rem;
     line-height: unset;
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
   .formcon label {
     font-size: 1rem;
@@ -807,7 +808,7 @@ section {
   .takeActionP {
     max-width: unset;
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.75rem;
     padding: 4rem 2rem;
     padding-bottom: 0;
     width: 100%;
