@@ -837,7 +837,7 @@ section {
     line-height: 1.1;
     margin: 0rem;
     padding: 0;
-    height: 90vh;
+    height: 100vh;
   }
 
   .mobileParagrpah {
@@ -859,6 +859,7 @@ section {
 
   .imgContainer {
     z-index: 1000;
+    padding-top: 7rem;
   }
   .imgContainer img {
     width: 250px;
