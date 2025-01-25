@@ -845,11 +845,12 @@ section {
 
   .mobileParagrpah {
     animation: grown 1.5s;
-
+    width: unset;
     color: #ffffff;
-    line-height: unset;
-    font-size: 3rem;
+    line-height: 0.8;
+    font-size: 2.5rem;
     margin: 0;
+    padding: 0 2rem;
     font-family: "Zilla Slab", serif;
     font-weight: 600;
   }
@@ -862,7 +863,7 @@ section {
     z-index: 1000;
   }
   .imgContainer img {
-    width: 250px;
+    width: 175px;
     height: 100%;
     object-fit: contain;
   }
