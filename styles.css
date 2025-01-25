@@ -772,7 +772,7 @@ section {
     padding: 4rem 2rem;
     padding-bottom: 0;
     text-align: center;
-    line-height: unset;
+    line-height: 1.5;
   }
 
   .missionContentImgCon {
@@ -790,7 +790,7 @@ section {
   }
   .formcon p {
     padding: 1rem 1.5rem;
-    line-height: unset;
+    line-height: 1.5;
     font-weight: 100;
     text-align: center;
     font-size: 1.5rem;
@@ -813,7 +813,7 @@ section {
     padding: 4rem 2rem;
     padding-bottom: 0;
     width: 100%;
-    line-height: unset;
+    line-height: 1.5;
     color: #000;
     width: 100%;
   }
