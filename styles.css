@@ -759,7 +759,7 @@ section {
     font-weight: 100;
     font-size: 1.5rem;
     text-align: justify;
-    padding: 4rem 3rem;
+    padding: 2rem 3rem;
   }
 
   .missionContentImgCon {
@@ -832,6 +832,7 @@ section {
     color: #ffffff;
     line-height: 0.8;
     font-size: 2.8rem;
+    padding: 1.5rem;
     margin: 0;
     font-family: "Zilla Slab", serif;
     font-weight: 600;
