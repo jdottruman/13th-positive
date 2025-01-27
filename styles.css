@@ -245,7 +245,10 @@ section {
 /* takeAction section */
 
 /* tak action photo section */
-
+.photo-section {
+  text-align: center;
+  padding: 40px 20px;
+}
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
@@ -513,7 +516,7 @@ section {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5); /* Black with opacity */
+  background-color: rgba(0, 0, 0, 0.795); /* Black with opacity */
 }
 
 /* Modal content */
@@ -530,9 +533,9 @@ section {
 
 /* Close button */
 .close {
-  color: #aaa;
+  color: #0070ba;
   float: right;
-  font-size: 24px;
+  font-size: 4rem;
   font-weight: bold;
   cursor: pointer;
 }
@@ -547,15 +550,23 @@ section {
 .testimony {
   position: relative;
   width: 100%;
-  height: 50vh; /* Adjust height as needed */
-  background-image: url("Photos/cementsign.jpg"); /* Replace with your image path */
+  background-image: url("Photos/cementsign.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
+  height: 50vh;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #ffffff; /* Default text color */
+  border-bottom: 2px solid #0070ba;
+  color: #000000; /* Default text color */
+}
+.modal .testimony {
+  background-image: none;
+  height: unset;
+  padding: 4rem 0;
+  line-height: 1;
 }
 
 /* Overlay Styling */
@@ -810,8 +821,6 @@ section {
   }
   .testimony {
     text-align: center;
-    padding: 3rem;
-    color: #fff;
   }
 
   /* end of testimony */
