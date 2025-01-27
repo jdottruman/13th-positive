@@ -521,11 +521,11 @@ section {
 
 /* Modal content */
 .modal-content {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.801);
   margin: 10% auto;
   padding: 20px;
   border-radius: 10px;
-  width: 80%;
+  width: 90%;
   max-width: 500px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -909,11 +909,11 @@ section {
     animation: grown 1.5s;
     color: #ffffff;
     line-height: 0.8;
-    font-size: 2.8rem;
+    font-size: 3rem;
     padding: 02rem;
     margin: 0;
     font-family: "Zilla Slab", serif;
-    font-weight: 600;
+    font-weight: 300;
   }
 
   .missionsParagraph {
