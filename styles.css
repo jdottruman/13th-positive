@@ -776,7 +776,7 @@ section {
     padding: 1rem 2rem;
   }
   .formcon p {
-    padding: 0rem;
+    padding: 1rem;
     line-height: 1.5;
     font-weight: 100;
     hyphens: auto;
@@ -823,16 +823,15 @@ section {
     line-height: 1.1;
     margin-top: 5rem;
     padding: 0;
-    height: 70vh;
+    height: 75vh;
   }
 
   .mobileParagrpah {
     animation: grown 1.5s;
-    width: unset;
     color: #ffffff;
     line-height: 0.8;
     font-size: 2.8rem;
-    padding: 1.5rem;
+    padding: 02rem;
     margin: 0;
     font-family: "Zilla Slab", serif;
     font-weight: 600;
