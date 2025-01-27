@@ -1,12 +1,3 @@
-const testimoney = [
-  {
-    photo: "Photos/New_user_icon-01.svg.png",
-    name: "John Dow",
-    message:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  },
-];
-
 const resources = [
   {
     icons: "fa-solid fa-house",
@@ -48,34 +39,6 @@ const resources = [
 let testimoneyHtml = ``;
 let resourcesHtml = ``;
 
-testimoney.forEach((test) => {
-  resourcesHtml += `
-  
-      
-        <div class="card">
-          <svg
-            height="100%"
-            width="100%"
-            class="border"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <line y2="0" x2="600" y1="0" x1="0" class="top"></line>
-            <line y2="-960" x2="0" y1="320" x1="0" class="left"></line>
-            <line y2="320" x2="-600" y1="320" x1="200" class="bottom"></line>
-            <line y2="960" x2="200" y1="0" x1="200" class="right"></line>
-          </svg>
-          <div class="testimonyHeadshotCon">
-            <img src="${test.photo}" alt="" />
-          </div>
-          <div class="testimonyCardText">
-            <h1 class="testimonyCardName">${test.name}</h1>
-            <p class="testimonyCardStory">${test.message}</p>
-          </div>
-        </div>
-  
-  
-  `;
-});
 // document.querySelector(".testimonyCardContainer").innerHTML = resourcesHtml;
 
 resources.forEach((resource) => {

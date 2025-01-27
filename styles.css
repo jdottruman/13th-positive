@@ -862,6 +862,8 @@ section {
 
   .missionStatementContent {
     justify-content: center;
+    flex-direction: column-reverse;
+
     align-items: center;
     line-height: 1.1;
     margin-top: 5rem;

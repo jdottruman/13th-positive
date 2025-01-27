@@ -57,24 +57,3 @@ var swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
-
-const modal = document.getElementById("myModal");
-const openModalBtn = document.getElementById("cardModalBtn");
-const closeModalBtn = document.querySelector(".close-btn");
-
-// Open the modal when button is clicked
-openModalBtn.addEventListener("click", () => {
-  modal.style.display = "block";
-});
-
-// Close the modal when (X) is clicked
-closeModalBtn.addEventListener("click", () => {
-  modal.style.display = "none";
-});
-
-// Close the modal when clicking outside the modal content
-window.addEventListener("click", (event) => {
-  if (event.target === modal) {
-    modal.style.display = "none";
-  }
-});
