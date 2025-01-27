@@ -243,6 +243,33 @@ section {
 /* end of nav lower */
 
 /* takeAction section */
+
+/* tak action photo section */
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+  gap: 20px; /* Adds space between grid items */
+  justify-content: center;
+}
+
+.photo-item {
+  overflow: hidden;
+  border-radius: 10px; /* Optional: Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow */
+  transition: transform 0.3s ease; /* For hover effect */
+}
+
+.photo-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.photo-item:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+/* end of photo  */
 .takeActionContainer {
   padding: 0rem 4.5rem;
   display: flex;
