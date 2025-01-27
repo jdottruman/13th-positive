@@ -759,7 +759,7 @@ section {
     font-weight: 100;
     font-size: 1.5rem;
     text-align: justify;
-    padding: 2rem;
+    padding: 4rem 3rem;
   }
 
   .missionContentImgCon {
@@ -776,10 +776,11 @@ section {
     padding: 1rem 2rem;
   }
   .formcon p {
-    padding: 1rem 1.5rem;
+    padding: 4rem 1.5rem;
     line-height: 1.5;
     font-weight: 100;
-    text-align: center;
+    hyphens: auto;
+    text-align: justify;
     font-size: 1.5rem;
   }
   .formcon label {
@@ -796,7 +797,7 @@ section {
   .takeActionP {
     font-weight: 100;
     font-size: 1.5rem;
-    padding: 2rem;
+    padding: 4rem 3rem;
     line-height: 1.5;
     color: #000;
   }
@@ -822,7 +823,7 @@ section {
     line-height: 1.1;
     margin-top: 5rem;
     padding: 0;
-    height: unset;
+    height: 70vh;
   }
 
   .mobileParagrpah {
@@ -832,7 +833,6 @@ section {
     line-height: 0.8;
     font-size: 2.8rem;
     margin: 0;
-    padding: 0 2rem;
     font-family: "Zilla Slab", serif;
     font-weight: 600;
   }
