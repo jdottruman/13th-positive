@@ -260,7 +260,7 @@ section {
   hyphens: auto;
   text-align: justify;
   text-justify: inter-word;
-
+  padding: 2rem;
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -759,7 +759,7 @@ section {
     font-weight: 100;
     font-size: 1.5rem;
     text-align: justify;
-    padding: 2rem 3rem;
+    padding: 2rem;
   }
 
   .missionContentImgCon {
@@ -776,11 +776,11 @@ section {
     padding: 1rem 2rem;
   }
   .formcon p {
-    padding: 4rem 1.5rem;
+    padding: 0rem;
     line-height: 1.5;
     font-weight: 100;
     hyphens: auto;
-    text-align: justify;
+    text-align: left;
     font-size: 1.5rem;
   }
   .formcon label {
@@ -797,7 +797,7 @@ section {
   .takeActionP {
     font-weight: 100;
     font-size: 1.5rem;
-    padding: 4rem 3rem;
+    padding: 2rem;
     line-height: 1.5;
     color: #000;
   }
