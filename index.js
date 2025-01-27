@@ -177,17 +177,17 @@ for (let button of aboutButtons) {
   });
 }
 
-document.getElementById("payPalBtn").addEventListener("click", () => {
-  window.location.href = "https://www.paypal.com"; // Replace with the correct PayPal link
-});
+// document.getElementById("payPalBtn").addEventListener("click", () => {
+//   window.location.href = "https://www.paypal.com"; // Replace with the correct PayPal link
+// });
 
 // CashApp button click event
-document.getElementById("cashAppBtn").addEventListener("click", () => {
-  window.location.href = "https://cash.app"; // Replace with the correct CashApp link
-});
-document.getElementById("aboutBtn").addEventListener("click", () => {
-  window.location.href = "about.html"; // Replace with the correct PayPal link
-});
-document.getElementById("takeActionBtn").addEventListener("click", () => {
-  window.location.href = "#"; // Replace with the correct PayPal link
-});
+// document.getElementById("cashAppBtn").addEventListener("click", () => {
+//   window.location.href = "https://cash.app"; // Replace with the correct CashApp link
+// });
+// document.getElementById("aboutBtn").addEventListener("click", () => {
+//   window.location.href = "about.html"; // Replace with the correct PayPal link
+// });
+// document.getElementById("takeActionBtn").addEventListener("click", () => {
+//   window.location.href = "#"; // Replace with the correct PayPal link
+// });
