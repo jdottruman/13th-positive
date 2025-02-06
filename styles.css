@@ -599,6 +599,7 @@ section {
 .testimonySection p {
   font-size: 1.2rem;
   line-height: 1.5;
+  font-weight: bold;
   color: #ffffff; /* White text for paragraph */
 }
 
