@@ -313,7 +313,7 @@ section {
 .imgContainer img {
   max-width: 255px;
   height: auto;
-  transition: transform 0.3s ease-in-out;
+  /* transition: transform 0.3s ease-in-out; */
 }
 
 .imgContainer img:hover {
@@ -914,7 +914,7 @@ section {
     padding: 02rem;
     margin: 0;
     font-family: "Zilla Slab", serif;
-    font-weight: 300;
+    font-weight: 500;
   }
 
   .missionsParagraph {
@@ -1085,6 +1085,11 @@ section {
     fill: white;
   }
 
+  .card3 .paypal,
+  .card4 .cashapp,
+  .card2 .facebook {
+    width: 75%;
+  }
   .card3:hover {
     cursor: pointer;
     scale: 1.1;
