@@ -903,7 +903,7 @@ section {
     margin-top: 5rem;
     padding: 0;
     z-index: 2;
-    height: unset;
+    height: 100vh;
   }
 
   .mobileParagrpah {
