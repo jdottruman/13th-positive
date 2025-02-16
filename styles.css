@@ -925,7 +925,7 @@ section {
     z-index: 1000;
   }
   .imgContainer img {
-    width: 175px;
+    width: 200px;
     height: 100%;
     object-fit: contain;
   }
