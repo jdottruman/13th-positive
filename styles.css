@@ -924,6 +924,8 @@ section {
     z-index: 1000;
   }
   .imgContainer img {
+    animation: grown 10s infinite;
+
     width: 200px;
     height: 100%;
     object-fit: contain;
