@@ -838,7 +838,7 @@ section {
     font-size: 1.5rem;
     text-align: justify;
     padding: 2rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
   }
 
   .missionContentImgCon {
@@ -906,10 +906,9 @@ section {
   }
 
   .mobileParagrpah {
-    animation: grown 1.5s;
     color: #000000;
     line-height: 1;
-    font-size: 2rem;
+    font-size: 1.9rem;
     padding: 1rem;
     margin: 0;
     font-family: "Zilla Slab", serif;
