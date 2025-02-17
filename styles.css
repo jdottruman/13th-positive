@@ -1059,12 +1059,6 @@ section {
     transition: 0.2s ease-in-out;
   }
 
-  .discord {
-    margin-top: -0.9em;
-    margin-left: -1.2em;
-    fill: #8c9eff;
-  }
-
   .card1:hover {
     cursor: pointer;
     scale: 1.1;
@@ -1084,7 +1078,6 @@ section {
   .card2:hover .twitter {
     fill: white;
   }
-
   .card3 .paypal,
   .card4 .cashapp,
   .card2 .facebook {
