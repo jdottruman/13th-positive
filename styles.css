@@ -1130,6 +1130,12 @@ section {
     font-size: 8px;
     text-align: center;
   }
+  .card3 a {
+    color: #03a9f4;
+  }
+  .card4 a {
+    color: #00cf31;
+  }
 }
 /* iPhone Landscape (horizontal) */
 @media screen and (min-width: 667px) and (max-width: 935px) and (orientation: landscape) {
