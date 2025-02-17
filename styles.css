@@ -122,7 +122,7 @@ section {
   padding: 20px 25px;
   color: white;
   border: none;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -1009,12 +1009,13 @@ section {
   }
 
   .card1 {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     outline: none;
     border: none;
     background: white;
     border-radius: 90px 5px 5px 5px;
+
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
       rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: 0.2s ease-in-out;
@@ -1025,8 +1026,8 @@ section {
   }
 
   .card2 {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     outline: none;
     border: none;
     background: white;
@@ -1041,8 +1042,8 @@ section {
   }
 
   .card3 {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     outline: none;
     border: none;
     background: white;
@@ -1058,8 +1059,8 @@ section {
   }
 
   .card4 {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     outline: none;
     border: none;
     background: white;
@@ -1088,11 +1089,26 @@ section {
   .card2:hover .twitter {
     fill: white;
   }
+  .up .instagram {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .up .facebook {
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+  .down .paypal {
+    padding-left: 10px;
+  }
+
+  .down .cashapp {
+    padding-right: 10px;
+  }
   .card1 .instagram,
   .card3 .paypal,
   .card4 .cashapp,
   .card2 .facebook {
-    width: 45px;
+    width: 60px;
   }
   .facebook {
     fill: #03a9f4;
