@@ -607,7 +607,12 @@ section {
 .testimonyCard {
   margin-top: 20px;
   padding: 15px;
-  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.877
+  ); /* Semi-transparent black background */
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow */
 }
@@ -814,11 +819,11 @@ section {
   /* testimony
  */
   .testimony h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #ffffff;
   }
   .testimonyText {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .testimony {
     text-align: center;
@@ -835,10 +840,9 @@ section {
     max-width: unset;
     color: #000000;
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: justify;
     padding: 2rem;
-    margin-top: 1rem;
   }
 
   .missionContentImgCon {
@@ -860,7 +864,7 @@ section {
     font-weight: 100;
     hyphens: auto;
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .formcon label {
     font-size: 1rem;
@@ -875,7 +879,7 @@ section {
 
   .takeActionP {
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 2rem;
     line-height: 1;
     color: #000;
