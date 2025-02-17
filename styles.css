@@ -856,7 +856,7 @@ section {
   }
   .formcon p {
     padding: 1rem;
-    line-height: 1.5;
+    line-height: 1;
     font-weight: 100;
     hyphens: auto;
     text-align: left;
@@ -877,7 +877,7 @@ section {
     font-weight: 100;
     font-size: 1.5rem;
     padding: 2rem;
-    line-height: 1.5;
+    line-height: 1;
     color: #000;
   }
   .takeActionImgCon {
