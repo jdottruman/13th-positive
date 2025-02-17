@@ -159,7 +159,7 @@ section {
 .missionsStatement {
   width: 100%;
 
-  background: url(Photos/coverphoto2.jpeg);
+  /* background: url(Photos/coverphoto2.jpeg); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -904,16 +904,14 @@ section {
     margin-top: 5rem;
     padding: 0;
     z-index: 2;
-    height: 100vh;
   }
 
   .mobileParagrpah {
     animation: grown 1.5s;
     color: #000000;
     line-height: 0.8;
-    font-size: 3rem;
+    font-size: 1.5rem;
     padding: 02rem;
-    background-color: #ffffff33;
     margin: 0;
     font-family: "Zilla Slab", serif;
     font-weight: 800;
@@ -1091,6 +1089,12 @@ section {
   .card4 .cashapp,
   .card2 .facebook {
     width: 75%;
+  }
+  .facebook {
+    fill: #03a9f4;
+  }
+  .paypal {
+    fill: #03a9f4;
   }
   .card3:hover {
     cursor: pointer;
