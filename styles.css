@@ -112,6 +112,8 @@ section {
   gap: 15px; /* Add space between the buttons */
   z-index: 500;
   display: none;
+  flex-direction: row;
+  align-items: center;
 }
 
 #fixedBtns.show {
@@ -136,6 +138,7 @@ section {
 }
 #scrollToTop {
   background-color: #00000050;
+  max-height: 5rem;
 }
 #donateBtn {
   background-color: #4caf50; /* Original donate button color */
