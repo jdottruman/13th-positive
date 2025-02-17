@@ -554,7 +554,7 @@ section {
   background-size: cover;
   background-position: center;
   display: flex;
-  height: 50vh;
+  min-height: 35vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -827,6 +827,10 @@ section {
   }
   .testimony {
     text-align: center;
+  }
+
+  .testimonySection .seeImpact {
+    line-height: 1;
   }
 
   /* end of testimony */
