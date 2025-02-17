@@ -1101,11 +1101,13 @@ section {
     padding-right: 10px;
   }
   .down .paypal {
+    padding-bottom: 10px;
     padding-left: 10px;
   }
 
   .down .cashapp {
-    padding-right: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
   }
   .card1 .instagram,
   .card3 .paypal,
