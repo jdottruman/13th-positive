@@ -911,10 +911,10 @@ section {
     color: #000000;
     line-height: 0.8;
     font-size: 2rem;
-    padding: 0.5rem;
-    margin: 2rem 0;
+    padding: 1rem;
+    margin: 0;
     font-family: "Zilla Slab", serif;
-    font-weight: 700;
+    font-weight: bold;
   }
 
   .missionsParagraph {
@@ -1088,7 +1088,7 @@ section {
   .card3 .paypal,
   .card4 .cashapp,
   .card2 .facebook {
-    width: 150%;
+    width: 45px;
   }
   .facebook {
     fill: #03a9f4;
