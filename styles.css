@@ -1093,17 +1093,13 @@ section {
   .card3:hover {
     cursor: pointer;
     scale: 1.1;
-    background-color: black;
-  }
-
-  .card3:hover .github {
-    fill: white;
+    background-color: #03a9f4;
   }
 
   .card4:hover {
     cursor: pointer;
+    background-color: #00cf31;
     scale: 1.1;
-    background-color: #8c9eff;
   }
 
   .card4:hover .discord {
