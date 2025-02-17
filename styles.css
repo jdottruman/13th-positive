@@ -838,7 +838,7 @@ section {
     font-size: 1.5rem;
     text-align: justify;
     padding: 2rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
   }
 
   .missionContentImgCon {
@@ -903,6 +903,7 @@ section {
     margin-top: 5rem;
     padding: 0;
     z-index: 2;
+    flex-direction: column;
   }
 
   .mobileParagrpah {
@@ -925,8 +926,8 @@ section {
   }
   .imgContainer img {
     animation: grown 10s infinite;
-
-    width: 200px;
+    margin: 2.5rem 0;
+    width: 250px;
     height: 100%;
     object-fit: contain;
   }
