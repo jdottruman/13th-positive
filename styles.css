@@ -1079,6 +1079,7 @@ section {
   .card2:hover .twitter {
     fill: white;
   }
+  .card1 .instagram,
   .card3 .paypal,
   .card4 .cashapp,
   .card2 .facebook {
