@@ -1088,7 +1088,7 @@ section {
   .card3 .paypal,
   .card4 .cashapp,
   .card2 .facebook {
-    width: 75%;
+    width: 100%;
   }
   .facebook {
     fill: #03a9f4;
