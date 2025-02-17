@@ -910,11 +910,11 @@ section {
     animation: grown 1.5s;
     color: #000000;
     line-height: 0.8;
-    font-size: 1.5rem;
-    padding: 02rem;
+    font-size: 2rem;
+    padding: 0.5rem;
     margin: 0;
     font-family: "Zilla Slab", serif;
-    font-weight: 800;
+    font-weight: 700;
   }
 
   .missionsParagraph {
@@ -1088,7 +1088,7 @@ section {
   .card3 .paypal,
   .card4 .cashapp,
   .card2 .facebook {
-    width: 100%;
+    width: 150%;
   }
   .facebook {
     fill: #03a9f4;
@@ -1132,12 +1132,6 @@ section {
     align-items: center;
     justify-content: center;
     gap: 0.5em; /* Adds space between image and text */
-    padding: 0.5em;
-  }
-
-  .card3 img,
-  .card4 img {
-    max-width: 100%; /* Adjust image size */
   }
 
   .card3 p,
