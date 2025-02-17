@@ -838,7 +838,7 @@ section {
     font-size: 1.5rem;
     text-align: justify;
     padding: 2rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 
   .missionContentImgCon {
@@ -903,7 +903,6 @@ section {
     margin-top: 5rem;
     padding: 0;
     border-bottom: 2px solid #000;
-
     z-index: 2;
   }
 
