@@ -914,6 +914,7 @@ section {
     margin: 0;
     font-family: "Zilla Slab", serif;
     font-weight: 700;
+    text-align: left;
   }
 
   .missionsParagraph {
