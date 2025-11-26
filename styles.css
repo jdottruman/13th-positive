@@ -1,1231 +1,626 @@
-@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
-:root {
-  --primary-color: #1e293b;
-  --accent-color: ;
+/* global/overall styles  */
+:root{
+  --soft-blue:#669bbc;
+    --accent-color: #003049;
+    --grey:#DCE1E9;
+    --black:#363732;
 
-  --text-color: #1f2937;
-  --thirteen-font: ;
+    /* padding */
 
-  --shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    --section-padding-y: 1.5rem; /* top & bottom */
+    --section-padding-x: 3rem; /* left & right */
 }
+
+
 html {
-  scroll-behavior: smooth;
-}
-/* General Reset */
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-}
-/* Global Section Padding & Margin */
-body {
-  background-color: #eeeeee;
-}
-section {
-  overflow: hidden;
-}
+    scroll-behavior: smooth;
+  }
+  /* General Reset */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 
-.bodyLower {
-  overflow: hidden;
-
-  background-position: center;
-}
-/* key frame animations */
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
   }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes bounce {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-5px);
-  }
-}
-@keyframes grown {
-  from {
-    scale: 0.8;
-    opacity: 0.75;
-  }
-  to {
-    scale: 1;
-    opacity: 1;
-  }
-}
-@keyframes fade-down {
-  0% {
-    opacity: 0;
-    transform: translateY(-350px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-}
-@keyframes fade-up {
-  0% {
-    opacity: 0;
-    transform: translateY(3700px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-}
-
-@keyframes from-left {
-  0% {
-    opacity: 0;
-    transform: translateX(-300rem);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-}
-
-@keyframes from-right {
-  0% {
-    opacity: 0;
-    transform: translateX(300rem);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-}
-/* end of animation */
-/* scroll to top */
-
-#fixedBtns {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  gap: 15px; /* Add space between the buttons */
-  z-index: 500;
-  display: none;
-  flex-direction: row;
-  align-items: center;
-}
-
-#fixedBtns.show {
+  /* End of Global/Overall styles */
+/* fixed banner */
+.fixedBanner{
   display: flex;
+  justify-content: center;
+  background-color: var(--black);
+  padding: .25rem;
 }
 
-#fixedBtns button {
-  padding: 20px 25px;
-  color: white;
-  border: none;
-  /* border-radius: 10px; */
-  cursor: pointer;
-  transition: all 0.3s ease;
+.fixedBanner p{
+  color:#fff ;
+  font-weight: bold;
+}
+/* end of fixed banner */
+/* Navbar Styles */
+
+  
+  .nav {
+  
+    padding: 0rem 2rem 0rem 0rem;
+    /* backdrop-filter: blur(1px); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: box-shadow 0.3s ease-in-out;
+    animation: fade-down 0.7s;
+    background-color: #fff;
+
+  }
+  
+  .nav__logo{
+    text-align: center;
+    width: 15rem;
+    font-size: 1rem;
+    background-color: var(--accent-color);background: #003049;
+    background: #2c4261;
+    background: linear-gradient(90deg, rgba(44, 66, 97, 1) 0%, rgba(23, 77, 92, 1) 48%, rgba(14, 59, 74, 1) 66%, rgba(2, 110, 153, 1) 96%);
+padding: 1rem;
+
+  }
+  .nav__logo a{
+    color: #fff;
+    font-weight: 500;
+
+  }
+ 
+  
+  .nav__menu ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav__menu ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav__menu ul li a i {
+    font-size: 2.5rem;
+  }
+  
+  .nav__menu ul li a {
+    color: var(--blacks);
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+
+  .nav__menu ul li a:hover,
+  .nav__menu ul li a:focus {
+    /* border-bottom: 2px solid var(--accent-color); */
+    color:var(--black);
+    transform: translateY(-2px);
+  }
+  
+  .nav__hamburger {
+    width: 1.5rem;
+    z-index: 2000;
+    height: 1rem;
+    display: none;
+    color: #fff;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .nav__hamburger__line {
+    height: 0.13rem;
+    width: 100%;
+    background-color: var(--accent-color);
+    border-radius: 0.625rem;
+    transition: all ease-in-out 0.2s;
+  }
+/* mission section */
+.MissionStatement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background: url(Photos/joel-muniz-3k3l2brxmwQ-unsplash.jpg); */
+    background-size: cover;       /* Makes the image cover the entire section */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat; 
+    padding: 2rem 4rem;
+    font-family: "Oswald", sans-serif;
+    background-color: #f2f8f9;
+
+}
+.missionsParagraphContainer{
+    display: flex;
+    align-items: center;   
+    text-align: center;
+
+}
+.missionParagraph{
+
+    font-size: 3rem;
+    background: linear-gradient(90deg, #0077b6, #00b4d8, #90e0ef); /* Blue-teal gradient */-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
+
+.MissionImgContainer{
 }
 
-#fixedBtns button i {
-  font-size: 2.5rem; /* Increased icon size */
+.MissionImgContainer img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
 }
 
-#scrollToTop.show {
-  display: block;
-}
-#scrollToTop {
-  background-color: #00000050;
-  max-height: 5rem;
-}
-#donateBtn {
-  background-color: #4caf50; /* Original donate button color */
-}
 
-#donateBtn a {
-  color: #ffffff;
-}
 
-#scrollToTop i {
-  font-size: 2.5rem;
-}
+  /* end of mission statement */
 
-/* end of scroll to top */
 
-/* Mission Statement Section */
-.overlay {
-  width: 100%;
-  /* background-color: #0000007a; */
-}
-.missionsStatement {
-  width: 100%;
+  /* card section  */
 
-  /* background: url(Photos/coverphoto2.jpeg); */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.mobileParagrpah {
-  text-align: center;
-  hyphens: auto;
-  font-size: 2.3rem;
-  color: rgb(255, 255, 255);
-  margin: 2rem 0;
-  line-height: 1;
-  width: 100%;
+/* From Uiverse.io by Admin12121 */ 
+.cardSection {
   height: 100%;
-}
-
-.missionP {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  hyphens: auto;
-  text-justify: inter-word;
-}
-
-.missionP button {
-  margin: 2rem;
-}
-
-.missionStatementContent {
-  display: flex;
-  flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
-  padding: 03rem 7rem;
-  padding-top: 3rem;
-  position: relative;
+  flex-wrap: wrap;
+  padding: 1.5rem;
 }
-/* nav lower styles */
-
-.navLower {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  background-color: transparent;
-}
-.navLower p {
-  color: #000000;
-}
-.navLower ul {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  animation: grown 1.5s ease;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.navLower ul li {
-  text-align: center;
-}
-.navLower ul li a {
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  line-height: 0.75;
-  font-size: 0.8rem;
+/* From Uiverse.io by Prince4fff */ 
+.card p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #666;
   font-weight: 500;
 }
 
-.navLower ul li a svg,
-.navLower ul li a i {
-  color: #f7f7f7;
-  width: 2rem;
-  height: 2rem;
-  font-size: 2rem;
-  fill: #ffffff;
+.card p.small {
+  font-size: 1rem;
 }
 
-/* end of nav lower */
-
-/* takeAction section */
-
-/* tak action photo section */
-.photo-section {
-  text-align: center;
-  padding: 40px 20px;
-}
-.photo-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
-  gap: 20px; /* Adds space between grid items */
+.go-corner {
+  display: flex;
+  align-items: center;
   justify-content: center;
-}
-
-.photo-item {
+  position: absolute;
+  width: 32px;
+  height: 32px;
   overflow: hidden;
-  border-radius: 10px; /* Optional: Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow */
-  transition: transform 0.3s ease; /* For hover effect */
+  top: 0;
+  right: 0;
+  background-color: var(--accent-color);
+  border-radius: 0 4px 0 32px;
 }
 
-.photo-item img {
-  width: 100%;
-  height: auto;
+.go-arrow {
+  margin-top: -4px;
+  margin-right: -4px;
+  color: white;
+  font-family: courier, sans;
+}
+
+.card1 {
   display: block;
-}
-
-.photo-item:hover {
-  transform: scale(1.05); /* Zoom effect on hover */
-}
-/* end of photo  */
-.takeActionContainer {
-  padding: 0rem 4.5rem;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
-  background: #000000;
-  padding-bottom: 0;
-}
-
-.takeActionP {
-  font-size: 1.2rem;
-  font-weight: 300;
-  hyphens: auto;
-  text-align: justify;
-  text-justify: inter-word;
-  padding: 2rem;
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.takeActionP button {
-  margin: 2rem;
-}
-
-.takeActionImgCon {
-  width: 40rem;
-}
-.takeActionImgCon img {
-  width: 100%;
-  object-fit: cover;
-
-  height: 100%;
-}
-
-.imgContainer img {
-  max-width: 255px;
-  height: auto;
-  /* transition: transform 0.3s ease-in-out; */
-}
-
-.imgContainer img:hover {
-  transform: scale(1.05);
-}
-/* From Uiverse.io by cssbuttons-io */
-.button {
-  display: inline-block;
-  padding: 12px 24px;
-  border: 1px solid #0070ba;
+  position: relative;
+  /* max-width: 262px; */
+  width: 30rem;
+  max-height: 15rem;
+  /* height: 12rem; */
+  background-color: #f2f8f9;
   border-radius: 4px;
-  transition: all 0.2s ease-in;
-  position: relative;
+  padding: 32px 24px;
+  margin: 2px;
+  text-decoration: none;
+  z-index: 0;
   overflow: hidden;
-  font-size: 19px;
-  cursor: pointer;
-  color: #0070ba;
-  z-index: 1;
+  
 }
 
-.button:before {
+.card1:before {
   content: "";
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%) scaleY(1) scaleX(1.25);
-  top: 100%;
-  width: 140%;
-  height: 180%;
-  background-color: rgba(0, 0, 0, 0.05);
-  border-radius: 50%;
-  display: block;
-  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
   z-index: -1;
+  top: -16px;
+  right: -16px;
+  background: var(--accent-color);
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.25s ease-out;
 }
 
-.button:after {
-  content: "";
-  position: absolute;
-  left: 55%;
-  transform: translateX(-50%) scaleY(1) scaleX(1.45);
-  top: 180%;
-  width: 160%;
-  height: 190%;
-  background-color: #39bda7;
-  border-radius: 50%;
-  display: block;
-  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
-  z-index: -1;
+.card1:hover:before {
+  transform: scale(21);
 }
 
-.button:hover {
-  color: #ffffff;
-  border: 1px solid #39bda7;
+.card1:hover p {
+  transition: all 0.3s ease-out;
+  color: rgba(255, 255, 255, 0.8);
 }
 
-.button:hover:before {
-  top: -35%;
-  background-color: #39bda7;
-  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
-}
-
-.button:hover:after {
-  top: -45%;
-  background-color: #39bda7;
-  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
-}
-
-/* end of button*/
-/* Our Mission Section Styles */
-.ourMission {
-  width: 100%;
-}
-.missionContent {
-  padding: 0rem 8rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.missionContentImgCon {
-  width: 40rem;
-}
-.missionContentImgCon img {
-  width: 100%;
-  height: 100%;
-  background: transparent;
-  border-radius: 8px;
-}
-.missionContent p {
-  font-size: 1.5rem;
-  line-height: 1;
-  font-weight: 300;
-  color: #000000;
-  text-align: left;
-}
-
-.section__paragraph {
-  opacity: 0;
-  transform: translateY(20px);
-}
-.section__paragraph--visible {
-  opacity: 1;
-  transform: translateY(0);
-  transition: all 2s;
-}
-
-.fromLeft {
-  opacity: 0;
-  transform: translateX(-30px);
-}
-
-.fromLeft--visible {
-  opacity: 1;
-  transform: translateX(0);
-  transition: all 1s ease-in-out;
-}
-
-.fromRight {
-  opacity: 0;
-  transform: translateX(30px);
-}
-
-.fromRight--visible {
-  opacity: 1;
-  transform: translateX(0);
-  transition: all 1s ease-in-out;
-}
-
-/* Local Resources Section */
-.local-resources {
-  text-align: center;
-
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.descriptionText {
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 3rem;
-}
-
-/* Our Members Section */
-.membersSection {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #000000;
-}
-
-.membersSection .memberGist {
-  padding: 0 4rem;
-  font-weight: 300;
-  font-size: 1.5rem;
-  line-height: 1.1;
-  margin-bottom: 1.5rem;
-  text-align: left;
-}
-#mc_embed_signup {
-  width: 75%;
-}
-.clear {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.formcon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  font-size: 1.5rem;
-  padding: 1rem 0;
-}
-.formcon p {
-  font-weight: 300;
-  font-size: 1.5rem;
-  line-height: 1.1;
-  padding: 0 15rem;
-  text-align: left;
-}
-
-/* testimony
- */ /* Testimony Section Styling */
-
-/* modal testimony */
-/* Modal container */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed;
-  z-index: 1000;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.89); /* Black with opacity */
-}
-
-/* Modal content */
-.modal-content {
-  background-color: rgba(255, 255, 255, 0.801);
-  margin: 10% auto;
-  padding: 20px;
-  border-radius: 10px;
-  width: 90%;
-  max-width: 500px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Close button */
-.close {
-  color: #0070ba;
-  float: right;
-  font-size: 4rem;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-}
-
-/* end of test modal */
-.testimony {
-  position: relative;
-  width: 100%;
-  background-image: url("Photos/cementsign.jpg");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  min-height: 35vh;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border-bottom: 2px solid #0070ba;
-  color: #000000; /* Default text color */
-}
-.modal .testimony {
-  background-image: none;
-  height: unset;
-  padding: 4rem 0;
-  line-height: 1;
-}
-
-/* Overlay Styling */
-.testoverlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Dark overlay with transparency */
-  z-index: 1;
-}
-
-/* Testimony Section Content */
-.testimonySection {
-  position: relative;
-  z-index: 2; /* Ensures content is above the overlay */
-  padding: 20px;
-  color: #0070ba; /* Blue text */
-}
-
-/* Testimony Header */
-.testimonySection h1 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-  color: #0070ba; /* Blue header text */
-}
-
-/* Testimony Description */
-.testimonySection p {
-  font-size: 1.2rem;
-  line-height: 1.5;
-  font-weight: bold;
-  color: #ffffff; /* White text for paragraph */
-}
-
-/* Individual Testimony Card */
-.testimonyCard {
-  margin-top: 20px;
-  padding: 15px;
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.877
-  ); /* Semi-transparent black background */
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow */
-}
-
-/* Testimony Text */
-.testimonyText {
-  font-size: 1rem;
-  line-height: 1.4;
-  color: #0070ba; /* Blue text for testimonies */
-}
-.testimony .button {
-  margin-top: 2rem;
-  font-size: 1rem;
-  font-weight: unset;
-  background: transparent;
-  border: 2px solid #0070ba;
-  color: #0070ba; /* Blue text for testimonies */
-}
-/* Buttons Section */
-.donateButtons {
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
-}
-
-/* Button Styles */
-.cashAppBtn,
-.payPalBtn {
-  background: linear-gradient(45deg, #00c244, #00796b);
-  border: none;
-  padding: 15px 25px;
-  border-radius: 30px;
-  width: 15rem;
-  margin-top: 1rem;
-  color: white;
-  font-size: 1.2rem;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  transition: background 0.3s ease, transform 0.2s ease;
-}
-
-.payPalBtn {
-  background: linear-gradient(45deg, #0070ba, #003f87);
-}
-
-.cashAppBtn:hover,
-.payPalBtn:hover {
-  background: linear-gradient(45deg, #004d40, #00251a);
-  transform: scale(1.05);
-}
-
-/* Button Icons */
-.cashAppBtn img,
-.payPalBtn img {
-  width: 28px;
-  height: 28px;
-}
-
-/* swiper */
-
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center; /* Optional: to center the image */
-  align-items: center; /* Optional: to center the image */
-  overflow: hidden;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-/* end of swiper */
-.footer {
-  background-color: rgba(0, 0, 0, 0.918);
-  padding: 1rem 0;
-}
-
-.footer__container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2rem;
-}
-
-.footer__logo {
-  flex: 1;
-  text-align: center;
-}
-
-.footer__logo img {
-  width: 100px;
-  margin-bottom: 1rem;
-}
-
-.footer__logo p {
-  font-size: 1rem;
-  color: #aaa;
-}
-
-.footer__links,
-.footer__contact,
-.footer__social {
-  flex: 1;
-  margin: 1rem 0;
-  text-align: center;
-}
-
-.footer__links h4,
-.footer__contact h4,
-.footer__social h4 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+.card1:hover h3 {
+  transition: all 0.3s ease-out;
   color: #fff;
 }
 
-.footer__links ul {
-  list-style: none;
-  padding: 0;
-}
+  /* end of card section styles */
 
-.footer__links ul li {
-  margin: 0.5rem 0;
-}
 
-.footer__links ul li a {
-  text-decoration: none;
-  font-size: 1.1rem;
-  color: #fff;
-  transition: color 0.3s ease;
-}
 
-.footer__links ul li a:hover {
-  border-bottom: 2px solid var(--accent-color);
-  color: var(--primary-color);
-}
-
-.footer__contact p {
-  margin: 0.5rem 0;
-  font-size: 1.1rem;
-  color: #fff;
-}
-
-.footer__contact a {
-  font-weight: bold;
-  color: #fff;
-
-  text-decoration: none;
-}
-.footer__contact a:hover {
-  border-bottom: 2px solid var(--accent-color);
-  color: white;
-}
-
-.footer__social a {
-  margin: 0 0.5rem;
-}
-
-.footer__social i {
-  font-size: 2rem;
-  color: #fff;
-}
-
-.footer__social i:hover {
-  transition: all 0.3s ease;
-  color: var(--accent-color);
-}
-
-.footer__copyright {
-  text-align: center;
-  color: #fff;
-
-  padding: 1rem 0;
-  background-color: #00000049;
-
-  font-size: 0.9rem;
-}
-
-/* donateSec */
-/* CSS */
-
-/* end of donateSec */
-/* Media Queries for Different Screen Sizes */
-
-/* iphone ver */
-@media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
-  /* testimony
- */
-  .testimony h1 {
-    font-size: 3rem;
-    color: #ffffff;
+  /* footer styles */
+  
+  /* end of swiper */
+  .footer {
+    background-color: rgba(0, 0, 0, 0.918);
+    padding: 1rem 0;
   }
-  .testimonyText {
-    font-size: 1rem;
-  }
-  .testimony {
-    text-align: center;
-  }
-
-  .testimonySection .seeImpact {
-    line-height: 1;
-  }
-
-  /* end of testimony */
-
-  /* mobile paragraphs */
-  .missionContent {
-    padding: 0;
-    flex-direction: column-reverse;
-  }
-  .missionContent p {
-    max-width: unset;
-    color: #000000;
-    font-weight: 100;
-    font-size: 1.2rem;
-    text-align: justify;
-    padding: 2rem;
-  }
-
-  .missionContentImgCon {
-    width: 100vw;
-    padding: 1rem;
-  }
-  .takeActionContainer {
-    padding: 0;
-    background: unset;
-    flex-direction: column-reverse;
-  }
-
-  .formcon {
-    padding: 1rem 2rem;
-  }
-  .formcon p {
-    padding: 1rem;
-    line-height: 1;
-    font-weight: 100;
-    hyphens: auto;
-    text-align: left;
-    font-size: 1.2rem;
-  }
-  .formcon label {
-    font-size: 1rem;
-  }
-  .formcon h2 {
-    font-size: 1.2rem;
-  }
-
-  #mc_embed_signup {
-    width: 100%;
-  }
-
-  .takeActionP {
-    font-weight: 100;
-    font-size: 1.2rem;
-    padding: 2rem;
-    line-height: 1;
-    color: #000;
-  }
-  .takeActionImgCon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100vw;
-    padding: 1rem;
-    background-color: rgb(0, 0, 0);
-  }
-  .takeActionImgCon img {
-    width: 100%;
-  }
-  .ourMissionImgContainer {
-    width: 100vw;
-    height: 100%;
-  }
-
-  .missionStatementContent {
-    justify-content: center;
-    align-items: center;
-    line-height: 1.1;
-    margin-top: 5rem;
-    padding: 0;
-    z-index: 2;
-    flex-direction: column;
-  }
-
-  .mobileParagrpah {
-    color: #000000;
-    line-height: 1;
-    font-size: 2.3rem;
-    padding: 1rem;
-    margin: 0;
-    font-family: "Zilla Slab", serif;
-    font-weight: 700;
-    text-align: left;
-  }
-
-  .missionsParagraph {
-    width: 100vw;
-  }
-
-  .imgContainer {
-    z-index: 1000;
-  }
-  .imgContainer img {
-    animation: grown 10s infinite;
-    margin: 2.5rem 0;
-    width: 250px;
-    height: 100%;
-    object-fit: contain;
-  }
-
+  
   .footer__container {
-    flex-direction: column;
-  }
-
-  .cardImg {
-    background-color: rgba(160, 159, 159, 0.329);
-    box-shadow: unset;
-    border-radius: 3px;
-    max-height: 7rem;
-    width: 100%;
-    object-fit: contain;
-    margin: 0;
-    margin-bottom: 0.5rem;
-  }
-  .cardImg img {
-    width: 100%;
-  }
-
-  .memo {
-    text-align: left;
-    padding: 0 1rem;
-  }
-  .cardText .title {
-    font-size: 0.7rem;
-    font-weight: 400;
-    margin: 0;
-  }
-  .cardText .name {
-    font-size: 0.7rem;
-    line-height: 1.1;
-    margin: 0;
-    font-weight: 500;
-  }
-
-  .cardSocial {
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-around;
-    padding: 1rem 4rem;
-  }
-
-  .socials {
-    width: unset;
-  }
-  .socials i {
-    font-size: 8rem;
-  }
-
-  /* fixed button donate */
-  /* From Uiverse.io by Praashoo7 */
-  .main {
     display: flex;
-    flex-direction: column;
-    gap: 0.5em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
   }
-
-  .up {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5em;
-  }
-
-  .down {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5em;
-  }
-
-  .card1 {
-    width: 90px;
-    height: 90px;
-    outline: none;
-    border: none;
-    background: rgba(255, 255, 255, 0.466);
-    border-radius: 90px 5px 5px 5px;
-
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    transition: 0.2s ease-in-out;
-  }
-
-  .instagram {
-    fill: #cc39a4;
-  }
-
-  .card2 {
-    width: 90px;
-    height: 90px;
-    outline: none;
-    border: none;
-    background: rgba(255, 255, 255, 0.466);
-    border-radius: 5px 90px 5px 5px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    transition: 0.2s ease-in-out;
-  }
-
-  .twitter {
-    fill: #03a9f4;
-  }
-
-  .card3 {
-    width: 90px;
-    height: 90px;
-    outline: none;
-    border: none;
-    background: rgba(255, 255, 255, 0.466);
-    border-radius: 5px 5px 5px 90px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    transition: 0.2s ease-in-out;
-  }
-
-  .github {
-    margin-top: -0.6em;
-    margin-left: 1.2em;
-  }
-
-  .card4 {
-    width: 90px;
-    height: 90px;
-    outline: none;
-    border: none;
-    background: rgba(255, 255, 255, 0.466);
-    border-radius: 5px 5px 90px 5px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    transition: 0.2s ease-in-out;
-  }
-
-  .card1:hover {
-    cursor: pointer;
-    scale: 1.1;
-    background-color: #cc39a4;
-  }
-
-  .card1:hover .instagram {
-    fill: white;
-  }
-
-  .card2:hover {
-    cursor: pointer;
-    scale: 1.1;
-    background-color: #03a9f4;
-  }
-
-  .card2:hover .twitter {
-    fill: white;
-  }
-  .up .instagram {
-    padding-top: 10px;
-    padding-left: 10px;
-  }
-  .up .facebook {
-    padding-top: 10px;
-    padding-right: 10px;
-  }
-  .down .paypal {
-    padding-bottom: 10px;
-    padding-left: 10px;
-  }
-
-  .down .cashapp {
-    padding-right: 15px;
-    padding-bottom: 10px;
-  }
-  .card1 .instagram,
-  .card3 .paypal,
-  .card4 .cashapp,
-  .card2 .facebook {
-    width: 60px;
-  }
-  .facebook {
-    fill: #03a9f4;
-  }
-  .paypal {
-    fill: #03a9f4;
-  }
-  .card3:hover {
-    cursor: pointer;
-    scale: 1.1;
-    background-color: #03a9f4;
-  }
-
-  .card4:hover {
-    cursor: pointer;
-    background-color: #00cf31;
-    scale: 1.1;
-  }
-
-  .card4:hover .discord {
-    fill: white;
-  }
-  button a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    text-decoration: none; /* Remove underline */
-    color: black; /* Inherit text color */
-  }
-  .card3 a,
-  .card4 a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 0em; /* Adds space between image and text */
-  }
-
-  .card3 p,
-  .card4 p {
-    margin: 0;
-    font-size: 8px;
+  
+  .footer__logo {
+    flex: 1;
     text-align: center;
   }
-  .card3 a {
-    color: #03a9f4;
+  
+  .footer__logo img {
+    width: 100px;
+    margin-bottom: 1rem;
   }
-  .card4 a {
-    color: #00cf31;
+  
+  .footer__logo p {
+    font-size: 1rem;
+    color: #aaa;
   }
+  
+  .footer__links,
+  .footer__contact,
+  .footer__social {
+    flex: 1;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  
+  .footer__links h4,
+  .footer__contact h4,
+  .footer__social h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .footer__links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer__links ul li {
+    margin: 0.5rem 0;
+  }
+  
+  .footer__links ul li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .footer__links ul li a:hover {
+    border-bottom: 2px solid var(--accent-color);
+    color: var(--primary-color);
+  }
+  
+  .footer__contact p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    color: #fff;
+  }
+  
+  .footer__contact a {
+    font-weight: bold;
+    color: #fff;
+  
+    text-decoration: none;
+  }
+  .footer__contact a:hover {
+    border-bottom: 2px solid var(--accent-color);
+    color: white;
+  }
+  
+  .footer__social a {
+    margin: 0 0.5rem;
+  }
+  
+  .footer__social i {
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .footer__social i:hover {
+    transition: all 0.3s ease;
+    color: var(--accent-color);
+  }
+  
+  .footer__copyright {
+    text-align: center;
+    color: #fff;
+  
+    padding: 1rem 0;
+    background-color: #00000049;
+  
+    font-size: 0.9rem;
+  }
+  /* end of footer styles */
+  /* iphone ver */
+  @media (max-width: 768px) {
+
+    .nav__logo{
+      /* width: 10rem; */
+      padding: 0.5rem;
+      font-size: 1rem;
+      line-height: 1.2;
+
+    }
+    .nav__logo a{font-weight: 500;
+
+    }
+
+    .fixedBanner p{
+      font-size: .7rem;
+    }
+.nav{
+  padding: 0rem 1.25rem 0rem 0rem;
 }
-/* iPhone Landscape (horizontal) */
-@media screen and (min-width: 667px) and (max-width: 935px) and (orientation: landscape) {
-  /* Styles for iPhone in landscape mode */
-  .missionContent {
-    flex-direction: column;
-    align-items: center;
+ 
+    .nav__hamburger {
+      display: flex;
+    }
+
+    .nav__menu {
+      position: absolute;
+      display: flex;
+      flex-direction: column; /* Stack items vertically */
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.13);
+      top: -15rem;
+      width: 100%;
+      transition: all ease-in-out 0.4s;
+    }
+  
+    .nav__menu ul {
+      flex-direction: column;
+      width: 100%;
+      padding: 0rem;
+      align-items: center;
+      justify-content: space-evenly;
+      height: 100%;
+    }
+    .nav__menu .nav__menuUl {
+      padding-top: 3rem;
+    }
+    .nav__menu ul li button {
+      width: unset;
+      padding: 1.5rem 0;
+      font-size: 1.5rem;
+      width: 50vw;
+    }
+    .nav__menu ul li {
+      text-align: center;
+      width: 100%;
+      margin: 1rem 0;
+      color: #fff;
+    }
+  
+    .nav__menu {
+      display: none;
+    }
+  
+    .nav__menu.active {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: #000000f6;
+      width: 100%;
+      z-index: 1000;
+      backdrop-filter: blur(5px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow-x: hidden;
+    }
+  
+    .nav__hamburger.active .nav__hamburger__line:nth-child(1) {
+      transform: rotate(45deg) translate(0.45rem, 0.1875rem);
+    }
+  
+    .nav__hamburger.active .nav__hamburger__line:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .nav__hamburger.active .nav__hamburger__line:nth-child(3) {
+      transform: rotate(-45deg) translate(0.25rem, -0.01975rem);
+    }
+  
+    .nav__hamburger.active .nav__hamburger__line {
+      transition: all ease-in-out 0.35s;
+      background-color: rgb(255, 255, 255);
+  
+      z-index: 2000;
+    }
+    .MissionStatement{
+      flex-direction: column;
+      padding:.5rem;
+      padding-bottom: 2rem;
+    }
+    .missionParagraph{
+      font-size: 1.5rem;
+      font-weight: 900;
+      line-height: 1;
+    }
+
+    .MissionImgContainer{
+      display: flex;
+      justify-content: center;
+    }
+    .MissionImgContainer img{
+      width: 50%;
+      height: 50%;
   }
 
-  .formcon p {
-    margin: 0rem;
-    padding: 2rem;
+  .card1{
     width: 100%;
-  }
-  .missionContent p {
-    padding: 0;
-  }
-
-  .missionContentImgCon {
-    display: flex;
-    margin-top: 2rem;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .missionContentImgCon {
-    width: 20rem;
-  }
-  .funds-breakdown {
-    padding: 0;
-  }
-
-  .swiper .ourMission {
-    flex-direction: column;
-  }
-
-  .contact-section {
-    padding: 0;
-  }
+    height: unset;max-height: unset;
 }
 
-/* iPad Portrait (vertical) */
-@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-  .cardImg {
-    max-height: 10rem;
-  }
-
-  /* Styles for iPad in portrait mode */
+.card{
+  padding: 0.5rem 1rem ;
 }
 
-/* iPad Landscape (horizontal) */
-@media screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
-  .cardImg {
-    max-height: 40rem;
-  }
-  /* Styles for iPad in landscape mode */
+.cardSection{
+flex-direction: column;
+padding: 0rem;
+
+
 }
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
-  .ourMission {
-    flex-direction: column;
-  } /* Styles for small laptops and tablets in landscape mode */
+.container{
+  text-align: center
+}
+
+
+  
+};
+  
+
+  
+
+/* OUR MISSION PAGE */
+ 
+
+/* General spacing and layout */
+.section-padding {
+  padding: 4em 2em;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+/* Hero Section */
+.hero-mission {
+  background:url(Photos/ourMissionBG.png);
+  background-size: cover;       /* Makes the image cover the entire section */
+  background-position: center;  /* Centers the image */
+  background-repeat: no-repeat; 
+  color: #ffffff;
+  text-align: center;
+  padding: 3.5em 2em;
+  min-height: 50vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-mission .btn {
+  margin-top: 1.5em;
+}
+
+/* Gradient Text */
+.gradient-text {
+  font-size: 3rem;
+  background: linear-gradient(90deg, #0077b6, #00b4d8, #90e0ef); /* Blue-teal gradient */-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-family: "Oswald", sans-serif;
+}
+
+.hero-content p{
+  color: #5f6f72; /* soft gray-teal tone */
+    font-size: 1rem;
+  color: #fff;
+
+}
+
+/* Core Values, Programs, and Impact Grids */
+.values-grid,
+.programs-grid,
+.impact-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  justify-content: center;
+}
+
+/* Cards */
+.value-card,
+.program-card,
+.stat {
+  background: #ffffff;
+  color: #002133;
+  padding: 1.5em;
+  border-radius: 1em;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  flex: 1 1 250px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-card:hover,
+.program-card:hover,
+.stat:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.8em 1.6em;
+  border-radius: 0.5em;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: linear-gradient(to right, var(--accent-color), var(--soft-blue));
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+  transform: translateY(-3px);
+}
+
+/* CTA Section */
+.cta {
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+/* Headings */
+h2 {
+  color: #003049;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.section-padding p  {
+  color: #333;
+  line-height: 1.6;
+  font-size: 1.2rem;
+
 }
